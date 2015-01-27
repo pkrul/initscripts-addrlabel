@@ -1,0 +1,3074 @@
+#
+# Translators:
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: fedora-initscripts\n"
+"PO-Revision-Date: 2012-03-06 08:28+0000\n"
+"Last-Translator: notting <notting@redhat.com>\n"
+"Language-Team: Maithili (http://www.transifex.com/projects/p/fedora/language/"
+"mai/)\n"
+"Language: mai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../sysconfig/network-scripts/ifup-eth:231
+#, fuzzy
+msgid "Error, some other host already uses address ${ipaddr[$idx]}."
+msgstr "दोष, ${IPADDR} पता, कोनो ओर मेजखनान पहिने सँ उपयोग कए रहल अछि."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:904
+msgid "No parameters given to setup a default route"
+msgstr "पूर्वनिर्धारित परिपथ सेटअप क' लेल कोनो पैरामीटर नहि देल गेल अछि"
+
+#: ../sysconfig/network-scripts/ifup-aliases:67
+msgid "usage: ifup-aliases <net-device> [<parent-config>]\n"
+msgstr "प्रयोग: ifup-aliases <net-device> [<parent-config>]\n"
+
+#: ../sysconfig/network-scripts/ifup-sit:63
+msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
+msgstr "टनल क' सुदूर  IPv4 पता गुम गेल, विन्यास मान्य नहि अछि"
+
+#: ../service:78
+msgid "Redirecting to /bin/systemctl ${ACTION} ${OPTIONS} ${SERVICE}.service"
+msgstr ""
+
+#: ../rc.d/init.d/functions:410
+msgid "${base} status unknown due to insufficient privileges."
+msgstr ""
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:145
+msgid "Missing parameter 'IPv6-address' (arg 2)"
+msgstr "अनुपस्थित पैरामीटर 'IPv6-gateway' (arg 2)"
+
+#: ../rc.d/init.d/functions:239 ../rc.d/init.d/functions:249
+msgid "Usage: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+msgstr "प्रयोग: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+
+#: ../ppp/ip-up.ipv6to4:123 ../sysconfig/network-scripts/ifup-ipv6:226
+msgid ""
+"Warning: configured MTU '$IPV6TO4_MTU' for 6to4 exceeds maximum limit of "
+"'$tunnelmtu', ignored"
+msgstr ""
+"चेतावनी: 6to4  क'लेल  MTU '$IPV6TO4_MTU' विन्यस्त '$tunnelmtu' क'  बेसी सँ बेसी "
+"सीमा केँ पार जाएत अछि, अनदेखा कएल गेल."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:964
+msgid "Unsupported reason '$reason' for sending trigger to radvd"
+msgstr "radvd मे ट्रिगर भेजने क' लेल '$reason' असमर्थित कारण"
+
+#: ../sysconfig/network-scripts/ifup:103
+#: ../sysconfig/network-scripts/ifup-eth:78
+msgid ""
+"$alias device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "$alias युक्ति ${DEVICE} उपस्थित दिखाई नहि देत, संस्थापन देर कए रहल अछि."
+
+#: ../rc.d/init.d/functions:406
+msgid "${base} dead but pid file exists"
+msgstr "${base} मृत मुदा pid फाइल जीवंत अछि"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:100
+#: ../sysconfig/network-scripts/ifup-ipv6:117
+msgid "Please restart network with '/sbin/service network restart'"
+msgstr "कृपया सँजाल केँ '/sbin/service network restart' सँ पुनः आरंभ  करू "
+
+#: ../systemd/fedora-autorelabel:21
+msgid "*** when you leave the shell."
+msgstr "*** जखन अहाँ शैल छोड़ब."
+
+#: ../sysconfig/network-scripts/ifup-ppp:75
+msgid "ifup-ppp for ${DEVNAME} exiting"
+msgstr "${DEVNAME} क' लेल ifup-ppp बाहर जाए रहल अछि"
+
+#: ../sysconfig/network-scripts/ifup-ppp:142
+msgid "pppd started for ${DEVNAME} on ${MODEMPORT} at ${LINESPEED}"
+msgstr "${LINESPEED} क' ${MODEMPORT} पर ${DEVNAME}  क'लेल  pppd केँ आरंभ कएल गेल."
+
+#: ../rc.d/init.d/functions:463
+msgid "WARNING"
+msgstr "चेतावनी"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:61
+msgid "Missing parameter 'IPv6-gateway' (arg 2)"
+msgstr "अनुपस्थित पैरामीटर 'IPv6-gateway' (arg 2)"
+
+#: ../rc.d/init.d/functions:330
+msgid "Usage: pidfileofproc {program}"
+msgstr "प्रयोग: pidfileofproc {कार्यक्रम}"
+
+#: ../rc.d/init.d/functions:229
+msgid "$base startup"
+msgstr "$base प्रारंभन"
+
+#: ../ppp/ip-down.ipv6to4:35 ../ppp/ip-up.ipv6to4:41
+msgid ""
+"Argument 1 is empty but should contain interface name - skip IPv6to4 "
+"initialization"
+msgstr "तर्क 1 खाली अछि  मुदा  अंतरफलक नाम रखना चाही - IPv6to4 आरंभीकरण छोड़ू."
+
+#: ../ppp/ip-up.ipv6to4:189 ../sysconfig/network-scripts/ifup-ipv6:292
+msgid "radvd control enabled, but config is not complete"
+msgstr "radvd नियंत्रण समर्थ अछि. मुदा विन्यास पूर्ण नहि अछि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:383
+msgid "Missing parameter 'address' (arg 1)"
+msgstr "अनुपस्थित पैरामीटर पता (arg 1)"
+
+#: ../rc.d/init.d/netconsole:76
+msgid "Server address not specified in /etc/sysconfig/netconsole"
+msgstr "/etc/sysconfig/netconsole मे सर्वर पता निर्दिष्ट नहि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:798
+msgid "Missing parameter 'IPv6 MTU' (arg 2)"
+msgstr "अनुपस्थित पैरामीटर 'IPv6-MTU' (arg 2)"
+
+#: ../rc.d/init.d/network:67
+msgid "Bringing up loopback interface: "
+msgstr "लूपबेक अंतरफलक चालू कए रहल अछि:"
+
+#: ../rc.d/init.d/functions:452
+msgid "PASSED"
+msgstr "सफल"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:394
+msgid "Given address '$addr' is not a global IPv4 one (arg 1)"
+msgstr "देल गेल '$addr' पता एकटा वैश्विक IPv4 नहि अछि (arg 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:706
+msgid "Missing parameter 'selection' (arg 2)"
+msgstr "अनुपस्थित पैरामीटर 'चयन' (arg 2)"
+
+#: ../ppp/ip-up.ipv6to4:91 ../sysconfig/network-scripts/ifup-ipv6:211
+msgid ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+msgstr ""
+"IPv6to4 विन्यास केँ संबंधित अंतरफलक पर, एकटा IPv4 पता अवश्य चाही अथवा नहि तँ निर्दिष्ट "
+"कएल भेल"
+
+#: ../sysconfig/network-scripts/ifup-aliases:190
+#, fuzzy
+msgid "error iN $FILE: didn't specify netmask or prefix"
+msgstr "$FILE मे दोष: युक्ति अथवा ipaddr निर्दिष्ट नहि कएल"
+
+#: ../sysconfig/network-scripts/ifdown-tunnel:36
+#: ../sysconfig/network-scripts/ifup-tunnel:63
+msgid "Device '$DEVICE' isn't supported as a valid GRE device name."
+msgstr "युक्ति '$DEVICE' समर्थित नहि अछि एकटा वैध GRE युक्ति नाम क' रूपेँं."
+
+#: ../sysconfig/network-scripts/ifup-eth:43
+msgid "Device ${DEVICE} has different MAC address than expected, ignoring."
+msgstr "${DEVICE} युक्ति क' MAC पता अपेक्षित सँ अलग अछि. त्यागल जाए रहल अछि."
+
+#: ../sysconfig/network-scripts/ifup-aliases:264
+msgid "Error, some other host already uses address ${IPADDR}."
+msgstr "दोष, ${IPADDR} पता, कोनो ओर मेजखनान पहिने सँ उपयोग कए रहल अछि."
+
+#: ../rc.d/init.d/network:271
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload}"
+msgstr "प्रयोग: $0 {start|stop|status|restart|reload|force-reload}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:603
+msgid "Tunnel device '$device' creation didn't work"
+msgstr "टनल युक्ति '$device' निर्माण काम नहि कएल"
+
+#: ../rc.d/init.d/netconsole:91
+msgid "Initializing netconsole"
+msgstr "नेटकंसोल आरंभीकृत कए रहल अछि"
+
+#: ../sysconfig/network-scripts/ifdown-eth:42
+#: ../sysconfig/network-scripts/ifdown-eth:48
+msgid ""
+"Device ${DEVICE} has MAC address ${FOUNDMACADDR}, instead of configured "
+"address ${HWADDR}. Ignoring."
+msgstr ""
+"युक्ति ${DEVICE} क' पास MAC पता अछि ${FOUNDMACADDR}, विन्यस्त पता क' बदले "
+"${HWADDR}. नजरअंदाज कए रहल अछि."
+
+#: ../rc.d/init.d/functions:441
+msgid "FAILED"
+msgstr "असफल"
+
+#: ../sysconfig/network-scripts/ifup-eth:286
+#, fuzzy
+msgid "Determining IPv6 information for ${DEVICE}..."
+msgstr "${DEVICE} क' लेल IP जानकारी निश्चित कए रहल अछि..."
+
+#: ../rc.d/init.d/functions:422
+msgid "${base} is stopped"
+msgstr "${base} केँ रोकल गेल अछि"
+
+#: ../rc.d/init.d/functions:151 ../rc.d/init.d/functions:187
+msgid "$0: Usage: daemon [+/-nicelevel] {program}"
+msgstr "$0: प्रयोग: daemon [+/-nicelevel] {कार्यक्रम}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:165
+msgid "error in $FILE: invalid alias number"
+msgstr "$FILE मे गलती: अवैध उपनाम त्रुटि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:159
+msgid "Device '$device' doesn't exist"
+msgstr "'$device' युक्ति  मोजुद  नहि अछि"
+
+#: ../sysconfig/network-scripts/ifup:30 ../sysconfig/network-scripts/ifup:38
+msgid "Usage: ifup <configuration>"
+msgstr "प्रयोग: ifup <युक्ति नाम>"
+
+#: ../sysconfig/network-scripts/ifup:126 ../sysconfig/network-scripts/ifup:127
+msgid "ERROR: could not add vlan ${VID} as ${DEVICE} on dev ${PHYSDEV}"
+msgstr "दोष: ${DEVICE} जहिना, ${PHYSDEV} युक्ति पर vlan ${VID} केँ जोड़ नहि सकल "
+
+#: ../sysconfig/network-scripts/ifup-ctc:37
+msgid "ERROR: ${DEVICE} did not come up!"
+msgstr ""
+
+#: ../ppp/ip-up.ipv6to4:138 ../sysconfig/network-scripts/ifup-ipv6:240
+msgid "Warning: interface 'tun6to4' does not support 'IPV6_DEFAULTGW', ignored"
+msgstr "चेतावनीः अंतरफलक 'tun6to4', 'IPV6_DEFAULTGW' केँ सहायता नहि करत, त्यागू"
+
+#: ../rc.d/init.d/network:133 ../rc.d/init.d/network:140
+msgid "Bringing up interface $i: "
+msgstr "$i अंतरफलक केँ चालू कए रहल अछि:"
+
+#: ../sysconfig/network-scripts/init.ipv6-global:162
+msgid "Usage: $0 {start|stop|reload|restart|showsysctl}"
+msgstr "प्रयोग: $0 {start|stop|reload|restart|showsysctl}"
+
+#: ../sysconfig/network-scripts/ifup-eth:80
+msgid "Device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "युक्ति ${DEVICE}  मोजुद  नहि दिखैत अछि, आरंभीकरण मे देर कए रहल अछि."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:841
+msgid "Given IPv6 default gateway '$address' is not in proper format"
+msgstr "देल गेल IPv6 पूर्वनिर्धारित गेटवे '$address' उचित प्रारूपेँ नहि अछि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:140
+#: ../sysconfig/network-scripts/network-functions-ipv6:203
+#: ../sysconfig/network-scripts/network-functions-ipv6:232
+#: ../sysconfig/network-scripts/network-functions-ipv6:312
+#: ../sysconfig/network-scripts/network-functions-ipv6:427
+#: ../sysconfig/network-scripts/network-functions-ipv6:489
+#: ../sysconfig/network-scripts/network-functions-ipv6:523
+#: ../sysconfig/network-scripts/network-functions-ipv6:565
+#: ../sysconfig/network-scripts/network-functions-ipv6:643
+#: ../sysconfig/network-scripts/network-functions-ipv6:701
+#: ../sysconfig/network-scripts/network-functions-ipv6:754
+#: ../sysconfig/network-scripts/network-functions-ipv6:793
+#: ../sysconfig/network-scripts/network-functions-ipv6:921
+msgid "Missing parameter 'device' (arg 1)"
+msgstr "अनुपस्थित पैरामीटर 'युक्ति' (arg 1)"
+
+#: ../rc.d/init.d/network:82
+msgid "No 802.1Q VLAN support available in kernel."
+msgstr "कर्नल मे कोनो 802.1Q VLAN समर्थन उपलब्ध नहि अछि."
+
+#: ../sysconfig/network-scripts/ifup-aliases:180
+msgid "error in $FILE: already seen device $parent_device:$DEVNUM in $devseen"
+msgstr "$FILE मे त्रुटि: $parent_device:$DEVNUM केँ पहिने सँ $devseen मे देख गेल अछि"
+
+#: ../systemd/fedora-autorelabel:20
+msgid "*** problems. Dropping you to a shell; the system will reboot"
+msgstr "*** समस्या. अहाँकेँ एकटा शैल मे भेज रहल छी, सिस्टम रिबूट भए जएताह"
+
+#: ../sysconfig/network-scripts/ifup-sit:71
+msgid "Device '$DEVICE' is already up, please shutdown first"
+msgstr "युक्ति '$DEVICE' पहिने सँ उप्पर अछि. कृपया पहिने बन्न  करू "
+
+#: ../systemd/fedora-autorelabel:26
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required."
+msgstr "*** चेतावनी -- SELinux ${SELINUXTYPE} नीति रिलेबल जरूरी अछि."
+
+#: ../rc.d/init.d/netconsole:36
+msgid "Usage: $0 {start|stop|status|restart|condrestart}"
+msgstr "प्रयोग: $0 {start|stop|status|restart|condrestart}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:231
+#: ../sysconfig/network-scripts/ifup-aliases:242
+msgid "error in ifcfg-${parent_device}: files"
+msgstr "ifcfg-${parent_device}में त्रुटि:फाइल "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:804
+msgid "Given IPv6 MTU '$ipv6_mtu' is out of range"
+msgstr "देल गेल IPv6 MTU '$ipv6_mtu' परिसर क' बाहर अछि"
+
+#: ../sysconfig/network-scripts/ifup-aliases:320
+msgid "error in $FILE: IPADDR_START greater than IPADDR_END"
+msgstr "$FILE मे त्रुटि: IPADDR_START सँ IPADDR_END पैघ अछि"
+
+#: ../sysconfig/network-scripts/ifup-eth:260
+#, fuzzy
+msgid "Error adding default gateway ${GATEWAY} for ${DEVICE}."
+msgstr "${DEVICE} क' लेल ${IPADDR} पता जोड़बामे दोष."
+
+#: ../rc.d/init.d/functions:430
+msgid "  OK  "
+msgstr "  ठीक  "
+
+#: ../sysconfig/network-scripts/network-functions:540
+msgid "INFO     "
+msgstr "INFO     "
+
+#: ../sysconfig/network-scripts/ifup-aliases:185
+msgid "error in $FILE: didn't specify device or ipaddr"
+msgstr "$FILE मे दोष: युक्ति अथवा ipaddr निर्दिष्ट नहि कएल"
+
+#: ../sysconfig/network-scripts/ifdown:33 ../sysconfig/network-scripts/ifup:49
+msgid "Users cannot control this device."
+msgstr "प्रयोक्ता एहि युक्ति केँ नियंत्रित नहि कए सकैत."
+
+#: ../sysconfig/network-scripts/ifup:89
+msgid "PHYSDEV should be set for device ${DEVICE}"
+msgstr "युक्ति ${DEVICE}  क'लेल  PHYSDEV सेट कएल जएनाइ चाही."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1031
+msgid "radvd not (properly) installed, triggering failed"
+msgstr "radvd (नीक जहिना ) संस्थापित नहि अछि. ट्रिगरिंग विफल"
+
+#: ../sysconfig/network-scripts/ifup-eth:177
+#: ../sysconfig/network-scripts/ifup-eth:290
+msgid " failed."
+msgstr "असफल."
+
+#: ../rc.d/init.d/functions:345
+msgid "Usage: pidofproc [-p pidfile] {program}"
+msgstr "प्रयोग: pidofproc [-p pidfile] {program}"
+
+#: ../systemd/fedora-autorelabel:18
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required. "
+msgstr "*** चेतावनी -- SELinux ${SELINUXTYPE} नीति पुनर्लेवल जरूरी अछि. "
+
+#: ../rc.d/init.d/network:258
+msgid "Configured devices:"
+msgstr "विन्यस्त युक्तिः"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:895
+msgid "Given IPv6 default device '$device' requires an explicit nexthop"
+msgstr "दी गई IPv6 पूर्वनिर्धारित युक्ति '$device' केँ एकटा स्पष्ट नेक्सटहाप चाही"
+
+#: ../rc.d/init.d/functions:33
+#, fuzzy
+msgid "Starting $prog (via systemctl): "
+msgstr "$progbase आरंभ कए रहल अछि:"
+
+#: ../sysconfig/network-scripts/ifdown:15
+#: ../sysconfig/network-scripts/ifdown:22
+msgid "usage: ifdown <configuration>"
+msgstr "प्रयोग: ifdown <युक्ति नाम>"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:276
+msgid ""
+"Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+msgstr ""
+"6to4 आओर RADVD IPv6 अग्रसारण क' प्रयोग केँ सामान्यतः समर्थ अछि. मुदा आब नहि अछि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:438
+#: ../sysconfig/network-scripts/network-functions-ipv6:495
+#: ../sysconfig/network-scripts/network-functions-ipv6:534
+msgid "Given device '$device' is not supported (arg 1)"
+msgstr "दी गई युक्ति '$device' समर्थित नहि अछि (arg 1)"
+
+#: ../rc.d/init.d/netconsole:111
+msgid "netconsole module loaded"
+msgstr "netconsole माड्यूल लोडेड"
+
+#: ../rc.d/init.d/functions:269 ../rc.d/init.d/functions:296
+#: ../rc.d/init.d/functions:312
+msgid "$base shutdown"
+msgstr "$base shutdown"
+
+#: ../sysconfig/network-scripts/ifup-tunnel:56
+msgid "Invalid tunnel type $TYPE"
+msgstr "अवैध टनेल प्रकार $TYPE"
+
+#: ../sysconfig/network-scripts/ifup-ppp:48
+msgid "pppd does not exist or is not executable for ${DEVICE}"
+msgstr "pppd  मोजुद  नहि अछि अथवा ई $DEVICE क' लेल निस्पादनीय नहि अछि"
+
+#: ../sysconfig/network-scripts/ifup:37
+msgid "$0: configuration for ${1} not found."
+msgstr "$0: विन्यास क' लेल ${1} नहि भेटल."
+
+#: ../sysconfig/network-scripts/ifup-eth:165
+msgid "Determining IP information for ${DEVICE}..."
+msgstr "${DEVICE} क' लेल IP जानकारी निश्चित कए रहल अछि..."
+
+#: ../systemd/fedora-autorelabel:19
+msgid "*** /etc/selinux/config indicates you want to manually fix labeling"
+msgstr ""
+"*** /etc/selinux/config संकेत करैत अछि जे अहाँ लेबलिंग दस्ती रूप सँ ठीक कएनाइ चाहैत छी"
+
+#: ../sysconfig/network-scripts/network-functions:537
+msgid "WARN     "
+msgstr "चेतावनी   "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:86
+msgid ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+msgstr ""
+"'$device' युक्ति क' मार्फत '$gatewayipv6' गेटवे क' द्वारा '$networkipv6' मेजखनान मे "
+"जोड़ने क' कोनो रास्ता नहि"
+
+#: ../rc.d/init.d/netconsole:82
+msgid "netconsole: can't resolve MAC address of $SYSLOGADDR"
+msgstr "netconsole: $SYSLOGADDR क' MAC पता केँ हल नहि कए सकैत अछि"
+
+#: ../sysconfig/network-scripts/ifup-ppp:46
+msgid "ifup-ppp for ${DEVICE} exiting"
+msgstr "${DEVICE} क' लेल ifup-ppp जीवंत अछि"
+
+#: ../sysconfig/network-scripts/ifdown-routes:5
+#, fuzzy
+msgid "usage: ifdown-routes <net-device> [<nickname>]"
+msgstr "प्रयोग: ifup-routes <जाल-युक्ति> [<उपनाम>]"
+
+#: ../sysconfig/network-scripts/ifup-eth:51
+msgid "Bridge support not available: brctl not found"
+msgstr "ब्रिज समर्थन उपलब्ध नहि अछि. brctl नहि पाएल गेल."
+
+#: ../rc.d/init.d/network:261
+msgid "Currently active devices:"
+msgstr "वर्तमान सक्रिय युक्तिः"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:590
+msgid ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+msgstr ""
+"टनल युक्ति '$device' पर देल गेल दूरस्थ पता '$addressipv4tunnel' पहिने सँ '$devnew' "
+"युक्ति पर विन्यस्त अछि."
+
+#: ../sysconfig/network-scripts/ifdown-sit:40
+#: ../sysconfig/network-scripts/ifup-sit:58
+msgid ""
+"Device '$DEVICE' isn't supported here, use IPV6_AUTOTUNNEL setting and "
+"restart (IPv6) networking"
+msgstr ""
+"ईां युक्ति '$DEVICE' सहायक नहि अछि.  IPV6_AUTOTUNNEL जमावट क' प्रयोग करू आओर "
+"(IPv6) संजाल केँ पुनःप्रारंभ  करू "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:343
+msgid "Missing parameter 'IPv4 address' (arg 1)"
+msgstr "अनुपस्थित पैरामीटर 'IPv4 पता (arg 1)"
+
+#: ../rc.d/init.d/network:232
+msgid "Shutting down interface $i: "
+msgstr "$i अंतरफलक बन्न भए रहल अछि:"
+
+#: ../sysconfig/network-scripts/ifup-ippp:374
+msgid ""
+"Warning: ipppd (kernel 2.4.x and below) doesn't support IPv6 using "
+"encapsulation 'syncppp'"
+msgstr ""
+"चेतावनी: 'syncppp' संरक्षित क' उपयोग करब सँ IPv6 क' समर्थन, ipppd (कर्नल 2.4.x आओर "
+"नीचे) नहि करैत अछि"
+
+#: ../systemd/fedora-autorelabel:27
+msgid "*** Relabeling could take a very long time, depending on file"
+msgstr "*** पुनः लेबल कएल जएनाइ नमहर समय ले सकैत अछि. फाइल पर निर्भर करैत"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:99
+msgid ""
+"Global IPv6 forwarding is enabled in configuration, but not currently "
+"enabled in kernel"
+msgstr ""
+"वैश्विक IPv6 अग्रसारण विन्यास मे सक्रिय अछि, मुदा कर्नेल मे वर्तमान मे सक्रिय नहि अछि"
+
+#: ../rc.d/init.d/functions:39
+#, fuzzy
+msgid "Reloading $prog configuration (via systemctl): "
+msgstr "$prog विन्यास फेर लोड कए रहल अछि. "
+
+#: ../sysconfig/network-scripts/ifup-ippp:55
+msgid "$*"
+msgstr "$*"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:855
+msgid ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+msgstr ""
+"देल गेल IPv6 पूर्वनिर्धारित गेटवे '$address' लिंक लोकल अछि.  मुदा  कोनो स्कोप आओर गेटवे "
+"युक्ति निर्दिष्ट नहि अछि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:610
+msgid "Tunnel device '$device' bringing up didn't work"
+msgstr "टनल युक्ति '$device' क' पोषण काम नहि कएल"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:993
+msgid "Unsupported mechanism '$mechanism' for sending trigger to radvd"
+msgstr "radvd मे ट्रिगर भेजने क' लेल '$mechanism' असमर्थित यांत्रिकी"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:398
+msgid "Given address '$addr' is not a valid IPv4 one (arg 1)"
+msgstr "देल गेल पता '$addr' एकटा वैध IPv4 नहि अछि (arg 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:432
+msgid "Missing parameter 'global IPv4 address' (arg 2)"
+msgstr "'वैश्विक IPv4 पता' (arg 2) अनुपस्थित पैरामीटर "
+
+#: ../sysconfig/network-scripts/ifup-ppp:74
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist"
+msgstr "/etc/sysconfig/network-scripts/chat-${DEVNAME} जीवंत नहि अछि"
+
+#: ../rc.d/init.d/netconsole:114
+msgid "netconsole module not loaded"
+msgstr "netconsole माड्यूल लोड नहि अछि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:89
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: ../rc.d/init.d/functions:371
+msgid "Usage: status [-p pidfile] {program}"
+msgstr "प्रयोग: status [-p pidfile] {program}"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:299
+msgid "6to4 configuration is not valid"
+msgstr "6to4 विन्यासन उचित नहि अछि"
+
+#: ../sysconfig/network-scripts/ifup-ppp:82
+msgid "Setting up a new ${PEERCONF} config file"
+msgstr "नव ${PEERCONF} विन्यास फाइल व्यवस्थित कए रहल अछि"
+
+#: ../sysconfig/network-scripts/ifup-aliases:316
+msgid "error in $FILE: IPADDR_START and IPADDR_END don't agree"
+msgstr "दोष अछि $FILE में: IPADDR_START आओर IPADDR_END सहमत नहि"
+
+#: ../rc.d/init.d/functions:303
+msgid "$base $killlevel"
+msgstr "$आधार $मृतस्तर"
+
+#: ../sysconfig/network-scripts/ifup-ppp:59
+msgid "adsl-start does not exist or is not executable for ${DEVICE}"
+msgstr "adsl-start  मोजुद  नहि अछि अथवा ई $DEVICE क' लेल निस्पादनीय नहि अछि"
+
+#: ../sysconfig/network-scripts/ifup-eth:167
+msgid " failed; no link present.  Check cable?"
+msgstr "असफल; कोनो कड़ी उपस्थित नहि. केबल जाँचू?"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:116
+msgid ""
+"Global IPv6 forwarding is disabled in configuration, but not currently "
+"disabled in kernel"
+msgstr ""
+"वैश्विक IPv6 अग्रसारण क' विन्यास निष्क्रिय अछि. मुदा कर्नल मे वर्तमान मे निष्क्रिय नहि अछि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:165
+msgid "Device '$device' enabling didn't work"
+msgstr "युक्ति '$device' क' सक्रिय कएनाइ काम नहि कएल"
+
+#: ../sysconfig/network-scripts/ifup-ppp:77
+msgid ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist for ${DEVICE}"
+msgstr ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME}  मोजुद  नहि अछि ${DEVICE} क' लेल"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:186
+msgid "Cannot add IPv6 address '$address' on dev '$device'"
+msgstr "dev '$device' पर IPv6 address '$address' जोड़ नहि सकैत"
+
+#: ../sysconfig/network-scripts/ifup-ippp:376
+msgid "Warning: link doesn't support IPv6 using encapsulation 'rawip'"
+msgstr "चेतावनीः सरंक्षित 'rawip' क' उपयोग करब सँ कड़ी IPv6 क' समर्थन नहि करैत अछि"
+
+#: ../sys-unconfig:6
+msgid "Usage: sys-unconfig"
+msgstr "प्रयोग: sys-unconfig"
+
+#: ../sysconfig/network-scripts/ifup-routes:5
+msgid "usage: ifup-routes <net-device> [<nickname>]"
+msgstr "प्रयोग: ifup-routes <जाल-युक्ति> [<उपनाम>]"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:570
+msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
+msgstr "अनुपस्थित पैरामीटर 'IPv4-tunnel address' (arg 2)"
+
+#: ../rc.d/init.d/netconsole:101
+msgid "Disabling netconsole"
+msgstr "netconsole निष्क्रिय कए रहल अछि"
+
+#: ../systemd/fedora-configure:19
+msgid "Resetting hostname ${HOSTNAME}: "
+msgstr "${HOSTNAME} मेजखनाननाम केँ पुनःजमा रहल अछि:"
+
+#: ../rc.d/init.d/network:246
+msgid "Shutting down loopback interface: "
+msgstr "लूपबेक अंतरफलक केँ बन्न कए रहल अछि:"
+
+#: ../sysconfig/network-scripts/ifup-eth:264
+#, fuzzy
+msgid "Erorr adding default gateway for ${REALDEVICE}."
+msgstr "${DEVICE} क' लेल ${IPADDR} पता जोड़बामे दोष."
+
+#: ../systemd/fedora-autorelabel:28
+msgid "*** system size and speed of hard drives."
+msgstr "*** सिस्टम आकार आ हार्ड ड्राइवक गति."
+
+#: ../sysconfig/network-scripts/network-functions:531
+msgid "DEBUG    "
+msgstr "दोषमार्जन  "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:959
+msgid "No reason given for sending trigger to radvd"
+msgstr "radvd मे ट्रिगर भेजने क' लेल कोनो कारण नहि देल गेल अछि"
+
+#: ../sysconfig/network-scripts/ifup-ipx:7
+msgid "usage: $0 <net-device>"
+msgstr "प्रयोग: $0 <net-device>"
+
+#: ../sysconfig/network-scripts/ifup-eth:174
+#: ../sysconfig/network-scripts/ifup-eth:288
+msgid " done."
+msgstr "कएल."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:56
+msgid "Missing parameter 'IPv6-network' (arg 1)"
+msgstr "अनुपस्थित पैरामीटर 'IPv6-network' (arg 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1005
+msgid "Given pidfile '$pidfile' doesn't exist, cannot send trigger to radvd"
+msgstr "दी गई पिडफाइल '$pidfile'  मोजुद  नहि अछि. radvd केँ ट्रिगर नहि भेज सकैत अछि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:528
+msgid "Missing parameter 'local IPv4 address' (arg 2)"
+msgstr "अनुपस्थित पैरामीटर 'local IPv4 पता (arg 2)"
+
+#: ../sysconfig/network-scripts/ifup-aliases:119
+msgid "Missing config file $PARENTCONFIG."
+msgstr "$PARENTCONFIG विन्यास फाइल गुम गई अछि."
+
+#: ../rc.d/init.d/functions:513
+msgid "$STRING"
+msgstr "$STRING"
+
+#: ../rc.d/init.d/functions:419
+msgid "${base} dead but subsys locked"
+msgstr "${base} मृत मुदा subsys तालित अछि"
+
+#: ../sysconfig/network-scripts/ifup-aliases:175
+msgid "error in $FILE: already seen ipaddr $IPADDR in $ipseen"
+msgstr "$FILE मे त्रुटि:  ipaddr $IPADDR केँ पहिने सँ $ipseen मे देख गेल अछि"
+
+#: ../rc.d/init.d/functions:36
+#, fuzzy
+msgid "Stopping $prog (via systemctl): "
+msgstr "$prog डेमन रोक रहल अछि. "
+
+#: ../sysconfig/network-scripts/ifup-eth:237
+#, fuzzy
+msgid "Error adding address ${ipaddr[$idx]} for ${DEVICE}."
+msgstr "${DEVICE} क' लेल ${IPADDR} पता जोड़बामे दोष."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:710
+msgid "Unsupported selection '$selection' specified (arg 2)"
+msgstr "असमर्थित '$selection' चयन निर्दिष्ट कएल गेल (arg 2)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1014
+msgid "Pidfile '$pidfile' is empty, cannot send trigger to radvd"
+msgstr "पिडफाइल '$pidfile' रिक्त अछि. radvd केँ ट्रिगर नहि भेज सकैत अछि"
+
+#: ../sysconfig/network-scripts/ifup-eth:201
+msgid "Failed to bring up ${DEVICE}."
+msgstr "${DEVICE} केँ चालू करब मे असफल."
+
+#: ../sysconfig/network-scripts/ifup-ipv6:147
+msgid ""
+"Cannot enable IPv6 privacy method '$IPV6_PRIVACY', not supported by kernel"
+msgstr ""
+"IPv6 गुप्त विधि '$IPV6_PRIVACY' सक्रिय नहि कए रहल अछि. कर्नेल  क'लेल  समर्थित नहि"
+
+#: ../rc.d/init.d/network:152
+#, fuzzy
+msgid "Legacy static-route support not available: /sbin/route not found"
+msgstr "ब्रिज समर्थन उपलब्ध नहि अछि. brctl नहि पाएल गेल."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:114
+msgid "Tunnel device 'sit0' enabling didn't work"
+msgstr "'sit0' टनल युक्ति क' सक्रिय कएनाइ काम नहि कएल"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:171
+msgid "Device 'tun6to4' (from '$DEVICE') is already up, shutdown first"
+msgstr "युक्ति  'tun6to4' ('$DEVICE' से) पहिने सँ अछि. पहिने बन्न  करू "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:847
+msgid ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+msgstr ""
+"देल गेल IPv6 पूर्वनिर्धारित गेटवे '$address' क' '$device_scope' स्कोप परिभाषित अछि. "
+"देल गेल पूर्वनिर्धारित गेटवे युक्ति '$device' प्रयोग नहि कएल जएताह."
+
+#: ../rc.d/init.d/functions:396 ../rc.d/init.d/functions:402
+msgid "${base} (pid $pid) is running..."
+msgstr "${base} (pid $pid) चलि रहल अछि..."
+
+#: ../sysconfig/network-scripts/ifup:96
+msgid "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+msgstr "युक्ति ${DEVICE} क' लेल कर्नल मे कोनो 802.1Q VLAN समर्थन उपलब्ध नहि अछि"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:898
+msgid "Given IPv6 default device '$device' doesn't exist or isn't up"
+msgstr ""
+"देल गेल IPv6 पूर्वनिर्धारित युक्ति '$device'  मोजुद  नहि अछि अथवा शुरू नहि कएल गेल अछि"
+
+#: ../ppp/ip-up.ipv6to4:87 ../sysconfig/network-scripts/ifup-ipv6:198
+msgid "Given IPv4 address '$ipv4addr' is not globally usable"
+msgstr "देल गेल IPv4 पता '$ipv4addr' वैश्विक रुप मे उपयोगी नहि अछि"
+
+#: ../ppp/ip-up.ipv6to4:186 ../sysconfig/network-scripts/ifup-ipv6:289
+msgid "Error occurred while calculating the IPv6to4 prefix"
+msgstr "IPv6to4 उपसर्ग क' परिकलन करैत बेला दोष उत्पन्न भेल"
+
+#: ../rc.d/init.d/functions:42
+#, fuzzy
+msgid "Restarting $prog (via systemctl): "
+msgstr "$prog केँ फेर आरंभ कए रहल अछि. "
+
+#: ../sysconfig/network-scripts/ifup-ppp:45
+msgid "pppd does not exist or is not executable"
+msgstr "pppd जीवंत अथवा निस्पादित नहि अछि"
+
+#: ../sysconfig/network-scripts/network-functions:534
+msgid "ERROR    "
+msgstr "त्रुटि   "
+
+#~ msgid "Reloading $prog for $ez_name: "
+#~ msgstr "$prog केँ $ez_name  क'लेल फेर लोड कए रहल अछि."
+
+#~ msgid "Stopping incrond: "
+#~ msgstr "incrond रोक रहल अछि. "
+
+#~ msgid "Starting Shorewall: "
+#~ msgstr "किनारदीवाल आरंभ कए रहल अछि: "
+
+#~ msgid "Starting UPS monitor (slave): "
+#~ msgstr "UPS मानीटर(slave) आरंभ कए रहल अछि. "
+
+#~ msgid "Stopping infrared remote control mouse daemon ($prog2): "
+#~ msgstr "इंफ्रारेड रिमोट कंट्रोल मूस डेमान रोक रहल अछि ($prog2): "
+
+#~ msgid "Graceful shutdown of old $prog: "
+#~ msgstr "पुरान $prog कए संतुलित शटडाउन: "
+
+#~ msgid "$base dead but pid file exists"
+#~ msgstr "$base मृत  मुदा  pid फाइल मोजुद अछि"
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Starting console mouse services: "
+#~ msgstr "कन्सोल मूस सेवा आरंभ कए रहल अछि:"
+
+#~ msgid "Shutting down router discovery services: "
+#~ msgstr "राउटर डिसकवरी सेवा केँ बन्न कए रहल अछि: "
+
+#~ msgid "$prog already running"
+#~ msgstr "${prog_base} पहिने सँ चलि रहल अछि"
+
+#~ msgid "Reloading ser2net"
+#~ msgstr "ser2net केँ पुनःभारित कए रहल अछि"
+
+#~ msgid "no dictionaries installed"
+#~ msgstr "कोनो शब्दकोश संस्थापित नहि अछि"
+
+#~ msgid "to"
+#~ msgstr "मे"
+
+#~ msgid "${IPTABLES}: Firewall is not running."
+#~ msgstr "${IPTABLES}: फायरवाल चलि नहि रहल अछि."
+
+#~ msgid "${IPTABLES}: Firewall is not configured. "
+#~ msgstr "${IPTABLES}: फायरवाल विन्यस्त नहि अछि."
+
+#~ msgid "Setting path to vshelper"
+#~ msgstr "vshelper मे पाथ सेट कए रहल अछि"
+
+#~ msgid "Unmounting CIFS filesystems: "
+#~ msgstr "CIFS फाइल सिस्टम केँ अनारोहित कए रहल अछि. "
+
+#~ msgid "Entering interactive startup"
+#~ msgstr "अंतःक्रियात्मक प्रारंभण मे प्रवेश कए रहल अछि"
+
+#~ msgid "Starting RPC svcgssd: "
+#~ msgstr "RPC svcgssd केँ आरंभ कए रहल अछि:"
+
+#~ msgid "$s compilation failed "
+#~ msgstr "$s कंपाइलेशन विफल "
+
+#~ msgid "Starting $prog: "
+#~ msgstr "$prog केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting CGroup Rules Engine Daemon..."
+#~ msgstr "CGroup नियम इंजन डेमान आरंभ कए रहल अछि..."
+
+#~ msgid "Starting xend daemon: "
+#~ msgstr "xend डेमन केँ आरंभ कए रहल अछि. "
+
+#~ msgid "Error. This appears to be a slave server, found kpropd.acl"
+#~ msgstr "त्रुटि. ई स्लेव सर्वर प्रतीत  हाएत  अछि. kpropd.acl केँ पएलक"
+
+#~ msgid "Saving $desc ($prog): "
+#~ msgstr "$desc ($prog) सहेज रहल अछि. "
+
+#~ msgid "$prog startup"
+#~ msgstr "$prog आरंभन"
+
+#~ msgid "Starting preload daemon: "
+#~ msgstr "preload डेमन शुरू कए रहल अछि. "
+
+#~ msgid "Disabling denyhosts cron service: "
+#~ msgstr "denyhosts क्रान सेवा निष्क्रिय कए रहल अछि. "
+
+#~ msgid "Reloading "
+#~ msgstr "फेर लोड कए रहल अछि"
+
+#~ msgid "Stopping system message bus: "
+#~ msgstr "सिस्टम संदेश बस केँ रोक रहल अछि:"
+
+#~ msgid "Insufficient privilege"
+#~ msgstr "अपर्याप्त अधिकार"
+
+#~ msgid "Disabling nightly yum update: "
+#~ msgstr "नाइटली yum अद्यतन केँ निष्क्रिय कए रहल अछि. "
+
+#~ msgid "Stopping UPS monitor: "
+#~ msgstr "UPS मानीटर केँ रोक रहल अछि:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+#~ "restart}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|reload|configtest|status|force-reload|upgrade|"
+#~ "restart}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|reload|configtest|status|force-reload|upgrade|"
+#~ "restart}"
+
+#~ msgid "Enabling monthly Smolt checkin: "
+#~ msgstr "मासिक स्माल्ट चेकइन सक्रिय कए रहल अछि. "
+
+#~ msgid "Removing user defined chains:"
+#~ msgstr "प्रयोक्ता परिभाषित श्रृंखला केँ हटाए रहल अछि: "
+
+#~ msgid "Starting $prog instance "
+#~ msgstr "$prog उदाहरण शुरू कए रहल अछि. "
+
+#~ msgid "Nightly yum update is disabled."
+#~ msgstr "नाइटली yum अद्यतन निष्क्रिय कए देल गेल."
+
+#~ msgid "Retrigger failed udev events"
+#~ msgstr "udev घटनाक फेर ट्रिगर कएनाइ विफल"
+
+#~ msgid "Stopping rwho services: "
+#~ msgstr "rwho सेवाएँ रोकि रहल अछि:"
+
+#~ msgid "Shutting down NIS service: "
+#~ msgstr "NIS सेवा बन्न कए रहल अछि:"
+
+#~ msgid "Flushing all current rules and user defined chains:"
+#~ msgstr "सभटा  मोजुदा  नियम आओर उपभोक्ता परिभाषित श्रृंखला केँ प्रवाहित कए रहल अछि:"
+
+#~ msgid "Usage: $0 {start|stop|status|restart}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|restart}"
+
+#~ msgid "Wine binary format handlers are registered."
+#~ msgstr "Wine द्विपदीय प्रारूप नियंत्रक पंजीकृत अछि."
+
+#~ msgid "Reloading icecast: "
+#~ msgstr "icecast फेर भारित कए रहल अछि. "
+
+#~ msgid "Shutting down openvpn: "
+#~ msgstr "openvpn बन्न कए रहल अछि. "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+
+#~ msgid "\t\tWelcome to "
+#~ msgstr "\t\t मे स्वागत "
+
+#~ msgid "Shutting down $desc ($prog): "
+#~ msgstr "$desc ($prog) बन्न कए रहल अछि. "
+
+#~ msgid "Shutting down system logger: "
+#~ msgstr "सिस्टम लागर केँ बन्न कए रहल अछि:"
+
+#~ msgid "$base is stopped"
+#~ msgstr "$base केँ रोकल गेल अछि"
+
+#~ msgid "Checking configuration files for $prog: "
+#~ msgstr "$prog  क'लेल  विन्यास फाइल जाँच रहल अछि. "
+
+#~ msgid "$0: call me as 'halt' or 'reboot' please!"
+#~ msgstr "$0: कृपया मुझे 'हाल्ट' अथवा 'रीबूट' जहिना बजाउ!"
+
+#~ msgid "$NAME is attached to $DEVICE"
+#~ msgstr "$NAME, $DEVICE सँ जुड़ल भेल छी"
+
+#~ msgid "Start freshclam"
+#~ msgstr "freshclam आरंभ कए रहल अछि"
+
+#~ msgid "Shutting down $prog: "
+#~ msgstr "$prog केँ बन्न कए रहल अछि:"
+
+#~ msgid "Reloading acpi daemon:"
+#~ msgstr "acpi डेमान फेर लोड कए रहल अछि:"
+
+#~ msgid "Starting greylistd: "
+#~ msgstr "greylistd आरंभ कए रहल अछि. "
+
+#~ msgid "Stopping NetworkManager daemon: "
+#~ msgstr "NetworkManager डेमन केँ रोक रहल अछि: "
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|status|condrestart}"
+
+#~ msgid "Starting smokeping: "
+#~ msgstr "smokeping आरंभ कए रहल अछि: "
+
+#~ msgid "Stopping Mldonkey (mlnet): "
+#~ msgstr "Mldonkey (mlnet) रोकि रहल अछि: "
+
+#~ msgid "Starting puppet: "
+#~ msgstr "puppet आरंभ कए रहल अछि. "
+
+#~ msgid "Starting ${prog_base}:"
+#~ msgstr "${prog_base} आरंभ कए रहल अछि:"
+
+#~ msgid "Sending all processes the TERM signal..."
+#~ msgstr "TERM संकेत क' सारी प्रक्रिया भेजी जाए रहल अछि..."
+
+#~ msgid "Rotating logs: "
+#~ msgstr "लाग केँ घुमाए रहल अछि. "
+
+#~ msgid "*** the clamav-server can be configured"
+#~ msgstr "*** clamav-server विन्यस्त कएल जाए सकैत अछि"
+
+#~ msgid "Starting restorecond: "
+#~ msgstr "restorecond आरंभ कए रहल अछि. "
+
+#~ msgid "Starting xenstored daemon: "
+#~ msgstr "xenstored डेमन केँ आरंभ कए रहल अछि. "
+
+#~ msgid "Starting ${ifprog}: "
+#~ msgstr "${ifprog} आरंभ कए रहल अछि: "
+
+#~ msgid "Starting UPS monitor (master): "
+#~ msgstr "UPS मानीटर(मास्टर) केँ आरंभ कए रहल अछि:"
+
+#~ msgid "/proc entries are not fixed"
+#~ msgstr "/proc प्रविष्टि ठीक नहि अछि"
+
+#~ msgid "Starting ipmi_watchdog driver: "
+#~ msgstr "ipmi_watchdog ड्राइवर आरंभ कए रहल अछि. "
+
+#~ msgid "Applying ktune sysctl settings:"
+#~ msgstr "ktune sysctl सेटिंग लागू कए रहल अछि:"
+
+#~ msgid "Stopping $SERVICE daemon: "
+#~ msgstr "$SERVICE डेमान रोक रहल अछि. "
+
+#~ msgid "Starting named: "
+#~ msgstr "named आरंभ कए रहल अछि. "
+
+#~ msgid "Shutting down NFS daemon: "
+#~ msgstr "NFS डोमेन बन्न भए रहल अछि:"
+
+#~ msgid "Reloading Condor daemons: "
+#~ msgstr "Condor डेमान फेर लोड कए रहल अछि. "
+
+#~ msgid "$base (pid $pid) is running..."
+#~ msgstr "$base (pid $pid) चलि रहल अछि..."
+
+#~ msgid "Shutting down postfix: "
+#~ msgstr "postfix केँ बन्न कए रहल अछि. "
+
+#~ msgid "Reloading INN Service: "
+#~ msgstr "INN सेवाएँ पुनःभारित भए रहल अछि:"
+
+#~ msgid "Stopping Condor daemons: "
+#~ msgstr "Condor डेमन केँ रोक रहल अछि:"
+
+#~ msgid "Flushing all chains:"
+#~ msgstr "सभटा श्रृंखलाओं क' बहाव भए रहल अछि:"
+
+#~ msgid "Initializing MySQL database: "
+#~ msgstr "MySQL डाटाबेस क' प्रारंभिकीकरण भए रहल अछि:"
+
+#~ msgid "${IP6TABLES}: ${_IPV} is disabled."
+#~ msgstr "${IP6TABLES}: ${_IPV} निष्क्रिय अछि."
+
+#~ msgid "Starting incrond: "
+#~ msgstr "incrond आरंभ कए रहल अछि. "
+
+#~ msgid "Starting capi4linux:"
+#~ msgstr "capi4linux आरंभ कए रहल अछि:"
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status|condrestart}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|reload|status|condrestart}"
+
+#~ msgid "Stopping disk encryption for $dst"
+#~ msgstr "$dst कए लेल डिस्क गोपन रोकि रहल अछि"
+
+#~ msgid "Shutting down rfcomm: "
+#~ msgstr "rfcomm बंद कए रहल अछि: "
+
+#~ msgid "Detaching loopback device $dev: "
+#~ msgstr "लूपबेक युक्ति $dev केँ अलग कए देल जाए रहल अछि. "
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|try-restart|force-reload|status}"
+
+#~ msgid "Shutting down greylistd: "
+#~ msgstr "greylistd बन्न कए रहल अछि. "
+
+#~ msgid "Stopping OpenSCADA daemon: "
+#~ msgstr "OpenSCADA डेमान रोकि रहल अछि: "
+
+#~ msgid "Stopping Perlbal: "
+#~ msgstr "Perlbal रोक रहल अछि. "
+
+#~ msgid "Usage: $0 {start|stop}"
+#~ msgstr "प्रयोग: $0 {start|stop}"
+
+#~ msgid "Starting $desc ($prog): "
+#~ msgstr "$desc ($prog) आरंभ कए रहल अछि. "
+
+#~ msgid "Stopping Shorewall: "
+#~ msgstr "Shorewall रोकि रहल अछि: "
+
+#~ msgid "${IPTABLES}: Setting chains to policy $policy: "
+#~ msgstr "${IPTABLES}: $policy नीति मे शृंखला मे सेट कए रहल अछि. "
+
+#~ msgid "Reloading $PROG: "
+#~ msgstr "$PROG फेर लोड कए रहल अछि. "
+
+#~ msgid "Stopping yum-updatesd: "
+#~ msgstr "yum-updatesd रोक रहल अछि. "
+
+#~ msgid "$0: error: $prog is not running"
+#~ msgstr "$0: त्रुटि: $prog नहि चलि रहल अछि"
+
+#~ msgid "\t-y \t\t: answer yes for all questions."
+#~ msgstr "\t-y \t\t: सभी प्रश्नक उत्तर हाँ."
+
+#~ msgid "Generate configuration puppet: "
+#~ msgstr "विन्यास पपेट उत्पन्न  करू :"
+
+#~ msgid "Checking for ctdbd service: "
+#~ msgstr "ctdbd सेवा कए लेल जाँच रहल अछि: "
+
+#~ msgid "restarting $prog..."
+#~ msgstr "$prog फेर आरंभ कए रहल अछि..."
+
+#~ msgid "Starting process accounting: "
+#~ msgstr "लेखांकन प्रक्रिया केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting YP map server: "
+#~ msgstr "YP मेप सर्वर केँ आरंभ कए रहल अछि:"
+
+#~ msgid "$prog is already stopped."
+#~ msgstr "$prog पहिने सँ रूका अछि."
+
+#~ msgid "database check"
+#~ msgstr "डेटाबेस जाँच"
+
+#~ msgid "Restarting Video Disk Recorder ($prog): "
+#~ msgstr "वीडियो डिस्क रिकार्डर ($prog) फेर आरंभ कए रहल अछि. "
+
+#~ msgid "${IP6TABLES}: Saving firewall rules to $IP6TABLES_DATA: "
+#~ msgstr "${IP6TABLES}: $IP6TABLES_DATA मे फायरवाल नियम केँ सुरक्षित कए रहल अछि:"
+
+#~ msgid "Shutting down $progbase: "
+#~ msgstr "$progbase केँ बन्न कए रहल अछि. "
+
+#~ msgid "(no mouse is configured)"
+#~ msgstr "(कोनो मूस विन्यासित नहि अछि)"
+
+#~ msgid "Starting $prog2: "
+#~ msgstr "$prog2 केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Service $prog does not support the reload action: "
+#~ msgstr "$prog सेवा रिलोड क्रिया केँ समर्थन नहि करैत अछि. "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+
+#~ msgid "reloading sm-client: "
+#~ msgstr "sm-client केँ अधिभारित कए रहल अछि:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#~ msgid "\t-R \t\t: recursively dependency checking"
+#~ msgstr "\t-R \t\t: पुनरावर्ती निर्भरता जाँच"
+
+#~ msgid "Starting Avahi daemon... "
+#~ msgstr "Avahi डेमान आरंभ कए रहल अछि... "
+
+#~ msgid "Stopping Pound: "
+#~ msgstr "Pound रोक रहल अछि. "
+
+#~ msgid "Configured NFS mountpoints: "
+#~ msgstr "NFS आरोह बिंदु विन्यासित भए  चुकल  अछि:"
+
+#~ msgid "Starting Pound: "
+#~ msgstr "Pound केँ आरंभ कए रहल अछि. "
+
+#~ msgid "Unmounting pipe file systems: "
+#~ msgstr "फाइल सिस्टम केँ अनारोहित कए रहल अछि:"
+
+#~ msgid "Current ktune sysctl settings:"
+#~ msgstr "मोजुदा ktune sysctl सेटिंग:"
+
+#~ msgid "Usage: $prog {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "प्रयोग: $prog {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting distributed compiler scheduler: "
+#~ msgstr "वितरित कमांइलर अनुसूचन आरंभ कए रहल अछि. "
+
+#~ msgid "parse error"
+#~ msgstr "विश्लेषण त्रुटि"
+
+#~ msgid "Starting $ID: "
+#~ msgstr "$ID आरंभ कए रहल अछि. "
+
+#~ msgid "vncserver start"
+#~ msgstr "vncserver केँ प्रारंभ  करू "
+
+#~ msgid "Usage: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+#~ msgstr "प्रयोग: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+
+#~ msgid "Active network block devices: "
+#~ msgstr "सक्रिय सँजाल ब्लाक युक्ति: "
+
+#~ msgid "Shutting down $prog"
+#~ msgstr "$prog केँ बन्न कए रहल अछि"
+
+#~ msgid "Starting system logger: "
+#~ msgstr "सिस्टम लागर केँ आरंभ कए रहल अछि: "
+
+#~ msgid "$4 (e$2.$3@$1) [pid $pid]"
+#~ msgstr "$4 (e$2.$3@$1) [pid $pid]"
+
+#~ msgid "Shutting down pkcsslotd:"
+#~ msgstr "pkcsslotd केँ बंद कए रहल अछि:"
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|condstart|condrestart|status}"
+
+#~ msgid "Reloading $prog2: "
+#~ msgstr "$prog2 केँ पुनःभारित कए रहल अछि:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|cyclelogs|online|offline|command}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|cyclelogs|online|offline|command}"
+
+#~ msgid "Starting ctdbd service: "
+#~ msgstr "ctdbd सेवा आरंभ कए रहल अछि: "
+
+#~ msgid "not reloading due to configuration syntax error"
+#~ msgstr "विन्यास वाक्य रचना त्रुटि क' वजह सँ पुनःभारित नहि कए पाबि रहल अछि"
+
+#~ msgid "Resuming logging: "
+#~ msgstr "लागिंग केँ फेर वापस कए रहल अछि. "
+
+#~ msgid "Failed to stop \"$s\". "
+#~ msgstr "\"$s\" रोकबामे विफल. "
+
+#~ msgid "Starting icecast streaming daemon: "
+#~ msgstr "icecast स्ट्रीमिंग डेमान आरंभ कए रहल अछि. "
+
+#~ msgid "Stopping GNU Krell Monitors server ($prog): "
+#~ msgstr "GNU Krell ($prog) मानिटर सर्वर रोक रहल अछि:"
+
+#~ msgid "Usage: $prog {start|stop|status|restart|try-restart}"
+#~ msgstr "प्रयोग: $prog {start|stop|status|restart|try-restart}"
+
+#~ msgid "Starting kernel logger: "
+#~ msgstr "कर्नेल लागर केँ आरंभ कए रहल अछि: "
+
+#~ msgid "Telling INIT to go to single user mode."
+#~ msgstr "INIT केँ एकल प्रयोक्ता प्रकार मे जाए क' लेल कह रहल अछि."
+
+#~ msgid "Starting $name: "
+#~ msgstr "$name आरंभ कए रहल अछि. "
+
+#~ msgid "Failed to sort dependency"
+#~ msgstr "निर्भरता छाँटबाक लेल विफल"
+
+#~ msgid "Usage $0 {start|stop|restart|condrestart|save|status}"
+#~ msgstr "प्रयोग $0 {start|stop|restart|condrestart|save|status}"
+
+#~ msgid "Starting PC/SC smart card daemon ($prog): "
+#~ msgstr "PC/SC स्मार्ट कार्ड डेमान ($prog) आरंभ कए रहल अछि. "
+
+#~ msgid ""
+#~ "Usage: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "प्रयोग: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#~ msgid "*** Warning -- the system did not shut down cleanly. "
+#~ msgstr "*** चेतावनी -- सिस्टम सफाई सँ बन्न नहि भेल. "
+
+#~ msgid "Stopping $prog for $file: "
+#~ msgstr "$prog केँ $file कए लेल  रोकि रहल अछि: "
+
+#~ msgid "Shutting down $NAME: "
+#~ msgstr "$NAME बन्न कए रहल अछि. "
+
+#~ msgid "Configuration file /etc/radvd.conf missing"
+#~ msgstr "विन्यास फाइल /etc/radvd.conf अनुपस्थित अछि"
+
+#~ msgid "Unmounting loopback filesystems (retry):"
+#~ msgstr "लूपबेक फाइल सिस्टम अनारोहित कए रहल अछि(पुनःप्रयास  करू ):"
+
+#~ msgid "CTDB is already running"
+#~ msgstr "CTDB पहले से चलि रहल अछि"
+
+#~ msgid "Error occured while calculating the IPv6to4 prefix"
+#~ msgstr "IPv6to4 उपसर्ग क' परिकलन करैत समय दोष उत्पन्न भेल"
+
+#~ msgid "$prog reload"
+#~ msgstr "$prog पुनःभारित  करू "
+
+#~ msgid "Stopping MogileFS tracker daemon: "
+#~ msgstr "MogileFS ट्रैकर डेमान केँ रोक रहल अछि:: "
+
+#~ msgid "Starting unbound: "
+#~ msgstr "unbound आरंभ कए रहल अछि: "
+
+#~ msgid "Starting NIS service: "
+#~ msgstr "NFS सेवा आरंभ कए रहल अछि:"
+
+#~ msgid "Failed to run \"$s\". ($ret)"
+#~ msgstr "\"$s\". ($ret) चलाबैमे विफल"
+
+#~ msgid "RSA key generation"
+#~ msgstr "RSA कुँजी जनन"
+
+#~ msgid "PORT environment is not set."
+#~ msgstr "पोर्ट वातावरण सेट नहि अछि."
+
+#~ msgid "Usage: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "प्रयोग: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Killing all running contexts"
+#~ msgstr "सारे कार्यशील संदर्भ किल कए रहल अछि"
+
+#~ msgid "Turning off quotas: "
+#~ msgstr "आरक्षण केँ बन्न कए रहल अछि: "
+
+#~ msgid "${IPTABLES}: Applying firewall rules: "
+#~ msgstr "${IPTABLES}: फायरवाल नियम केँ लागू कए रहल अछि. "
+
+#~ msgid "Mounting NFS filesystems: "
+#~ msgstr "NFS फाइल सिस्टम केँ आरोहित कए रहल अछि:"
+
+#~ msgid "Starting NetworkManager daemon: "
+#~ msgstr "NetworkManager डेमन आरंभ कए रहल अछि: "
+
+#~ msgid "Stopping Frozen Bubble server(s): "
+#~ msgstr "फ्रोजेन बबल सर्वर रोक रहल अछि. "
+
+#~ msgid ""
+#~ "Can not find util-vserver installation (the file '$UTIL_VSERVER_VARS' "
+#~ "would be expected); aborting..."
+#~ msgstr ""
+#~ "util-vserver संस्थापन नहि पाबि सकैत अछि (the file '$UTIL_VSERVER_VARS' would "
+#~ "be expected); बिफल कए रहल अछि..."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+#~ "genconfig}"
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG"
+#~ msgstr "$ARPTABLES_CONFIG मे  मोजुदा  नियम केँ सहेज रहल अछि"
+
+#~ msgid "$named reload"
+#~ msgstr "$named रिलोड"
+
+#~ msgid "move passphrase file"
+#~ msgstr "पासफ्रेज फाइल घसकाउ"
+
+#~ msgid "Entering non-interactive startup"
+#~ msgstr "गैर-अंतःक्रियात्मक प्रारंभण मे प्रवेश कए रहल अछि"
+
+#~ msgid "Error: no valid $cfg found."
+#~ msgstr "त्रुटि: कोनो वैध $cfg नहि भेटल."
+
+#~ msgid "*** Warning -- SELinux is active"
+#~ msgstr "*** चेतावनी -- SELinux सक्रिय अछि"
+
+#~ msgid "Reloading xenconsoled daemon: "
+#~ msgstr "xenconsoled डेमान फेर लोड कए रहल अछि. "
+
+#~ msgid "Starting BitTorrent tracker: "
+#~ msgstr "BitTorrent ट्रैकर आरंभ कए रहल अछि. "
+
+#~ msgid "ERROR: [ipv6_log] Cannot log to channel '$channel'"
+#~ msgstr "दोष: [ipv6_log] '$channel' चेनल मे प्रवेश नहि कए सकैत"
+
+#~ msgid "Stopping $master_prog: "
+#~ msgstr "$master_prog केँ रोक रहल अछि: "
+
+#~ msgid "Stopping abrt daemon: "
+#~ msgstr "abrt डेमन रोकि रहल अछि: "
+
+#~ msgid "Reopening $prog log file: "
+#~ msgstr "$prog लाग फाइल केँ पुनः खोलि रहल अछि:"
+
+#~ msgid ""
+#~ "Usage: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "प्रयोग: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#~ msgid "Reloading atop daemon configuration: "
+#~ msgstr "atop डेमन विन्यास क' पुनःभरण भए रहल अछि: "
+
+#~ msgid "Stopping CallWeaver: "
+#~ msgstr "CallWeaver रोक रहल अछि:"
+
+#~ msgid "Reloading smb.conf file: "
+#~ msgstr "smb.conf फाइल केँ पुनःभारित कए रहल अछि:"
+
+#~ msgid "Stopping capi4linux:"
+#~ msgstr "capi4linux रोक रहल अछि:"
+
+#~ msgid "Shutting down upsdrvctl: "
+#~ msgstr "upsdrvctl केँ बन्न कए रहल अछि. "
+
+#~ msgid "$message"
+#~ msgstr "$message"
+
+#~ msgid "Stopping INNFeed service: "
+#~ msgstr "INNFeed सेवा रुक रहल अछि:"
+
+#~ msgid "Process accounting is enabled."
+#~ msgstr "लेखांकन प्रक्रिया समर्थ अछि."
+
+#~ msgid "Stopping ${NAME} service: "
+#~ msgstr "${NAME} सेवा केँ रोक रहल अछि:"
+
+#~ msgid "Stopping xenner daemons"
+#~ msgstr "xenner डेमन केँ रोक रहल अछि"
+
+#~ msgid "Moving"
+#~ msgstr "खिसका रहा है"
+
+#~ msgid "Starting xenconsoled daemon: "
+#~ msgstr "xenconsoled डेमन केँ आरंभ कए रहल अछि. "
+
+#~ msgid "RSA1 key generation"
+#~ msgstr "RSA1 कुँजी जनन"
+
+#~ msgid "${IPTABLES}: ${_IPV} is disabled."
+#~ msgstr "${IPTABLES}: ${_IPV} निष्क्रिय अछि."
+
+#~ msgid "failed to clean cache $s.ko"
+#~ msgstr "कैश $s.ko साफ करबामे विफल"
+
+#~ msgid "$0: Link is down"
+#~ msgstr "$0: लिंक चालू नहि अछि"
+
+#~ msgid "Process accounting is disabled."
+#~ msgstr "लेखांकन प्रक्रिया निष्क्रिय अछि."
+
+#~ msgid "Starting ejabberd: "
+#~ msgstr "ejabberd आरंभ कए रहल अछि. "
+
+#~ msgid "Reloading configuration: "
+#~ msgstr "विन्यास केँ पुनःभारित कए रहल अछि:"
+
+#~ msgid "found CRASH file, srv not started"
+#~ msgstr "CRASH फाइल पाया, srv आरंभ नहि"
+
+#~ msgid "Configured CIFS mountpoints: "
+#~ msgstr "NFS आरोह बिंदु विन्यस्त अछि. "
+
+#~ msgid "Please run makehistory and/or makedbz before starting innd."
+#~ msgstr "कृपया innd प्रारंभ करब सँ पूर्व makehistory आओर/या makedbz चलाउ."
+
+#~ msgid "Enabling local filesystem quotas: "
+#~ msgstr "स्थानीय फाइल सिस्टम कोटाओं केँ समर्थ कए रहल अछि:"
+
+#~ msgid "Active NCP mountpoints: "
+#~ msgstr "सक्रिय NCP आरोह बिंदु: "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstop|condrestart|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|condstop|condrestart|status}"
+
+#~ msgid "Shutting down exim: "
+#~ msgstr "exim बन्न कए रहल अछि. "
+
+#~ msgid "$0: error: program not installed"
+#~ msgstr "$0: error: program not installed"
+
+#~ msgid "${IPTABLES}: Unloading modules: "
+#~ msgstr "${IPTABLES}: माड्यूल अनलोड कए रहल अछि. "
+
+#~ msgid "Stopping pdns-recursor: "
+#~ msgstr "pdns-recursor रोक रहल अछि. "
+
+#~ msgid "domain not found"
+#~ msgstr "डोमेन नहि भेटल"
+
+#~ msgid "$0: reload not supported"
+#~ msgstr "$0: रिलोड समर्थित नहि"
+
+#~ msgid "Stopping named: "
+#~ msgstr "named रोक रहल अछि. "
+
+#~ msgid "Stopping $prog"
+#~ msgstr "$prog रोक रहल अछि:"
+
+#~ msgid "Starting $prog for $ez_name: "
+#~ msgstr "$prog $ez_name  क'लेल  आरंभ कए रहल अछि. "
+
+#~ msgid "yY"
+#~ msgstr "yY"
+
+#~ msgid "Restarting puppet: "
+#~ msgstr "puppet पुनःआरंभ कए रहल अछि:"
+
+#~ msgid "Unregistering binary handler for qemu applications"
+#~ msgstr "केमू अनुप्रयोग  क'लेल  द्विपदीय नियंत्रक गैर पंजीकृत कए रहल अछि"
+
+#~ msgid "Shutting down NFS quotas: "
+#~ msgstr "NFS कोटाओं केँ बन्न कए रहल अछि:"
+
+#~ msgid "$prog: already running"
+#~ msgstr "$prog: पहिने सँ चलि रहल अछि"
+
+#~ msgid "Reloading ${prog} config file: "
+#~ msgstr "${prog} कॉन्फिग फाइल फेर लोड कए रहल अछि: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload}"
+
+#~ msgid "Stopping smokeping: "
+#~ msgstr "smokeping रोकि रहल अछि:"
+
+#~ msgid "vncserver startup"
+#~ msgstr "vncserver केँ प्रारंभ  करू "
+
+#~ msgid "Generating unbound control key and certificate: "
+#~ msgstr "नहि बंधा नियंत्रण कुंजी आओर प्रमाणपत्र जनन कए रहल अछि: "
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status"
+#~ msgstr "प्रयोग: $prog {start|stop|restart|condrestart|reload|status"
+
+#~ msgid "Stopping INND service (the hard way): "
+#~ msgstr "INND सेवा केँ रोक रहल अछि (कठिन तरीका): "
+
+#~ msgid "$base dead but subsys locked"
+#~ msgstr "$base मृत  मुदा  subsys तालाकित"
+
+#~ msgid "Shutting down argus: "
+#~ msgstr "argus बन्न कए रहल अछि. "
+
+#~ msgid "Stopping CGroup Rules Engine Daemon..."
+#~ msgstr "CGroup रूल इंजन डेमन केँ रोकि रहल अछि..."
+
+#~ msgid "Stopping HAL daemon: "
+#~ msgstr "HAL डेमन केँ रोक रहल अछि: "
+
+#~ msgid "Starting asterisk: "
+#~ msgstr "asterisk आरंभ कए रहल अछि. "
+
+#~ msgid "Starting arptables_jf"
+#~ msgstr "arptables_jf आरंभ कए रहल अछि"
+
+#~ msgid "Starting RPC gssd: "
+#~ msgstr "RPC gssd केँ आरंभ कए रहल अछि. "
+
+#~ msgid "reload"
+#~ msgstr "पुनःभारित  करू "
+
+#~ msgid "Starting Mldonkey (mlnet): "
+#~ msgstr "Mldonkey (mlnet) आरंभ कए रहल अछि: "
+
+#~ msgid "Setting up Logical Volume Management:"
+#~ msgstr "तार्किक आयतन प्रबंधन केँ जमा रहल अछि:"
+
+#~ msgid "Starting ladvd: "
+#~ msgstr "ladvd आरंभ कए रहल अछिः"
+
+#~ msgid "Starting openvpn: "
+#~ msgstr "openvpn आरंभ कए रहल अछि. "
+
+#~ msgid "Starting RPC idmapd: "
+#~ msgstr "RPC idmapd शुरू कए रहल अछि. "
+
+#~ msgid "Binary handler for Windows applications already registered"
+#~ msgstr "Windows अनुप्रयोग  क'लेल  द्विपदीय नियंत्रक पहिने सँ पंजीकृत अछि"
+
+#~ msgid "$s$pid is running..."
+#~ msgstr "$s$pid चलि रहल अछि..."
+
+#~ msgid "Fixing /proc entries visibility"
+#~ msgstr "/proc प्रविष्टि दृश्यता फिक्स कए रहल अछि"
+
+#~ msgid "program is not running"
+#~ msgstr "प्रोग्राम नहि चलि रहल अछि"
+
+#~ msgid "Stopping INN actived service: "
+#~ msgstr "INN सक्रिय सेवा केँ रोक रहल अछि:"
+
+#~ msgid "Stopping all ${MODULE_NAME} drivers: "
+#~ msgstr "${MODULE_NAME} चालक रोक रहल अछि. "
+
+#~ msgid "Usage: $0 {start|stop|force-reload|reload|try-restart|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#~ msgid "$0: /etc/sysconfig/ktune does not exist."
+#~ msgstr "$0: /etc/sysconfig/ktune मोजुद नहि अछि."
+
+#~ msgid "Shutting down kernel logger: "
+#~ msgstr "कर्नेल लागर केँ बन्न कए रहल अछि:"
+
+#~ msgid "Starting Qpid AMQP daemon: "
+#~ msgstr "Qpid AMQP डेमन केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting UPS driver controller: "
+#~ msgstr "UPS ड्राइवर नियंत्रक आरंभ कए रहल अछि. "
+
+#~ msgid "Shutting down BitTorrent seed client: "
+#~ msgstr "BitTorrent सीड क्लाइंट बन्न कए रहल अछि. "
+
+#~ msgid "Reloading xend daemon: "
+#~ msgstr "xend डेमान फेर लोड कए रहल अछि. "
+
+#~ msgid "Halting system..."
+#~ msgstr "सिस्टम केँ बन्न कए रहल अछि..."
+
+#~ msgid "Reloading Avahi daemon... "
+#~ msgstr "Avahi डेमान फेर लोड कए रहल अछि... "
+
+#~ msgid "${IPTABLES}: /sbin/$IPTABLES does not exist."
+#~ msgstr "${IPTABLES}: /sbin/$IPTABLES  मोजुद  नहि अछि."
+
+#~ msgid "Starting infrared remote control daemon ($prog): "
+#~ msgstr "इंफ्रारेड रिमोट कंट्रोल डेमान आरंभ कए रहल अछि ($prog): "
+
+#~ msgid "$prog status is unknown"
+#~ msgstr "$prog स्थिति अज्ञात अछि"
+
+#~ msgid "Stopping YP map server: "
+#~ msgstr "YP मेप सर्वर केँ रोक रहल अछि:"
+
+#~ msgid "${IP6TABLES}: Firewall is not configured. "
+#~ msgstr "${IP6TABLES}: फायरवाल विन्यस्त नहि अछि."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+
+#~ msgid "Monthly smolt check-in is disabled."
+#~ msgstr "मासिक स्माल्ट चेक इन निष्क्रिय अछि."
+
+#~ msgid "$prog check"
+#~ msgstr "$prog जांच"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Usage: status {program}"
+#~ msgstr "प्रयोग: स्थिति {program}"
+
+#~ msgid "Binding NIS service: "
+#~ msgstr "NIS सेवा केँ बांध रहल अछि. "
+
+#~ msgid "Tap support not available: tunctl not found"
+#~ msgstr "टैप समर्तन उपलब्ध भेटल: tunctl नहि भेटल"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|propagate}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|restart|propagate}"
+
+#~ msgid "Shutting down RPC svcgssd: "
+#~ msgstr "RPC svcgssd केँ बन्न कए रहल अछि. "
+
+#~ msgid "Reloading NIS service: "
+#~ msgstr "NIS सेवा पुनःभारित भए रहल अछि:"
+
+#~ msgid "Starting $SERVICE daemon: "
+#~ msgstr "$SERVICE डीमन केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Stoping xen blktapctrl daemon: "
+#~ msgstr "blktapctrl डेमन केँ रोक रहल अछि: "
+
+#~ msgid "Stopping rusers services: "
+#~ msgstr "rusers सेवा केँ रोक रहल अछि:"
+
+#~ msgid "Disabling Moodle cron job: "
+#~ msgstr "मूडल क्रान सेवा निष्क्रिय कए रहल अछि. "
+
+#~ msgid "Starting dund: "
+#~ msgstr "dund आरंभ कए रहल अछि: "
+
+#~ msgid "Reloading config for $prog: "
+#~ msgstr "$prog कए लेल  कॉन्फिग पुनःभारित कए रहल अछिः"
+
+#~ msgid "Starting system message bus: "
+#~ msgstr "सिस्टम संदेश बस आरंभ भए रहल अछि:"
+
+#~ msgid "Shutting down ladvd: "
+#~ msgstr "ladvd बंद कए रहल अछिः"
+
+#~ msgid "Usage: drbdlinksclean {start|stop|status|restart|force-reload}"
+#~ msgstr "प्रयोग: drbdlinksclean {start|stop|status|restart|force-reload}"
+
+#~ msgid "Starting distributed compiler daemon: "
+#~ msgstr "वितरित compiler डेमन केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting OpenSCADA daemon: "
+#~ msgstr "OpenSCADA डेमान आरंभ कए रहल अछि: "
+
+#~ msgid "Stopping $PROG:"
+#~ msgstr "$PROG रोकि रहल अछि:"
+
+#~ msgid "Stopping supervisord: "
+#~ msgstr "supervisord रोक रहल अछि. "
+
+#~ msgid "Starting vbi proxy daemon: "
+#~ msgstr "vbi प्राक्सी डेमन शुरू कए रहल अछि. "
+
+#~ msgid "Enabling nightly yum update: "
+#~ msgstr "नाइटली yum अद्यतन सक्रिय कए रहल अछि. "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#~ msgid "Reloading postfix: "
+#~ msgstr "postfix केँ फेर भारित कए रहल अछि. "
+
+#~ msgid "Reloading maps"
+#~ msgstr "मानचित्र केँ पुनःभारित कए रहल अछि"
+
+#~ msgid "Initializing OpenCT smart card terminals: "
+#~ msgstr "OpenCT स्मार्ट कार्ड टर्मिनल आरंभीकृत कए रहल अछि. "
+
+#~ msgid "Unconfigured: $prog, see /etc/sysconfig/hddtemp: "
+#~ msgstr "अविन्यस्त: $prog, see /etc/sysconfig/hddtemp: "
+
+#~ msgid "${IPTABLES}: Saving firewall rules to $IPTABLES_DATA: "
+#~ msgstr "${IPTABLES}: $IPTABLES_DATA मे फायरवाल नियम केँ सुरक्षित कए रहल अछि:"
+
+#~ msgid "Setting network parameters... "
+#~ msgstr "संजाल पैरामीटर केँ जमा रहल अछि... "
+
+#~ msgid "Stopping distributed compiler daemon: "
+#~ msgstr "वितरित compiler डेमान केँ रोक रहल अछि: "
+
+#~ msgid "Starting Condor daemons: "
+#~ msgstr "Condor डेमन केँ आरंभ कए रहल अछि. "
+
+#~ msgid "Path to vshelper has been set"
+#~ msgstr "vshelper मे पाथ सेट कएल गेल अछि"
+
+#~ msgid "Stopping Wesnoth game server: "
+#~ msgstr "Wesnoth गेम सर्वर रोक रहल अछि. "
+
+#~ msgid "Stopping xenstored daemon: "
+#~ msgstr "xenstored डेमन केँ रोक रहल अछि: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Checking SMART devices now: "
+#~ msgstr "SMART युक्तियों केँ जाँच रहल अछि: "
+
+#~ msgid "Importing packets to monotone database: "
+#~ msgstr "मोनोटोन डेटाबेसमे पैकेट आयात कए रहल अछि: "
+
+#~ msgid "$prog is running..."
+#~ msgstr "$prog चलि रहल अछि..."
+
+#~ msgid "Mldonkey (mlnet) is stopped"
+#~ msgstr "Mldonkey (mlnet) रूकल अछि"
+
+#~ msgid "Starting $PROG: "
+#~ msgstr "$PROG आरंभ कए रहल अछि. "
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status|help}"
+#~ msgstr "प्रयोग: $prog {start|stop|restart|condrestart|status|help}"
+
+#~ msgid "Shutting down icecast streaming daemon: "
+#~ msgstr "icecast स्ट्रीमिंग डेमान बन्न कए रहल अछि. "
+
+#~ msgid "(Repair filesystem)"
+#~ msgstr "(फाइल सिस्टमक मरम्मत  करू )"
+
+#~ msgid "not reloading $httpd due to configuration syntax error"
+#~ msgstr "विन्यास वाक्य रचना त्रुटि क' कारण $httpd केँ पुनर्भारण नहि कए रहल अछि"
+
+#~ msgid "Stopping $SERVICE:"
+#~ msgstr "$SERVICE रोक रहल अछि. "
+
+#~ msgid "Starting infrared remote control mouse daemon ($prog2): "
+#~ msgstr "इंफ्रारेड कंट्रोल मूस डेमान आरंभ कए रहल अछि ($prog2): "
+
+#~ msgid "Setting NIS domain name $NISDOMAIN: "
+#~ msgstr "NIS क्षेत्र नाम $NISDOMAIN केँ जमा रहल अछि: "
+
+#~ msgid "Starting Frozen Bubble server(s): "
+#~ msgstr "फ्रोजेन बबल सर्वर केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting auto nice daemon:"
+#~ msgstr "auto nice केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Checking database format in"
+#~ msgstr "डेटाबेस प्रारूप जाँच रहल अछि"
+
+#~ msgid "Shutting down up-imapproxy daemon: "
+#~ msgstr "up-imapproxy बन्न कए रहल अछि. "
+
+#~ msgid "Staring new master $prog: "
+#~ msgstr "नया मास्टर $prog आरंभ कए रहल अछि: "
+
+#~ msgid "VNC server"
+#~ msgstr "VNC सर्वर"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status}"
+
+#~ msgid "Options:"
+#~ msgstr "विकल्प:"
+
+#~ msgid "packet import"
+#~ msgstr "पैकेट आयात"
+
+#~ msgid "$file: "
+#~ msgstr "$file: "
+
+#~ msgid "To lose old key remove file"
+#~ msgstr "पुरान कुंजी हटाएल जएनाइ फाइल हारबाक लेल"
+
+#~ msgid "program is dead and /var/run pid file exists"
+#~ msgstr "प्रोग्राम मृत  मुदा  /var/run pid फाइल  मोजुद  अछि"
+
+#~ msgid "Not stopping $prog: iscsi sessions still active"
+#~ msgstr "$prog केँ नहि रोकि रहल अछि: iscsi सत्र अखनो सक्रिय अछि"
+
+#~ msgid "Starting BitTorrent seed client: "
+#~ msgstr "BitTorrent सीड क्लाइंट आरंभ कए रहल अछि. "
+
+#~ msgid "Shutting down pand: "
+#~ msgstr "pand बंद कए रहल अछि: "
+
+#~ msgid "Usage: $prog {start|stop|status|restart|condrestart}"
+#~ msgstr "प्रयोग: $prog {start|stop|status|restart|condrestart}"
+
+#~ msgid "Usage: $0 {start|stop|restart|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|status}"
+
+#~ msgid "Stopping INND service (gently): "
+#~ msgstr "INND सेवा केँ रोक रहल अछि (आराम से):"
+
+#~ msgid "Stopping RPC idmapd: "
+#~ msgstr "RPC idmapd रोक रहल अछि. "
+
+#~ msgid "$file is not readable by \"$user\""
+#~ msgstr "$file \"$user\" क' द्वारा पठनीय नहि अछि."
+
+#~ msgid "Stopping distributed compiler scheduler: "
+#~ msgstr "वितरित कंपाइलर अनुसूचक रोक रहल अछि. "
+
+#~ msgid "Stopping $prog2: "
+#~ msgstr "$prog2 केँ रोक रहल अछि: "
+
+#~ msgid "An old version of the database format was found."
+#~ msgstr "डाटाबेस प्रारूप क' पुराना संस्करण भेटल."
+
+#~ msgid "Something bad happened, manual intervention required, maybe restart?"
+#~ msgstr "कुछ गलत हो गया, दस्ती रोक जरूरी, संभव है फिर आरंभ करने की जरूरत है?"
+
+#~ msgid "Usage: $prog {start|stop|restart|reload|condrestart|status|help}"
+#~ msgstr "प्रयोग: $prog {start|stop|restart|reload|condrestart|status|help}"
+
+#~ msgid "Stopping Qpid AMQP daemon: "
+#~ msgstr "Qpid AMQP डेमन केँ रोक रहल अछि. "
+
+#~ msgid "Manifest does not exist: $PUPPETMASTER_MANIFEST"
+#~ msgstr "दृश्य  मोजुद  नहि अछि. $PUPPETMASTER_MANIFEST"
+
+#~ msgid "${IP6TABLES}: /sbin/$IP6TABLES does not exist."
+#~ msgstr "${IP6TABLES}: /sbin/$IP6TABLES  मोजुद  नहि अछि."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+
+#~ msgid "Starting DAAP server: "
+#~ msgstr "DAAP सर्वर केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting MogileFS tracker daemon: "
+#~ msgstr "MogileFS tracker डेमन केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Nightly apt update is disabled."
+#~ msgstr "नाइटली एप्ट अद्यतन निष्क्रिय कए देल गेल."
+
+#~ msgid "Stopping OpenCT smart card terminals: "
+#~ msgstr "OpenCT स्मार्ट कार्ड टर्मिनल रोक रहल अछि. "
+
+#~ msgid "Applying arptables firewall rules: "
+#~ msgstr "arptables फायरवाल नियम केँ लागू कए रहल अछि: "
+
+#~ msgid "certs generation"
+#~ msgstr "प्रमाणपत्र जनन"
+
+#~ msgid "Usage: $0 {start|stop|restart}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart}"
+
+#~ msgid "Starting rwho services: "
+#~ msgstr "rwho सेवा केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Stopping acpi daemon: "
+#~ msgstr "acpi डेमन केँ रोक रहल अछि: "
+
+#~ msgid "Initializing database: "
+#~ msgstr "डाटाबेस क' प्रारंभिकीकरण कए रहल अछि"
+
+#~ msgid "Unmounting loopback filesystems: "
+#~ msgstr "लूपबेक फाइल सिस्टम केँ अनारोहित कए रहल अछि:"
+
+#~ msgid "          stop-all|status-all}"
+#~ msgstr "          सभक रोकू|सभक स्थिति}"
+
+#~ msgid "${IP6TABLES}: Flushing firewall rules: "
+#~ msgstr "${IP6TABLES}: फायरवाल नियम क' बहाव भए रहल अछि:"
+
+#~ msgid "Loading default device map"
+#~ msgstr "पूर्वनिर्धारित युक्ति मैप लोड कए रहल अछि"
+
+#~ msgid "$prog dead but pid file exists"
+#~ msgstr "$prog मृत  मुदा  pid फाइल  मोजुद  अछि"
+
+#~ msgid "Shutting down dund: "
+#~ msgstr "dund केँ बन्न कए रहल अछि: "
+
+#~ msgid "Restarting Shorewall: "
+#~ msgstr "Shorewall फेर आरंभ कए रहल अछि: "
+
+#~ msgid "Shutting down console mouse services: "
+#~ msgstr "कन्सोल मूस सेवा केँ बन्न कए रहल अछि:"
+
+#~ msgid "Path to vshelper has not been set"
+#~ msgstr "vshelper मे पाथ नहि सेट कएल गेल अछि"
+
+#~ msgid "Reloading ser2net: "
+#~ msgstr "ser2net रिलोड कए रहल अछि. "
+
+#~ msgid "Shutting down CIM server: "
+#~ msgstr "CIM सर्वर बन्न कए रहल अछि. "
+
+#~ msgid "Starting GNU Krell Monitors server ($prog): "
+#~ msgstr "GNU Krell मानिटर सर्वर ($prog) आरंभ कए रहल अछि. "
+
+#~ msgid "Stopping NFS statd: "
+#~ msgstr "NFS statd केँ रोक रहल अछि:"
+
+#~ msgid "Generating RSA key for server $MONOTONE_KEYID"
+#~ msgstr "RSA कुंजी को सर्वर $MONOTONE_KEYID कए लेल जनन कए रहल अछि"
+
+#~ msgid "Starting ${desc} (${prog}): "
+#~ msgstr "${desc} (${prog}) आरंभ कए रहल अछि. "
+
+#~ msgid "CIM server ($pid) is running"
+#~ msgstr "CIM सर्वर ($pid) चलि रहल अछि"
+
+#~ msgid "Starting $prog"
+#~ msgstr "$prog आरंभ कए रहल अछि"
+
+#~ msgid "Starting pdns-recursor: "
+#~ msgstr "pdns-recursor केँ आरंभ कए रहल अछि. "
+
+#~ msgid "Stopping denyhosts: "
+#~ msgstr "denyhosts रोक रहल अछि. "
+
+#~ msgid "Unregistering binary handler for Windows applications: "
+#~ msgstr "Windows अनुप्रयोग  क'लेल  द्विपदीय नियंत्रक गैर पंजीकृत कए रहल अछि. "
+
+#~ msgid "Shutting down telescope daemon: "
+#~ msgstr "telescope डेमन केँ बंद कए रहल अछि:"
+
+#~ msgid "${IP6TABLES}: Unloading modules: "
+#~ msgstr "${IP6TABLES}: माड्यूलकेँ अभारित कए रहल अछि:"
+
+#~ msgid "Monthly smolt check-in is enabled."
+#~ msgstr "मासिक स्माल्ट चेकइन सक्रिय अछि."
+
+#~ msgid "Starting $prog for $file: "
+#~ msgstr "$prog $file कए लेल  आरंभ कए रहल अछि: "
+
+#~ msgid "Starting sge_shadowd: "
+#~ msgstr "sge_shadowd आरंभ कए रहल अछि. "
+
+#~ msgid "Initializing database"
+#~ msgstr "डेटाबेसक प्रारंभिकीकरण कए रहल अछि"
+
+#~ msgid "Shutting down $KIND services: "
+#~ msgstr "$KIND सेवा केँ बन्न कए रहल अछि:"
+
+#~ msgid "domain is '$NISDOMAIN' "
+#~ msgstr "'$NISDOMAIN' डोमेन अछि"
+
+#~ msgid "Kernel is not compiled with IPv6 support"
+#~ msgstr "कर्नल IPv6 समर्थन क' सँग compiled नहि अछि"
+
+#~ msgid "Stopping $PROG: "
+#~ msgstr "$PROG केँ रोक रहल अछि. "
+
+#~ msgid "Resetting built-in chains to the default ACCEPT policy:"
+#~ msgstr "पूर्वनिर्धारित ACCEPT नीति मे अंतर्निहित श्रृखंला केँ पुनर्व्यवस्थित कए रहल अछि:"
+
+#~ msgid "$s is stopped"
+#~ msgstr "$s रोकल गेल अछि"
+
+#~ msgid "Stopping Video Disk Recorder ($prog): "
+#~ msgstr "वीडियो डिस्क रिकार्डर ($prog) केँ रोक रहल अछि. "
+
+#~ msgid "Start service $1 (Y)es/(N)o/(C)ontinue? [Y] "
+#~ msgstr "$1 सेवा प्रारंभ करू (Y)हँ/(N)नहि/(C)सतत?[Y] "
+
+#~ msgid "Stopping RPC gssd: "
+#~ msgstr "RPC gssd रोक रहल अछि. "
+
+#~ msgid "$prog is already running."
+#~ msgstr "$prog पहिने सँ चलि रहल अछि."
+
+#~ msgid "Shutting down BitTorrent tracker: "
+#~ msgstr "BitTorrent ट्रैकर बन्न कए रहल अछि. "
+
+#~ msgid "Checking filesystems"
+#~ msgstr "फाइल सिस्टमक जाँच कए रहल अछि"
+
+#~ msgid "Shutting down NFS mountd: "
+#~ msgstr "NFS आरोहित बन्न कए रहल अछि:"
+
+#~ msgid "Starting $prog daemon: "
+#~ msgstr "$prog डेमन शुरू कए रहल अछि. "
+
+#~ msgid "Starting up $prog: "
+#~ msgstr "$prog आरंभ कए रहल अछि:"
+
+#~ msgid "*** Dropping you to a shell; the system will reboot"
+#~ msgstr "*** अहाँकेँ एकटा शैलमे भेज रहल अछि, सिस्टम रिबूट भए जएताह"
+
+#~ msgid "Starting supervisord: "
+#~ msgstr "supervisord आरंभ कए रहल अछि. "
+
+#~ msgid "*** Dropping you to a shell; the system will continue"
+#~ msgstr "*** अहाँकेँ एकटा शैल मे छोड़ रहल अछि. सिस्टम जारी रहेगा"
+
+#~ msgid "$prog is stopped"
+#~ msgstr "$prog रूकल अछि"
+
+#~ msgid "Starting ${NAME} service: "
+#~ msgstr "${NAME} सेवाएँ आरंभ भए रहल अछि: "
+
+#~ msgid "$dst: no value for size option, skipping"
+#~ msgstr "$dst: आकार विकल्प  क'लेल  कोनो मान नहि, छोड़ रहल अछि"
+
+#~ msgid "Setting NIS domain: "
+#~ msgstr "NIS डोमेन सेट कए रहल अछि. "
+
+#~ msgid "Use \"scandvb -o vdr\" from the dvb-apps package to create one."
+#~ msgstr "\"scandvb -o vdr\" क' प्रयोग करू dvb-apps संकुल सँ एकटा बनाबै  क'लेल ."
+
+#~ msgid "Reverting to ${KERNEL_ELEVATOR} elevator: "
+#~ msgstr "${KERNEL_ELEVATOR} एलीभेटर मे वापिस लाबि रहल अछि: "
+
+#~ msgid "Active CIFS mountpoints: "
+#~ msgstr "सक्रिय CIFS आरोह बिंदु: "
+
+#~ msgid "DSS key generation"
+#~ msgstr "DSS कुँजी जनन"
+
+#~ msgid "$prog shutdown"
+#~ msgstr "$prog बन्न  करू "
+
+#~ msgid "Generating SSH2 RSA host key: "
+#~ msgstr "SSH2 RSA मेजखनान कुँजी जनन कए रहल अछि:"
+
+#~ msgid "Stopping ipmi_watchdog driver: "
+#~ msgstr "ipmi_watchdog चालक रोक रहल अछि. "
+
+#~ msgid "Starting INND system: "
+#~ msgstr "INND सिस्टम केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Table: $table"
+#~ msgstr "तालिकाः $table"
+
+#~ msgid "Creating required directories"
+#~ msgstr "जरूरी निर्देशिका बनाए रहल अछि"
+
+#~ msgid "Reloading Avahi DNS daemon... "
+#~ msgstr "Avahi DNS डेमान फेर लोड कए रहल अछि... "
+
+#~ msgid "Nightly apt update is enabled."
+#~ msgstr "नाइटली एप्ट अद्यतन सक्रिय अछि."
+
+#~ msgid "Stopping GNU cfengine environmental history daemon: "
+#~ msgstr "GNU cfengine वातावरण इतिहास डेमान रोक रहल अछि. "
+
+#~ msgid "Starting postfix: "
+#~ msgstr "postfix शुरू कए रहल अछि. "
+
+#~ msgid "Starting abrt daemon: "
+#~ msgstr "abrt डेमान आरंभ कए रहल अछि: "
+
+#~ msgid "restart"
+#~ msgstr "पुनःप्रारंभ  करू "
+
+#~ msgid "Starting exim: "
+#~ msgstr "exim आरंभ कए रहल अछि. "
+
+#~ msgid "Stopping xend daemon: "
+#~ msgstr "xend डेमन केँ रोक रहल अछि. "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+
+#~ msgid "$s is dead, but another script is running."
+#~ msgstr "$s मृत अछि, मुदा दोसरा स्क्रिप्ट चलि रहल अछि."
+
+#~ msgid "Shutting down NFS services: "
+#~ msgstr "NFS सेवा केँ बन्न कए रहल अछि:"
+
+#~ msgid "Stopping monotone server: "
+#~ msgstr "monotone सर्वर रोकि रहल अछि: "
+
+#~ msgid "Configured NCP mountpoints: "
+#~ msgstr "NCP आरोह बिंदु क' विन्यास भेल:"
+
+#~ msgid "Generate configuration puppetmaster: "
+#~ msgstr "puppetmaster विन्यास बनाउ: "
+
+#~ msgid "$dst: no value for cipher option, skipping"
+#~ msgstr "$dst: रिक्त मान  क'लेल  कोनो मान नहि, छोड़ रहल अछि"
+
+#~ msgid "Shutting down Avahi daemon: "
+#~ msgstr "अवाही डेमन केँ बन्न कए रहल अछि:"
+
+#~ msgid "Starting $KIND services: "
+#~ msgstr "$KIND सेवा केँ आरंभ कए रहल अछि:"
+
+#~ msgid "$prog is running"
+#~ msgstr "\t$prog चलि रहल अछि"
+
+#~ msgid "$dst: no value for hash option, skipping"
+#~ msgstr "$dst: हैश विकल्प  क'लेल  कोनो मान नहि अछि. छोड़ रहल अछि"
+
+#~ msgid "Reloading $SERVICE configuration: "
+#~ msgstr "$SERVICE विन्यास केँ फेर लोड कए रहल अछि:"
+
+#~ msgid "${IPTABLES}: Flushing firewall rules: "
+#~ msgstr "${IPTABLES}: फायरवाल नियम क' बहाव भए रहल अछि:"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|condrestart|reload}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|restart|condrestart|reload}"
+
+#~ msgid "*** $0 can not be called in this way"
+#~ msgstr "*** $0 केँ एहि रूपेँ नहि कहल जाए सकैत अछि"
+
+#~ msgid "Denyhosts already running."
+#~ msgstr "डिनाइहोस्ट पहिने सँ चलि रहल अछि."
+
+#~ msgid "Stoping Gadget daemon: "
+#~ msgstr "गैजट डेमन रोकि रहल अछि: "
+
+#~ msgid "Enabling Moodle cron job: "
+#~ msgstr "Moodle क्रान सक्रिय कए रहल अछि. "
+
+#~ msgid "Waiting for network..."
+#~ msgstr "संजाल क' लेल प्रतीक्षारत..."
+
+#~ msgid "$DAEMON is not set."
+#~ msgstr "$DAEMON सेट नहि अछि."
+
+#~ msgid "Starting pkcsslotd: "
+#~ msgstr "pkcsslotd आरंभ कए रहल अछि: "
+
+#~ msgid "Starting puppetmaster: "
+#~ msgstr "puppetmaster आरंभ कए रहल अछि. "
+
+#~ msgid "dead but pid file exists"
+#~ msgstr "मृत  मुदा  pid फाइल  मोजुद  अछि"
+
+#~ msgid "Reloading infrared remote control daemon ($prog): "
+#~ msgstr "इंफ्रारेड रिमोट कंट्रोल डेमान फेर लोड कए रहल अछि ($prog): "
+
+#~ msgid "Moving old server passphrase file to new location: "
+#~ msgstr "पुरान सर्वर पासफ्रेज फाइल केँ नवीन स्थानमे घसकाए रहल अछिे: "
+
+#~ msgid "Stopping fail2ban: "
+#~ msgstr "fail2ban केँ रोक रहल अछि. "
+
+#~ msgid "$dst: LUKS requires non-random key, skipping"
+#~ msgstr "$dst: LUKS  क'लेल  गैर यादृच्छिक कुँजी जरूरी अछि. छोड़ रहल अछि"
+
+#~ msgid "dead but subsys locked"
+#~ msgstr "मृत मुदा subsys तालित अछि"
+
+#~ msgid "$prog abort"
+#~ msgstr "$prog विफल"
+
+#~ msgid "On the next boot fsck will be forced."
+#~ msgstr "अगले बूट पर fsck पर दबाव डालल जाएत."
+
+#~ msgid "Disabling monthly Smolt update: "
+#~ msgstr "मासिक स्माल्ट अद्यतन निष्क्रिय कए रहल अछि. "
+
+#~ msgid "denyhosts cron service is disabled."
+#~ msgstr "डिनाईहोस्ट क्रान सेवा निष्क्रिय अछि."
+
+#~ msgid "$1 not available"
+#~ msgstr "$1 उपलब्ध नहि"
+
+#~ msgid "Shutting down sm-client: "
+#~ msgstr "sm-client बन्न कए रहल अछि. "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart} [<configfile.{yml|conf}>]"
+#~ msgstr ""
+#~ "प्रयोग: $prog {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart} [<configfile.{yml|conf}>]"
+
+#~ msgid "Stopping Gnokii SMS daemon ($prog): "
+#~ msgstr "Gnokii SMS डेमान ($prog) रोक रहल अछि. "
+
+#~ msgid "\t-r kernelrelease: specify kernel release version"
+#~ msgstr "\t-r kernelrelease: specify kernel release version"
+
+#~ msgid "status $rc of $prog"
+#~ msgstr "status $rc of $prog"
+
+#~ msgid "Registering binary handler for Windows applications: "
+#~ msgstr "Windows अनुप्रयोग  क'लेल  द्विपदीय नियंत्रक पंजीकृत कए रहल अछि. "
+
+#~ msgid "Starting pand: "
+#~ msgstr "pand केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting Gnokii SMS daemon ($prog): "
+#~ msgstr "Gnokii SMS डेमान ($prog) आरंभ कए रहल अछि. "
+
+#~ msgid "Starting Gadget daemon: "
+#~ msgstr "गैजेट डेमान आरंभ कए रहल अछि: "
+
+#~ msgid "*** Please see /usr/share/doc/clamav-server-*/README how"
+#~ msgstr "*** कृपया देखू /usr/share/doc/clamav-server-*/README how"
+
+#~ msgid "Stopping INND service (PID not found, the hard way): "
+#~ msgstr "INND सेवा केँ रोकि रहल अछि (PID नहि भेटल, कठिन तरीका): "
+
+#~ msgid "Active NFS mountpoints: "
+#~ msgstr "NFS आरोह बिंदु सक्रिय कए रहल अछि:"
+
+#~ msgid "Starting router discovery: "
+#~ msgstr "राउटर डिस्कवरी केँ शुरू कए रहल अछि. "
+
+#~ msgid "Mounting other filesystems: "
+#~ msgstr " आन  फाइल सिस्टम क' आरोह भए रहल अछि:"
+
+#~ msgid "qemu binary format handlers are registered."
+#~ msgstr "qemu द्विपदीय प्रारूप नियंत्रक पंजीकृत अछि."
+
+#~ msgid "common address redundancy protocol daemon"
+#~ msgstr "साझा पता रिडेंडसी प्रोटोकाल डेमान"
+
+#~ msgid "Reloading $desc ($prog): "
+#~ msgstr "$desc ($prog) फेर लोड कए रहल अछि. "
+
+#~ msgid "\t-c configfile\t: specify config file"
+#~ msgstr "\t-c configfile\t: specify config file"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|force-reload}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|restart|force-reload}"
+
+#~ msgid "irattach shutdown"
+#~ msgstr "irattach शटडाउन"
+
+#~ msgid "Stopping NFS locking: "
+#~ msgstr "NFS तालित केँ रोक रहल अछि:"
+
+#~ msgid "${IP6TABLES}: Firewall is not running."
+#~ msgstr "${IP6TABLES}: फायरवाल चलि रहल नहि अछि. "
+
+#~ msgid "Starting $prog: $conf, $INTERFACES, $DRIVERS"
+#~ msgstr "$prog: $conf, $INTERFACES, $DRIVERS केँ आरंभ कए रहल अछि"
+
+#~ msgid "Stopping hard disk temperature monitor daemon ($prog): "
+#~ msgstr "हार्ड डिस्क तापमान मानीटर डेमान ($prog) रोक रहल अछि. "
+
+#~ msgid "irattach startup"
+#~ msgstr "irattach प्रारंभन"
+
+#~ msgid "Starting ${prog}: "
+#~ msgstr "${prog} आरंभ कए रहल अछि. "
+
+#~ msgid "*** Run 'setenforce 1' to reenable."
+#~ msgstr "*** 'setenforce 1' फेर सक्रिय करबाक लेल चलाउ."
+
+#~ msgid "Stopping preload daemon: "
+#~ msgstr "preload डेमन रोक रहल अछि. "
+
+#~ msgid "Stopping PC/SC smart card daemon ($prog): "
+#~ msgstr "PC/SC स्मार्ट कार्ड डेमान ($prog) रोक रहल अछि. "
+
+#~ msgid "Starting ipmi_poweroff driver: "
+#~ msgstr "ipmi_poweroff चालक आरंभ कए रहल अछि. "
+
+#~ msgid "Shutting down $prog for $ez_name: "
+#~ msgstr "$prog केँ $ez_name  क'लेल  बन्न कए रहल अछि. "
+
+#~ msgid "Configuration file /etc/sysconfig/arptables missing"
+#~ msgstr "/etc/sysconfig/arptables फाइल गुम अछि"
+
+#~ msgid "Failed to make stat directory ($STAT_PATH)"
+#~ msgstr "स्टेट निर्देशिका ($STAT_PATH) बनाबैमे विफल"
+
+#~ msgid "Shuting down Bandwidthd network traffic monitor: "
+#~ msgstr "बैंडबिड्थ संजाल ट्रैफिक मॉनिटर बंद कए रहल अछि: "
+
+#~ msgid "Preparing $PROG config: "
+#~ msgstr "$PROG config तैआर कए रहल अछि: "
+
+#~ msgid "vncserver shutdown"
+#~ msgstr "vnc सर्वर बन्न"
+
+#~ msgid "Stopping xenconsoled daemon: "
+#~ msgstr "xenconsoled डेमन केँ रोक रहल अछि: "
+
+#~ msgid "Configured network block devices: "
+#~ msgstr "विन्यस्त सँजाल ब्लाक युक्ति: "
+
+#~ msgid ""
+#~ "Usage: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Starting GNU cfengine environmental history daemon: "
+#~ msgstr "GNU cfengine वातावरण इतिहास डेमान आरंभ कए रहल अछि. "
+
+#~ msgid "Starting denyhosts: "
+#~ msgstr "denyhosts आरंभ कए रहल अछि. "
+
+#~ msgid "cC"
+#~ msgstr "cC"
+
+#~ msgid "$prog compiled "
+#~ msgstr "$prog कंपाइल कएल अछि"
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status|force-reload}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|try-restart|status|force-reload}"
+
+#~ msgid "Unmounting pipe file systems (retry): "
+#~ msgstr "अनारोहित पाइप फाइल सिस्टम (पुनःप्रयास): "
+
+#~ msgid "Reloading cyrus.conf file: "
+#~ msgstr "cyrus.conf फाइल फेर लोड कए रहल अछि. "
+
+#~ msgid "Cleaning up systemtap scripts: "
+#~ msgstr "सिस्टमटैप स्क्रिप्ट साफ कए रहल अछि: "
+
+#~ msgid "Failed to make cache directory ($CACHE_PATH)"
+#~ msgstr "कैश निर्देशिका ($CACHE_PATH) बनाबैमें विफल"
+
+#~ msgid "Restarting $prog for $file: "
+#~ msgstr "$prog केँ $file कए लेल फेर आरंभ कए रहल अछि: "
+
+#~ msgid "$prog not running"
+#~ msgstr "$prog नहि चलि रहल अछि"
+
+#~ msgid "Clearing all current rules and user defined chains:"
+#~ msgstr "सभटा वर्तमान नियम आओर उपभोक्ता परिभाषित श्रृंखला केँ साफ कए रहल अछि:"
+
+#~ msgid "Stopping YP passwd service: "
+#~ msgstr "YP passwd सेवा केँ रोक रहल अछि:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+
+#~ msgid "Adding udev persistent rules"
+#~ msgstr "udev स्थिर नियम जोड़ रहल अछि"
+
+#~ msgid "database initialization"
+#~ msgstr "डेटाबेस आरंभीकरण"
+
+#~ msgid "CRITICAL "
+#~ msgstr "गंभीर "
+
+#~ msgid "Starting NFS quotas: "
+#~ msgstr "NFS कोटा केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Reloading ${NAME} service: "
+#~ msgstr "${NAME} सेवा केँ फेर लोड कए रहल अछि:"
+
+#~ msgid "*** An error occurred during the file system check."
+#~ msgstr "*** फाइल सिस्टम केँ जाँचैत समय एकटा दोष उत्पन्न भेल."
+
+#~ msgid "Unmounting NCP filesystems: "
+#~ msgstr "NCP फाइल सिस्टम अनारोहित भए रहल अछि:"
+
+#~ msgid "Changing target policies to DROP: "
+#~ msgstr "DROP मे लक्षित नीति केँ बदैल रहल अछि. "
+
+#~ msgid "Reloading ${prog_base}:"
+#~ msgstr "${prog_base} केँ पुनःभारित कए रहल अछि:"
+
+#~ msgid "Generating dropbear DSS host key: "
+#~ msgstr "dropbear DSS मेजखनान कुँजी केँ जनित कए रहल अछि:"
+
+#~ msgid "Re-reading $prog configuration: "
+#~ msgstr "$prog विन्यास फेर लोड कए रहल अछि. "
+
+#~ msgid "Dependency loop detected on $s"
+#~ msgstr "निर्भरता लूप $s पर जाँचल गेल"
+
+#~ msgid "%s is password protected"
+#~ msgstr "%s कूटशब्द संरक्षित है"
+
+#~ msgid "INSECURE OWNER FOR $key"
+#~ msgstr "$key  क'लेल  असुरक्षित स्वामी"
+
+#~ msgid "Current elevator settings:"
+#~ msgstr "मोजुदा एलीवेटर सेटिंग:"
+
+#~ msgid "Loading Firmware"
+#~ msgstr "फर्मवेयर भारित भए रहल अछि"
+
+#~ msgid "Starting liquidwar game server: "
+#~ msgstr "liquidwar गेम सर्वर आरंभ कए रहल अछि. "
+
+#~ msgid "Shutting down auto nice daemon:"
+#~ msgstr "auto nice डेमन केँ बन्न कए रहल अछि:"
+
+#~ msgid "Stopping all running guests"
+#~ msgstr "सभटा कार्यशील आग्रह रोक रहल अछि"
+
+#~ msgid "Generating dropbear RSA host key: "
+#~ msgstr "dropbear RSA मेजखनान कुँजी जनन कए रहल अछि:"
+
+#~ msgid "Reloading $prog"
+#~ msgstr "$prog केँ पुनःभारित कए रहल अछि"
+
+#~ msgid "Stopping $desc ($prog): "
+#~ msgstr "$desc ($prog) रोक रहल अछि. "
+
+#~ msgid "Sending all processes the KILL signal..."
+#~ msgstr "सारी प्रक्रिया केँ KILL संकेत भेज रहल अछि..."
+
+#~ msgid "Rescanning IB Subnet:"
+#~ msgstr "IB Subnet फेर स्कैन कए रहल अछि:"
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG: "
+#~ msgstr "$ARPTABLES_CONFIG मे  मोजुदा  नियम केँ सहेज रहल अछि: "
+
+#~ msgid "Starting Avahi DNS daemon... "
+#~ msgstr "Avahi DNS डेमान आरंभ कए रहल अछि... "
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|condrestart|status}"
+
+#~ msgid "Starting Wesnoth game server: "
+#~ msgstr "Wesnoth गैम सर्वर आरंभ कए रहल अछि. "
+
+#~ msgid "Starting Bandwidthd network traffic monitor: "
+#~ msgstr "बैंडविड्थ संजाल ट्रैफिक मॉनिटर आरंभ कए रहल अछिः "
+
+#~ msgid "Starting YP passwd service: "
+#~ msgstr "YP गुड़किल्ली सेवा आरंभ भए रहल अछि:"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status}"
+#~ msgstr "प्रयोग: $prog {start|stop|restart|condrestart|status}"
+
+#~ msgid "program or service status is unknown"
+#~ msgstr "प्रोग्राम अथवा सेवा स्थिति अज्ञात अछि"
+
+#~ msgid "Error. Default principal database does not exist."
+#~ msgstr "त्रुटि. पूर्वनिर्धारित मुख्य डाटाबेस  मोजुद  नहि अछि."
+
+#~ msgid "$prog: Synchronizing with time server: "
+#~ msgstr "$prog: समय सर्वर सँ तुल्यकालिक भए रहल अछि:"
+
+#~ msgid "Stray lockfile present; removing it."
+#~ msgstr "स्ट्रै लाकफाइल  मोजुद ;  एकरा  निकाल रहल अछि."
+
+#~ msgid "$file is not owned by \"$user\""
+#~ msgstr "$file क' स्वामित्व \"$user\" क' पास नहि अछि."
+
+#~ msgid "Starting $prog for $site: "
+#~ msgstr "$site क' लेल $prog केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting $type $name: "
+#~ msgstr "$type $name आरंभ कए रहल अछि. "
+
+#~ msgid "Reloading ${NAME}"
+#~ msgstr "${NAME} फेर लोड कए रहल अछि"
+
+#~ msgid "Starting Video Disk Recorder ($prog): "
+#~ msgstr "वीडियो डिस्क रिकार्डर ($prog) आरंभ कए रहल अछि. "
+
+#~ msgid "$prog stopping "
+#~ msgstr "$prog रोकि रहल अछि "
+
+#~ msgid "Starting $display_name: "
+#~ msgstr "$display_name केँ आरंभ कए रहल अछि. "
+
+#~ msgid "Stopping puppetmaster: "
+#~ msgstr "पपेटमास्टर रोक रहल अछि:"
+
+#~ msgid "Starting Perlbal: "
+#~ msgstr "Perlbal आरंभ कए रहल अछि. "
+
+#~ msgid "DSA key generation"
+#~ msgstr "DSA कुँजी जनन"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+#~ "condrestart|condstop}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+#~ "condrestart|condstop}"
+
+#~ msgid "Starting xen blktapctrl daemon: "
+#~ msgstr "xen blktapctrl डेमन केँ आरंभ कए रहल अछि. "
+
+#~ msgid "Starting nsd:"
+#~ msgstr "nsd आरंभ कए रहल अछि:"
+
+#~ msgid "$prog stop"
+#~ msgstr "$prog stop"
+
+#~ msgid "Stopping YP server services: "
+#~ msgstr "YP सर्वर सेवा केँ रोक जाए रहल अछि:"
+
+#~ msgid "Server key already installed"
+#~ msgstr "सर्वर कुंजी पहनि सँ संस्थापित"
+
+#~ msgid "Enabling Bluetooth devices:"
+#~ msgstr "ब्लूटूथ युक्ति सक्रिय कए रहल अछि:"
+
+#~ msgid "On the next boot fsck will be skipped."
+#~ msgstr "अगले बूट पर fsck केँ छोड देल जएताह."
+
+#~ msgid "\tscript(s)\t: specify systemtap scripts"
+#~ msgstr "\tscript(s)\t: specify स्क्रिप्ट निर्दिष्ट करें"
+
+#~ msgid "Enabling local swap partitions: "
+#~ msgstr "स्थानीय स्वैप विभाजन सक्रिय कए रहल अछि. "
+
+#~ msgid "Starting xenner daemons"
+#~ msgstr "xenner डेमन केँ आरंभ कए रहल अछि. "
+
+#~ msgid "Saving mixer settings"
+#~ msgstr "मिक्सर जमावटों केँ सुरक्षित कए रहल अछि"
+
+#~ msgid "Starting rfcomm: "
+#~ msgstr "rfcomm आरंभ कए रहल अछि: "
+
+#~ msgid "Usage: $0 {start|stop|reload}"
+#~ msgstr "प्रयोग: $0 {start|stop|reload}"
+
+#~ msgid "Warning: $prog may not have exited, start/restart may fail"
+#~ msgstr "चेतावनी: $prog निकल नही सका होगा, start/restart विफल भए सकैत अछि"
+
+#~ msgid "clement stop"
+#~ msgstr "क्लीमेंट रोक"
+
+#~ msgid "Generating SSH2 DSA host key: "
+#~ msgstr "SSH2 DSA मेजखनान कुँजी केँ जनित कए रहल अछि:"
+
+#~ msgid "Stopping $display_name: "
+#~ msgstr "$display_name केँ रोक रहल अछि. "
+
+#~ msgid "Checking network-attached filesystems"
+#~ msgstr "संजाल सँ जुड़ा फाइल सिस्टम जाँच रहल अछि"
+
+#~ msgid "Starting Xpilot game server: "
+#~ msgstr "Xpilot गेम सर्वर आरंभ कए रहल अछि. "
+
+#~ msgid "Starting argus: "
+#~ msgstr "argus आरंभ कए रहल अछि. "
+
+#~ msgid "Shutting down ${prog}: "
+#~ msgstr "${prog} केँ बंद कए रहल अछिः"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+
+#~ msgid "Usage: killproc {program} [signal]"
+#~ msgstr "प्रयोग: killproc {program} [signal]"
+
+#~ msgid "Setting hostname ${HOSTNAME}: "
+#~ msgstr "मेजखनाननाम${HOSTNAME} केँ जमा रहल अछि. "
+
+#~ msgid "Usage: $0 {start|stop|reload|restart|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|reload|restart|status}"
+
+#~ msgid "ERROR: [ipv6_log] Missing 'message' (arg 1)"
+#~ msgstr "दोष: [ipv6_log] गुमा 'संदेश' (तर्क १)"
+
+#~ msgid "freshclam daemon NOT up and running (please check this)"
+#~ msgstr "freshclam डेमान चालू नहीं है आओर चल नहि रहा अछि (कृपया एकरा जाँचू)"
+
+#~ msgid "$prog dead but subsys locked"
+#~ msgstr "$prog मृत मुदा subsys तालित अछि"
+
+#~ msgid "Saving random seed: "
+#~ msgstr "यादृच्छिक गति सहेज रहल अछि:"
+
+#~ msgid "Loading ISDN modules"
+#~ msgstr "ISDN माड्यूल केँ भारित कए रहल अछि "
+
+#~ msgid "killing ctdbd "
+#~ msgstr "ctdbd खत्म कए रहल अछि"
+
+#~ msgid "Mounting local filesystems: "
+#~ msgstr "स्थानीय फाइल सिस्टम केँ आरोहित कए रहल अछि:"
+
+#~ msgid "key generation"
+#~ msgstr "कुंजी जनन"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|restart|try-restart|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|force-reload|restart|try-restart|status}"
+
+#~ msgid "Usage: $prog {start|stop|restart|status|compile|cleanup} [option]"
+#~ msgstr "प्रयोग: $prog {start|stop|restart|status|compile|cleanup} [option]"
+
+#~ msgid "Starting sm-client: "
+#~ msgstr "sm-client केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting $NAME: "
+#~ msgstr "$NAME आरंभ कए रहल अछि. "
+
+#~ msgid "Pre-0.26 monotone database must be migrated by hand: "
+#~ msgstr "पूर्व-0.26 मोनोटोन डेटाबेस दस्ती रूप बतातै उत्प्रवासित होना चाहिए: "
+
+#~ msgid "${IPTABLES}: Loading additional modules: "
+#~ msgstr "${IPTABLES}: अतिरिक्त माडयूल भारित भए रहल अछि:"
+
+#~ msgid "Usage: $progname {start|stop|restart|condrestart|status}"
+#~ msgstr "प्रयोग: $progname {start|stop|restart|condrestart|status}"
+
+#~ msgid "Mounting CIFS filesystems: "
+#~ msgstr "CIFS फाइल सिस्टम केँ आरोहित कए रहल अछि: "
+
+#~ msgid "Generating exim certificate: "
+#~ msgstr "एक्जिम प्रमाणपत्र जनन कए रहल अछि: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting rusers services: "
+#~ msgstr "rusers सेवा केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Compiling systemtap scripts: "
+#~ msgstr "सिस्टमटैप स्क्रिप्ट कंपाइल कए रहल अछिः "
+
+#~ msgid "Starting NFS daemon: "
+#~ msgstr "NFS डीमन केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting telescope daemon: "
+#~ msgstr "telescope डेमन केँ आरंभ कए रहल अछिः"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+#~ "reload}"
+
+#~ msgid "Disabling nightly apt update: "
+#~ msgstr "नाइटली एप्ट अद्यतन केँ निष्क्रिय कए रहल अछि. "
+
+#~ msgid "Starting NFS services: "
+#~ msgstr "NFS सेवा केँ आरंभ कए रहल अछि:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+
+#~ msgid "Stopping Xpilot game server: "
+#~ msgstr "Xpilot गेम सर्वर रोक रहल अछि. "
+
+#~ msgid "Starting HAL daemon: "
+#~ msgstr "HAL डेमन केँ आरंभ कए रहल अछि: "
+
+#~ msgid "Stopping unbound: "
+#~ msgstr "unbound रोकि रहल अछि: "
+
+#~ msgid "No scripts exist."
+#~ msgstr "कोनो स्क्रिप्ट मोजूद नहीं."
+
+#~ msgid "/proc entries were fixed"
+#~ msgstr "/proc प्रविष्टि सही कएल गेल"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+
+#~ msgid "Usage: $0 {start}"
+#~ msgstr "प्रयोग: $0 {start}"
+
+#~ msgid "Unmounting file systems"
+#~ msgstr "फाइल सिस्टम अनारोहित केँ कए रहल अछि"
+
+#~ msgid "(not starting, no services registered)"
+#~ msgstr "(आरंभ नहि, कोनो सेवा पंजीकृत नहि)"
+
+#~ msgid "Shutting down $PROG: "
+#~ msgstr "$PROG केँ बन्न कए रहल अछि. "
+
+#~ msgid "Netlabel is stopped."
+#~ msgstr "नेटलेबल केँ रोकल गेल अछि"
+
+#~ msgid "${SERVICE}: unrecognized service"
+#~ msgstr "${SERVICE}: अपरिचित सेवा"
+
+#~ msgid "Stopping $type $name: "
+#~ msgstr "$type $name रोक रहल अछि. "
+
+#~ msgid ""
+#~ "See $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist for more information."
+#~ msgstr ""
+#~ "बेसी जानकारी  क'लेल  $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist केँ देखू."
+
+#~ msgid "Starting $SERVICE: "
+#~ msgstr "$SERVICE सेवा आरंभ कए रहल अछि. "
+
+#~ msgid "Mounting zfs partitions: "
+#~ msgstr "zfs विभाजन आरोहित कए रहल अछि: "
+
+#~ msgid "INSECURE MODE FOR $key"
+#~ msgstr "INSECURE MODE FOR $key"
+
+#~ msgid "Loading new virus-database: "
+#~ msgstr "नव वायरस डाटाबेस लोड कए रहल अछि. "
+
+#~ msgid "Stopping Crossfire game server: "
+#~ msgstr "क्रासफायर गेम सर्वर रोक रहल अछि. "
+
+#~ msgid "Shutting down process accounting: "
+#~ msgstr "लेखांकन प्रक्रिया केँ बन्न कए रहल अछि:"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|restart|reload}"
+
+#~ msgid "Reloading $prog: "
+#~ msgstr "$prog केँ पुनःभारित कए रहल अछि:"
+
+#~ msgid "Starting hard disk temperature monitor daemon ($prog): "
+#~ msgstr "हार्ड डिस्क तापमान नियंत्रक डेमान आरंभ भए रहल अछि ($prog): "
+
+#~ msgid "Please stand by while rebooting the system..."
+#~ msgstr "कृपया ठहरें, सिस्टम रीबूट कए रहल अछि..."
+
+#~ msgid "Shutting down Avahi DNS daemon: "
+#~ msgstr "Avahi DNS डेमान बन्न रहल अछि. "
+
+#~ msgid "Shutting down DAAP server: "
+#~ msgstr "DAAP सर्वर बन्न कए रहल अछि. "
+
+#~ msgid "Waiting for reader attach/detach events..."
+#~ msgstr "पाठक  क'लेल  घटना जोड़ने/अलग करब  क'लेल  प्रतीक्षा रत अछि..."
+
+#~ msgid "Mounting NCP filesystems: "
+#~ msgstr "NCP फाइल सिस्टम केँ आरोहित कए रहल अछि:"
+
+#~ msgid "Shutting down amavisd-snmp-subagent: "
+#~ msgstr "amavisd-snmp-subagent बंद कए रहल अछि: "
+
+#~ msgid "Starting up CIM server: "
+#~ msgstr "CIM सर्वर आरंभ कए रहल अछि:"
+
+#~ msgid "Starting CallWeaver: "
+#~ msgstr "CallWeaver आरंभ कए रहल अछि. "
+
+#~ msgid "Stopping rstat services: "
+#~ msgstr "rstat सेवा केँ रोक रहल अछि:"
+
+#~ msgid "Usage: $0 {start|stop|status|reload|restart|condrestart}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|reload|restart|condrestart}"
+
+#~ msgid "NTP server not specified in $ntpstep or $ntpconf"
+#~ msgstr "NTP सर्वर $ntpstep अथवा $ntpconf मे निर्दिष्ट नहि अछि"
+
+#~ msgid "Restarting $prog:"
+#~ msgstr "$prog केँ पुनःआरंभ कए रहल अछि:"
+
+#~ msgid "Stopping liquidwar game server: "
+#~ msgstr "liquidwar गेम सर्वर रोक रहल अछि. "
+
+#~ msgid "Reloading nsca: "
+#~ msgstr "nsca फेर लोड कए रहल अछि. "
+
+#~ msgid "Stopping ipmi_poweroff driver: "
+#~ msgstr "ipmi_poweroff चालक रोक रहल अछि. "
+
+#~ msgid "qemu binary format handlers are not registered."
+#~ msgstr "केमू द्विपदीय प्रारूप नियंत्रक पंजीकृत नहि अछि."
+
+#~ msgid "Generating SSH1 RSA host key: "
+#~ msgstr "SSH1 RSA मेजखनान कुँजी केँ जनित कए रहल अछि:"
+
+#~ msgid "Reloading CRLs: "
+#~ msgstr "CRL फेर लोड कए रहल अछि: "
+
+#~ msgid "${IPTABLES}: Firewall modules are not loaded."
+#~ msgstr "${IPTABLES}: फायरवाल माड्यूल लोड कएल नहि अछि."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|try-restart|force-reload}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|restart|try-restart|force-reload}"
+
+#~ msgid "stale lock files may be present in $directory"
+#~ msgstr "$directory मे स्टेल लाक फाइल  मोजुद  भए सकैत अछि"
+
+#~ msgid "${IP6TABLES}: Loading additional modules: "
+#~ msgstr "${IP6TABLES}: अतिरिक्त माडयूल भारित भए रहल अछि:"
+
+#~ msgid "Turning off swap: "
+#~ msgstr "स्वेप केँ बन्न कए रहल अछि:"
+
+#~ msgid "named: already running"
+#~ msgstr "named: पहिने सँ चलि रहल अछि"
+
+#~ msgid "ERROR: [ipv6_log] Loglevel isn't valid '$level' (arg 2)"
+#~ msgstr "त्रुटि:  '$level'[ipv6_log] लागलेवल उचित '$level' नहि अछि (तर्क 2)"
+
+#~ msgid "          start-watchdog|stop-watchdog|status-watchdog"
+#~ msgstr "          start-watchdog|stop-watchdog|status-watchdog"
+
+#~ msgid "Shutting down ${prog_base}:"
+#~ msgstr "${prog_base} केँ बन्न कए रहल अछि:"
+
+#~ msgid "Stopping INNWatch service: "
+#~ msgstr "INNWatch सेवा केँ रोक रहल अछि:"
+
+#~ msgid "Stopping asterisk: "
+#~ msgstr "asterisk रोक रहल अछि. "
+
+#~ msgid "Usage: $0 {start|stop|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|status}"
+
+#~ msgid "Starting YP server services: "
+#~ msgstr "YP सर्वर सेवा केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Usage: $0 {start|stop|status|condrestart|reload|restart}"
+#~ msgstr "प्रयोग: $0 {start|stop|status|condrestart|reload|restart}"
+
+#~ msgid "Generating chrony command key: "
+#~ msgstr "chrony कमांड कुंजी केँ जनित कए रहल अछिः"
+
+#~ msgid "Checking local filesystem quotas: "
+#~ msgstr "स्थानीय फाइल सिस्टम आरक्षण क' जाँच कए रहल अछि:"
+
+#~ msgid "Starting NFS statd: "
+#~ msgstr "NFS statd केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Starting $master_prog: "
+#~ msgstr "$master_prog केँ आरंभ कए रहल अछि:"
+
+#~ msgid "innd shutdown"
+#~ msgstr "innd शटडाउन"
+
+#~ msgid "Starting rstat services: "
+#~ msgstr "rstat सेवा केँ आरंभ कए रहल अछि:"
+
+#~ msgid "denyhosts cron service is enabled."
+#~ msgstr "डिनाईहोस्ट क्रान सेवा सक्रिय अछि."
+
+#~ msgid "Reloading ${NAME}: "
+#~ msgstr "${NAME} केँ पुनःभारित कए रहल अछि:"
+
+#~ msgid "Reloading exim:"
+#~ msgstr "exim केँ पुनःभारित कए रहल अछि:"
+
+#~ msgid "Package sendmail-cf is required to update configuration."
+#~ msgstr "संकुल sendmail-cf विन्यास अद्यतन के लिए जरूरी है."
+
+#~ msgid "Shutting down restorecond: "
+#~ msgstr "restorecond बन्न कए रहल अछि. "
+
+#~ msgid "program is dead and /var/lock lock file exists"
+#~ msgstr "प्रोग्राम मृत अछि आओर /var/lock लाक फाइल  मोजुद  अछि"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status}"
+#~ msgstr "प्रयोग: $prog {start|stop|restart|condrestart|reload|status}"
+
+#~ msgid "($pid) is running..."
+#~ msgstr "($pid) चलि रहल अछि..."
+
+#~ msgid "Reloading $prog daemon configuration: "
+#~ msgstr "$prog डेमन विन्यास क' पुनःभरण भए रहल अछि: "
+
+#~ msgid "Reloading ${prog} conig file: "
+#~ msgstr "${prog} कान्फिग फाइल रिलोड कए रहल अछि: "
+
+#~ msgid "Key file for $dst not found, skipping"
+#~ msgstr "$dst  क'लेल  बीज फाइल नहि भेटल, छोड़ रहल अछि"
+
+#~ msgid "Starting $progname: "
+#~ msgstr "$progname केँ आरंभ कए रहल अछि. "
+
+#~ msgid "Moodle cron job is disabled."
+#~ msgstr "Moodle क्रान कार्य निष्क्रिय अछि."
+
+#~ msgid "start"
+#~ msgstr "आरंभ"
+
+#~ msgid "Updating RPMS in group $group: "
+#~ msgstr "RPMS केँ $group समूह मे अद्यतन कए रहल अछि. "
+
+#~ msgid "Shutting down ${desc} (${prog}): "
+#~ msgstr "${desc} (${prog}) बन्न कए रहल अछि. "
+
+#~ msgid "Stopping infrared remote control daemon ($prog): "
+#~ msgstr "इंफ्रारेड रिमोट कंट्रोल डेमान ($prog) रोक रहल अछि. "
+
+#~ msgid "Unconfigured: $prog, /etc/gkrellmd.conf not found"
+#~ msgstr "अविन्यस्त: $prog, /etc/gkrellmd.conf नहि भेटल"
+
+#~ msgid "Starting Crossfire game server: "
+#~ msgstr "क्रास फायर गैम सर्वर आरंभ कए रहल अछि. "
+
+#~ msgid "$0: error: insufficient privileges"
+#~ msgstr "$0: त्रुटि: अपर्याप्त  अधिकार"
+
+#~ msgid "Enabling /etc/fstab swaps: "
+#~ msgstr "/etc/fstab स्वैप सक्रिय कए रहल अछि. "
+
+#~ msgid "*** Disabling security enforcement for system recovery."
+#~ msgstr "*** सिस्टम पुनर्प्राप्ति  क'लेल  सुरक्षा पुनर्बलन रोक रहल अछि."
+
+#~ msgid "Stopping $progname: "
+#~ msgstr "$progname केँ रोक रहल अछि. "
+
+#~ msgid "is stopped"
+#~ msgstr "रोकल गेल"
+
+#~ msgid "Unloading ISDN modules"
+#~ msgstr "ISDN मोड्यूल अभारित भए रहल अछि"
+
+#~ msgid "Wine binary format handlers are not registered."
+#~ msgstr "वाइन द्विपदीय प्रारूप नियंत्रक पंजीकृत नहि अछि."
+
+#~ msgid ""
+#~ "ERROR: [ipv6_log] Syslog is chosen, but binary 'logger' doesn't exist or "
+#~ "isn't executable"
+#~ msgstr ""
+#~ "त्रुटि: [ipv6_log] Syslog चुनल गेल अछि.  मुदा  'logger'  मोजुद  नहि अछि अथवा "
+#~ "निष्पादनीय नहि अछि"
+
+#~ msgid "Usage: $service {start|stop|restart|list|status|clean}"
+#~ msgstr "प्रयोग: $service {start|stop|restart|list|status|clean}"
+
+#~ msgid "Starting up-imapproxy daemon: "
+#~ msgstr "imapproxy डेमान शुरू कए रहल अछि. "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#~ msgid "Stopping $name: "
+#~ msgstr "$name रोक रहल अछि. "
+
+#~ msgid "Applying ${ELEVATOR} elevator: "
+#~ msgstr "${ELEVATOR} एलीवेटर लागू कए रहल अछि: "
+
+#~ msgid "Starting amavisd-snmp-subagent: "
+#~ msgstr "amavisd-snmp-subagent आरंभ कए रहल अछि: "
+
+#~ msgid "CIM server is not running"
+#~ msgstr "CIM सर्वर नहि चलि रहल अछि"
+
+#~ msgid "Stopping puppet: "
+#~ msgstr "puppet रोक रहल अछि. "
+
+#~ msgid "nN"
+#~ msgstr "nN"
+
+#~ msgid "          start-powercontrol|stop-powercontrol|status-powercontrol"
+#~ msgstr "          start-powercontrol|stop-powercontrol|status-powercontrol"
+
+#~ msgid "Starting fail2ban: "
+#~ msgstr "fail2ban केँ आरंभ कए रहल अछि. "
+
+#~ msgid "You need to upgrade the data format before using PostgreSQL."
+#~ msgstr ""
+#~ "PostgreSQL क' प्रयोग करब क' पहिने अहाँकेँ आंकड़ा प्रारूप केँ उन्नत बनाबैक जरूरत हाएत."
+
+#~ msgid "Starting Audio Entropy daemon... "
+#~ msgstr "Avahi एंट्रापी डेमान आरंभ कए रहल अछि... "
+
+#~ msgid "Remounting root filesystem in read-write mode: "
+#~ msgstr "पढ़ि-लिखि प्रकार मे रूट फाइल सिस्टम केँ पुनःआरोहित कए रहल अछि:"
+
+#~ msgid "$prog start"
+#~ msgstr "$prog आरंभ"
+
+#~ msgid "Unmounting $mountpoint:"
+#~ msgstr "$mountpoint अनारोहित कए रहल अछि:"
+
+#~ msgid "Nightly yum update is enabled."
+#~ msgstr "नाइटली yum अद्यतन सक्रिय अछि."
+
+#~ msgid "Syncing hardware clock to system time"
+#~ msgstr "हार्डवेयर घड़ी केँ सिस्टम समय मे तुल्यकालिक कए रहल अछि"
+
+#~ msgid "Configuration file or keys are invalid"
+#~ msgstr "फाइल विन्यास अथवा कुँजी अनुचित अछि"
+
+#~ msgid "NOTICE   "
+#~ msgstr "'सूचना'"
+
+#~ msgid "Reverting to saved sysctl settings: "
+#~ msgstr "सहेजल गए sysctl सेटिंगमे वापस कए रहल अछि: "
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status}"
+#~ msgstr "प्रयोग: $0 {start|stop|restart|reload|status}"
+
+#~ msgid "Turning on allow_ypbind SELinux boolean"
+#~ msgstr "allow_ypbind SELinux बूलियन चालू कए रहल अछि"
+
+#~ msgid "Starting acpi daemon: "
+#~ msgstr "acpi डेमन केँ आरंभ कए रहल अछि:"
+
+#~ msgid "Stopping vbi proxy daemon: "
+#~ msgstr "vbi प्राक्सी डेमन रोक रहल अछि. "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+#~ msgstr ""
+#~ "प्रयोग: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+
+#~ msgid "${IP6TABLES}: Setting chains to policy $policy: "
+#~ msgstr "${IP6TABLES}: $policy नीति केँ श्रृंखला जमा रहल अछि:"
+
+#~ msgid "Automatic reboot in progress."
+#~ msgstr "स्वतःरीबूट प्रगति मे अछि."
+
+#~ msgid "Turning off allow_ypbind SELinux boolean"
+#~ msgstr "allow_ypbind SELinux बूलियन बन्न कए रहल अछि"
+
+#~ msgid "Reloading smokeping: "
+#~ msgstr "smokeping रिलोड कए रहल अछि: "
+
+#~ msgid "${IP6TABLES}: Firewall modules are not loaded."
+#~ msgstr "${IP6TABLES}: फायरवाल माड्यूल लोड कएल नहि अछि."
+
+#~ msgid "Stopping ${ifprog}: "
+#~ msgstr "${ifprog} रोकि रहल अछि: "
+
+#~ msgid "Enabling nightly apt update: "
+#~ msgstr "नाइटली एप्ट अद्यतन केँ सक्रिय कए रहल अछि. "
+
+#~ msgid "Shutting down ctdbd service: "
+#~ msgstr "ctdbd सेवा बंद कए रहल अछि: "
+
+#~ msgid "conf addition"
+#~ msgstr "conf जोड़"
+
+#~ msgid "Reloading rules configuration..."
+#~ msgstr "नियम विन्यास पुनःभारित कए रहल अछि..."
+
+#~ msgid "Registering binary handler for qemu applications"
+#~ msgstr "qemu अनुप्रयोग  क'लेल  द्विपदीय नियंत्रक पंजीकृत कए रहल अछि"
+
+#~ msgid "Stopping nsd: "
+#~ msgstr "nsd रोकि रहल अछि: "
+
+#~ msgid "/proc filesystem unavailable"
+#~ msgstr "/proc फाइल सिस्टम अनुपलब्ध अछि"
+
+#~ msgid "Starting NFS mountd: "
+#~ msgstr "NFS mountd आरंभ कए रहल अछि:"
+
+#~ msgid "Enabling denyhosts cron service: "
+#~ msgstr "denyhosts क्रान सक्रिय कए रहल अछि. "
+
+#~ msgid "Starting $PROG:"
+#~ msgstr "$PROG आरंभ कए रहल अछि: "
+
+#~ msgid "Starting monotone server: "
+#~ msgstr "मोनोटोन सर्वर आरंभ कए रहल अछि: "
+
+#~ msgid "$prog flush"
+#~ msgstr "$prog फ्लश"
+
+#~ msgid "Moodle cron job is enabled."
+#~ msgstr "मूडल क्रान सेवा सक्रिय अछि."
+
+#~ msgid "Starting yum-updatesd: "
+#~ msgstr "yum-updatesd आरंभ कए रहल अछि. "
+
+#~ msgid "${IP6TABLES}: Applying firewall rules: "
+#~ msgstr "${IP6TABLES}: फायरवाल नियम केँ लागू कए रहल अछि:"
+
+#~ msgid "Stopping $prog: "
+#~ msgstr "$prog केँ रोक रहल अछि: "
+
+#~ msgid "Shutting down Audio Entropy daemon: "
+#~ msgstr "आडियो एंट्रापी डेमन केँ बन्न कए रहल अछि. "

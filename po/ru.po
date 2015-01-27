@@ -1,0 +1,3825 @@
+#
+# Translators:
+# Alexandr Kanevskiy <kad@blackcatlinux.com>, 2003
+# Anatoliy Guskov <antoliy.guskov@gmail.com>, 2008. <timosha@gmail.com>, 2008
+# Andrew Martynov <andrewm@inventa.ru>, 2004, 2005, 2006
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# Dmitri Alenitchev <alenitchev@nm.ru>, 2005
+# Dmitrijs Milajevs <dimazest@gmail.com>, 2006
+# Leonid Kanter <leon@geon.donetsk.ua>, 2003
+# Nikolay Sivov <bunglehead@gmail.com>, 2007
+# Valery Suhomlinov <goodguy@goodguy.spb.ru>, 2004
+# Yulia Poyarkova <ypoyarko@redhat.com>, 2009
+# Yulia Poyarkova <yulia.poyarkova@gmail.com>, 2009
+# Yulia <yulia.poyarkova@redhat.com>, 2008, 2009
+# Yuri Khabarov <madb00blik@gmail.com>, 2011
+# Игорь Горбунов <igor.gorbounov@gmail.com>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: fedora-initscripts\n"
+"PO-Revision-Date: 2012-03-06 18:19+0000\n"
+"Last-Translator: Игорь Горбунов <igor.gorbounov@gmail.com>\n"
+"Language-Team: Russian <trans-ru@lists.fedoraproject.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../sysconfig/network-scripts/ifup-eth:231
+#, fuzzy
+msgid "Error, some other host already uses address ${ipaddr[$idx]}."
+msgstr "Ошибка, другой узел уже использует адрес ${IPADDR}."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:904
+msgid "No parameters given to setup a default route"
+msgstr ""
+"Не переданы параметры для установки маршрута, используемого по умолчанию"
+
+#: ../sysconfig/network-scripts/ifup-aliases:67
+msgid "usage: ifup-aliases <net-device> [<parent-config>]\n"
+msgstr "применение: ifup-aliases <сетевое_устройство> [<конфигурация>]\n"
+
+#: ../sysconfig/network-scripts/ifup-sit:63
+msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
+msgstr "Отсутствует удаленный адрес IPv4 туннеля; конфигурация недействительна"
+
+#: ../service:78
+msgid "Redirecting to /bin/systemctl ${ACTION} ${OPTIONS} ${SERVICE}.service"
+msgstr ""
+
+#: ../rc.d/init.d/functions:410
+msgid "${base} status unknown due to insufficient privileges."
+msgstr "неизвестный статус ${base}: недостаточно полномочий."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:145
+msgid "Missing parameter 'IPv6-address' (arg 2)"
+msgstr "Отсутствует IPv6-адрес 'IPv6-address' (арг 2)"
+
+#: ../rc.d/init.d/functions:239 ../rc.d/init.d/functions:249
+msgid "Usage: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+msgstr "Применение: killproc [-p pidfile] [-d delay] {program} [-signal]"
+
+#: ../ppp/ip-up.ipv6to4:123 ../sysconfig/network-scripts/ifup-ipv6:226
+msgid ""
+"Warning: configured MTU '$IPV6TO4_MTU' for 6to4 exceeds maximum limit of "
+"'$tunnelmtu', ignored"
+msgstr ""
+"Предупреждение: величина MTU '$IPV6TO4_MTU' для 6to4 превышает максимальное "
+"значение '$tunnelmtu', поэтому она будет игнорироваться"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:964
+msgid "Unsupported reason '$reason' for sending trigger to radvd"
+msgstr ""
+"Неподдерживаемая причина '$reason' для передачи команды переключения "
+"состояния демону radvd"
+
+#: ../sysconfig/network-scripts/ifup:103
+#: ../sysconfig/network-scripts/ifup-eth:78
+msgid ""
+"$alias device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr ""
+"Похоже, что устройство $alias отсутствует. Инициализация ${DEVICE} отложена."
+
+#: ../rc.d/init.d/functions:406
+msgid "${base} dead but pid file exists"
+msgstr "${base} не работает, но pid-файл существует"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:100
+#: ../sysconfig/network-scripts/ifup-ipv6:117
+msgid "Please restart network with '/sbin/service network restart'"
+msgstr ""
+"Перезапустите сетевое окружение, выполнив команду '/sbin/service network "
+"restart'"
+
+#: ../systemd/fedora-autorelabel:21
+msgid "*** when you leave the shell."
+msgstr "*** когда вы выйдете из оболочки."
+
+#: ../sysconfig/network-scripts/ifup-ppp:75
+msgid "ifup-ppp for ${DEVNAME} exiting"
+msgstr "завершение ifup-ppp для ${DEVNAME}"
+
+#: ../sysconfig/network-scripts/ifup-ppp:142
+msgid "pppd started for ${DEVNAME} on ${MODEMPORT} at ${LINESPEED}"
+msgstr ""
+"демон pppd запущен для ${DEVNAME} на ${MODEMPORT} на скорости ${LINESPEED}"
+
+#: ../rc.d/init.d/functions:463
+msgid "WARNING"
+msgstr "ВНИМАНИЕ!"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:61
+msgid "Missing parameter 'IPv6-gateway' (arg 2)"
+msgstr "Отсутствует параметр «IPv6-gateway» (аргумент 2)"
+
+#: ../rc.d/init.d/functions:330
+msgid "Usage: pidfileofproc {program}"
+msgstr "Применение: pidfileofproc {программа}"
+
+#: ../rc.d/init.d/functions:229
+msgid "$base startup"
+msgstr "запуск $base"
+
+#: ../ppp/ip-down.ipv6to4:35 ../ppp/ip-up.ipv6to4:41
+msgid ""
+"Argument 1 is empty but should contain interface name - skip IPv6to4 "
+"initialization"
+msgstr ""
+"Первый аргумент пуст, хотя должен содержать имя интерфейса; пропускается "
+"инициализация IPv6to4"
+
+#: ../ppp/ip-up.ipv6to4:189 ../sysconfig/network-scripts/ifup-ipv6:292
+msgid "radvd control enabled, but config is not complete"
+msgstr "Управление radvd разрешено, но конфигурация неполная"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:383
+msgid "Missing parameter 'address' (arg 1)"
+msgstr "Отсутствует параметр 'address' (арг 1)"
+
+#: ../rc.d/init.d/netconsole:76
+msgid "Server address not specified in /etc/sysconfig/netconsole"
+msgstr "Адрес сервера не определен в /etc/sysconfig/netconsole"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:798
+msgid "Missing parameter 'IPv6 MTU' (arg 2)"
+msgstr "Отсутствует параметр 'IPv6 MTU' (арг 2)"
+
+#: ../rc.d/init.d/network:67
+msgid "Bringing up loopback interface: "
+msgstr "Активируется интерфейс loopback: "
+
+#: ../rc.d/init.d/functions:452
+msgid "PASSED"
+msgstr "ПРОШЛА"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:394
+msgid "Given address '$addr' is not a global IPv4 one (arg 1)"
+msgstr "Указанный адрес IPv4 '$addr' не является глобальным (арг 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:706
+msgid "Missing parameter 'selection' (arg 2)"
+msgstr "Отсутствует параметр 'selection' (арг 2)"
+
+#: ../ppp/ip-up.ipv6to4:91 ../sysconfig/network-scripts/ifup-ipv6:211
+msgid ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+msgstr ""
+"Для настройки IPv6to4 необходим адрес IPv4 на соответствующем интерфейсе, "
+"или он должен быть указан другим образом"
+
+#: ../sysconfig/network-scripts/ifup-aliases:190
+#, fuzzy
+msgid "error iN $FILE: didn't specify netmask or prefix"
+msgstr "ошибка в $FILE: не указано устройство или адрес IP"
+
+#: ../sysconfig/network-scripts/ifdown-tunnel:36
+#: ../sysconfig/network-scripts/ifup-tunnel:63
+msgid "Device '$DEVICE' isn't supported as a valid GRE device name."
+msgstr "Устройство '$DEVICE' не поддерживается как имя устройства GRE."
+
+#: ../sysconfig/network-scripts/ifup-eth:43
+msgid "Device ${DEVICE} has different MAC address than expected, ignoring."
+msgstr ""
+"Устройство ${DEVICE} имеет MAC-адрес, отличный от ожидаемого; игнорируется."
+
+#: ../sysconfig/network-scripts/ifup-aliases:264
+msgid "Error, some other host already uses address ${IPADDR}."
+msgstr "Ошибка, другой узел уже использует адрес ${IPADDR}."
+
+#: ../rc.d/init.d/network:271
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload}"
+msgstr "Применение: $0 {start|stop|status|restart|reload|force-reload}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:603
+msgid "Tunnel device '$device' creation didn't work"
+msgstr "Не удалось создать туннельное устройство '$device'"
+
+#: ../rc.d/init.d/netconsole:91
+msgid "Initializing netconsole"
+msgstr "Инициализируется netconsole"
+
+#: ../sysconfig/network-scripts/ifdown-eth:42
+#: ../sysconfig/network-scripts/ifdown-eth:48
+msgid ""
+"Device ${DEVICE} has MAC address ${FOUNDMACADDR}, instead of configured "
+"address ${HWADDR}. Ignoring."
+msgstr ""
+"Устройство ${DEVICE} имеет MAC-адрес ${FOUNDMACADDR}, вместо настроенного "
+"адреса ${HWADDR}. Игнорируется."
+
+#: ../rc.d/init.d/functions:441
+msgid "FAILED"
+msgstr "СБОЙ "
+
+#: ../sysconfig/network-scripts/ifup-eth:286
+#, fuzzy
+msgid "Determining IPv6 information for ${DEVICE}..."
+msgstr "Определяется информация IP для ${DEVICE}..."
+
+#: ../rc.d/init.d/functions:422
+msgid "${base} is stopped"
+msgstr "${base} остановлен"
+
+#: ../rc.d/init.d/functions:151 ../rc.d/init.d/functions:187
+msgid "$0: Usage: daemon [+/-nicelevel] {program}"
+msgstr "$0: Применение: daemon [+/-nicelevel] {program}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:165
+msgid "error in $FILE: invalid alias number"
+msgstr "ошибка в $FILE: неверный номер псевдонима (alias)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:159
+msgid "Device '$device' doesn't exist"
+msgstr "Устройство '$device' не существует"
+
+#: ../sysconfig/network-scripts/ifup:30 ../sysconfig/network-scripts/ifup:38
+msgid "Usage: ifup <configuration>"
+msgstr "Применение: ifup <имя_устройства>"
+
+#: ../sysconfig/network-scripts/ifup:126 ../sysconfig/network-scripts/ifup:127
+msgid "ERROR: could not add vlan ${VID} as ${DEVICE} on dev ${PHYSDEV}"
+msgstr ""
+"Ошибка: не удалось добавить VLAN ${VID} (${DEVICE}) на устройстве ${PHYSDEV}"
+
+#: ../sysconfig/network-scripts/ifup-ctc:37
+msgid "ERROR: ${DEVICE} did not come up!"
+msgstr ""
+
+#: ../ppp/ip-up.ipv6to4:138 ../sysconfig/network-scripts/ifup-ipv6:240
+msgid "Warning: interface 'tun6to4' does not support 'IPV6_DEFAULTGW', ignored"
+msgstr ""
+"Предупреждение: устройство 'tun6to4' не поддерживает 'IPV6_DEFAULTGW'. "
+"Пропускается"
+
+#: ../rc.d/init.d/network:133 ../rc.d/init.d/network:140
+msgid "Bringing up interface $i: "
+msgstr "Активируется интерфейс $i: "
+
+#: ../sysconfig/network-scripts/init.ipv6-global:162
+msgid "Usage: $0 {start|stop|reload|restart|showsysctl}"
+msgstr "Применение: $0 {start|stop|reload|restart|showsysctl}"
+
+#: ../sysconfig/network-scripts/ifup-eth:80
+msgid "Device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "Похоже, что устройство ${DEVICE} отсутствует. Инициализация отложена."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:841
+msgid "Given IPv6 default gateway '$address' is not in proper format"
+msgstr "Указанный стандартный шлюз IPv6  '$address' имеет неверный формат"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:140
+#: ../sysconfig/network-scripts/network-functions-ipv6:203
+#: ../sysconfig/network-scripts/network-functions-ipv6:232
+#: ../sysconfig/network-scripts/network-functions-ipv6:312
+#: ../sysconfig/network-scripts/network-functions-ipv6:427
+#: ../sysconfig/network-scripts/network-functions-ipv6:489
+#: ../sysconfig/network-scripts/network-functions-ipv6:523
+#: ../sysconfig/network-scripts/network-functions-ipv6:565
+#: ../sysconfig/network-scripts/network-functions-ipv6:643
+#: ../sysconfig/network-scripts/network-functions-ipv6:701
+#: ../sysconfig/network-scripts/network-functions-ipv6:754
+#: ../sysconfig/network-scripts/network-functions-ipv6:793
+#: ../sysconfig/network-scripts/network-functions-ipv6:921
+msgid "Missing parameter 'device' (arg 1)"
+msgstr "Отсутствует параметр 'device' (арг 1)"
+
+#: ../rc.d/init.d/network:82
+msgid "No 802.1Q VLAN support available in kernel."
+msgstr "Поддержка 802.1Q VLAN отсутствует в ядре."
+
+#: ../sysconfig/network-scripts/ifup-aliases:180
+msgid "error in $FILE: already seen device $parent_device:$DEVNUM in $devseen"
+msgstr ""
+"ошибка в $FILE: устройство $parent_device:$DEVNUM уже встречалось в $devseen"
+
+#: ../systemd/fedora-autorelabel:20
+msgid "*** problems. Dropping you to a shell; the system will reboot"
+msgstr ""
+"*** проблемы расстановки меток. Переход в оболочку; система будет "
+"перезагружена"
+
+#: ../sysconfig/network-scripts/ifup-sit:71
+msgid "Device '$DEVICE' is already up, please shutdown first"
+msgstr "Устройство '$DEVICE' уже активировано, деактивируйте сначала"
+
+#: ../systemd/fedora-autorelabel:26
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required."
+msgstr ""
+"*** Предупреждение -- требуется повторная расстановка меток политики "
+"SELinux  ${SELINUXTYPE}."
+
+#: ../rc.d/init.d/netconsole:36
+msgid "Usage: $0 {start|stop|status|restart|condrestart}"
+msgstr "Применение: $0 {start|stop|status|restart|condrestart}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:231
+#: ../sysconfig/network-scripts/ifup-aliases:242
+msgid "error in ifcfg-${parent_device}: files"
+msgstr "ошибка в ifcfg-${parent_device}: файлы"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:804
+msgid "Given IPv6 MTU '$ipv6_mtu' is out of range"
+msgstr "Заданное значение IPv6 MTU '$ipv6_mtu' выходит за границы диапазона"
+
+#: ../sysconfig/network-scripts/ifup-aliases:320
+msgid "error in $FILE: IPADDR_START greater than IPADDR_END"
+msgstr "ошибка в $FILE: IPADDR_START больше чем IPADDR_END"
+
+#: ../sysconfig/network-scripts/ifup-eth:260
+#, fuzzy
+msgid "Error adding default gateway ${GATEWAY} for ${DEVICE}."
+msgstr "Ошибка добавления адреса ${IPADDR} к ${DEVICE}."
+
+#: ../rc.d/init.d/functions:430
+msgid "  OK  "
+msgstr "  OK  "
+
+#: ../sysconfig/network-scripts/network-functions:540
+msgid "INFO     "
+msgstr "INFO     "
+
+#: ../sysconfig/network-scripts/ifup-aliases:185
+msgid "error in $FILE: didn't specify device or ipaddr"
+msgstr "ошибка в $FILE: не указано устройство или адрес IP"
+
+#: ../sysconfig/network-scripts/ifdown:33 ../sysconfig/network-scripts/ifup:49
+msgid "Users cannot control this device."
+msgstr "Пользователи не могут управлять этим устройством."
+
+#: ../sysconfig/network-scripts/ifup:89
+msgid "PHYSDEV should be set for device ${DEVICE}"
+msgstr "PHYSDEV должно быть задано для устройства ${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1031
+msgid "radvd not (properly) installed, triggering failed"
+msgstr "radvd не (корректно) установлен, переключение состояния не удалось"
+
+#: ../sysconfig/network-scripts/ifup-eth:177
+#: ../sysconfig/network-scripts/ifup-eth:290
+msgid " failed."
+msgstr " ошибка."
+
+#: ../rc.d/init.d/functions:345
+msgid "Usage: pidofproc [-p pidfile] {program}"
+msgstr "Применение: pidofproc [-p pidfile] {program}"
+
+#: ../systemd/fedora-autorelabel:18
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required. "
+msgstr ""
+"*** Предупреждение -- требуется повторная расстановка меток политики "
+"SELinux  ${SELINUXTYPE}. "
+
+#: ../rc.d/init.d/network:258
+msgid "Configured devices:"
+msgstr "Настроенные устройства:"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:895
+msgid "Given IPv6 default device '$device' requires an explicit nexthop"
+msgstr ""
+"Указанное стандартное IPv6-устройство '$device' требует явного указания "
+"nexthop"
+
+#: ../rc.d/init.d/functions:33
+#, fuzzy
+msgid "Starting $prog (via systemctl): "
+msgstr "Запускается $progbase: "
+
+#: ../sysconfig/network-scripts/ifdown:15
+#: ../sysconfig/network-scripts/ifdown:22
+msgid "usage: ifdown <configuration>"
+msgstr "применение: ifdown <имя_устройства>"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:276
+msgid ""
+"Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+msgstr "Для использования 6to4 и RADVD должна быть включена маршрутизация IPv6"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:438
+#: ../sysconfig/network-scripts/network-functions-ipv6:495
+#: ../sysconfig/network-scripts/network-functions-ipv6:534
+msgid "Given device '$device' is not supported (arg 1)"
+msgstr "Указанное устройство '$device' не поддерживается (арг 1)"
+
+#: ../rc.d/init.d/netconsole:111
+msgid "netconsole module loaded"
+msgstr "Модуль netconsole загружен."
+
+#: ../rc.d/init.d/functions:269 ../rc.d/init.d/functions:296
+#: ../rc.d/init.d/functions:312
+msgid "$base shutdown"
+msgstr "останов $base"
+
+#: ../sysconfig/network-scripts/ifup-tunnel:56
+msgid "Invalid tunnel type $TYPE"
+msgstr "Недопустимый тип туннеля $TYPE"
+
+#: ../sysconfig/network-scripts/ifup-ppp:48
+msgid "pppd does not exist or is not executable for ${DEVICE}"
+msgstr "pppd не существует или не является исполняемым для ${DEVICE}"
+
+#: ../sysconfig/network-scripts/ifup:37
+msgid "$0: configuration for ${1} not found."
+msgstr "$0: конфигурация для ${1} не найдена."
+
+#: ../sysconfig/network-scripts/ifup-eth:165
+msgid "Determining IP information for ${DEVICE}..."
+msgstr "Определяется информация IP для ${DEVICE}..."
+
+#: ../systemd/fedora-autorelabel:19
+msgid "*** /etc/selinux/config indicates you want to manually fix labeling"
+msgstr ""
+"*** /etc/selinux/config сообщает, что вы желаете вручную исправить разметки"
+
+#: ../sysconfig/network-scripts/network-functions:537
+msgid "WARN     "
+msgstr "WARN     "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:86
+msgid ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+msgstr ""
+"'No route to host' добавляет маршрут '$networkipv6' через шлюз "
+"'$gatewayipv6' устройства '$device'"
+
+#: ../rc.d/init.d/netconsole:82
+msgid "netconsole: can't resolve MAC address of $SYSLOGADDR"
+msgstr "netconsole: невозможно определить MAC-адрес для $SYSLOGADDR"
+
+#: ../sysconfig/network-scripts/ifup-ppp:46
+msgid "ifup-ppp for ${DEVICE} exiting"
+msgstr "останавливается ifup-ppp для ${DEVICE}"
+
+#: ../sysconfig/network-scripts/ifdown-routes:5
+#, fuzzy
+msgid "usage: ifdown-routes <net-device> [<nickname>]"
+msgstr "применение: ifup-routes <устройство сети> [<псевдоним>]"
+
+#: ../sysconfig/network-scripts/ifup-eth:51
+msgid "Bridge support not available: brctl not found"
+msgstr "Поддержка сетевого моста недоступна; утилита brctl не найдена"
+
+#: ../rc.d/init.d/network:261
+msgid "Currently active devices:"
+msgstr "Активные в данный момент устройства:"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:590
+msgid ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+msgstr ""
+"Указанный удаленный адрес '$addressipv4tunnel' туннельного устройства "
+"'$device' уже настроен для устройства '$devnew'"
+
+#: ../sysconfig/network-scripts/ifdown-sit:40
+#: ../sysconfig/network-scripts/ifup-sit:58
+msgid ""
+"Device '$DEVICE' isn't supported here, use IPV6_AUTOTUNNEL setting and "
+"restart (IPv6) networking"
+msgstr ""
+"Устройство '$DEVICE' не поддерживается, используйте параметр IPV6_AUTOTUNNEL "
+"и перезапустите сеть IPv6"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:343
+msgid "Missing parameter 'IPv4 address' (arg 1)"
+msgstr "Отсутствует параметр IPv4 адреса ('IPv4 address') (арг 1)"
+
+#: ../rc.d/init.d/network:232
+msgid "Shutting down interface $i: "
+msgstr "Деактивируется интерфейс $i: "
+
+#: ../sysconfig/network-scripts/ifup-ippp:374
+msgid ""
+"Warning: ipppd (kernel 2.4.x and below) doesn't support IPv6 using "
+"encapsulation 'syncppp'"
+msgstr ""
+"Предупреждение: ipppd (kernel 2.4.x и ниже) не поддерживает использование "
+"IPv6-протоколом инкапсуляции 'syncppp'"
+
+#: ../systemd/fedora-autorelabel:27
+msgid "*** Relabeling could take a very long time, depending on file"
+msgstr ""
+"*** Повторная расстановка меток может занять продолжительное время, в "
+"зависимости от файла"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:99
+msgid ""
+"Global IPv6 forwarding is enabled in configuration, but not currently "
+"enabled in kernel"
+msgstr ""
+"Глобальная маршрутизация IPv6 разрешена в настройках, но запрещена в ядре"
+
+#: ../rc.d/init.d/functions:39
+#, fuzzy
+msgid "Reloading $prog configuration (via systemctl): "
+msgstr "Перезагружается конфигурация $prog: "
+
+#: ../sysconfig/network-scripts/ifup-ippp:55
+msgid "$*"
+msgstr "$*"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:855
+msgid ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+msgstr ""
+"Адрес указанного стандартного IPv6 шлюза '$address' является link-local, но "
+"ни сегмент, ни устройство шлюза не указаны"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:610
+msgid "Tunnel device '$device' bringing up didn't work"
+msgstr "Не удалось активировать туннельное устройство '$device'"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:993
+msgid "Unsupported mechanism '$mechanism' for sending trigger to radvd"
+msgstr ""
+"Неподдерживаемый механизм '$mechanism' для передачи команды переключения "
+"состояния radvd"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:398
+msgid "Given address '$addr' is not a valid IPv4 one (arg 1)"
+msgstr "Указанный адрес IPv4 '$ipv4addr' не является корректным (арг 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:432
+msgid "Missing parameter 'global IPv4 address' (arg 2)"
+msgstr "Отсутствует глобальный IPv4-адрес 'global IPv4 address' (арг 2)"
+
+#: ../sysconfig/network-scripts/ifup-ppp:74
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist"
+msgstr "/etc/sysconfig/network-scripts/chat-${DEVNAME} не существует"
+
+#: ../rc.d/init.d/netconsole:114
+msgid "netconsole module not loaded"
+msgstr "Модуль netconsole не загружен."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:89
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+#: ../rc.d/init.d/functions:371
+msgid "Usage: status [-p pidfile] {program}"
+msgstr "Применение: status [-p pidfile] {program}"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:299
+msgid "6to4 configuration is not valid"
+msgstr "Неверная конфигурация 6to4"
+
+#: ../sysconfig/network-scripts/ifup-ppp:82
+msgid "Setting up a new ${PEERCONF} config file"
+msgstr "Создаётся новый конфигурационный файл ${PEERCONF}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:316
+msgid "error in $FILE: IPADDR_START and IPADDR_END don't agree"
+msgstr "ошибка в $FILE: IPADDR_START и IPADDR_END не согласованы"
+
+#: ../rc.d/init.d/functions:303
+msgid "$base $killlevel"
+msgstr "$base $killlevel"
+
+#: ../sysconfig/network-scripts/ifup-ppp:59
+msgid "adsl-start does not exist or is not executable for ${DEVICE}"
+msgstr "adsl-start не существует или не является исполняемым для ${DEVICE}"
+
+#: ../sysconfig/network-scripts/ifup-eth:167
+msgid " failed; no link present.  Check cable?"
+msgstr " ошибка, связь отсутствует. Проверить кабель?"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:116
+msgid ""
+"Global IPv6 forwarding is disabled in configuration, but not currently "
+"disabled in kernel"
+msgstr ""
+"Глобальная маршрутизация IPv6 запрещена в настройках, но разрешена в ядре"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:165
+msgid "Device '$device' enabling didn't work"
+msgstr "Не удалось активировать устройство '$device'"
+
+#: ../sysconfig/network-scripts/ifup-ppp:77
+msgid ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist for ${DEVICE}"
+msgstr ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} не существует для устройства "
+"${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:186
+msgid "Cannot add IPv6 address '$address' on dev '$device'"
+msgstr "Невозможно добавить IPv6-адрес '$address' к устройству '$device'"
+
+#: ../sysconfig/network-scripts/ifup-ippp:376
+msgid "Warning: link doesn't support IPv6 using encapsulation 'rawip'"
+msgstr ""
+"Предупреждение: устройство не поддерживает IPv6 при помощи инкапсуляции "
+"'rawip'"
+
+#: ../sys-unconfig:6
+msgid "Usage: sys-unconfig"
+msgstr "Применение: sys-unconfig"
+
+#: ../sysconfig/network-scripts/ifup-routes:5
+msgid "usage: ifup-routes <net-device> [<nickname>]"
+msgstr "применение: ifup-routes <устройство сети> [<псевдоним>]"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:570
+msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
+msgstr ""
+"Отсутствует параметр 'Адрес IPv4 туннеля' ('IPv4-tunnel address') (арг 2)"
+
+#: ../rc.d/init.d/netconsole:101
+msgid "Disabling netconsole"
+msgstr "Отключается netconsole"
+
+#: ../systemd/fedora-configure:19
+msgid "Resetting hostname ${HOSTNAME}: "
+msgstr "Сбрасывается имя узла ${HOSTNAME}: "
+
+#: ../rc.d/init.d/network:246
+msgid "Shutting down loopback interface: "
+msgstr "Деактивируется интерфейс-петля: "
+
+#: ../sysconfig/network-scripts/ifup-eth:264
+#, fuzzy
+msgid "Erorr adding default gateway for ${REALDEVICE}."
+msgstr "Ошибка добавления адреса ${IPADDR} к ${DEVICE}."
+
+#: ../systemd/fedora-autorelabel:28
+msgid "*** system size and speed of hard drives."
+msgstr "*** размера файловой системы и скорости жестких дисков."
+
+#: ../sysconfig/network-scripts/network-functions:531
+msgid "DEBUG    "
+msgstr "ОТЛАДКА    "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:959
+msgid "No reason given for sending trigger to radvd"
+msgstr ""
+"Не указана причина отправки команды переключения состояния демону radvd"
+
+#: ../sysconfig/network-scripts/ifup-ipx:7
+msgid "usage: $0 <net-device>"
+msgstr "применение: $0 <устройство_сети>"
+
+#: ../sysconfig/network-scripts/ifup-eth:174
+#: ../sysconfig/network-scripts/ifup-eth:288
+msgid " done."
+msgstr " готово."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:56
+msgid "Missing parameter 'IPv6-network' (arg 1)"
+msgstr "Отсутствует параметр IPv6-сети 'IPv6-network' (арг 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1005
+msgid "Given pidfile '$pidfile' doesn't exist, cannot send trigger to radvd"
+msgstr ""
+"Указанный pid-файл '$pidfile' не существует, не удаётся передать команду "
+"переключения состояния демону radvd"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:528
+msgid "Missing parameter 'local IPv4 address' (arg 2)"
+msgstr "Отсутствует локальный IPv4-адрес 'local IPv4 address' (арг 2)"
+
+#: ../sysconfig/network-scripts/ifup-aliases:119
+msgid "Missing config file $PARENTCONFIG."
+msgstr "Отсутствует файл конфигурации $PARENTCONFIG."
+
+#: ../rc.d/init.d/functions:513
+msgid "$STRING"
+msgstr "$STRING"
+
+#: ../rc.d/init.d/functions:419
+msgid "${base} dead but subsys locked"
+msgstr "${base} не работает, но subsys заблокирован"
+
+#: ../sysconfig/network-scripts/ifup-aliases:175
+msgid "error in $FILE: already seen ipaddr $IPADDR in $ipseen"
+msgstr "ошибка в $FILE: ipaddr $IPADDR уже встречался в $ipseen"
+
+#: ../rc.d/init.d/functions:36
+#, fuzzy
+msgid "Stopping $prog (via systemctl): "
+msgstr "Останавливается демон $prog: "
+
+#: ../sysconfig/network-scripts/ifup-eth:237
+#, fuzzy
+msgid "Error adding address ${ipaddr[$idx]} for ${DEVICE}."
+msgstr "Ошибка добавления адреса ${IPADDR} к ${DEVICE}."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:710
+msgid "Unsupported selection '$selection' specified (arg 2)"
+msgstr "Указан неподдерживаемый параметр '$selection' (арг 2)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1014
+msgid "Pidfile '$pidfile' is empty, cannot send trigger to radvd"
+msgstr ""
+"Pid-файл '$pidfile' пуст, не могу передать команду переключения состояния "
+"демону radvd"
+
+#: ../sysconfig/network-scripts/ifup-eth:201
+msgid "Failed to bring up ${DEVICE}."
+msgstr "Ошибка активации интерфейса ${DEVICE}."
+
+#: ../sysconfig/network-scripts/ifup-ipv6:147
+msgid ""
+"Cannot enable IPv6 privacy method '$IPV6_PRIVACY', not supported by kernel"
+msgstr ""
+"Не удается задействовать метод защиты IPv6 '$IPV6_PRIVACY', так как он не "
+"поддерживается ядром"
+
+#: ../rc.d/init.d/network:152
+#, fuzzy
+msgid "Legacy static-route support not available: /sbin/route not found"
+msgstr "Поддержка сетевого моста недоступна; утилита brctl не найдена"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:114
+msgid "Tunnel device 'sit0' enabling didn't work"
+msgstr "Не удалось активировать туннельное устройство 'sit0'"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:171
+msgid "Device 'tun6to4' (from '$DEVICE') is already up, shutdown first"
+msgstr ""
+"Устройство 'tun6to4' (из '$DEVICE') уже активировано, деактивируйте его "
+"сначала"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:847
+msgid ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+msgstr ""
+"Адрес указанного стандартного IPv6 шлюза '$address' имеет заданную область "
+"'$device_scope', заданный стандартный шлюз '$device' не будет использоваться"
+
+#: ../rc.d/init.d/functions:396 ../rc.d/init.d/functions:402
+msgid "${base} (pid $pid) is running..."
+msgstr "${base} (pid $pid) выполняется..."
+
+#: ../sysconfig/network-scripts/ifup:96
+msgid "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+msgstr "В ядре отсутствует поддержка 802.1Q VLAN для устройства ${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:898
+msgid "Given IPv6 default device '$device' doesn't exist or isn't up"
+msgstr ""
+"Указанное стандартное IPv6 устройство '$device' не существует или не включено"
+
+#: ../ppp/ip-up.ipv6to4:87 ../sysconfig/network-scripts/ifup-ipv6:198
+msgid "Given IPv4 address '$ipv4addr' is not globally usable"
+msgstr ""
+"Указанный адрес IPv4 '$ipv4addr' не может использоваться в глобальной сети"
+
+#: ../ppp/ip-up.ipv6to4:186 ../sysconfig/network-scripts/ifup-ipv6:289
+msgid "Error occurred while calculating the IPv6to4 prefix"
+msgstr "Ошибка при вычислении префикса IPv6to4"
+
+#: ../rc.d/init.d/functions:42
+#, fuzzy
+msgid "Restarting $prog (via systemctl): "
+msgstr "Перезапускается $prog:"
+
+#: ../sysconfig/network-scripts/ifup-ppp:45
+msgid "pppd does not exist or is not executable"
+msgstr "pppd не существует или не является исполняемым"
+
+#: ../sysconfig/network-scripts/network-functions:534
+msgid "ERROR    "
+msgstr "ОШИБКА    "
+
+#~ msgid "Usage: ifup <device name>"
+#~ msgstr "Применение: ifup <имя_устройства>"
+
+#~ msgid "Reloading $prog for $ez_name: "
+#~ msgstr "Перезагружается $prog для $ez_name: "
+
+#~ msgid "Stopping incrond: "
+#~ msgstr "Останавливается incrond: "
+
+#~ msgid "already stopped"
+#~ msgstr "уже остановлен."
+
+#~ msgid "Starting Shorewall: "
+#~ msgstr "Запускается Shorewall: "
+
+#~ msgid "Starting UPS monitor (slave): "
+#~ msgstr "Запускается монитор UPS (подчиненный): "
+
+#~ msgid "Stopping infrared remote control mouse daemon ($prog2): "
+#~ msgstr "Останавливается демон инфракрасного пульта ДУ для мыши ($prog2):"
+
+#~ msgid "Graceful shutdown of old $prog: "
+#~ msgstr "Корректное завершение работы ранней версии $prog: "
+
+#~ msgid "$base dead but pid file exists"
+#~ msgstr "$base не работает, но pid-файл существует"
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "Применение: $0 {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Starting console mouse services: "
+#~ msgstr "Запускаются службы консольной мыши: "
+
+#~ msgid "Shutting down router discovery services: "
+#~ msgstr "Останавливаются службы обнаружения маршрутизаторов: "
+
+#~ msgid "Starting Red Hat Network Daemon: "
+#~ msgstr "Запускается демон Red Hat Network: "
+
+#~ msgid "$prog already running"
+#~ msgstr "$prog уже выполняется"
+
+#~ msgid "Reloading ser2net"
+#~ msgstr "Перезагружается ser2net"
+
+#~ msgid "no dictionaries installed"
+#~ msgstr "словари не установлены"
+
+#~ msgid "Starting vmpsd: "
+#~ msgstr "Запускается vmpsd:"
+
+#~ msgid "Importing $prog databases: "
+#~ msgstr "Импортируются базы данных $prog: "
+
+#~ msgid "to"
+#~ msgstr "к"
+
+#~ msgid "${IPTABLES}: Firewall is not running."
+#~ msgstr "${IPTABLES}: Межсетевой экран не запущен. "
+
+#~ msgid "${IPTABLES}: Firewall is not configured. "
+#~ msgstr "${IPTABLES}: Межсетевой экран не настроен. "
+
+#~ msgid "Setting path to vshelper"
+#~ msgstr "Настройка пути к vshelper"
+
+#~ msgid "Unmounting CIFS filesystems: "
+#~ msgstr "Отсоединяются файловые системы CIFS: "
+
+#~ msgid "Stopping spectrum transport: "
+#~ msgstr "Останавливается механизм передачи spectrum:"
+
+#~ msgid "Entering interactive startup"
+#~ msgstr "Начало пошаговой загрузки"
+
+#~ msgid "Starting RPC svcgssd: "
+#~ msgstr "Запускается служба RPC svcgssd: "
+
+#~ msgid "$s compilation failed "
+#~ msgstr "ошибка компиляции $s"
+
+#~ msgid "Starting $prog: "
+#~ msgstr "Запускается $prog: "
+
+#~ msgid "Starting CGroup Rules Engine Daemon..."
+#~ msgstr "Запускается демон правил CGroup..."
+
+#~ msgid "Starting xend daemon: "
+#~ msgstr "Запускается демон xend: "
+
+#~ msgid "Error. This appears to be a slave server, found kpropd.acl"
+#~ msgstr "Ошибка. Видимо, это ведомый сервер, найден kpropd.acl"
+
+#~ msgid "Saving $desc ($prog): "
+#~ msgstr "Сохраняется $desc ($prog): "
+
+#~ msgid "$prog startup"
+#~ msgstr "$prog startup"
+
+#~ msgid "Starting preload daemon: "
+#~ msgstr "Запускается демон preload: "
+
+#~ msgid "Disabling denyhosts cron service: "
+#~ msgstr "Отключение cron-службы denyhosts:"
+
+#~ msgid ""
+#~ "Usage: $spooler {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Применение: $spooler {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Reloading "
+#~ msgstr "Перезагрузка "
+
+#~ msgid "Stopping system message bus: "
+#~ msgstr "Останавливается шина системных сообщений: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|reload|force-reload|status|condrestart|"
+#~ "try-restart}"
+
+#~ msgid "Insufficient privilege"
+#~ msgstr "Недостаточно полномочий"
+
+#~ msgid "Disabling nightly yum update: "
+#~ msgstr "Отключаются ночные обновления через yum:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|condrestart|try-restart|"
+#~ "reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|force-reload|condrestart|try-"
+#~ "restart|reload}"
+
+#~ msgid "ERROR: Program /usr/sbin/firstboot is not installed"
+#~ msgstr "ОШИБКА: Программа /usr/sbin/firstboot не установлена"
+
+#~ msgid "Stopping UPS monitor: "
+#~ msgstr "Останавливается монитор UPS: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|force-reload|reload|condrestart|"
+#~ "try-restart}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|reload|configtest|status|force-reload|upgrade|"
+#~ "restart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|reload|configtest|status|force-reload|upgrade|"
+#~ "restart}"
+
+#~ msgid "Enabling monthly Smolt checkin: "
+#~ msgstr "Включается ежемесячная проверка Smolt: "
+
+#~ msgid "Removing user defined chains:"
+#~ msgstr "Удаляются определенные пользователем цепочки:"
+
+#~ msgid "Starting $prog instance "
+#~ msgstr "Запускается экземпляр $prog"
+
+#~ msgid "Nightly yum update is disabled."
+#~ msgstr "Ночные обновления через yum отключены."
+
+#~ msgid "Retrigger failed udev events"
+#~ msgstr "Повторно активировать неудавшиеся события udev"
+
+#~ msgid "Starting $dagent: "
+#~ msgstr "Запускается $dagent: "
+
+#~ msgid "Stopping rwho services: "
+#~ msgstr "Останавливаются службы rwho: "
+
+#~ msgid "Shutting down NIS service: "
+#~ msgstr "Останавливаются службы NIS: "
+
+#~ msgid "Flushing all current rules and user defined chains:"
+#~ msgstr ""
+#~ "Сбрасываются все текущие правила и определенные пользователем цепочки:"
+
+#~ msgid "Usage: $0 {start|stop|status|restart}"
+#~ msgstr "Применение: $0 {start|stop|status|restart}"
+
+#~ msgid "Wine binary format handlers are registered."
+#~ msgstr "Обработчики двоичного формата Wine зарегистрированы."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|status|condrestart|try-restart|reload|force-"
+#~ "reload|report}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|status|condrestart|try-restart|reload|"
+#~ "force-reload|report}"
+
+#~ msgid "Reloading icecast: "
+#~ msgstr "Перезагружается icecast: "
+
+#~ msgid "Shutting down openvpn: "
+#~ msgstr "Останавливается openvpn: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+
+#~ msgid ""
+#~ "Usage: $monitor {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Применение: $monitor {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "\t\tWelcome to "
+#~ msgstr "\t\tДобро пожаловать в "
+
+#~ msgid "Shutting down $desc ($prog): "
+#~ msgstr "Останавливается $desc ($prog): "
+
+#~ msgid ""
+#~ "Usage: $dagent {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Применение: $dagent {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Shutting down system logger: "
+#~ msgstr "Останавливается служба журналирования системы: "
+
+#~ msgid "$base is stopped"
+#~ msgstr "$base остановлен"
+
+#~ msgid "Checking configuration files for $prog: "
+#~ msgstr "Проверяются конфигурационные файлы для $prog: "
+
+#~ msgid "$0: call me as 'halt' or 'reboot' please!"
+#~ msgstr "$0: следует вызывать как 'halt' или 'reboot'!"
+
+#~ msgid "Starting FCoE initiator service: "
+#~ msgstr "Запускается служба инициатора FCoE:"
+
+#~ msgid "$NAME is attached to $DEVICE"
+#~ msgstr "$NAME присоединен к $DEVICE"
+
+#~ msgid "Start freshclam"
+#~ msgstr "Запуск freshclam"
+
+#~ msgid "Shutting down $prog: "
+#~ msgstr "Останавливается $prog: "
+
+#~ msgid "Reloading acpi daemon:"
+#~ msgstr "Перезагружается демон acpi:"
+
+#~ msgid "Starting greylistd: "
+#~ msgstr "Запускается greylistd:"
+
+#~ msgid "Stopping NetworkManager daemon: "
+#~ msgstr "Останавливается демон NetworkManager: "
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart}"
+#~ msgstr "Применение: $0 {start|stop|restart|status|condrestart}"
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|condrestart|try-restart|force-reload|"
+#~ "reload|status|fullstatus|graceful|help|configtest}"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|restart|condrestart|try-restart|force-"
+#~ "reload|reload|status|fullstatus|graceful|help|configtest}"
+
+#~ msgid "Starting smokeping: "
+#~ msgstr "Запускается smokeping: "
+
+#~ msgid "Stopping Mldonkey (mlnet): "
+#~ msgstr "Останавливается Mldonkey (mlnet): "
+
+#~ msgid "Starting puppet: "
+#~ msgstr "Запускается puppet: "
+
+#~ msgid "Starting ${prog_base}:"
+#~ msgstr "Запускается ${prog_base}: "
+
+#~ msgid "Sending all processes the TERM signal..."
+#~ msgstr "Всем процессам отправляется сигнал TERM..."
+
+#~ msgid "Rotating logs: "
+#~ msgstr "Ротация журналов: "
+
+#~ msgid "*** the clamav-server can be configured"
+#~ msgstr "*** clamav-server может быть настроен"
+
+#~ msgid "Starting restorecond: "
+#~ msgstr "Запускается restorecond: "
+
+#~ msgid "Starting xenstored daemon: "
+#~ msgstr "Запускается демон xenstored: "
+
+#~ msgid "Starting ${ifprog}: "
+#~ msgstr "Запускается ${ifprog}: "
+
+#~ msgid "Starting UPS monitor (master): "
+#~ msgstr "Запускается монитор UPS (мастер): "
+
+#~ msgid "/proc entries are not fixed"
+#~ msgstr "записи в /proc не были откорректированы"
+
+#~ msgid "Starting ipmi_watchdog driver: "
+#~ msgstr "Запускается драйвер ipmi_watchdog: "
+
+#~ msgid "Applying ktune sysctl settings:"
+#~ msgstr "Применение настроек ktune sysctl:"
+
+#~ msgid "Stopping $SERVICE daemon: "
+#~ msgstr "Останавливается демон $SERVICE: "
+
+#~ msgid "Starting named: "
+#~ msgstr "Запускается named: "
+
+#~ msgid "Shutting down NFS daemon: "
+#~ msgstr "Останавливается демон NFS: "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|restartlog|condrestart|try-restart|"
+#~ "reload|force-reload|status}"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|restart|restartlog|condrestart|try-restart|"
+#~ "reload|force-reload|status}"
+
+#~ msgid "ctdb is stopped"
+#~ msgstr "ctdb остановлен"
+
+#~ msgid "Reloading Condor daemons: "
+#~ msgstr "Перезагружаются демоны Condor: "
+
+#~ msgid "$base (pid $pid) is running..."
+#~ msgstr "$base (pid $pid) выполняется..."
+
+#~ msgid "Shutting down postfix: "
+#~ msgstr "Останавливается postfix: "
+
+#~ msgid "$prog already stopped."
+#~ msgstr "$prog уже остановлен."
+
+#~ msgid "Reloading INN Service: "
+#~ msgstr "Перезагружается служба INN: "
+
+#~ msgid "Stopping Condor daemons: "
+#~ msgstr "Останавливается демон Condor: "
+
+#~ msgid "Flushing all chains:"
+#~ msgstr "Сбрасываются все цепочки: "
+
+#~ msgid "Initializing MySQL database: "
+#~ msgstr "Инициализируется база данных MySQL: "
+
+#~ msgid "${IP6TABLES}: ${_IPV} is disabled."
+#~ msgstr "${IP6TABLES}: ${_IPV} выключен."
+
+#~ msgid "Starting incrond: "
+#~ msgstr "Запускается incrond: "
+
+#~ msgid "Starting capi4linux:"
+#~ msgstr "Запускается capi4linux: "
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status|condrestart}"
+#~ msgstr "Применение: $0 {start|stop|restart|reload|status|condrestart}"
+
+#~ msgid "Stopping disk encryption for $dst"
+#~ msgstr "Отменяется шифрование диска для $dst"
+
+#~ msgid "Shutting down rfcomm: "
+#~ msgstr "Останавливается rfcomm:"
+
+#~ msgid "Detaching loopback device $dev: "
+#~ msgstr "Отключается устройство $dev: "
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+#~ msgstr "Применение: $0 {start|stop|restart|try-restart|force-reload|status}"
+
+#~ msgid "Shutting down greylistd: "
+#~ msgstr "Останавливается greylistd: "
+
+#~ msgid "Stopping OpenSCADA daemon: "
+#~ msgstr "Останавливается демон OpenSCADA:"
+
+#~ msgid "Stopping Perlbal: "
+#~ msgstr "Останавливается Perlbal: "
+
+#~ msgid "Usage: $0 {start|stop}"
+#~ msgstr "Применение: $0 {start|stop}"
+
+#~ msgid "Starting $desc ($prog): "
+#~ msgstr "Запускается $desc ($prog): "
+
+#~ msgid "Stopping Shorewall: "
+#~ msgstr "Останавливается Shorewall: "
+
+#~ msgid "${IPTABLES}: Setting chains to policy $policy: "
+#~ msgstr "${IPTABLES}: Цепочкам назначается политика $policy: "
+
+#~ msgid "Reloading $PROG: "
+#~ msgstr "Перезагружается $PROG: "
+
+#~ msgid "Stopping yum-updatesd: "
+#~ msgstr "Останавливается yum-updatesd: "
+
+#~ msgid "$0: error: $prog is not running"
+#~ msgstr "$0: ошибка: $prog не выполняется"
+
+#~ msgid "\t-y \t\t: answer yes for all questions."
+#~ msgstr "\t-y \t\t: положительный ответ на все вопросы."
+
+#~ msgid "Generate configuration puppet: "
+#~ msgstr "Генерация конфигурации puppet:"
+
+#~ msgid "Checking for ctdbd service: "
+#~ msgstr "Проверка устройства ctdbd:"
+
+#~ msgid "restarting $prog..."
+#~ msgstr "перезапускается $prog..."
+
+#~ msgid "Starting process accounting: "
+#~ msgstr "Запускается учет процессов: "
+
+#~ msgid ""
+#~ "Usage: $server {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Применение: $server {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Starting YP map server: "
+#~ msgstr "Запускается сервер карт YP: "
+
+#~ msgid "$prog is already stopped."
+#~ msgstr "$prog уже остановлен."
+
+#~ msgid "database check"
+#~ msgstr "проверка базы данных"
+
+#~ msgid "Restarting Video Disk Recorder ($prog): "
+#~ msgstr "Перезапускается Video Disk Recorder ($prog): "
+
+#~ msgid "${IP6TABLES}: Saving firewall rules to $IP6TABLES_DATA: "
+#~ msgstr ""
+#~ "${IP6TABLES}: Правила межсетевого экрана сохраняются в $IP6TABLES_DATA: "
+
+#~ msgid "Shutting down $progbase: "
+#~ msgstr "Останавливается $progbase: "
+
+#~ msgid "(no mouse is configured)"
+#~ msgstr "(мышь не настроена)"
+
+#~ msgid "Starting $prog2: "
+#~ msgstr "Запускается $prog2: "
+
+#~ msgid "Applying sysctl settings from $SYSCTL_POST"
+#~ msgstr "Применение настроек sysctl из $SYSCTL_POST"
+
+#~ msgid "Sending switchover request to $NAME "
+#~ msgstr "Отправка запроса на переключение в $NAME "
+
+#~ msgid "Service $prog does not support the reload action: "
+#~ msgstr "Служба $prog·не поддерживает действие перезагрузки: "
+
+#~ msgid "Reloading Red Hat Network Daemon: "
+#~ msgstr "Перезагружается демон Red Hat Network: "
+
+#~ msgid "already started"
+#~ msgstr "уже запущен"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+
+#~ msgid "reloading sm-client: "
+#~ msgstr "перезагружается sm-client: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#~ msgid "\t-R \t\t: recursively dependency checking"
+#~ msgstr "\t-R \t\t: рекурсивная проверка зависимостей"
+
+#~ msgid "Starting Avahi daemon... "
+#~ msgstr "Запускается демон Avahi... "
+
+#~ msgid "Stopping Pound: "
+#~ msgstr "Останавливается Pound: "
+
+#~ msgid "Stopping $ical: "
+#~ msgstr "Останавливается $ical: "
+
+#~ msgid "Configured NFS mountpoints: "
+#~ msgstr "Настроены точки монтирования NFS: "
+
+#~ msgid "Starting Pound: "
+#~ msgstr "Запускается Pound: "
+
+#~ msgid "Unmounting pipe file systems: "
+#~ msgstr "Отсоединяются файловые системы RPC pipe: "
+
+#~ msgid "Current ktune sysctl settings:"
+#~ msgstr "Текущие настройки ktune sysctl:"
+
+#~ msgid "Usage: $prog {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "Применение: $prog {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting distributed compiler scheduler: "
+#~ msgstr "Запускается планировщик распределенной компиляции: "
+
+#~ msgid "parse error"
+#~ msgstr "ошибка разбора"
+
+#~ msgid "Starting $ID: "
+#~ msgstr "Запускается $ID: "
+
+#~ msgid "vncserver start"
+#~ msgstr "запуск vncserver"
+
+#~ msgid "Usage: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+#~ msgstr ""
+#~ "Применение: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+
+#~ msgid "Active network block devices: "
+#~ msgstr "Активные сетевые блочные устройства: "
+
+#~ msgid "Shutting down $prog"
+#~ msgstr "Останавливается $prog"
+
+#~ msgid "Starting system logger: "
+#~ msgstr "Запускается служба журналирования системы: "
+
+#~ msgid "$4 (e$2.$3@$1) [pid $pid]"
+#~ msgstr "$4 (e$2.$3@$1) [pid $pid]"
+
+#~ msgid "Shutting down pkcsslotd:"
+#~ msgstr "Останавливается pkcsslotd:"
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status}"
+#~ msgstr "Применение: $0 {start|stop|restart|condrestart|status}"
+
+#~ msgid "Reloading $prog2: "
+#~ msgstr "Перезагружается $prog2: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|cyclelogs|online|offline|command}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload|cyclelogs|online|offline|command}"
+
+#~ msgid "Starting ctdbd service: "
+#~ msgstr "Запускается служба ctdbd:"
+
+#~ msgid "not reloading due to configuration syntax error"
+#~ msgstr "не перезагружен из-за синтаксической ошибки в настройках"
+
+#~ msgid "Usage: $prog {start|stop|reload|restart|condrestart|status}"
+#~ msgstr "Применение: $prog {start|stop|reload|restart|condrestart|status}"
+
+#~ msgid "Resuming logging: "
+#~ msgstr "Продолжение журналирования: "
+
+#~ msgid "Failed to stop \"$s\". "
+#~ msgstr "Не удалось остановить \"$s\". "
+
+#~ msgid "no running guests."
+#~ msgstr "нет выполняющихся гостевых систем."
+
+#~ msgid "Starting icecast streaming daemon: "
+#~ msgstr "Запускается потоковый демон icecast: "
+
+#~ msgid "Stopping GNU Krell Monitors server ($prog): "
+#~ msgstr "Останавливается сервер GNU Krell Monitors ($prog): "
+
+#~ msgid "Usage: $prog {start|stop|status|restart|try-restart}"
+#~ msgstr "Применение: $prog {start|stop|status|restart|condrestart}"
+
+#~ msgid "Usage: $0 {condrestart|start|stop|restart|reload|status}"
+#~ msgstr "Применение: $0 {condrestart|start|stop|restart|reload|status}"
+
+#~ msgid "Starting kernel logger: "
+#~ msgstr "Запускается служба журналирования ядра: "
+
+#~ msgid "Shutting down ${NAME}: "
+#~ msgstr "Останавливается ${NAME}: "
+
+#~ msgid "Usage: $0 {start|stop|restart|status|force-stop}"
+#~ msgstr "Применение: $0 {start|stop|restart|status|force-stop}"
+
+#~ msgid "Telling INIT to go to single user mode."
+#~ msgstr ""
+#~ "Процессу INIT посылается команда перехода в однопользовательский режим."
+
+#~ msgid "Starting $name: "
+#~ msgstr "Запускается $name: "
+
+#~ msgid "Failed to sort dependency"
+#~ msgstr "Не удалось отсортировать зависимости"
+
+#~ msgid "Mounting cgroup-hierarchy"
+#~ msgstr "Монтирование cgroup-hierarchy"
+
+#~ msgid "Usage $0 {start|stop|restart|condrestart|save|status}"
+#~ msgstr "Применение: $0 {start|stop|restart|condrestart|save|status}"
+
+#~ msgid "Starting PC/SC smart card daemon ($prog): "
+#~ msgstr "Запускается демон смарт-карт PC/SC ($prog): "
+
+#~ msgid ""
+#~ "Usage: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "Применение: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|"
+#~ "save}"
+
+#~ msgid "*** Warning -- the system did not shut down cleanly. "
+#~ msgstr "*** Предупреждение: система не была корректно остановлена. "
+
+#~ msgid "Stopping $prog for $file: "
+#~ msgstr "Останавливается $prog для $file:"
+
+#~ msgid "Shutting down $NAME: "
+#~ msgstr "Останавливается $NAME: "
+
+#~ msgid "Configuration file /etc/radvd.conf missing"
+#~ msgstr "Отсутствует файл конфигурации /etc/radvd.conf"
+
+#~ msgid "Unmounting loopback filesystems (retry):"
+#~ msgstr "Отсоединяются файловые системы loopback (повторно): "
+
+#~ msgid "sfcb is not running"
+#~ msgstr "sfcb не выполняется"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|force-reload|status|panic|save}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|try-restart|force-reload|status|panic|"
+#~ "save}"
+
+#~ msgid "CTDB is already running"
+#~ msgstr "CTDB уже выполняется."
+
+#~ msgid "Error occured while calculating the IPv6to4 prefix"
+#~ msgstr "Ошибка при вычислении префикса IPv6to4"
+
+#~ msgid "fetch-crl-boot lockfile present"
+#~ msgstr "файл блокирования fetch-crl-boot существует"
+
+#~ msgid "$prog reload"
+#~ msgstr "перезагрузка $prog"
+
+#~ msgid "Stopping MogileFS tracker daemon: "
+#~ msgstr "Останавливается демон MogileFS·tracker: "
+
+#~ msgid "Starting unbound: "
+#~ msgstr "Запускается unbound: "
+
+#~ msgid "Dumping state of $prog in /tmp/sec.dump: "
+#~ msgstr "Информация о состоянии $prog сохраняется в /tmp/sec.dump: "
+
+#~ msgid "Starting NIS service: "
+#~ msgstr "Запускаются службы NIS: "
+
+#~ msgid "Failed to run \"$s\". ($ret)"
+#~ msgstr "Не удалось выполнить \"$s\". ($ret)"
+
+#~ msgid "RSA key generation"
+#~ msgstr "Генерация ключа RSA"
+
+#~ msgid "PORT environment is not set."
+#~ msgstr "PORT окружение не определено."
+
+#~ msgid "Usage: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+#~ msgstr ""
+#~ "Применение: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Killing all running contexts"
+#~ msgstr "Уничтожение всех запущенных связей"
+
+#~ msgid "Turning off quotas: "
+#~ msgstr "Отключаются квоты: "
+
+#~ msgid "${IPTABLES}: Applying firewall rules: "
+#~ msgstr "${IPTABLES}: Применяются правила межсетевого экрана: "
+
+#~ msgid "Shutting down $LLDPAD: "
+#~ msgstr "Останавливается $LLDPAD: "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|retune|help}"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|restart|force-reload|condrestart|try-"
+#~ "restart|status|retune|help}"
+
+#~ msgid "Mounting NFS filesystems: "
+#~ msgstr "Монтируются файловые системы NFS: "
+
+#~ msgid "Starting NetworkManager daemon: "
+#~ msgstr "Запускается демон NetworkManager: "
+
+#~ msgid ""
+#~ "Usage: $PROG {start|stop|restart|reload|force-reload|try-restart|status}"
+#~ msgstr ""
+#~ "Применение: $PROG {start|stop|restart|reload|force-reload|try-restart|"
+#~ "status}"
+
+#~ msgid "Stopping Frozen Bubble server(s): "
+#~ msgstr "Останавливаются серверы Frozen Bubble: "
+
+#~ msgid ""
+#~ "Can not find util-vserver installation (the file '$UTIL_VSERVER_VARS' "
+#~ "would be expected); aborting..."
+#~ msgstr ""
+#~ "Не могу найти установку util-vserver (ожидается файл "
+#~ "'$UTIL_VSERVER_VARS'); аварийное завершение..."
+
+#~ msgid "ctdb dead but subsys locked"
+#~ msgstr "ctdb не работает, но sybsys заблокирован"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "once|genconfig}"
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG"
+#~ msgstr "Сохранение текущих правил в $ARPTABLES_CONFIG"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|reload|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "FireHOL: Blocking all communications:"
+#~ msgstr "FireHOL: Блокирование всех соединений:"
+
+#~ msgid "Restarting $monitor: "
+#~ msgstr "Перезапускается $monitor:"
+
+#~ msgid "$named reload"
+#~ msgstr "перезагрузка $named"
+
+#~ msgid "move passphrase file"
+#~ msgstr "переместить файл пароля"
+
+#~ msgid "Entering non-interactive startup"
+#~ msgstr "Начало неинтерактивной загрузки"
+
+#~ msgid "Error: no valid $cfg found."
+#~ msgstr "Ошибка: корректный $cfg не найден."
+
+#~ msgid "*** Warning -- SELinux is active"
+#~ msgstr "*** Предупреждение: SELinux активен"
+
+#~ msgid "Reloading xenconsoled daemon: "
+#~ msgstr "Перезагружается служба xenconsoled: "
+
+#~ msgid "Starting BitTorrent tracker: "
+#~ msgstr "Запускается трекер BitTorrent: "
+
+#~ msgid "ERROR: [ipv6_log] Cannot log to channel '$channel'"
+#~ msgstr "Ошибка: [ipv6_log] Невозможно вести журнал в '$channel'"
+
+#~ msgid "Stopping $master_prog: "
+#~ msgstr "Останавливается $master_prog: "
+
+#~ msgid "Stopping abrt daemon: "
+#~ msgstr "Останавливается демон abrt:"
+
+#~ msgid "Reopening $prog log file: "
+#~ msgstr "Повторно открывается файл журнала $prog: "
+
+#~ msgid ""
+#~ "Usage: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "Применение: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#~ msgid "Reloading atop daemon configuration: "
+#~ msgstr "Перезагружается конфигурация демона atop:"
+
+#~ msgid "Stopping CallWeaver: "
+#~ msgstr "Останавливается CallWeaver:"
+
+#~ msgid "Reloading smb.conf file: "
+#~ msgstr "Перезагружается файл smb.conf: "
+
+#~ msgid "Stopping capi4linux:"
+#~ msgstr "Останавливается capi4linux:"
+
+#~ msgid "Shutting down upsdrvctl: "
+#~ msgstr "Останавливается upsdrvctl: "
+
+#~ msgid "$message"
+#~ msgstr "$message"
+
+#~ msgid "Stopping INNFeed service: "
+#~ msgstr "Останавливается служба INNFeed: "
+
+#~ msgid "Process accounting is enabled."
+#~ msgstr "Учет процессов включен."
+
+#~ msgid "Stopping ${NAME} service: "
+#~ msgstr "Останавливается служба ${NAME}: "
+
+#~ msgid "Stopping xenner daemons"
+#~ msgstr "Останавливается демон xenner"
+
+#~ msgid "Moving"
+#~ msgstr "Перемещение"
+
+#~ msgid "Resuming guests on $uri URI..."
+#~ msgstr "Возобновление работы гостей по адресу $uri..."
+
+#~ msgid "Starting xenconsoled daemon: "
+#~ msgstr "Запускается демон xenconsoled: "
+
+#~ msgid "RSA1 key generation"
+#~ msgstr "генерация ключа RSA1"
+
+#~ msgid "${IPTABLES}: ${_IPV} is disabled."
+#~ msgstr "${IPTABLES}: ${_IPV} выключен."
+
+#~ msgid "failed to clean cache $s.ko"
+#~ msgstr "не удалось очистить кэш $s.ko"
+
+#~ msgid "Starting $ical: "
+#~ msgstr "Запускается $ical: "
+
+#~ msgid "$0: Link is down"
+#~ msgstr "$0: Связь разорвана"
+
+#~ msgid "ktune settings are not applied."
+#~ msgstr "настройки ktune не были применены."
+
+#~ msgid "Process accounting is disabled."
+#~ msgstr "Учет процессов отключен."
+
+#~ msgid "ERROR: Only root can run firstboot"
+#~ msgstr "ОШИБКА: ТОлько root может запускать firstboot"
+
+#~ msgid "Starting ejabberd: "
+#~ msgstr "Запускается ejabberd: "
+
+#~ msgid "Reloading configuration: "
+#~ msgstr "Перезагружается конфигурация: "
+
+#~ msgid "found CRASH file, srv not started"
+#~ msgstr "найден файл CRASH, srv не перезапускается"
+
+#~ msgid "Preparing $PROG certificat: "
+#~ msgstr "Подготовка сертификата $PROG:"
+
+#~ msgid "Configured CIFS mountpoints: "
+#~ msgstr "Настроены точки монтирования CIFS: "
+
+#~ msgid "Shutting down $prog (DHCPv6): "
+#~ msgstr "Останавливается $prog (DHCPv6): "
+
+#~ msgid "Please run makehistory and/or makedbz before starting innd."
+#~ msgstr "Перед запуском innd необходимо выполнить makehistory и/или makedbz."
+
+#~ msgid "Enabling local filesystem quotas: "
+#~ msgstr "Активируются квоты локальных файловых систем: "
+
+#~ msgid "Active NCP mountpoints: "
+#~ msgstr "Активные точки монтирования NCP: "
+
+#~ msgid "Disabling periodic fetch-crl: "
+#~ msgstr "Отключение периодических опросов fetch-crl: "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstop|condrestart|status}"
+#~ msgstr "Применение: $0 {start|stop|restart|condstop|condrestart|status}"
+
+#~ msgid "Shutting down exim: "
+#~ msgstr "Останавливается exim: "
+
+#~ msgid "$0: error: program not installed"
+#~ msgstr "$0: ошибка: программа не установлена"
+
+#~ msgid "${IPTABLES}: Unloading modules: "
+#~ msgstr "${IPTABLES}: Выгружаются модули: "
+
+#~ msgid "Stopping pdns-recursor: "
+#~ msgstr "Останавливается pdns-recursor: "
+
+#~ msgid "domain not found"
+#~ msgstr "домен не найден"
+
+#~ msgid "$0: reload not supported"
+#~ msgstr "$0: перезагрузка не поддерживается"
+
+#~ msgid "$prog is not running"
+#~ msgstr "$prog не выполняется"
+
+#~ msgid "sfcb ($pid) is running"
+#~ msgstr "sfcb ($pid) выполняется"
+
+#~ msgid "Stopping named: "
+#~ msgstr "Останавливается named: "
+
+#~ msgid "Stopping $prog"
+#~ msgstr "Останавливается $prog"
+
+#~ msgid "Starting $prog for $ez_name: "
+#~ msgstr "Запускается $prog для $ez_name: "
+
+#~ msgid "yY"
+#~ msgstr "yY"
+
+#~ msgid "Restarting puppet: "
+#~ msgstr "Перезапускается puppet:"
+
+#~ msgid "Unregistering binary handler for qemu applications"
+#~ msgstr "Отмена регистрации двоичных обработчиков приложений qemu"
+
+#~ msgid "FireHOL: Restoring old firewall:"
+#~ msgstr "FireHOL: Восстановление старого межсетевого экрана:"
+
+#~ msgid "Shutting down NFS quotas: "
+#~ msgstr "Отключаются квоты NFS: "
+
+#~ msgid "          restart|condrestart|try-restart|reload|force-reload"
+#~ msgstr "          restart|condrestart|try-restart|reload|force-reload"
+
+#~ msgid "$prog: already running"
+#~ msgstr "$prog: уже выполняется"
+
+#~ msgid "Resuming guest $name: "
+#~ msgstr "Возобновление работы гостя $name: "
+
+#~ msgid "sfcb is not running, but pid file exists"
+#~ msgstr "sfcb не выполняется, но файл pid существует"
+
+#~ msgid "Force-stopping $prog: "
+#~ msgstr "Принудительно останавливается $prog: "
+
+#~ msgid "Reloading ${prog} config file: "
+#~ msgstr "Перезагружается файл конфигурации ${prog}: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload}"
+
+#~ msgid "Stopping smokeping: "
+#~ msgstr "Останавливается smokeping: "
+
+#~ msgid "vncserver startup"
+#~ msgstr "запуск vncserver"
+
+#~ msgid "Generating unbound control key and certificate: "
+#~ msgstr "Генерация управляющего ключа и сертификата:"
+
+#~ msgid ""
+#~ "Usage: $indexer {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Применение: $indexer {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status"
+#~ msgstr "Применение: $prog {start|stop|restart|condrestart|reload|status"
+
+#~ msgid "Stopping INND service (the hard way): "
+#~ msgstr "Останавливается служба INND (жестко): "
+
+#~ msgid "$base dead but subsys locked"
+#~ msgstr "$base не работает, но subsys заблокирован"
+
+#~ msgid "Shutting down argus: "
+#~ msgstr "Останавливается argus: "
+
+#~ msgid "Stopping CGroup Rules Engine Daemon..."
+#~ msgstr "Останавливается демон правил CGroup:"
+
+#~ msgid "Stopping HAL daemon: "
+#~ msgstr "Останавливается демон HAL: "
+
+#~ msgid "Starting asterisk: "
+#~ msgstr "Запускается asterisk: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|reload|force-reload|restart|try-restart|status}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|reload|force-reload|restart|try-restart|status}"
+
+#~ msgid "Starting arptables_jf"
+#~ msgstr "Запускается arptables_jf"
+
+#~ msgid "Starting RPC gssd: "
+#~ msgstr "Запускается RPC gssd: "
+
+#~ msgid "reload"
+#~ msgstr "перезагрузка"
+
+#~ msgid "fetch-crl-boot lockfile not-present"
+#~ msgstr "отсутствует файл блокирования fetch-crl-boot"
+
+#~ msgid "Starting Mldonkey (mlnet): "
+#~ msgstr "Запускается Mldonkey (mlnet): "
+
+#~ msgid "Setting up Logical Volume Management:"
+#~ msgstr "Устанавливаются параметры Logical Volume Manager"
+
+#~ msgid "Starting ladvd: "
+#~ msgstr "Запускается ladvd: "
+
+#~ msgid "Starting openvpn: "
+#~ msgstr "Запускается openvpn: "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status}"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|restart|force-reload|condrestart|try-"
+#~ "restart|status}"
+
+#~ msgid "Reloading ${prog}: "
+#~ msgstr "Перезагружается ${prog}: "
+
+#~ msgid "Starting RPC idmapd: "
+#~ msgstr "Запускается RPC idmapd: "
+
+#~ msgid "Binary handler for Windows applications already registered"
+#~ msgstr "Двоичный обработчик для приложений Windows уже зарегистрирован"
+
+#~ msgid "$s$pid is running..."
+#~ msgstr "$s$pid выполняется..."
+
+#~ msgid "Fixing /proc entries visibility"
+#~ msgstr "Корректируются отображаемые записи в /proc"
+
+#~ msgid "program is not running"
+#~ msgstr "программа не выполняется"
+
+#~ msgid "Stopping INN actived service: "
+#~ msgstr "Останавливается служба INN actived: "
+
+#~ msgid "Stopping all ${MODULE_NAME} drivers: "
+#~ msgstr "Останавливаются все драйвера ${MODULE_NAME}: "
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|reload|try-restart|status}"
+#~ msgstr "Применение: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#~ msgid "$0: /etc/sysconfig/ktune does not exist."
+#~ msgstr "$0: /etc/sysconfig/ktune не существует."
+
+#~ msgid "Restarting..."
+#~ msgstr "Перезапуск..."
+
+#~ msgid "Shutting down kernel logger: "
+#~ msgstr "Останавливается служба журналирования ядра:"
+
+#~ msgid "$prog exporting databases"
+#~ msgstr "$prog экспортирует базы данных"
+
+#~ msgid "CIM server is not running, but lock file exists"
+#~ msgstr "Сервер CIM не запущен, но файл lock существует"
+
+#~ msgid "Starting Qpid AMQP daemon: "
+#~ msgstr "Запускается демон Qpid·AMQP: "
+
+#~ msgid "Starting UPS driver controller: "
+#~ msgstr "Запускается драйвер контроллера UPS: "
+
+#~ msgid "Shutting down BitTorrent seed client: "
+#~ msgstr "Останавливается seed-клиент BitTorrent: "
+
+#~ msgid "Reloading xend daemon: "
+#~ msgstr "Перезагружается демон xend: "
+
+#~ msgid "Halting system..."
+#~ msgstr "Подготовка к останову системы..."
+
+#~ msgid "Reloading Avahi daemon... "
+#~ msgstr "Перезагружается демон Avahi... "
+
+#~ msgid "${IPTABLES}: /sbin/$IPTABLES does not exist."
+#~ msgstr "${IPTABLES}: /sbin/$IPTABLES не существует."
+
+#~ msgid "Starting infrared remote control daemon ($prog): "
+#~ msgstr "Запускается демон инфракрасного пульта ДУ ($prog):"
+
+#~ msgid "$prog status is unknown"
+#~ msgstr "статус $prog неизвестен"
+
+#~ msgid "Stopping YP map server: "
+#~ msgstr "Останавливается сервер карт YP:"
+
+#~ msgid "${IP6TABLES}: Firewall is not configured. "
+#~ msgstr "${IP6TABLES}: Межсетевой экран не настроен. "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|try-restart|condrestart|reload|force-"
+#~ "reload|status}"
+
+#~ msgid "Monthly smolt check-in is disabled."
+#~ msgstr "Ежемесячные проверки информации Smolt выключены."
+
+#~ msgid "$prog check"
+#~ msgstr "проверка $prog"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|try-restart|condrestart|reload|force-"
+#~ "reload|status}"
+
+#~ msgid "Usage: status {program}"
+#~ msgstr "Применение: status {program}"
+
+#~ msgid "Binding NIS service: "
+#~ msgstr "Сопоставляется служба NIS: "
+
+#~ msgid "Tap support not available: tunctl not found"
+#~ msgstr "Поддержка tap недоступна: утилита tunctl не найдена"
+
+#~ msgid "Usage: killproc {pids} [signal]"
+#~ msgstr "Применение: killproc {pids} [signal]"
+
+#~ msgid "Stopping Red Hat Network Daemon: "
+#~ msgstr "Останавливается демон Red Hat Network: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|propagate}"
+#~ msgstr "Применение: $0 {start|stop|status|restart|propagate}"
+
+#~ msgid "Shutting down RPC svcgssd: "
+#~ msgstr "Останавливается служба RPC svcgssd: "
+
+#~ msgid "Reloading NIS service: "
+#~ msgstr "Перезагружается служба NIS:"
+
+#~ msgid "Starting $SERVICE daemon: "
+#~ msgstr "Запускается демон $SERVICE: "
+
+#~ msgid "Stoping xen blktapctrl daemon: "
+#~ msgstr "Останавливается демон xen·blktapctrl: "
+
+#~ msgid "Stopping rusers services: "
+#~ msgstr "Останавливаются службы rusers: "
+
+#~ msgid "Disabling Moodle cron job: "
+#~ msgstr "Отключается периодическое задание Moodle: "
+
+#~ msgid "Starting dund: "
+#~ msgstr "Запускается dund:"
+
+#~ msgid "Stopping Orbited: "
+#~ msgstr "Останавливается Orbited: "
+
+#~ msgid "Reloading config for $prog: "
+#~ msgstr "Перезагружается конфигурация для $prog: "
+
+#~ msgid "Starting system message bus: "
+#~ msgstr "Запускается шина системных сообщений: "
+
+#~ msgid "Restarting $gateway: "
+#~ msgstr "Перезапускается $gateway:"
+
+#~ msgid "Shutting down ladvd: "
+#~ msgstr "Останавливается ladvd: "
+
+#~ msgid "Usage: drbdlinksclean {start|stop|status|restart|force-reload}"
+#~ msgstr "Применение: drbdlinksclean {start|stop|status|restart|force-reload}"
+
+#~ msgid "$prog importing databases"
+#~ msgstr "$prog импортирует базы данных"
+
+#~ msgid "Starting distributed compiler daemon: "
+#~ msgstr "Запускается демон распределенной компиляции: "
+
+#~ msgid "Starting OpenSCADA daemon: "
+#~ msgstr "Запускается демон OpenSCADA: "
+
+#~ msgid "done"
+#~ msgstr "готово"
+
+#~ msgid "Stopping $PROG:"
+#~ msgstr "Останавливается $PROG: "
+
+#~ msgid "Stopping supervisord: "
+#~ msgstr "Останавливается supervisord: "
+
+#~ msgid "Suspending $name: "
+#~ msgstr "$name переводится в режим ожидания: "
+
+#~ msgid "Starting vbi proxy daemon: "
+#~ msgstr "Запускается прокси-служба vbi: "
+
+#~ msgid "Enabling nightly yum update: "
+#~ msgstr "Разрешается обновление через yum каждую ночь:  "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+#~ msgstr ""
+#~ "Применение: $0  {start|stop|status|restart|reload|force-reload|"
+#~ "condrestart}"
+
+#~ msgid "Reloading postfix: "
+#~ msgstr "Перезагружается postfix: "
+
+#~ msgid "Reloading maps"
+#~ msgstr "Перечитываются карты"
+
+#~ msgid "Initializing OpenCT smart card terminals: "
+#~ msgstr "Инициализируются терминалы смарт-карт OpenCT: "
+
+#~ msgid "Unconfigured: $prog, see /etc/sysconfig/hddtemp: "
+#~ msgstr "Не настроен:·$prog,·см.·/etc/sysconfig/hddtemp: "
+
+#~ msgid "${IPTABLES}: Saving firewall rules to $IPTABLES_DATA: "
+#~ msgstr ""
+#~ "${IPTABLES}: Правила межсетевого экрана сохраняются в $IPTABLES_DATA: "
+
+#~ msgid "Setting network parameters... "
+#~ msgstr "Устанавливаются параметры сети... "
+
+#~ msgid "Stopping distributed compiler daemon: "
+#~ msgstr "Останавливается демон распределенной компиляции: "
+
+#~ msgid "Starting Condor daemons: "
+#~ msgstr "Запускается демон Condor: "
+
+#~ msgid "Path to vshelper has been set"
+#~ msgstr "Путь к vshelper был установлен"
+
+#~ msgid "Running fetch-crl on boot can take a while: "
+#~ msgstr "Выполнение fetch-crl в boot может занять некоторое время: "
+
+#~ msgid "Stopping Wesnoth game server: "
+#~ msgstr "Останавливается игровой сервер Wesnoth:"
+
+#~ msgid "Stopping xenstored daemon: "
+#~ msgstr "Останавливается демон xenstored: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|condrestart|try-restart|reload|force-"
+#~ "reload|status}"
+
+#~ msgid "Checking SMART devices now: "
+#~ msgstr "Проверка SMART-устройств: "
+
+#~ msgid "Importing packets to monotone database: "
+#~ msgstr "Выполняется импорт пакетов в базу данных monotone:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|rotate|resume}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload|rotate|resume}"
+
+#~ msgid "$prog is running..."
+#~ msgstr "$prog выполняется..."
+
+#~ msgid "Reloading $LLDPAD is not supported: "
+#~ msgstr "Перезагрузка $LLDPAD не поддерживается:"
+
+#~ msgid "Mldonkey (mlnet) is stopped"
+#~ msgstr "Остановлен Mldonkey (mlnet)"
+
+#~ msgid "Starting $PROG: "
+#~ msgstr "Запускается $PROG: "
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status|help}"
+#~ msgstr "Применение: $prog {start|stop|restart|condrestart|status|help}"
+
+#~ msgid "Shutting down icecast streaming daemon: "
+#~ msgstr "Останавливается потоковый демон icecast: "
+
+#~ msgid "FireHOL: Clearing Firewall:"
+#~ msgstr "FireHOL: очистка межсетевого экрана:"
+
+#~ msgid "(Repair filesystem)"
+#~ msgstr "(Восстановление файловой системы)"
+
+#~ msgid "not reloading $httpd due to configuration syntax error"
+#~ msgstr "не перезагружен $httpd из-за синтаксической ошибки в настройках"
+
+#~ msgid "Stopping $SERVICE:"
+#~ msgstr "Останавливается $SERVICE: "
+
+#~ msgid "Starting infrared remote control mouse daemon ($prog2): "
+#~ msgstr "Запускается демон инфракрасного пульта ДУ для мыши ($prog):"
+
+#~ msgid "Setting NIS domain name $NISDOMAIN: "
+#~ msgstr "Настраивается имя $NISDOMAIN домена NIS: "
+
+#~ msgid "Starting Frozen Bubble server(s): "
+#~ msgstr "Запускаются серверы Frozen Bubble: "
+
+#~ msgid "Starting auto nice daemon:"
+#~ msgstr "Запускается демон auto·nice: "
+
+#~ msgid "Checking database format in"
+#~ msgstr "Проверяется формат базы данных в"
+
+#~ msgid "Suspending guests on $uri URI..."
+#~ msgstr "Гостевые системы на $uri переводятся в режим ожидания..."
+
+#~ msgid "Starting $prog: $conf"
+#~ msgstr "Запускается $prog: $conf"
+
+#~ msgid "Shutting down up-imapproxy daemon: "
+#~ msgstr "Останавливается демон up-imapproxy:"
+
+#~ msgid "Staring new master $prog: "
+#~ msgstr "Запускается новый $prog (мастер): "
+
+#~ msgid "VNC server"
+#~ msgstr "сервер VNC"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|reload|force-reload|condrestart|try-"
+#~ "restart|status}"
+
+#~ msgid "Options:"
+#~ msgstr "Параметры:"
+
+#~ msgid "packet import"
+#~ msgstr "импорт пакетов"
+
+#~ msgid "$file: "
+#~ msgstr "$file: "
+
+#~ msgid "To lose old key remove file"
+#~ msgstr "Для удаления старого ключа удалите файл"
+
+#~ msgid "program is dead and /var/run pid file exists"
+#~ msgstr "программа не работает, но pid файл в /var/run существует"
+
+#~ msgid "Not stopping $prog: iscsi sessions still active"
+#~ msgstr "Не останавливается $prog: сессии iscsi до сих пор активны "
+
+#~ msgid ""
+#~ "$prog error importing databases, check ${CONFIGDIRECTORY}/rpm/db_import."
+#~ "log"
+#~ msgstr ""
+#~ "Ошибка импорта баз данных $prog. Проверьте журнал ${CONFIGDIRECTORY}/rpm/"
+#~ "db_import.log"
+
+#~ msgid "Starting Orbited: "
+#~ msgstr "Запускается Orbited:"
+
+#~ msgid "Starting BitTorrent seed client: "
+#~ msgstr "Запускается seed-клиент BitTorrent: "
+
+#~ msgid "Shutting down pand: "
+#~ msgstr "Останавливается pand:"
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|help}"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|restart|force-reload|condrestart|try-"
+#~ "restart|status|help}"
+
+#~ msgid "Usage: $prog {start|stop|status|restart|condrestart}"
+#~ msgstr "Применение: $prog {start|stop|status|restart|condrestart}"
+
+#~ msgid "Usage: $0 {start|stop|restart|status}"
+#~ msgstr "Применение: $0 {start|stop|restart|status}"
+
+#~ msgid "Stopping INND service (gently): "
+#~ msgstr "Останавливается служба INND (мягко): "
+
+#~ msgid "Stopping RPC idmapd: "
+#~ msgstr "Останавливается RPC idmapd: "
+
+#~ msgid "$file is not readable by \"$user\""
+#~ msgstr "\"$user\" не может читать $file"
+
+#~ msgid "Stopping distributed compiler scheduler: "
+#~ msgstr "Останавливается планировщик распределенной компиляции: "
+
+#~ msgid "Stopping $prog2: "
+#~ msgstr "Останавливается $prog2: "
+
+#~ msgid "An old version of the database format was found."
+#~ msgstr "Обнаружена старая версия формата базы данных."
+
+#~ msgid "Something bad happened, manual intervention required, maybe restart?"
+#~ msgstr ""
+#~ "Непредвиденная ситуация, требуется вмешательство. Попробовать "
+#~ "перезапустить?"
+
+#~ msgid "Usage: $prog {start|stop|restart|reload|condrestart|status|help}"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|restart|reload|condrestart|status|help}"
+
+#~ msgid "Stopping Qpid AMQP daemon: "
+#~ msgstr "Останавливается демон Qpid·AMQP: "
+
+#~ msgid "Manifest does not exist: $PUPPETMASTER_MANIFEST"
+#~ msgstr "Манифест не существует: $PUPPETMASTER_MANIFEST"
+
+#~ msgid "${IP6TABLES}: /sbin/$IP6TABLES does not exist."
+#~ msgstr "${IP6TABLES}: /sbin/$IP6TABLES не существует."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+
+#~ msgid "Starting DAAP server: "
+#~ msgstr "Запускается сервер DAAP: "
+
+#~ msgid "Starting MogileFS tracker daemon: "
+#~ msgstr "Запускается демон MogileFS·tracker: "
+
+#~ msgid "Nightly apt update is disabled."
+#~ msgstr "Ночные обновления через apt отключены."
+
+#~ msgid "Stopping OpenCT smart card terminals: "
+#~ msgstr "Останавливаются терминалы смарт-карт OpenCT: "
+
+#~ msgid "Applying arptables firewall rules: "
+#~ msgstr "Применяются правила брандмауэра arptables: "
+
+#~ msgid "certs generation"
+#~ msgstr "генерация сертификатов"
+
+#~ msgid "Usage: $0 {start|stop|restart}"
+#~ msgstr "Применение: $0 {start|stop|restart}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "configtest|status}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "configtest|status}"
+
+#~ msgid "Unmounting cgroup-hierarchy"
+#~ msgstr "Отсоединяется cgroup-hierarchy"
+
+#~ msgid "Starting rwho services: "
+#~ msgstr "Запускаются службы rwho: "
+
+#~ msgid "Stopping acpi daemon: "
+#~ msgstr "Останавливается демон acpi: "
+
+#~ msgid "Initializing database: "
+#~ msgstr "Инициализируется база данных: "
+
+#~ msgid "Unmounting loopback filesystems: "
+#~ msgstr "Отсоединяются файловые системы loopback: "
+
+#~ msgid "          stop-all|status-all}"
+#~ msgstr "          stop-all|status-all}"
+
+#~ msgid "${IP6TABLES}: Flushing firewall rules: "
+#~ msgstr "${IP6TABLES}: Сбрасываются правила межсетевого экрана: "
+
+#~ msgid "Loading default device map"
+#~ msgstr "Загружается стандартная карта устройств"
+
+#~ msgid "$prog dead but pid file exists"
+#~ msgstr "$prog не работает, но файл pid существует"
+
+#~ msgid "Shutting down dund: "
+#~ msgstr "Останавливается dund:"
+
+#~ msgid "Restarting Shorewall: "
+#~ msgstr "Перезапускается Shorewall: "
+
+#~ msgid "Shutting down..."
+#~ msgstr "Останавливается..."
+
+#~ msgid "Shutting down console mouse services: "
+#~ msgstr "Останавливаются службы консольной мыши: "
+
+#~ msgid "Path to vshelper has not been set"
+#~ msgstr "Не задан путь к vshelper"
+
+#~ msgid "Reloading ser2net: "
+#~ msgstr "Перезагружается ser2net: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "stop|force-restart|force-reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-stop|force-restart|force-reload}"
+
+#~ msgid "Shutting down CIM server: "
+#~ msgstr "Останавливается сервер CIM: "
+
+#~ msgid "Starting GNU Krell Monitors server ($prog): "
+#~ msgstr "Запускается сервер GNU·Krell·Monitors ($prog): "
+
+#~ msgid "Stopping NFS statd: "
+#~ msgstr "Останавливается NFS statd: "
+
+#~ msgid "Generating RSA key for server $MONOTONE_KEYID"
+#~ msgstr "Генерируется RSA-ключ для сервера $MONOTONE_KEYID"
+
+#~ msgid "Starting ${desc} (${prog}): "
+#~ msgstr "Запускается ${desc} (${prog}): "
+
+#~ msgid "CIM server ($pid) is running"
+#~ msgstr "Сервер CIM ($pid) работает..."
+
+#~ msgid "Starting $prog"
+#~ msgstr "Запускается $prog"
+
+#~ msgid "Starting pdns-recursor: "
+#~ msgstr "Запускается pdns-recursor: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|try-restart|status}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|reload|force-reload|try-restart|status}"
+
+#~ msgid "Stopping denyhosts: "
+#~ msgstr "Останавливается denyhosts: "
+
+#~ msgid "Unregistering binary handler for Windows applications: "
+#~ msgstr ""
+#~ "Отменяется регистрация двоичного обработчика для приложений Windows: "
+
+#~ msgid "Shutting down telescope daemon: "
+#~ msgstr "Останавливается демон telescope:"
+
+#~ msgid "${IP6TABLES}: Unloading modules: "
+#~ msgstr "${IP6TABLES}: Выгружаются модули: "
+
+#~ msgid "Monthly smolt check-in is enabled."
+#~ msgstr "Ежемесячные·проверки·информации Smolt·включены."
+
+#~ msgid "Starting $prog for $file: "
+#~ msgstr "Запускается $prog для $file: "
+
+#~ msgid "Starting sge_shadowd: "
+#~ msgstr "Запускается sge_shadowd: "
+
+#~ msgid "Initializing database"
+#~ msgstr "Инициализируется база данных"
+
+#~ msgid "Shutting down $KIND services: "
+#~ msgstr "Останавливаются службы $KIND: "
+
+#~ msgid "domain is '$NISDOMAIN' "
+#~ msgstr "домен '$NISDOMAIN' "
+
+#~ msgid "FireHOL: Activating new firewall:"
+#~ msgstr "FireHOL: Activating new firewall:"
+
+#~ msgid "Kernel is not compiled with IPv6 support"
+#~ msgstr "В ядре отсутствует поддержка IPv6"
+
+#~ msgid "Stopping $PROG: "
+#~ msgstr "Останавливается $PROG: "
+
+#~ msgid "Resetting built-in chains to the default ACCEPT policy:"
+#~ msgstr "Встроенные цепочки сбрасываются в стандартную политику ACCEPT:"
+
+#~ msgid "$s is stopped"
+#~ msgstr "$s остановлен"
+
+#~ msgid "Stopping Video Disk Recorder ($prog): "
+#~ msgstr "Останавливается Video Disk Recorder ($prog): "
+
+#~ msgid "Start service $1 (Y)es/(N)o/(C)ontinue? [Y] "
+#~ msgstr "Запустить службу $1 (Y)es/(N)o/(C)ontinue? [Y]"
+
+#~ msgid "Stopping RPC gssd: "
+#~ msgstr "Останавливается RPC gssd: "
+
+#~ msgid "$prog is already running."
+#~ msgstr "$prog уже выполняется."
+
+#~ msgid "Shutting down BitTorrent tracker: "
+#~ msgstr "Останавливается трекер BitTorrent: "
+
+#~ msgid "Checking filesystems"
+#~ msgstr "Проверяются файловые системы"
+
+#~ msgid "Shutting down NFS mountd: "
+#~ msgstr "Останавливается NFS mountd: "
+
+#~ msgid "Starting $prog daemon: "
+#~ msgstr "Запускается демон $prog: "
+
+#~ msgid "Starting up $prog: "
+#~ msgstr "Запускается $prog: "
+
+#~ msgid "Orbited is running."
+#~ msgstr "Orbited выполняется."
+
+#~ msgid "*** Dropping you to a shell; the system will reboot"
+#~ msgstr "*** Переход в оболочку; система будет перезапущена"
+
+#~ msgid "Starting supervisord: "
+#~ msgstr "Запускается supervisord: "
+
+#~ msgid "*** Dropping you to a shell; the system will continue"
+#~ msgstr "*** Переход в оболочку; система продолжит работу"
+
+#~ msgid "$prog is stopped"
+#~ msgstr "$prog остановлен"
+
+#~ msgid "Restarting $spooler: "
+#~ msgstr "Перезапускается $spooler:"
+
+#~ msgid "Exporting $prog databases: "
+#~ msgstr "Экспортируются базы данных $prog: "
+
+#~ msgid "Starting ${NAME} service: "
+#~ msgstr "Запускается служба ${NAME}: "
+
+#~ msgid "$dst: no value for size option, skipping"
+#~ msgstr "$dst: отсутствует значение параметра размера; пропускается"
+
+#~ msgid "Setting NIS domain: "
+#~ msgstr "Устанавливается домен NIS: "
+
+#~ msgid "Starting $gateway: "
+#~ msgstr "Запускается $gateway: "
+
+#~ msgid "Use \"scandvb -o vdr\" from the dvb-apps package to create one."
+#~ msgstr "Для создания используйте \"scandvb -o vdr\" из пакета dvb-apps."
+
+#~ msgid "Reverting to ${KERNEL_ELEVATOR} elevator: "
+#~ msgstr "Вернуть конвейер ${KERNEL_ELEVATOR}:"
+
+#~ msgid "Active CIFS mountpoints: "
+#~ msgstr "Активные точки монтирования CIFS: "
+
+#~ msgid "DSS key generation"
+#~ msgstr "Генерация ключа DSA"
+
+#~ msgid "$prog shutdown"
+#~ msgstr "останов $prog"
+
+#~ msgid "Generating SSH2 RSA host key: "
+#~ msgstr "Генерируется ключ SSH2 RSA: "
+
+#~ msgid "Stopping ipmi_watchdog driver: "
+#~ msgstr "Останавливается драйвер ipmi_watchdog: "
+
+#~ msgid "Starting $prog (DHCPv6): "
+#~ msgstr "Запускается $prog (DHCPv6): "
+
+#~ msgid "Starting INND system: "
+#~ msgstr "Запускается система INND: "
+
+#~ msgid "Starting $monitor: "
+#~ msgstr "Запускается $monitor: "
+
+#~ msgid "Table: $table"
+#~ msgstr "Таблица: $table"
+
+#~ msgid "Creating required directories"
+#~ msgstr "Создание необходимых каталогов"
+
+#~ msgid "Reloading Avahi DNS daemon... "
+#~ msgstr "Перезагружается демон Avahi DNS... "
+
+#~ msgid "FireHOL: Saving firewall to ${FIREHOL_AUTOSAVE}:"
+#~ msgstr "FireHOL: Сохранение межсетевого экрана в ${FIREHOL_AUTOSAVE}:"
+
+#~ msgid "Nightly apt update is enabled."
+#~ msgstr "Включены ночные обновления через apt."
+
+#~ msgid "Stopping GNU cfengine environmental history daemon: "
+#~ msgstr "Останавливается демон истории окружения GNU cfengine: "
+
+#~ msgid "Starting postfix: "
+#~ msgstr "Запускается postfix: "
+
+#~ msgid "Starting abrt daemon: "
+#~ msgstr "Запускается демон abrt:"
+
+#~ msgid "Restarting $dagent: "
+#~ msgstr "Перезапускается $dagent:"
+
+#~ msgid ""
+#~ "Usage: $gateway {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Применение: $gateway {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Stopping $gateway: "
+#~ msgstr "Останавливается $gateway: "
+
+#~ msgid "restart"
+#~ msgstr "перезапуск"
+
+#~ msgid "Starting exim: "
+#~ msgstr "Запускается exim: "
+
+#~ msgid "Stopping xend daemon: "
+#~ msgstr "Останавливается демон xend: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|condstop|reload|"
+#~ "force-reload|initdb}"
+
+#~ msgid "$s is dead, but another script is running."
+#~ msgstr "$s не работает, но выполняется другой сценарий."
+
+#~ msgid "Shutting down NFS services: "
+#~ msgstr "Останавливаются службы NFS: "
+
+#~ msgid "Stopping monotone server: "
+#~ msgstr "Останавливается сервер monotone:"
+
+#~ msgid "Configured NCP mountpoints: "
+#~ msgstr "Настроены точки монтирования NCP: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|cron|condrestart|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|reload|force-reload|status|cron|"
+#~ "condrestart|try-restart}"
+
+#~ msgid "Generate configuration puppetmaster: "
+#~ msgstr "Генерация конфигурации puppetmaster: "
+
+#~ msgid "$dst: no value for cipher option, skipping"
+#~ msgstr "$dst: отсутствует значение параметра шифра; пропускается"
+
+#~ msgid "Shutting down Avahi daemon: "
+#~ msgstr "Останавливается демон Avahi: "
+
+#~ msgid "Starting $KIND services: "
+#~ msgstr "Запускаются службы $KIND: "
+
+#~ msgid "$prog is running"
+#~ msgstr "$prog выполняется"
+
+#~ msgid "$dst: no value for hash option, skipping"
+#~ msgstr "$dst: отсутствует значение параметра хеша. Пропускается."
+
+#~ msgid "Reloading $SERVICE configuration: "
+#~ msgstr "Перечитывается конфигурация $SERVICE: "
+
+#~ msgid "${IPTABLES}: Flushing firewall rules: "
+#~ msgstr "${IPTABLES}: Сбрасываются правила межсетевого экрана: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|condrestart|reload}"
+#~ msgstr "Применение: $0 {start|stop|status|restart|condrestart|reload}"
+
+#~ msgid "*** $0 can not be called in this way"
+#~ msgstr "*** $0 не может быть вызван таким образом"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|try-restart|force-reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|reload|try-restart|force-reload}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|condrestart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|try-restart|condrestart|reload|"
+#~ "force-reload}"
+
+#~ msgid "Denyhosts already running."
+#~ msgstr "Denyhosts уже выполняется."
+
+#~ msgid "Stoping Gadget daemon: "
+#~ msgstr "Останавливается демон Gadget:"
+
+#~ msgid "Enabling Moodle cron job: "
+#~ msgstr "Включается периодическое задание Moodle: "
+
+#~ msgid "Waiting for network..."
+#~ msgstr "Ожидание сети..."
+
+#~ msgid "$DAEMON is not set."
+#~ msgstr "$DAEMON не установлен."
+
+#~ msgid "Starting pkcsslotd: "
+#~ msgstr "Запускается pkcsslotd: "
+
+#~ msgid "Starting puppetmaster: "
+#~ msgstr "Запускается puppetmaster: "
+
+#~ msgid "dead but pid file exists"
+#~ msgstr "не работает, но pid-файл существует"
+
+#~ msgid "Reloading infrared remote control daemon ($prog): "
+#~ msgstr "Перезагружается демон инфракрасного пульта ДУ ($prog):"
+
+#~ msgid "Moving old server passphrase file to new location: "
+#~ msgstr "Перемещение файла пароля старого сервера в новое место:"
+
+#~ msgid "Stopping fail2ban: "
+#~ msgstr "Останавливается fail2ban: "
+
+#~ msgid "Stopping $spooler: "
+#~ msgstr "Останавливается $spooler: "
+
+#~ msgid "$dst: LUKS requires non-random key, skipping"
+#~ msgstr ""
+#~ "$dst: LUKS требует ключ, который не является случайным; пропускается"
+
+#~ msgid "dead but subsys locked"
+#~ msgstr "не работает, но sybsys заблокирован"
+
+#~ msgid "$prog abort"
+#~ msgstr "экстренный останов $prog"
+
+#~ msgid "failed to shutdown in time"
+#~ msgstr "не удалось вовремя выключить"
+
+#~ msgid "On the next boot fsck will be forced."
+#~ msgstr "При следующей загрузке будет принудительно выполнена проверка fsck."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|force-reload|condrestart}"
+#~ msgstr "Применение: $0 {start|stop|status|restart|force-reload|condrestart}"
+
+#~ msgid "FireHOL: Activating new firewall (${FIREHOL_COMMAND_COUNTER} rules):"
+#~ msgstr ""
+#~ "FireHOL: Активирование нового межсетевого экрана "
+#~ "(${FIREHOL_COMMAND_COUNTER} правил):"
+
+#~ msgid "Disabling monthly Smolt update: "
+#~ msgstr "Запрещаются ежемесячные обновления информации Smolt:"
+
+#~ msgid "denyhosts cron service is disabled."
+#~ msgstr "cron-служба denyhosts отключена."
+
+#~ msgid "$1 not available"
+#~ msgstr "$1 не доступен"
+
+#~ msgid "Shutting down sm-client: "
+#~ msgstr "Останавливается sm-client: "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart} [<configfile.{yml|conf}>]"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart} [<файл_конфигурации.{yml|conf}>]"
+
+#~ msgid "Stopping Gnokii SMS daemon ($prog): "
+#~ msgstr "Останавливается демон Gnokii SMS ($prog): "
+
+#~ msgid "\t-r kernelrelease: specify kernel release version"
+#~ msgstr "\t-r выпуск: задает версию ядра"
+
+#~ msgid "status $rc of $prog"
+#~ msgstr "статус $rc·для·$prog"
+
+#~ msgid "Registering binary handler for Windows applications: "
+#~ msgstr "Регистрация двоичного обработчика приложений Windows: "
+
+#~ msgid "Starting pand: "
+#~ msgstr "Запускается pand:"
+
+#~ msgid "Starting Gnokii SMS daemon ($prog): "
+#~ msgstr "Запускается демон Gnokii SMS ($prog): "
+
+#~ msgid "$prog already running: "
+#~ msgstr "$prog уже выполняется: "
+
+#~ msgid "Starting Gadget daemon: "
+#~ msgstr "Запускается демон Gadget:"
+
+#~ msgid "*** Please see /usr/share/doc/clamav-server-*/README how"
+#~ msgstr ""
+#~ "*** Просмотрите файл /usr/share/doc/clamav-server-*/README, в котором"
+
+#~ msgid "Stopping INND service (PID not found, the hard way): "
+#~ msgstr ""
+#~ "Останавливается служба INND (PID не найден, немедленная остановка): "
+
+#~ msgid "FireHOL: Saving your old firewall to a temporary file:"
+#~ msgstr "FireHOL: Сохранение старого межсетвого экрана во временный файл:"
+
+#~ msgid "Active NFS mountpoints: "
+#~ msgstr "Активные точки монтирования NFS: "
+
+#~ msgid "Starting router discovery: "
+#~ msgstr "Запускается служба обнаружения маршрутизаторов: "
+
+#~ msgid "Mounting other filesystems: "
+#~ msgstr "Монтируются другие файловые системы: "
+
+#~ msgid "qemu binary format handlers are registered."
+#~ msgstr "Обработчики двоичного формата qemu зарегистрированы."
+
+#~ msgid "common address redundancy protocol daemon"
+#~ msgstr "демон протокола CARP"
+
+#~ msgid "Reloading $desc ($prog): "
+#~ msgstr "Перезагружается $desc ($prog): "
+
+#~ msgid "Starting $server: "
+#~ msgstr "Запускается $server: "
+
+#~ msgid "\t-c configfile\t: specify config file"
+#~ msgstr "\t-c файл\t: позволяет задать файл конфигурации"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|force-reload}"
+#~ msgstr "Применение: $0 {start|stop|status|restart|force-reload}"
+
+#~ msgid "irattach shutdown"
+#~ msgstr "останов irattach"
+
+#~ msgid "Stopping NFS locking: "
+#~ msgstr "Останавливаются блокировки NFS: "
+
+#~ msgid "${IP6TABLES}: Firewall is not running."
+#~ msgstr "${IP6TABLES}: Межсетевой экран не запущен. "
+
+#~ msgid "Starting $prog: $conf, $INTERFACES, $DRIVERS"
+#~ msgstr "Запускается $prog: $conf, $INTERFACES, $DRIVERS"
+
+#~ msgid "Stopping hard disk temperature monitor daemon ($prog): "
+#~ msgstr ""
+#~ "Останавливается демон мониторинга температуры жестких дисков ($prog): "
+
+#~ msgid "irattach startup"
+#~ msgstr "запуск irattach"
+
+#~ msgid "Reloading $prog alias files: "
+#~ msgstr "Перезагружаются файлы-псевдонимы $prog: "
+
+#~ msgid "Starting ${prog}: "
+#~ msgstr "Запускается ${prog}: "
+
+#~ msgid "*** Run 'setenforce 1' to reenable."
+#~ msgstr "*** Выполните 'setenforce 1' для повторной активации."
+
+#~ msgid "Stopping preload daemon: "
+#~ msgstr "Останавливается демон preload: "
+
+#~ msgid "Stopping PC/SC smart card daemon ($prog): "
+#~ msgstr "Останавливается демон смарт-карт PC/SC ($prog): "
+
+#~ msgid "Starting ipmi_poweroff driver: "
+#~ msgstr "Запускается драйвер ipmi_poweroff: "
+
+#~ msgid "Shutting down $prog for $ez_name: "
+#~ msgstr "Останавливается $prog для $ez_name: "
+
+#~ msgid "Configuration file /etc/sysconfig/arptables missing"
+#~ msgstr "Отсутствует файл конфигурации /etc/sysconfig/arptables "
+
+#~ msgid "Failed to make stat directory ($STAT_PATH)"
+#~ msgstr "Не удалось создать каталог $STAT_PATH"
+
+#~ msgid "Shuting down Bandwidthd network traffic monitor: "
+#~ msgstr "Останавливается демон мониторинга сетевого трафика Bandwidthd:"
+
+#~ msgid "Preparing $PROG config: "
+#~ msgstr "Подготавливается конфигурация $PROG:"
+
+#~ msgid "Ignoring guests on $uri URI"
+#~ msgstr "Игнорируются гостевые системы по адресу $uri"
+
+#~ msgid "vncserver shutdown"
+#~ msgstr "останов vncserver"
+
+#~ msgid "Stopping xenconsoled daemon: "
+#~ msgstr "Останавливается демон xenconsoled: "
+
+#~ msgid "Configured network block devices: "
+#~ msgstr "Настроенные сетевые блочные устройства: "
+
+#~ msgid ""
+#~ "Usage: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "Применение: $0 {condrestart|try-restart|start|stop|restart|reload|force-"
+#~ "reload|status}"
+
+#~ msgid "Starting GNU cfengine environmental history daemon: "
+#~ msgstr "Запускается демон истории окружения GNU cfengine: "
+
+#~ msgid "Starting denyhosts: "
+#~ msgstr "Запускается denyhosts: "
+
+#~ msgid "cC"
+#~ msgstr "cC"
+
+#~ msgid "$prog compiled "
+#~ msgstr "$prog скомпилирован "
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status|force-reload}"
+#~ msgstr "Применение: $0 {start|stop|restart|try-restart|status|force-reload}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|force-reload|status|condrestart|try-restart|"
+#~ "configtest|usage}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|force-reload|status|condrestart|try-"
+#~ "restart|configtest|usage}"
+
+#~ msgid "Usage: $0 {start|stop|restart|force-reload|status|condrestart}"
+#~ msgstr "Применение: $0 {start|stop|restart|force-reload|status|condrestart}"
+
+#~ msgid "not running"
+#~ msgstr "не выполняется"
+
+#~ msgid "Unmounting pipe file systems (retry): "
+#~ msgstr "Отсоединяются файловые системы RPC pipe (повторно): "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|force-reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|try-restart|force-"
+#~ "reload}"
+
+#~ msgid "Reloading cyrus.conf file: "
+#~ msgstr "Перечитывается файл cyrus.conf: "
+
+#~ msgid "Starting $LLDPAD: "
+#~ msgstr "Запускается $LLDPAD: "
+
+#~ msgid "Starting $indexer: "
+#~ msgstr "Запускается $indexer: "
+
+#~ msgid "Cleaning up systemtap scripts: "
+#~ msgstr "Очистка сценариев systemtap:"
+
+#~ msgid "Failed to make cache directory ($CACHE_PATH)"
+#~ msgstr "Не удалось создать каталог кэша $CACHE_PATH"
+
+#~ msgid "Restarting $prog for $file: "
+#~ msgstr "Перезапускается $prog для $file:"
+
+#~ msgid "$prog not running"
+#~ msgstr "$prog не выполняется"
+
+#~ msgid "Force-updating $prog configuration: "
+#~ msgstr "Принудительное обновление конфигурации $prog: "
+
+#~ msgid "Shutting down guests on $uri URI..."
+#~ msgstr "Останавливаются гостевые системы по адресу $uri..."
+
+#~ msgid "Clearing all current rules and user defined chains:"
+#~ msgstr "Очищаются все текущие правила и пользовательские цепочки:"
+
+#~ msgid "Stopping YP passwd service: "
+#~ msgstr "Останавливается служба паролей YP: "
+
+#~ msgid "Orbited is not running."
+#~ msgstr "Orbited не выполняется"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|reload|abort|flush|check|status|"
+#~ "condrestart}"
+
+#~ msgid "Adding udev persistent rules"
+#~ msgstr "Добавление постоянных правил udev"
+
+#~ msgid "Shutting down $name: "
+#~ msgstr "Останавливается $name: "
+
+#~ msgid "database initialization"
+#~ msgstr "инициализация базы данных"
+
+#~ msgid "Usage: $0 {start|stop|restart|force-reload|gueststatus|shutdown}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|force-reload|gueststatus|shutdown}"
+
+#~ msgid "CRITICAL "
+#~ msgstr "CRITICAL "
+
+#~ msgid "Starting NFS quotas: "
+#~ msgstr "Запускаются квоты NFS: "
+
+#~ msgid "Reloading ${NAME} service: "
+#~ msgstr "Перезагружается служба ${NAME}: "
+
+#~ msgid "*** An error occurred during the file system check."
+#~ msgstr "*** произошла ошибка при проверке файловых систем."
+
+#~ msgid "Unmounting NCP filesystems: "
+#~ msgstr "Отсоединяются файловые системы NCP: "
+
+#~ msgid "Changing target policies to DROP: "
+#~ msgstr "Целевые политики изменяются на DROP: "
+
+#~ msgid ""
+#~ "Usage: $ical {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Применение: $ical {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Reloading ${prog_base}:"
+#~ msgstr "Перезагружается ${prog_base}:"
+
+#~ msgid "Generating dropbear DSS host key: "
+#~ msgstr "Генерируется ключ узла dropbear DSS: "
+
+#~ msgid "Re-reading $prog configuration: "
+#~ msgstr "Перечитывается конфигурация $prog: "
+
+#~ msgid "Dependency loop detected on $s"
+#~ msgstr "Обнаружена цикличная зависимость на $s"
+
+#~ msgid "%s is password protected"
+#~ msgstr "%s защищен паролем"
+
+#~ msgid "INSECURE OWNER FOR $key"
+#~ msgstr "НЕБЕЗОПАСНЫЙ ВЛАДЕЛЕЦ $key"
+
+#~ msgid "FireHOL config ${FIREHOL_CONFIG} not found:"
+#~ msgstr "Настройки FireHOL ${FIREHOL_CONFIG} не найдены:"
+
+#~ msgid "Current elevator settings:"
+#~ msgstr "Текущие настройки конвейера:"
+
+#~ msgid "Loading Firmware"
+#~ msgstr "Загружается прошивка"
+
+#~ msgid "Timeout on stopping $server"
+#~ msgstr "Истекло время ожидания при остановке $server"
+
+#~ msgid "Starting liquidwar game server: "
+#~ msgstr "Запускается игровой сервер liquidwar: "
+
+#~ msgid ""
+#~ "$prog error exporting databases, check ${CONFIGDIRECTORY}/rpm/db_export."
+#~ "log"
+#~ msgstr ""
+#~ "Ошибка экспорта баз данных $prog, проверьте журнал ${CONFIGDIRECTORY}/rpm/"
+#~ "db_export.log"
+
+#~ msgid "Shutting down auto nice daemon:"
+#~ msgstr "Останавливается демон auto nice: "
+
+#~ msgid "Stopping all running guests"
+#~ msgstr "Останавливаются все запущенные гостевые системы"
+
+#~ msgid "Generating dropbear RSA host key: "
+#~ msgstr "Генерируется ключ узла dropbear RSA: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "try-restart}"
+
+#~ msgid "Reloading $prog"
+#~ msgstr "Перезагружается $prog"
+
+#~ msgid "Usage: $prog {start|stop|reload|restart|condrestart|status|help}"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|reload|restart|condrestart|status|help}"
+
+#~ msgid "Stopping $desc ($prog): "
+#~ msgstr "Останавливается $desc ($prog): "
+
+#~ msgid "Sending all processes the KILL signal..."
+#~ msgstr "Всем процессам посылается сигнал KILL..."
+
+#~ msgid "Rescanning IB Subnet:"
+#~ msgstr "Повторное сканирование IB Subnet:"
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG: "
+#~ msgstr "Сохранение текущих правил в $ARPTABLES_CONFIG: "
+
+#~ msgid "Starting Avahi DNS daemon... "
+#~ msgstr "Запускается демон Avahi DNS... "
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status}"
+#~ msgstr "Применение: $0 {start|stop|restart|condrestart|status}"
+
+#~ msgid "Starting Wesnoth game server: "
+#~ msgstr "Запускается игровой сервер Wesnoth: "
+
+#~ msgid "Starting Bandwidthd network traffic monitor: "
+#~ msgstr "Запускается монитор сетевого трафика Bandwidthd:"
+
+#~ msgid "Starting YP passwd service: "
+#~ msgstr "Запускается служба паролей YP: "
+
+#~ msgid "Stopping $indexer: "
+#~ msgstr "Останавливается $indexer: "
+
+#~ msgid "CIM server is not running, but pid file exists"
+#~ msgstr "Сервер CIM не запущен, но pid-файл существует"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status}"
+#~ msgstr "Применение: $prog {start|stop|restart|condrestart|status}"
+
+#~ msgid "program or service status is unknown"
+#~ msgstr "статус службы или программы неизвестен"
+
+#~ msgid "Please specify a $type name"
+#~ msgstr "Укажите имя $type"
+
+#~ msgid "Error. Default principal database does not exist."
+#~ msgstr "Ошибка. Основная база данных не существует."
+
+#~ msgid "$prog: Synchronizing with time server: "
+#~ msgstr "$prog: Синхронизация по серверу времени: "
+
+#~ msgid "Stray lockfile present; removing it."
+#~ msgstr "Обнаружен устаревший файл блокировки. Он будет удален."
+
+#~ msgid "$file is not owned by \"$user\""
+#~ msgstr "\"$user\" не является владельцем $file"
+
+#~ msgid "Starting $prog for $site: "
+#~ msgstr "Запускается $prog для $site: "
+
+#~ msgid "Starting $type $name: "
+#~ msgstr "Запускается $type $name: "
+
+#~ msgid "Reloading ${NAME}"
+#~ msgstr "Перезагружается ${NAME}"
+
+#~ msgid "Starting Video Disk Recorder ($prog): "
+#~ msgstr "Запускается Video Disk Recorder ($prog): "
+
+#~ msgid "$prog stopping "
+#~ msgstr "останавливается $prog"
+
+#~ msgid "Starting $display_name: "
+#~ msgstr "Запускается $display_name: "
+
+#~ msgid "Stopping puppetmaster: "
+#~ msgstr "Останавливается puppetmaster:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|condrestart|force-reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|reload|condrestart|force-reload}"
+
+#~ msgid "Starting Perlbal: "
+#~ msgstr "Запускается Perlbal: "
+
+#~ msgid "DSA key generation"
+#~ msgstr "Генерация ключа DSA"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+#~ "condrestart|condstop}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|pause|continue|reload|force-"
+#~ "reload|condrestart|condstop}"
+
+#~ msgid "Starting xen blktapctrl daemon: "
+#~ msgstr "Запускается демон xen blktapctrl: "
+
+#~ msgid "Starting nsd:"
+#~ msgstr "Запускается nsd:"
+
+#~ msgid "Starting spectrum transport: "
+#~ msgstr "Запускается механизм передачи spectrum: "
+
+#~ msgid "$prog stop"
+#~ msgstr "остановка $prog"
+
+#~ msgid "Stopping YP server services: "
+#~ msgstr "Останавливается служба YP: "
+
+#~ msgid "Server key already installed"
+#~ msgstr "Ключ сервера уже установлен"
+
+#~ msgid "Enabling Bluetooth devices:"
+#~ msgstr "Активация устройств Bluetooth: "
+
+#~ msgid "On the next boot fsck will be skipped."
+#~ msgstr "При следующей загрузке проверка fsck будет пропущена."
+
+#~ msgid "\tscript(s)\t: specify systemtap scripts"
+#~ msgstr "\tscript(s)\t: позволяет задать сценарии systemtap"
+
+#~ msgid "Enabling local swap partitions: "
+#~ msgstr "Активируются локальные разделы подкачки: "
+
+#~ msgid "Starting xenner daemons"
+#~ msgstr "Запускается демон xenner: "
+
+#~ msgid "Saving mixer settings"
+#~ msgstr "Сохраняется состояние микшера"
+
+#~ msgid "Starting rfcomm: "
+#~ msgstr "Запускается rfcomm: "
+
+#~ msgid "Usage: $0 {start|stop|reload}"
+#~ msgstr "Применение: $0 {start|stop|reload}"
+
+#~ msgid "Warning: $prog may not have exited, start/restart may fail"
+#~ msgstr ""
+#~ "Предупреждение: Возможно, работа $prog не завершена, поэтому попытки "
+#~ "старта и рестарта могут завершиться неудачей"
+
+#~ msgid "clement stop"
+#~ msgstr "остановка clement"
+
+#~ msgid "Generating SSH2 DSA host key: "
+#~ msgstr "Генерируется ключ узла SSH2 DSA: "
+
+#~ msgid "Stopping $display_name: "
+#~ msgstr "Останавливается $display_name: "
+
+#~ msgid "Periodic fetch-crl is disabled."
+#~ msgstr "Периодический опрос fetch-crl отключен."
+
+#~ msgid "Checking network-attached filesystems"
+#~ msgstr "Проверяются сетевые файловые системы"
+
+#~ msgid "Shutting down $prog with output module $module: "
+#~ msgstr "Останавливается $prog с модулем вывода $module: "
+
+#~ msgid "Starting Xpilot game server: "
+#~ msgstr "Запускается игровой сервер Xpilot: "
+
+#~ msgid "Starting argus: "
+#~ msgstr "Запускается argus: "
+
+#~ msgid "Shutting down ${prog}: "
+#~ msgstr "Останавливается ${prog}: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+
+#~ msgid "Usage: killproc {program} [signal]"
+#~ msgstr "Применение: killproc {program} [signal]"
+
+#~ msgid "Setting hostname ${HOSTNAME}: "
+#~ msgstr "Устанавливается имя узла ${HOSTNAME}: "
+
+#~ msgid "Stopping FCoE initiator service: "
+#~ msgstr "Останавливается служба инициатора FCoE:"
+
+#~ msgid "Usage: $0 {start|stop|reload|restart|status}"
+#~ msgstr "Применение: $0 {start|stop|reload|restart|status}"
+
+#~ msgid "Starting $prog with output module $module: "
+#~ msgstr "Запускается $prog с модулем вывода $module: "
+
+#~ msgid "ERROR: [ipv6_log] Missing 'message' (arg 1)"
+#~ msgstr "Ошибка: [ipv6_log] Отсутствует 'message' (арг 1)"
+
+#~ msgid "freshclam daemon NOT up and running (please check this)"
+#~ msgstr "демон freshclam НЕ работает (требуется проверить)"
+
+#~ msgid "$prog dead but subsys locked"
+#~ msgstr "$prog не работает, но подсистема заблокирована"
+
+#~ msgid "Running guests on $uri URI: "
+#~ msgstr "Запускаются гостевые системы по адресу $uri:"
+
+#~ msgid "Saving random seed: "
+#~ msgstr "Сохраняется значение генератора псевдослучайных чисел: "
+
+#~ msgid "Loading ISDN modules"
+#~ msgstr "Загружаются модули ISDN"
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart} [VO]"
+#~ msgstr "Применение: $0 {start|stop|restart|status|condrestart} [VO]"
+
+#~ msgid "killing ctdbd "
+#~ msgstr "остановка ctdbd "
+
+#~ msgid "Mounting local filesystems: "
+#~ msgstr "Монтируются локальные файловые системы: "
+
+#~ msgid "key generation"
+#~ msgstr "генерация ключа"
+
+#~ msgid "Usage: $0 {start|stop|status"
+#~ msgstr "Применение: $0 {start|stop|status"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|restart|try-restart|status}"
+#~ msgstr "Применение: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|status|restart|condrestart|try-restart|"
+#~ "reload|force-reload}"
+
+#~ msgid "Usage: $prog {start|stop|restart|status|compile|cleanup} [option]"
+#~ msgstr ""
+#~ "Применение: $prog {start|stop|restart|status|compile|cleanup} [option]"
+
+#~ msgid ""
+#~ "Usage: $0 {start|forcestart|stop|status|restart|forcerestart|reload|"
+#~ "condrestart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|forcestart|stop|status|restart|forcerestart|reload|"
+#~ "condrestart}"
+
+#~ msgid "Starting sm-client: "
+#~ msgstr "Запускается sm-client: "
+
+#~ msgid "Starting $NAME: "
+#~ msgstr "Запускается $NAME: "
+
+#~ msgid "Pre-0.26 monotone database must be migrated by hand: "
+#~ msgstr ""
+#~ "База данных monotone версий, предшествующих 0.26, должна быть перенесена "
+#~ "вручную:"
+
+#~ msgid "${IPTABLES}: Loading additional modules: "
+#~ msgstr "${IPTABLES}: Загружаются дополнительные модули: "
+
+#~ msgid "Usage: $progname {start|stop|restart|condrestart|status}"
+#~ msgstr "Применение: $progname {start|stop|restart|condrestart|status}"
+
+#~ msgid "Mounting CIFS filesystems: "
+#~ msgstr "Монтируются файловые системы CIFS: "
+
+#~ msgid "Generating exim certificate: "
+#~ msgstr "Генерация сертификата exim:"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "Применение: $0 {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting rusers services: "
+#~ msgstr "Запускаются службы rusers: "
+
+#~ msgid "FireHOL: Processing file ${FIREHOL_CONFIG}:"
+#~ msgstr "FireHOL: Обрабатывается файл ${FIREHOL_CONFIG}:"
+
+#~ msgid "Compiling systemtap scripts: "
+#~ msgstr "Выполняется компиляция сценариев systemtap:"
+
+#~ msgid "Starting NFS daemon: "
+#~ msgstr "Запускается демон NFS: "
+
+#~ msgid "Starting telescope daemon: "
+#~ msgstr "Запускается демон telescope:"
+
+#~ msgid "Shutting down vmpsd: "
+#~ msgstr "Останавливается vmpsd:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|softstop|status|restart|try-restart|reload|"
+#~ "force-reload}"
+
+#~ msgid "Disabling nightly apt update: "
+#~ msgstr "Запрещаются ночные обновления через apt:"
+
+#~ msgid "Starting NFS services: "
+#~ msgstr "Запускаются службы NFS: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+
+#~ msgid "Stopping Xpilot game server: "
+#~ msgstr "Останавливается игровой сервер Xpilot: "
+
+#~ msgid "already active"
+#~ msgstr "уже активен"
+
+#~ msgid "Starting HAL daemon: "
+#~ msgstr "Запускается демон HAL: "
+
+#~ msgid "Stopping unbound: "
+#~ msgstr "Останавливается unbound: "
+
+#~ msgid "No scripts exist."
+#~ msgstr "Нет сценариев."
+
+#~ msgid "/proc entries were fixed"
+#~ msgstr "исправлены записи в /proc"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|condstop|reload|"
+#~ "force-reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+
+#~ msgid "Usage: $0 {start}"
+#~ msgstr "Применение: $0 {start}"
+
+#~ msgid "Unmounting file systems"
+#~ msgstr "Отсоединяются файловые системы"
+
+#~ msgid "Periodic fetch-crl is enabled."
+#~ msgstr "Периодический опрос fetch-crl включен."
+
+#~ msgid "(not starting, no services registered)"
+#~ msgstr "(не запускается, нет зарегистрированных служб)"
+
+#~ msgid "Shutting down $PROG: "
+#~ msgstr "Останавливается $PROG: "
+
+#~ msgid "Netlabel is stopped."
+#~ msgstr "Netlabel остановлен."
+
+#~ msgid "${SERVICE}: unrecognized service"
+#~ msgstr "${SERVICE}: нераспознанная служба"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|reload|force-reload|restart|try-restart|"
+#~ "probe}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|reload|force-reload|restart|try-restart|"
+#~ "probe}"
+
+#~ msgid "sfcb is not running, but lock file exists"
+#~ msgstr "sfcb не выполняется, но файл блокирования существует"
+
+#~ msgid "Stopping $type $name: "
+#~ msgstr "Останавливается $type $name: "
+
+#~ msgid ""
+#~ "See $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist for more information."
+#~ msgstr ""
+#~ "Дополнительную информацию см. в $SYSDOCDIR/postgresql-$PGVERSION/README."
+#~ "rpm-dist."
+
+#~ msgid "Starting $SERVICE: "
+#~ msgstr "Запускается $SERVICE: "
+
+#~ msgid "Mounting zfs partitions: "
+#~ msgstr "Монтируются разделы zfs:"
+
+#~ msgid "INSECURE MODE FOR $key"
+#~ msgstr "НЕБЕЗОПАСНЫЙ РЕЖИМ ДОСТУПА ДЛЯ $key"
+
+#~ msgid "Loading new virus-database: "
+#~ msgstr "Загружается новая база данных вирусов: "
+
+#~ msgid "Stopping Crossfire game server: "
+#~ msgstr "Останавливается игровой сервер Crossfire:"
+
+#~ msgid "Shutting down process accounting: "
+#~ msgstr "Останавливается учет процессов: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload}"
+#~ msgstr "Применение: $0 {start|stop|status|restart|reload}"
+
+#~ msgid "Reloading $prog: "
+#~ msgstr "Перезагружается $prog: "
+
+#~ msgid "Starting hard disk temperature monitor daemon ($prog): "
+#~ msgstr "Запускается демон мониторинга температуры жестких дисков ($prog): "
+
+#~ msgid "Please stand by while rebooting the system..."
+#~ msgstr "Подождите, система перезагружается..."
+
+#~ msgid "Shutting down Avahi DNS daemon: "
+#~ msgstr "Останавливается демон Avahi DNS: "
+
+#~ msgid "Shutting down DAAP server: "
+#~ msgstr "Останавливается DAAP сервер: "
+
+#~ msgid "Waiting for reader attach/detach events..."
+#~ msgstr "Ожидание события подключения/отключения устр-ва считывания..."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|reload|restart|condrestart|force-reload|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Mounting NCP filesystems: "
+#~ msgstr "Монтируются файловые системы NCP: "
+
+#~ msgid "Shutting down amavisd-snmp-subagent: "
+#~ msgstr "Останавливается amavisd-snmp-subagent: "
+
+#~ msgid "Stopping $server: "
+#~ msgstr "Останавливается $server: "
+
+#~ msgid "Starting up CIM server: "
+#~ msgstr "Запускается сервер CIM: "
+
+#~ msgid "Starting CallWeaver: "
+#~ msgstr "Запускается CallWeaver: "
+
+#~ msgid "Stopping rstat services: "
+#~ msgstr "Останавливаются службы rstat: "
+
+#~ msgid "Usage: $0 {start|stop|status|reload|restart|condrestart}"
+#~ msgstr "Применение: $0 {start|stop|status|reload|restart|condrestart}"
+
+#~ msgid "NTP server not specified in $ntpstep or $ntpconf"
+#~ msgstr "Сервер NTP не задан в $ntpstep или $ntpconf"
+
+#~ msgid "Restarting $prog:"
+#~ msgstr "Перезапускается $prog:"
+
+#~ msgid "Stopping liquidwar game server: "
+#~ msgstr "Останавливается игровой сервер liquidwar: "
+
+#~ msgid "Reloading nsca: "
+#~ msgstr "Перезагружается nsca:"
+
+#~ msgid "Stopping ipmi_poweroff driver: "
+#~ msgstr "Останавливается драйвер ipmi_poweroff:"
+
+#~ msgid "qemu binary format handlers are not registered."
+#~ msgstr "Обработчики двоичного формата qemu не зарегистрированы."
+
+#~ msgid "Generating SSH1 RSA host key: "
+#~ msgstr "Генерируется ключ SSH1 RSA: "
+
+#~ msgid "Reloading CRLs: "
+#~ msgstr "Перезагрузка CRLs: "
+
+#~ msgid "${IPTABLES}: Firewall modules are not loaded."
+#~ msgstr "${IPTABLES}:·Модули межсетевого экрана не загружены."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|try-restart|force-reload}"
+#~ msgstr "Применение: $0 {start|stop|status|restart|try-restart|force-reload}"
+
+#~ msgid "stale lock files may be present in $directory"
+#~ msgstr "$directory может содержать файлы устаревших блокировок"
+
+#~ msgid "${IP6TABLES}: Loading additional modules: "
+#~ msgstr "${IP6TABLES}: Загружаются дополнительные модули: "
+
+#~ msgid "Turning off swap: "
+#~ msgstr "Выключение swap: "
+
+#~ msgid "named: already running"
+#~ msgstr "named: уже запущен"
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status|reload}"
+#~ msgstr "Применение: $0 {start|stop|restart|condrestart|status|reload}"
+
+#~ msgid "ERROR: [ipv6_log] Loglevel isn't valid '$level' (arg 2)"
+#~ msgstr ""
+#~ "Ошибка: [ipv6_log] Недопустимый уровень журналирования '$level' (арг 2)"
+
+#~ msgid "Restarting $indexer: "
+#~ msgstr "Перезапускается $indexer: "
+
+#~ msgid "          start-watchdog|stop-watchdog|status-watchdog"
+#~ msgstr "          start-watchdog|stop-watchdog|status-watchdog"
+
+#~ msgid "Shutting down ${prog_base}:"
+#~ msgstr "Останавливается ${prog_base}: "
+
+#~ msgid "Stopping INNWatch service: "
+#~ msgstr "Останавливается служба INNWatch: "
+
+#~ msgid "Stopping asterisk: "
+#~ msgstr "Останавливается asterisk: "
+
+#~ msgid "initiators still connected"
+#~ msgstr "задатчики все еще подключены"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status|dump}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|condrestart|try-restart|reload|force-"
+#~ "reload|status|dump}"
+
+#~ msgid "Usage: $0 {start|stop|status}"
+#~ msgstr "Применение: $0 {start|stop|status}"
+
+#~ msgid "Starting YP server services: "
+#~ msgstr "Запускаются службы сервера YP: "
+
+#~ msgid "Usage: $0 {start|stop|status|condrestart|reload|restart}"
+#~ msgstr "Применение: $0 {start|stop|status|condrestart|reload|restart}"
+
+#~ msgid "$prog already running."
+#~ msgstr "$prog уже выполняется."
+
+#~ msgid "Generating chrony command key: "
+#~ msgstr "Генерируется ключ chrony:"
+
+#~ msgid "Restarting $ical: "
+#~ msgstr "Перезапускается $ical:"
+
+#~ msgid "Checking local filesystem quotas: "
+#~ msgstr "Проверяются квоты локальных файловых систем: "
+
+#~ msgid "Starting NFS statd: "
+#~ msgstr "Запускается NFS statd: "
+
+#~ msgid "Starting $master_prog: "
+#~ msgstr "Запускается $master_prog: "
+
+#~ msgid "libvirt-guests is configured not to start any guests on boot"
+#~ msgstr ""
+#~ "Настройки libvirt-guests не определяют запуск гостевых систем при загрузке"
+
+#~ msgid "innd shutdown"
+#~ msgstr "останов innd"
+
+#~ msgid "Starting rstat services: "
+#~ msgstr "Запускаются службы rstat: "
+
+#~ msgid "denyhosts cron service is enabled."
+#~ msgstr "cron-служба denyhosts включена."
+
+#~ msgid "Reloading ${NAME}: "
+#~ msgstr "Перезагружается ${NAME}: "
+
+#~ msgid "Reloading exim:"
+#~ msgstr "Перезагружается exim:"
+
+#~ msgid "Package sendmail-cf is required to update configuration."
+#~ msgstr "Для обновления конфигурации необходим пакет sendmail-cf."
+
+#~ msgid "Shutting down restorecond: "
+#~ msgstr "Останавливается restorecond: "
+
+#~ msgid "program is dead and /var/lock lock file exists"
+#~ msgstr "программа не работает, но /var/lock содержит файл блокировки"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status}"
+#~ msgstr "Применение: $prog {start|stop|restart|condrestart|reload|status}"
+
+#~ msgid "($pid) is running..."
+#~ msgstr "($pid) выполняется..."
+
+#~ msgid "Reloading $prog daemon configuration: "
+#~ msgstr "Перезагружается конфигурация демона $prog: "
+
+#~ msgid "Reloading ${prog} conig file: "
+#~ msgstr "Перезагружается файл конфигурации ${prog}: "
+
+#~ msgid "Key file for $dst not found, skipping"
+#~ msgstr "Файл ключа для $dst не обнаружен; пропускается"
+
+#~ msgid "Starting $progname: "
+#~ msgstr "Запускается $progname: "
+
+#~ msgid "Reloading securenets and ypserv.conf file:"
+#~ msgstr "Перезагружаются securenets и файл ypserv.conf: "
+
+#~ msgid "Moodle cron job is disabled."
+#~ msgstr "Отключено cron-задание Moodle."
+
+#~ msgid "already running."
+#~ msgstr "уже выполняется."
+
+#~ msgid "start"
+#~ msgstr "запуск"
+
+#~ msgid "Updating RPMS in group $group: "
+#~ msgstr "Обновление пакетов в группе $group: "
+
+#~ msgid "not reloading ${httpd} due to configuration syntax error"
+#~ msgstr ""
+#~ "не перезагружается ${httpd} из-за синтаксической ошибки в настройках"
+
+#~ msgid "Shutting down ${desc} (${prog}): "
+#~ msgstr "Останавливается ${desc} (${prog}): "
+
+#~ msgid "Enabling periodic fetch-crl: "
+#~ msgstr "Включается периодический опрос fetch-crl: "
+
+#~ msgid "reload unimplemented"
+#~ msgstr "перезагрузка не реализована"
+
+#~ msgid "Adding dhclient NTP servers to chrony: "
+#~ msgstr "Добавляются серверы NTP dhclient в chrony: "
+
+#~ msgid "Stopping infrared remote control daemon ($prog): "
+#~ msgstr "Останавливается демон инфракрасного пульта ДУ ($prog):"
+
+#~ msgid "Unconfigured: $prog, /etc/gkrellmd.conf not found"
+#~ msgstr "Не настроен: $prog, /etc/gkrellmd.conf·не найден"
+
+#~ msgid "Starting Crossfire game server: "
+#~ msgstr "Запускается игровой сервер Crossfire: "
+
+#~ msgid "$0: error: insufficient privileges"
+#~ msgstr "$0: ошибка. Недостаточно полномочий"
+
+#~ msgid "Enabling /etc/fstab swaps: "
+#~ msgstr "Подключаются пространства подкачки из /etc/fstab: "
+
+#~ msgid "*** Disabling security enforcement for system recovery."
+#~ msgstr ""
+#~ "*** Отключается механизм блокировок безопасности для восстановления "
+#~ "системы."
+
+#~ msgid "Stopping $progname: "
+#~ msgstr "Останавливается $progname: "
+
+#~ msgid "is stopped"
+#~ msgstr "остановлен"
+
+#~ msgid "Shutdown action requested but SHUTDOWN_TIMEOUT was not set"
+#~ msgstr ""
+#~ "Запрошено действие отключения, но параметр SHUTDOWN_TIMEOUT не задан"
+
+#~ msgid "$prog not supported"
+#~ msgstr "$prog не поддерживается"
+
+#~ msgid "Unloading ISDN modules"
+#~ msgstr "Выгружаются модули ISDN"
+
+#~ msgid "Stopping $dagent: "
+#~ msgstr "Останавливается $dagent: "
+
+#~ msgid "Wine binary format handlers are not registered."
+#~ msgstr "Обработчики двоичного формата Wine не зарегистрированы."
+
+#~ msgid ""
+#~ "ERROR: [ipv6_log] Syslog is chosen, but binary 'logger' doesn't exist or "
+#~ "isn't executable"
+#~ msgstr ""
+#~ "Ошибка: [ipv6_log] Выбран Syslog, но программа 'logger' отсутствует или "
+#~ "не исполняема"
+
+#~ msgid "Usage: $service {start|stop|restart|list|status|clean}"
+#~ msgstr "Применение: $service {start|stop|restart|list|status|clean}"
+
+#~ msgid "Starting up-imapproxy daemon: "
+#~ msgstr "Запускается демон up-imapproxy:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#~ msgid "Stopping $name: "
+#~ msgstr "Останавливается $name: "
+
+#~ msgid "Applying ${ELEVATOR} elevator: "
+#~ msgstr "Применяется конвейер ${ELEVATOR}:"
+
+#~ msgid "Starting amavisd-snmp-subagent: "
+#~ msgstr "Запускается amavisd-snmp-subagent: "
+
+#~ msgid "CIM server is not running"
+#~ msgstr "Сервер CIM не запущен"
+
+#~ msgid "Restarting $server: "
+#~ msgstr "Перезапускается $server:"
+
+#~ msgid "Stopping puppet: "
+#~ msgstr "Останавливается puppet: "
+
+#~ msgid "nN"
+#~ msgstr "nN"
+
+#~ msgid "          start-powercontrol|stop-powercontrol|status-powercontrol"
+#~ msgstr "          start-powercontrol|stop-powercontrol|status-powercontrol"
+
+#~ msgid "Starting fail2ban: "
+#~ msgstr "Запускается fail2ban: "
+
+#~ msgid "You need to upgrade the data format before using PostgreSQL."
+#~ msgstr "Необходимо обновить формат данных перед использованием PostgreSQL."
+
+#~ msgid "Starting Audio Entropy daemon... "
+#~ msgstr "Запускается демон Audio Entropy... "
+
+#~ msgid "Remounting root filesystem in read-write mode: "
+#~ msgstr "Корневая ФС перемонтируется в режиме чтения-записи: "
+
+#~ msgid "$prog start"
+#~ msgstr "запуск $prog"
+
+#~ msgid "Unmounting $mountpoint:"
+#~ msgstr "Отсоединяется $mountpoint:"
+
+#~ msgid "Nightly yum update is enabled."
+#~ msgstr "Ночные обновления через yum разрешены."
+
+#~ msgid "Syncing hardware clock to system time"
+#~ msgstr "Аппаратные часы синхронизируются по системным"
+
+#~ msgid "Starting $spooler: "
+#~ msgstr "Запускается $spooler: "
+
+#~ msgid "Stopping $monitor: "
+#~ msgstr "Останавливается $monitor:  "
+
+#~ msgid "Configuration file or keys are invalid"
+#~ msgstr "Файл конфигурации или ключи недействительны"
+
+#~ msgid "NOTICE   "
+#~ msgstr "ЗАМЕЧАНИЕ"
+
+#~ msgid "Reverting to saved sysctl settings: "
+#~ msgstr "Возврат сохранённых настроек sysctl:"
+
+#~ msgid "Cleaning $type $name: "
+#~ msgstr "Очистка $type $name: "
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status}"
+#~ msgstr "Применение: $0 {start|stop|restart|reload|status}"
+
+#~ msgid "Turning on allow_ypbind SELinux boolean"
+#~ msgstr "Установка флага allow_ypbind SELinux"
+
+#~ msgid "Starting acpi daemon: "
+#~ msgstr "Запускается демон acpi: "
+
+#~ msgid "Stopping vbi proxy daemon: "
+#~ msgstr "Останавливается vbi прокси демон: "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+
+#~ msgid "${IP6TABLES}: Setting chains to policy $policy: "
+#~ msgstr "${IP6TABLES}: Политика цепочек устанавливается в $policy: "
+
+#~ msgid "Automatic reboot in progress."
+#~ msgstr "Выполняется автоматическая перезагрузка."
+
+#~ msgid "Turning off allow_ypbind SELinux boolean"
+#~ msgstr "Сброс флага allow_ypbind SELinux"
+
+#~ msgid "Reloading smokeping: "
+#~ msgstr "Перезагружается smokeping: "
+
+#~ msgid "httpd shutdown"
+#~ msgstr "останов httpd"
+
+#~ msgid "Starting ${NAME}: "
+#~ msgstr "Запускается ${NAME}: "
+
+#~ msgid "${IP6TABLES}: Firewall modules are not loaded."
+#~ msgstr "${IP6TABLES}: Модули межсетевого экрана не загружены."
+
+#~ msgid "Stopping ${ifprog}: "
+#~ msgstr "Останавливается ${ifprog}: "
+
+#~ msgid "Enabling nightly apt update: "
+#~ msgstr "Разрешаются ночные обновления через apt: "
+
+#~ msgid "Shutting down ctdbd service: "
+#~ msgstr "Останавливается служба ctdbd:"
+
+#~ msgid "conf addition"
+#~ msgstr "добавление conf"
+
+#~ msgid "Reloading rules configuration..."
+#~ msgstr "Перезагружаются настройки правил.."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status|quickstart|quickstop}"
+#~ msgstr ""
+#~ "Применение: $0 {start|stop|restart|reload|force-reload|condrestart|try-"
+#~ "restart|status|quickstart|quickstop}"
+
+#~ msgid "Registering binary handler for qemu applications"
+#~ msgstr "Зарегистрированы двоичные обработчики приложений qemu"
+
+#~ msgid "Stopping nsd: "
+#~ msgstr "Останавливается nsd: "
+
+#~ msgid "/proc filesystem unavailable"
+#~ msgstr "файловая система /proc недоступна"
+
+#~ msgid "Starting NFS mountd: "
+#~ msgstr "Запускается NFS mountd: "
+
+#~ msgid "Reloading rhnsd"
+#~ msgstr "Перезагрузка rhnsd"
+
+#~ msgid "Enabling denyhosts cron service: "
+#~ msgstr "Активация cron-службы denyhosts: "
+
+#~ msgid "Starting $PROG:"
+#~ msgstr "Запускается $PROG: "
+
+#~ msgid "Starting monotone server: "
+#~ msgstr "Запускается сервер monotone:"
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status}"
+#~ msgstr "Применение: $0 {start|stop|restart|try-restart|status}"
+
+#~ msgid "$prog flush"
+#~ msgstr "очистка $prog"
+
+#~ msgid "Moodle cron job is enabled."
+#~ msgstr "Включено cron-задание Moodle."
+
+#~ msgid "Starting yum-updatesd: "
+#~ msgstr "Запускается yum-updatesd: "
+
+#~ msgid "${IP6TABLES}: Applying firewall rules: "
+#~ msgstr "${IP6TABLES}: Применение правил межсетевого экрана: "
+
+#~ msgid "Stopping $prog: "
+#~ msgstr "Останавливается $prog: "
+
+#~ msgid "Shutting down Audio Entropy daemon: "
+#~ msgstr "Останавливается демон Audio Entropy: "

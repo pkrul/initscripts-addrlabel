@@ -1,0 +1,3852 @@
+#
+# Translators:
+# Alain PORTAL <aportal@univ-montp2.fr>, 2007
+# Audrey Simons <asimons@redhat.com>, 2003, 2004, 2006
+# Boris BARNIER <b.barnier@gmail.com>, 2011
+# croe <croe@redhat.com>, 2008
+# Damien Durand <splinux@fedoraproject.org>, 2006
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# Jérôme Fenal <jfenal@gmail.com>, 2012
+# Johan Cwiklinski <johan@x-tnd.be>, 2007
+# Sam Friedmann <sam.friedmann@redhat.com>, 2009
+# Thomas Canniot <mrtom@fedoraproject.org>, 2006, 2007, 2008, 2009, 2010
+# mrtomlinux <thomas.canniot@mrtomlinux.org>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: fedora-initscripts\n"
+"PO-Revision-Date: 2012-04-15 15:58+0000\n"
+"Last-Translator: Jérôme Fenal <jfenal@gmail.com>\n"
+"Language-Team: French <trans-fr@lists.fedoraproject.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../sysconfig/network-scripts/ifup-eth:231
+#, fuzzy
+msgid "Error, some other host already uses address ${ipaddr[$idx]}."
+msgstr "Erreur, un autre hôte utilise déjà l'adresse ${IPADDR}."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:904
+msgid "No parameters given to setup a default route"
+msgstr "Aucun paramètre fournit pour régler une route par défaut"
+
+#: ../sysconfig/network-scripts/ifup-aliases:67
+msgid "usage: ifup-aliases <net-device> [<parent-config>]\n"
+msgstr "Syntaxe : ifup-aliases <net-device> [<parent-config>]\n"
+
+#: ../sysconfig/network-scripts/ifup-sit:63
+msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
+msgstr ""
+"L'adresse de tunnel IPv4 distante est manquante. La configuration n'est pas "
+"valide."
+
+#: ../service:78
+msgid "Redirecting to /bin/systemctl ${ACTION} ${OPTIONS} ${SERVICE}.service"
+msgstr ""
+
+#: ../rc.d/init.d/functions:410
+msgid "${base} status unknown due to insufficient privileges."
+msgstr "Le statut de ${base} est inconnu pour cause de privilèges insuffisants"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:145
+msgid "Missing parameter 'IPv6-address' (arg 2)"
+msgstr "Paramètre « Adresse IPv6 » manquant (arg 2)"
+
+#: ../rc.d/init.d/functions:239 ../rc.d/init.d/functions:249
+msgid "Usage: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+msgstr "Syntaxe : killproc [-p pidfile] [ -d delay] {program} [-signal]"
+
+#: ../ppp/ip-up.ipv6to4:123 ../sysconfig/network-scripts/ifup-ipv6:226
+msgid ""
+"Warning: configured MTU '$IPV6TO4_MTU' for 6to4 exceeds maximum limit of "
+"'$tunnelmtu', ignored"
+msgstr ""
+"Attention : la MTU « $IPV6TO4_MTU » configurée pour 6to4 dépasse la limite "
+"maximum de « $tunnelmtu », opération ignorée"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:964
+msgid "Unsupported reason '$reason' for sending trigger to radvd"
+msgstr ""
+"La raison « $reason » n'est pas reconnue pour l'envoi d'événements à radvd"
+
+#: ../sysconfig/network-scripts/ifup:103
+#: ../sysconfig/network-scripts/ifup-eth:78
+msgid ""
+"$alias device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr ""
+"Le périphérique $alias n'étant pas présent, l'initialisation de ${DEVICE} "
+"sera retardée."
+
+#: ../rc.d/init.d/functions:406
+msgid "${base} dead but pid file exists"
+msgstr "${base} est mort mais le fichier pid existe"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:100
+#: ../sysconfig/network-scripts/ifup-ipv6:117
+msgid "Please restart network with '/sbin/service network restart'"
+msgstr "Redémarrer le réseau à l'aide de « /sbin/service network restart »"
+
+#: ../systemd/fedora-autorelabel:21
+msgid "*** when you leave the shell."
+msgstr "*** lorsque vous quittez le shell."
+
+#: ../sysconfig/network-scripts/ifup-ppp:75
+msgid "ifup-ppp for ${DEVNAME} exiting"
+msgstr "sortie de ifup-ppp pour ${DEVNAME}"
+
+#: ../sysconfig/network-scripts/ifup-ppp:142
+msgid "pppd started for ${DEVNAME} on ${MODEMPORT} at ${LINESPEED}"
+msgstr "pppd démarré pour ${DEVNAME} sur ${MODEMPORT} à ${LINESPEED}"
+
+#: ../rc.d/init.d/functions:463
+msgid "WARNING"
+msgstr "AVERTISSEMENT"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:61
+msgid "Missing parameter 'IPv6-gateway' (arg 2)"
+msgstr "Paramètre manquant « IPv6-gateway » (arg 2)"
+
+#: ../rc.d/init.d/functions:330
+msgid "Usage: pidfileofproc {program}"
+msgstr "Syntaxe : pidfileofproc {program}"
+
+#: ../rc.d/init.d/functions:229
+msgid "$base startup"
+msgstr "Démarrage de $base"
+
+#: ../ppp/ip-down.ipv6to4:35 ../ppp/ip-up.ipv6to4:41
+msgid ""
+"Argument 1 is empty but should contain interface name - skip IPv6to4 "
+"initialization"
+msgstr ""
+"L'argument 1 est vide mais devrait contenir un nom d'interface - passer "
+"l'initialisation de IPv6to4 "
+
+#: ../ppp/ip-up.ipv6to4:189 ../sysconfig/network-scripts/ifup-ipv6:292
+msgid "radvd control enabled, but config is not complete"
+msgstr "Contrôle de radvd activé, mais config n'est pas complet."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:383
+msgid "Missing parameter 'address' (arg 1)"
+msgstr "Paramètre « adresse » manquant » (arg1)"
+
+#: ../rc.d/init.d/netconsole:76
+msgid "Server address not specified in /etc/sysconfig/netconsole"
+msgstr ""
+"L'adresse du serveur n'est pas spécifiée dans /etc/sysconfig/netconsole"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:798
+msgid "Missing parameter 'IPv6 MTU' (arg 2)"
+msgstr "Paramètre « MTU IPv6 » manquant (arg 2)"
+
+#: ../rc.d/init.d/network:67
+msgid "Bringing up loopback interface: "
+msgstr "Activation de l'interface loopback : "
+
+#: ../rc.d/init.d/functions:452
+msgid "PASSED"
+msgstr "RÉUSSI"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:394
+msgid "Given address '$addr' is not a global IPv4 one (arg 1)"
+msgstr "L'adresse « $addr » fournie n'est pas une adresse IPv4 globale (arg 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:706
+msgid "Missing parameter 'selection' (arg 2)"
+msgstr "Le paramètre « selection » est manquant (arg 2)"
+
+#: ../ppp/ip-up.ipv6to4:91 ../sysconfig/network-scripts/ifup-ipv6:211
+msgid ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+msgstr ""
+"La configuration de IPv6to4 requiert une adresse IPv4 sur l'interface "
+"correspondante ou autre spécifiée."
+
+#: ../sysconfig/network-scripts/ifup-aliases:190
+#, fuzzy
+msgid "error iN $FILE: didn't specify netmask or prefix"
+msgstr "erreur dans $FILE : le périphérique ou ipaddr n'a pas été spécifié"
+
+#: ../sysconfig/network-scripts/ifdown-tunnel:36
+#: ../sysconfig/network-scripts/ifup-tunnel:63
+msgid "Device '$DEVICE' isn't supported as a valid GRE device name."
+msgstr ""
+"Le périphérique « $DEVICE » n'est pas supporté en tant que nom de "
+"périphérique GRE valide."
+
+#: ../sysconfig/network-scripts/ifup-eth:43
+msgid "Device ${DEVICE} has different MAC address than expected, ignoring."
+msgstr ""
+"Le périphérique ${DEVICE} a une adresse MAC différente de celle attendue, "
+"opération ignorée."
+
+#: ../sysconfig/network-scripts/ifup-aliases:264
+msgid "Error, some other host already uses address ${IPADDR}."
+msgstr "Erreur, un autre hôte utilise déjà l'adresse ${IPADDR}."
+
+#: ../rc.d/init.d/network:271
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload}"
+msgstr "Syntaxe : $0 {start|stop|status|restart|reload|force-reload}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:603
+msgid "Tunnel device '$device' creation didn't work"
+msgstr "La création du périphérique tunnel « $device » n'a pas fonctionné"
+
+#: ../rc.d/init.d/netconsole:91
+msgid "Initializing netconsole"
+msgstr "Initialisation de netconsole"
+
+#: ../sysconfig/network-scripts/ifdown-eth:42
+#: ../sysconfig/network-scripts/ifdown-eth:48
+msgid ""
+"Device ${DEVICE} has MAC address ${FOUNDMACADDR}, instead of configured "
+"address ${HWADDR}. Ignoring."
+msgstr ""
+"Le périphérique ${DEVICE} a une adresse MAC ${FOUNDMACADDR}, au lieu d'un "
+"adresse ${HWADDR} configurée. Périphérique ignoré."
+
+#: ../rc.d/init.d/functions:441
+msgid "FAILED"
+msgstr "ÉCHOUÉ"
+
+#: ../sysconfig/network-scripts/ifup-eth:286
+#, fuzzy
+msgid "Determining IPv6 information for ${DEVICE}..."
+msgstr "Définition des informations IP pour ${DEVICE}."
+
+#: ../rc.d/init.d/functions:422
+msgid "${base} is stopped"
+msgstr "${base} est arrêté"
+
+#: ../rc.d/init.d/functions:151 ../rc.d/init.d/functions:187
+msgid "$0: Usage: daemon [+/-nicelevel] {program}"
+msgstr "$0 : Syntaxe : démon [+/-nicelevel] {programme}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:165
+msgid "error in $FILE: invalid alias number"
+msgstr "erreur dans $FILE : numéro d'alias invalide"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:159
+msgid "Device '$device' doesn't exist"
+msgstr "Le périphérique « $device » n'existe pas"
+
+#: ../sysconfig/network-scripts/ifup:30 ../sysconfig/network-scripts/ifup:38
+msgid "Usage: ifup <configuration>"
+msgstr "Syntaxe : ifup <nom du périphérique>"
+
+#: ../sysconfig/network-scripts/ifup:126 ../sysconfig/network-scripts/ifup:127
+msgid "ERROR: could not add vlan ${VID} as ${DEVICE} on dev ${PHYSDEV}"
+msgstr ""
+"ERREUR : impossible d'ajouter vlan ${VID} en tant que ${DEVICE} sur dev "
+"${PHYSDEV}"
+
+#: ../sysconfig/network-scripts/ifup-ctc:37
+msgid "ERROR: ${DEVICE} did not come up!"
+msgstr ""
+
+#: ../ppp/ip-up.ipv6to4:138 ../sysconfig/network-scripts/ifup-ipv6:240
+msgid "Warning: interface 'tun6to4' does not support 'IPV6_DEFAULTGW', ignored"
+msgstr ""
+"Avertissement : l'interface « tun6to4 » ne prend pas en charge "
+"'IPV6_DEFAULTGW'. Opération ignorée."
+
+#: ../rc.d/init.d/network:133 ../rc.d/init.d/network:140
+msgid "Bringing up interface $i: "
+msgstr "Activation de l'interface $i : "
+
+#: ../sysconfig/network-scripts/init.ipv6-global:162
+msgid "Usage: $0 {start|stop|reload|restart|showsysctl}"
+msgstr "Syntaxe : $0 {start|stop|reload|restart|showsysctl}"
+
+#: ../sysconfig/network-scripts/ifup-eth:80
+msgid "Device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr ""
+"Le périphérique ${DEVICE} n'étant pas présent, son initialisation sera "
+"retardée."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:841
+msgid "Given IPv6 default gateway '$address' is not in proper format"
+msgstr ""
+"L'adresse de passerelle IPv6 par défaut « $adress » n'est pad correctement "
+"formatée"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:140
+#: ../sysconfig/network-scripts/network-functions-ipv6:203
+#: ../sysconfig/network-scripts/network-functions-ipv6:232
+#: ../sysconfig/network-scripts/network-functions-ipv6:312
+#: ../sysconfig/network-scripts/network-functions-ipv6:427
+#: ../sysconfig/network-scripts/network-functions-ipv6:489
+#: ../sysconfig/network-scripts/network-functions-ipv6:523
+#: ../sysconfig/network-scripts/network-functions-ipv6:565
+#: ../sysconfig/network-scripts/network-functions-ipv6:643
+#: ../sysconfig/network-scripts/network-functions-ipv6:701
+#: ../sysconfig/network-scripts/network-functions-ipv6:754
+#: ../sysconfig/network-scripts/network-functions-ipv6:793
+#: ../sysconfig/network-scripts/network-functions-ipv6:921
+msgid "Missing parameter 'device' (arg 1)"
+msgstr "Le paramètre « périphérique » est manquant (arg 1)"
+
+#: ../rc.d/init.d/network:82
+msgid "No 802.1Q VLAN support available in kernel."
+msgstr "Pas de support 802.1Q VLAN disponible dans le noyau."
+
+#: ../sysconfig/network-scripts/ifup-aliases:180
+msgid "error in $FILE: already seen device $parent_device:$DEVNUM in $devseen"
+msgstr ""
+"erreur dans $FILE : déjà vu le périphérique $parent_device:$DEVNUM dans "
+"$devseen"
+
+#: ../systemd/fedora-autorelabel:20
+msgid "*** problems. Dropping you to a shell; the system will reboot"
+msgstr "*** Problèmes. Re-direction vers un shell ; le système redémarrera"
+
+#: ../sysconfig/network-scripts/ifup-sit:71
+msgid "Device '$DEVICE' is already up, please shutdown first"
+msgstr "Le périphérique « $DEVICE » est déjà activé. Arrêtez le d'abord."
+
+#: ../systemd/fedora-autorelabel:26
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required."
+msgstr ""
+"*** Attention -- Un ré-étiquetage de la politique SELinux ${SELINUXTYPE} est "
+"requis."
+
+#: ../rc.d/init.d/netconsole:36
+msgid "Usage: $0 {start|stop|status|restart|condrestart}"
+msgstr "Syntaxe : $0 {start|stop|status|restart|condrestart}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:231
+#: ../sysconfig/network-scripts/ifup-aliases:242
+msgid "error in ifcfg-${parent_device}: files"
+msgstr "erreur dans les fichiers ifcfg-${parent_device}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:804
+msgid "Given IPv6 MTU '$ipv6_mtu' is out of range"
+msgstr "La MTU IPv6 « $ipv6_mtu » fournie est hors-limite"
+
+#: ../sysconfig/network-scripts/ifup-aliases:320
+msgid "error in $FILE: IPADDR_START greater than IPADDR_END"
+msgstr "erreur dans $FILE : IPADDR_START est plus grand que IPADDR_END"
+
+#: ../sysconfig/network-scripts/ifup-eth:260
+#, fuzzy
+msgid "Error adding default gateway ${GATEWAY} for ${DEVICE}."
+msgstr "Erreur lors de l'ajout de l'adresse ${IPADDR} pour ${DEVICE}."
+
+#: ../rc.d/init.d/functions:430
+msgid "  OK  "
+msgstr "  OK  "
+
+#: ../sysconfig/network-scripts/network-functions:540
+msgid "INFO     "
+msgstr "INFO    "
+
+#: ../sysconfig/network-scripts/ifup-aliases:185
+msgid "error in $FILE: didn't specify device or ipaddr"
+msgstr "erreur dans $FILE : le périphérique ou ipaddr n'a pas été spécifié"
+
+#: ../sysconfig/network-scripts/ifdown:33 ../sysconfig/network-scripts/ifup:49
+msgid "Users cannot control this device."
+msgstr "Les utilisateurs ne peuvent pas contrôler ce périphérique."
+
+#: ../sysconfig/network-scripts/ifup:89
+msgid "PHYSDEV should be set for device ${DEVICE}"
+msgstr "PHYSDEV devrait être paramétré pour ${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1031
+msgid "radvd not (properly) installed, triggering failed"
+msgstr "radvd n'est pas (correctement) installé, envoi d'événement échoué"
+
+#: ../sysconfig/network-scripts/ifup-eth:177
+#: ../sysconfig/network-scripts/ifup-eth:290
+msgid " failed."
+msgstr " échoué."
+
+#: ../rc.d/init.d/functions:345
+msgid "Usage: pidofproc [-p pidfile] {program}"
+msgstr "Syntaxe : pidofproc [-p fichierpid] {programme}"
+
+#: ../systemd/fedora-autorelabel:18
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required. "
+msgstr ""
+"*** Attention -- Un ré-étiquetage de la règle SELinux ${SELINUXTYPE} est "
+"requis. "
+
+#: ../rc.d/init.d/network:258
+msgid "Configured devices:"
+msgstr "Périphériques configurés : "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:895
+msgid "Given IPv6 default device '$device' requires an explicit nexthop"
+msgstr "Le périphérique IPv6 fournit « $device » requiert un nexthop explicite"
+
+#: ../rc.d/init.d/functions:33
+#, fuzzy
+msgid "Starting $prog (via systemctl): "
+msgstr "Démarrage de $progbase : "
+
+#: ../sysconfig/network-scripts/ifdown:15
+#: ../sysconfig/network-scripts/ifdown:22
+msgid "usage: ifdown <configuration>"
+msgstr "Syntaxe : ifdown <nom du périphérique>"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:276
+msgid ""
+"Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+msgstr ""
+"L'acheminement de 6to4 et de RADVD IPv6 devrait être activé, mais il ne "
+"l'est pas."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:438
+#: ../sysconfig/network-scripts/network-functions-ipv6:495
+#: ../sysconfig/network-scripts/network-functions-ipv6:534
+msgid "Given device '$device' is not supported (arg 1)"
+msgstr "Le périphérique fournit « $device » n'est pas supporté (arg 1)"
+
+#: ../rc.d/init.d/netconsole:111
+msgid "netconsole module loaded"
+msgstr "module netconsole chargé"
+
+#: ../rc.d/init.d/functions:269 ../rc.d/init.d/functions:296
+#: ../rc.d/init.d/functions:312
+msgid "$base shutdown"
+msgstr "Arrêt de $base"
+
+#: ../sysconfig/network-scripts/ifup-tunnel:56
+msgid "Invalid tunnel type $TYPE"
+msgstr "Type de tunnel $TYPE invalide"
+
+#: ../sysconfig/network-scripts/ifup-ppp:48
+msgid "pppd does not exist or is not executable for ${DEVICE}"
+msgstr "pppd n'existe pas ou n'est pas exécutable pour ${DEVICE}"
+
+#: ../sysconfig/network-scripts/ifup:37
+msgid "$0: configuration for ${1} not found."
+msgstr "$0 : configuration de ${1} non trouvée"
+
+#: ../sysconfig/network-scripts/ifup-eth:165
+msgid "Determining IP information for ${DEVICE}..."
+msgstr "Définition des informations IP pour ${DEVICE}."
+
+#: ../systemd/fedora-autorelabel:19
+msgid "*** /etc/selinux/config indicates you want to manually fix labeling"
+msgstr "*** /etc/selinux/config indique que vous devez corriger l'étiquetage "
+
+#: ../sysconfig/network-scripts/network-functions:537
+msgid "WARN     "
+msgstr "AVERTISSEMENT    "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:86
+msgid ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+msgstr ""
+"« Aucune route pour l'hôte » Ajout d'une route « $networkipv6'par la "
+"passerelles « $gatewayipv6 » à travers le périphérique « $device »"
+
+#: ../rc.d/init.d/netconsole:82
+msgid "netconsole: can't resolve MAC address of $SYSLOGADDR"
+msgstr "netconsole : impossible de résoudre l'adresse MAC de $SYSLOGADDR"
+
+#: ../sysconfig/network-scripts/ifup-ppp:46
+msgid "ifup-ppp for ${DEVICE} exiting"
+msgstr "Sortie de ifup-ppp pour ${DEVICE}"
+
+#: ../sysconfig/network-scripts/ifdown-routes:5
+#, fuzzy
+msgid "usage: ifdown-routes <net-device> [<nickname>]"
+msgstr "Syntaxe : ifup-routes <net-device> [<surnom>]"
+
+#: ../sysconfig/network-scripts/ifup-eth:51
+msgid "Bridge support not available: brctl not found"
+msgstr "Support du pont indisponible : brctl non trouvé"
+
+#: ../rc.d/init.d/network:261
+msgid "Currently active devices:"
+msgstr "Périphériques actuellement actifs : "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:590
+msgid ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+msgstr ""
+"L'adresse distante « $adressipv4tunnel » donnée sur le périphérique tunnel "
+"« $device » est déjà configurée sur le périphérique « $devnew »"
+
+#: ../sysconfig/network-scripts/ifdown-sit:40
+#: ../sysconfig/network-scripts/ifup-sit:58
+msgid ""
+"Device '$DEVICE' isn't supported here, use IPV6_AUTOTUNNEL setting and "
+"restart (IPv6) networking"
+msgstr ""
+"Le périphérique « $DEVICE » n'est pas pris en charge ici. Utilisez le "
+"paramètre IPV6_AUTOTUNNEL et redémarrez la mise en réseau (IPv6)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:343
+msgid "Missing parameter 'IPv4 address' (arg 1)"
+msgstr "Paramètre « adresse IPv4 » manquant (arg 1)"
+
+#: ../rc.d/init.d/network:232
+msgid "Shutting down interface $i: "
+msgstr "Arrêt de l'interface $i : "
+
+#: ../sysconfig/network-scripts/ifup-ippp:374
+msgid ""
+"Warning: ipppd (kernel 2.4.x and below) doesn't support IPv6 using "
+"encapsulation 'syncppp'"
+msgstr ""
+"Avertissement : ipppd (noyau 2.4.x et inférieurs) ne prend pas en charge "
+"l'IPv6 utilisant l'encapsulation « syncppp »"
+
+#: ../systemd/fedora-autorelabel:27
+msgid "*** Relabeling could take a very long time, depending on file"
+msgstr ""
+"*** Le ré-étiquetage pourrait prendre un certain temps, cela dépend de la "
+"taille"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:99
+msgid ""
+"Global IPv6 forwarding is enabled in configuration, but not currently "
+"enabled in kernel"
+msgstr ""
+"L'acheminement global d'IPv6 est activé dans la configuration, mais pas "
+"actuellement dans le noyau."
+
+#: ../rc.d/init.d/functions:39
+#, fuzzy
+msgid "Reloading $prog configuration (via systemctl): "
+msgstr "Rechargement de la configuration de $prog : "
+
+#: ../sysconfig/network-scripts/ifup-ippp:55
+msgid "$*"
+msgstr "$*"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:855
+msgid ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+msgstr ""
+"La passerelle IPv6 par défaut « $address » est liée localement, mais "
+"aucunpériphérique passerelle n'a été spécifié"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:610
+msgid "Tunnel device '$device' bringing up didn't work"
+msgstr "L'activation du périphérique tunnel « $device » n'a pas fonctionnée"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:993
+msgid "Unsupported mechanism '$mechanism' for sending trigger to radvd"
+msgstr ""
+"Mécanisme « $mechanism » non supporté pour l'envoi d'événements à radvd"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:398
+msgid "Given address '$addr' is not a valid IPv4 one (arg 1)"
+msgstr "L'adresse IPv4 « $addr » n'est pas une adresse IPv4 valide (arg 1)."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:432
+msgid "Missing parameter 'global IPv4 address' (arg 2)"
+msgstr "Paramètre « d'adresse IPv4 globale » (arg 2) manquant"
+
+#: ../sysconfig/network-scripts/ifup-ppp:74
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist"
+msgstr "/etc/sysconfig/network-scripts/chat-${DEVNAME} n'existe pas"
+
+#: ../rc.d/init.d/netconsole:114
+msgid "netconsole module not loaded"
+msgstr "le module netconsole n'a pas été chargé"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:89
+msgid "Unknown error"
+msgstr "Erreur inconnue"
+
+#: ../rc.d/init.d/functions:371
+msgid "Usage: status [-p pidfile] {program}"
+msgstr "Syntaxe : status [-p fichierpid] {programme}"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:299
+msgid "6to4 configuration is not valid"
+msgstr "La configuration 6to4 n'est pas valide"
+
+#: ../sysconfig/network-scripts/ifup-ppp:82
+msgid "Setting up a new ${PEERCONF} config file"
+msgstr "Configuration d'un nouveau fichier de configuration ${PEERCONF}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:316
+msgid "error in $FILE: IPADDR_START and IPADDR_END don't agree"
+msgstr "erreur dans $FILE : IPADDR_START et IPADDR_END ne sont pas d'accord"
+
+#: ../rc.d/init.d/functions:303
+msgid "$base $killlevel"
+msgstr "$base $killlevel"
+
+#: ../sysconfig/network-scripts/ifup-ppp:59
+msgid "adsl-start does not exist or is not executable for ${DEVICE}"
+msgstr "adsl-start n'existe pas ou n'est pas exécutable pour ${DEVICE}"
+
+#: ../sysconfig/network-scripts/ifup-eth:167
+msgid " failed; no link present.  Check cable?"
+msgstr " échoué. Aucun lien n'a été trouvé. Vérifier le câble ?"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:116
+msgid ""
+"Global IPv6 forwarding is disabled in configuration, but not currently "
+"disabled in kernel"
+msgstr ""
+"L'acheminement IPv6 global est désactivé dans la configuration, mais il "
+"n'est actuellement pas désactivé dans le noyau."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:165
+msgid "Device '$device' enabling didn't work"
+msgstr "L'activation du périphérique « $device » n'a pas fonctionnée"
+
+#: ../sysconfig/network-scripts/ifup-ppp:77
+msgid ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist for ${DEVICE}"
+msgstr ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} n'existe pas pour ${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:186
+msgid "Cannot add IPv6 address '$address' on dev '$device'"
+msgstr ""
+"Ne peut pas ajouter l'adresse IPv6 « $address » sur le périphérique "
+"« $device »"
+
+#: ../sysconfig/network-scripts/ifup-ippp:376
+msgid "Warning: link doesn't support IPv6 using encapsulation 'rawip'"
+msgstr ""
+"Avertissement : le lien ne prend pas en charge l'IPv6 utilisant "
+"l'encapsulation « rawip »"
+
+#: ../sys-unconfig:6
+msgid "Usage: sys-unconfig"
+msgstr "Syntaxe : sys-unconfig"
+
+#: ../sysconfig/network-scripts/ifup-routes:5
+msgid "usage: ifup-routes <net-device> [<nickname>]"
+msgstr "Syntaxe : ifup-routes <net-device> [<surnom>]"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:570
+msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
+msgstr "Paramètre « adresse de tunnel IPv4 » manquant (arg 2)"
+
+#: ../rc.d/init.d/netconsole:101
+msgid "Disabling netconsole"
+msgstr "Désactivation de netconsole"
+
+#: ../systemd/fedora-configure:19
+msgid "Resetting hostname ${HOSTNAME}: "
+msgstr "Reconfiguration du nom d'hôte ${HOSTNAME}: "
+
+#: ../rc.d/init.d/network:246
+msgid "Shutting down loopback interface: "
+msgstr "Arrêt de l'interface loopback : "
+
+#: ../sysconfig/network-scripts/ifup-eth:264
+#, fuzzy
+msgid "Erorr adding default gateway for ${REALDEVICE}."
+msgstr "Erreur lors de l'ajout de l'adresse ${IPADDR} pour ${DEVICE}."
+
+#: ../systemd/fedora-autorelabel:28
+msgid "*** system size and speed of hard drives."
+msgstr "*** du système de fichiers et de la vitesse des disques durs."
+
+#: ../sysconfig/network-scripts/network-functions:531
+msgid "DEBUG    "
+msgstr "DÉBOGAGE    "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:959
+msgid "No reason given for sending trigger to radvd"
+msgstr "Aucune raison fournie pour envoyer un événement à radvd"
+
+#: ../sysconfig/network-scripts/ifup-ipx:7
+msgid "usage: $0 <net-device>"
+msgstr "Syntaxe : $0 <net-device>"
+
+#: ../sysconfig/network-scripts/ifup-eth:174
+#: ../sysconfig/network-scripts/ifup-eth:288
+msgid " done."
+msgstr " fait."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:56
+msgid "Missing parameter 'IPv6-network' (arg 1)"
+msgstr "Le paramètre « Réseau IPv6 » est manquant (arg 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1005
+msgid "Given pidfile '$pidfile' doesn't exist, cannot send trigger to radvd"
+msgstr ""
+"Le fichier pif fourni « $pidfile » n'existe pas, impossible d'envoyer un "
+"événement à radvd"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:528
+msgid "Missing parameter 'local IPv4 address' (arg 2)"
+msgstr "Paramètre « adresse locale IPv4 » (arg 2) manquant"
+
+#: ../sysconfig/network-scripts/ifup-aliases:119
+msgid "Missing config file $PARENTCONFIG."
+msgstr "Le fichier de configuration $PARENTCONFIG est manquant."
+
+#: ../rc.d/init.d/functions:513
+msgid "$STRING"
+msgstr "$STRING"
+
+#: ../rc.d/init.d/functions:419
+msgid "${base} dead but subsys locked"
+msgstr "${base} est mort mais subsys est verrouillé"
+
+#: ../sysconfig/network-scripts/ifup-aliases:175
+msgid "error in $FILE: already seen ipaddr $IPADDR in $ipseen"
+msgstr "erreur dans $FILE : déjà vu ipaddr $IPADDR dans $ipseen"
+
+#: ../rc.d/init.d/functions:36
+#, fuzzy
+msgid "Stopping $prog (via systemctl): "
+msgstr "Arrêt du démon $prog : "
+
+#: ../sysconfig/network-scripts/ifup-eth:237
+#, fuzzy
+msgid "Error adding address ${ipaddr[$idx]} for ${DEVICE}."
+msgstr "Erreur lors de l'ajout de l'adresse ${IPADDR} pour ${DEVICE}."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:710
+msgid "Unsupported selection '$selection' specified (arg 2)"
+msgstr "la sélection « $selection » spécifiée n'est pas supportée (arg 2)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1014
+msgid "Pidfile '$pidfile' is empty, cannot send trigger to radvd"
+msgstr ""
+"Le fichier Pid « $pidfile » est vide, impossible d'envoyer un événement à "
+"radvd"
+
+#: ../sysconfig/network-scripts/ifup-eth:201
+msgid "Failed to bring up ${DEVICE}."
+msgstr "Erreur lors de l'activation de ${DEVICE}."
+
+#: ../sysconfig/network-scripts/ifup-ipv6:147
+msgid ""
+"Cannot enable IPv6 privacy method '$IPV6_PRIVACY', not supported by kernel"
+msgstr ""
+"Impossible d'activer la méthode privée IPv6 « $IPV6_PRIVACY », non prise en "
+"charge par le noyau"
+
+#: ../rc.d/init.d/network:152
+#, fuzzy
+msgid "Legacy static-route support not available: /sbin/route not found"
+msgstr "Support du pont indisponible : brctl non trouvé"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:114
+msgid "Tunnel device 'sit0' enabling didn't work"
+msgstr "L'activation du périphérique tunnel « sit0 » n'a pas fonctionné"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:171
+msgid "Device 'tun6to4' (from '$DEVICE') is already up, shutdown first"
+msgstr ""
+"Le périphérique « tun6to4 » (de « $DEVICE ») est déjà activé. Arrêtez avant "
+"tout la machine."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:847
+msgid ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+msgstr ""
+"La passerelle IPv6 par défaut « $address » a le profil défini "
+"« $device_scope », la passerelle par défaut « $device » ne sera pas utilisée"
+
+#: ../rc.d/init.d/functions:396 ../rc.d/init.d/functions:402
+msgid "${base} (pid $pid) is running..."
+msgstr "${base} (pid $pid) en cours d'exécution..."
+
+#: ../sysconfig/network-scripts/ifup:96
+msgid "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+msgstr ""
+"Pas de support 802.1Q VLAN disponible dans le noyau pour le périphérique "
+"${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:898
+msgid "Given IPv6 default device '$device' doesn't exist or isn't up"
+msgstr ""
+"Le périphérique IPv6 par défaut « $device » n'existe pas ou n'est pas activé"
+
+#: ../ppp/ip-up.ipv6to4:87 ../sysconfig/network-scripts/ifup-ipv6:198
+msgid "Given IPv4 address '$ipv4addr' is not globally usable"
+msgstr "L'adresse IPv4 $ipv4addr fournie n'est pas utilisable de façon globale"
+
+#: ../ppp/ip-up.ipv6to4:186 ../sysconfig/network-scripts/ifup-ipv6:289
+msgid "Error occurred while calculating the IPv6to4 prefix"
+msgstr "Une erreur s'est produite lors du calcul du préfixe IPv6to4"
+
+#: ../rc.d/init.d/functions:42
+#, fuzzy
+msgid "Restarting $prog (via systemctl): "
+msgstr "Redémarrage de $prog : "
+
+#: ../sysconfig/network-scripts/ifup-ppp:45
+msgid "pppd does not exist or is not executable"
+msgstr "pppd n'existe pas ou n'est pas exécutable"
+
+#: ../sysconfig/network-scripts/network-functions:534
+msgid "ERROR    "
+msgstr "ERREUR    "
+
+#~ msgid "Usage: ifup <device name>"
+#~ msgstr "Syntaxe : ifup <nom du périphérique>"
+
+#~ msgid "Reloading $prog for $ez_name: "
+#~ msgstr "Rechargement de $prog pour $ez_name : "
+
+#~ msgid "Stopping incrond: "
+#~ msgstr "Arrêt d'incrond : "
+
+#~ msgid "already stopped"
+#~ msgstr "déjà arrêté"
+
+#~ msgid "Starting Shorewall: "
+#~ msgstr "Démarrage de Shorewall : "
+
+#~ msgid "Starting UPS monitor (slave): "
+#~ msgstr "Démarrage du moniteur (esclave) UPS : "
+
+#~ msgid "Stopping infrared remote control mouse daemon ($prog2): "
+#~ msgstr ""
+#~ "Arrêt du démon de la souris télécommandée par infra-rouge ($prog2) : "
+
+#~ msgid "Graceful shutdown of old $prog: "
+#~ msgstr "Arrêt correct de l'ancien $prog : "
+
+#~ msgid "$base dead but pid file exists"
+#~ msgstr "$base est mort mais le fichier pid existe"
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Starting console mouse services: "
+#~ msgstr "Démarrage des services de souris pour la console : "
+
+#~ msgid "Shutting down router discovery services: "
+#~ msgstr "Arrêt des services de recherche de routeurs : "
+
+#~ msgid "Starting Red Hat Network Daemon: "
+#~ msgstr "Démarrage du démon Red Hat Network : "
+
+#~ msgid "$prog already running"
+#~ msgstr "$prog est déjà en cours d'exécution"
+
+#~ msgid "Reloading ser2net"
+#~ msgstr "Rechargement de ser2net"
+
+#~ msgid "no dictionaries installed"
+#~ msgstr "pas de dictionnaires installé"
+
+#~ msgid "Starting vmpsd: "
+#~ msgstr "Démarrage de vmpsd : "
+
+#~ msgid "Importing $prog databases: "
+#~ msgstr "Importation des bases de données $prog : "
+
+#~ msgid "to"
+#~ msgstr "à"
+
+#~ msgid "${IPTABLES}: Firewall is not running."
+#~ msgstr "${IPTABLES} : Le pare-feu n'est pas en cours d'exécution."
+
+#~ msgid "${IPTABLES}: Firewall is not configured. "
+#~ msgstr "${IPTABLES} : Le pare-feu n'est pas configuré. "
+
+#~ msgid "Setting path to vshelper"
+#~ msgstr "Définition du chemin vers vshelper"
+
+#~ msgid "Unmounting CIFS filesystems: "
+#~ msgstr "Démontage des systèmes de fichiers CIFS : "
+
+#~ msgid "Stopping spectrum transport: "
+#~ msgstr "Arrêt du spectrum de transport : "
+
+#~ msgid "Entering interactive startup"
+#~ msgstr "Début du démarrage interactif"
+
+#~ msgid "Starting RPC svcgssd: "
+#~ msgstr "Démarrage des services RPC svcgssd : "
+
+#~ msgid "$s compilation failed "
+#~ msgstr "Échec de la compilation de $s"
+
+#~ msgid "Starting $prog: "
+#~ msgstr "Démarrage de $prog : "
+
+#~ msgid "Starting CGroup Rules Engine Daemon..."
+#~ msgstr "Démarrage du démon du moteur de règles CGroup..."
+
+#~ msgid "Starting xend daemon: "
+#~ msgstr "Démarrage du démon xend : "
+
+#~ msgid "Error. This appears to be a slave server, found kpropd.acl"
+#~ msgstr ""
+#~ "Erreur. Il semble qu'il s'agisse d'un serveur esclave, kpropd.acl trouvé"
+
+#~ msgid "Saving $desc ($prog): "
+#~ msgstr "Enregistrement de $desc ($prog) : "
+
+#~ msgid "$prog startup"
+#~ msgstr "$prog startup"
+
+#~ msgid "Starting preload daemon: "
+#~ msgstr "Démarrage du démon preload : "
+
+#~ msgid "Disabling denyhosts cron service: "
+#~ msgstr "Désactivation du service cron de denyhosts : "
+
+#~ msgid ""
+#~ "Usage: $spooler {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Syntaxe : $spooler {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Reloading "
+#~ msgstr "Rechargement "
+
+#~ msgid "Stopping system message bus: "
+#~ msgstr "Arrêt du bus de messages du système : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|reload|force-reload|status|condrestart|"
+#~ "try-restart}"
+
+#~ msgid "Insufficient privilege"
+#~ msgstr "Privilèges insuffisants"
+
+#~ msgid "Disabling nightly yum update: "
+#~ msgstr "Désactivation de la mise à jour nocturne par yum : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|condrestart|try-restart|"
+#~ "reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|force-reload|condrestart|try-"
+#~ "restart|reload}"
+
+#~ msgid "ERROR: Program /usr/sbin/firstboot is not installed"
+#~ msgstr "ERREUR : Le programme /usr/sbin/firstboot n'est pas installé"
+
+#~ msgid "Stopping UPS monitor: "
+#~ msgstr "Arrêt du moniteur UPS : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|force-reload|reload|condrestart|"
+#~ "try-restart}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|reload|configtest|status|force-reload|upgrade|"
+#~ "restart}"
+#~ msgstr ""
+#~ "Utilisation : $0 {start|stop|reload|configtest|status|force-reload|"
+#~ "upgrade|restart}"
+
+#~ msgid "Enabling monthly Smolt checkin: "
+#~ msgstr "Activation de la mise à jour mensuelle du profil Smolt : "
+
+#~ msgid "Removing user defined chains:"
+#~ msgstr "Suppression des chaînes définies par l'utilisateur : "
+
+#~ msgid "Starting $prog instance "
+#~ msgstr "Démarrage de $prog "
+
+#~ msgid "Nightly yum update is disabled."
+#~ msgstr "La mise à jour nocturne par yum a été désactivée."
+
+#~ msgid "Retrigger failed udev events"
+#~ msgstr "Redémarrage des événements udev en échec"
+
+#~ msgid "Starting $dagent: "
+#~ msgstr "Démarrage de $dagent : "
+
+#~ msgid "Stopping rwho services: "
+#~ msgstr "Arrêt des services rwho : "
+
+#~ msgid "Shutting down NIS service: "
+#~ msgstr "Arrêt du service NIS : "
+
+#~ msgid "Flushing all current rules and user defined chains:"
+#~ msgstr ""
+#~ "Suppression de toutes les règles courantes et des chaînes définies par "
+#~ "l'utilisateur : "
+
+#~ msgid "Usage: $0 {start|stop|status|restart}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|restart}"
+
+#~ msgid "Wine binary format handlers are registered."
+#~ msgstr "Les gestionnaires de format binaire Wine sont enregistrés."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|status|condrestart|try-restart|reload|force-"
+#~ "reload|report}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|status|condrestart|try-restart|reload|"
+#~ "force-reload|report}"
+
+#~ msgid "Reloading icecast: "
+#~ msgstr "Rechargement de icecast : "
+
+#~ msgid "Shutting down openvpn: "
+#~ msgstr "Arrêt de openvpn : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+
+#~ msgid ""
+#~ "Usage: $monitor {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Syntaxe : $monitor {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "\t\tWelcome to "
+#~ msgstr "\t\tBienvenue à "
+
+#~ msgid "Shutting down $desc ($prog): "
+#~ msgstr "Arrêt de $desc ($prog) : "
+
+#~ msgid ""
+#~ "Usage: $dagent {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Syntaxe : $dagent {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Shutting down system logger: "
+#~ msgstr "Arrêt de l'enregistreur de journaux du système : "
+
+#~ msgid "$base is stopped"
+#~ msgstr "$base est arrêté"
+
+#~ msgid "Checking configuration files for $prog: "
+#~ msgstr "Vérification des fichiers de configuration pour $prog : "
+
+#~ msgid "$0: call me as 'halt' or 'reboot' please!"
+#~ msgstr ""
+#~ "$0 : appelez-moi de la même manière que « halt » ou « reboot », merci !"
+
+#~ msgid "Starting FCoE initiator service: "
+#~ msgstr "Démarrage du services de l'initiateur FCoE : "
+
+#~ msgid "$NAME is attached to $DEVICE"
+#~ msgstr "$NAME est associé à $DEVICE"
+
+#~ msgid "Start freshclam"
+#~ msgstr "Démarrage de freshclam"
+
+#~ msgid "Shutting down $prog: "
+#~ msgstr "Arrêt de $prog : "
+
+#~ msgid "Reloading acpi daemon:"
+#~ msgstr "Rechargement du démon acpi :"
+
+#~ msgid "Starting greylistd: "
+#~ msgstr "Démarrage de greylistd : "
+
+#~ msgid "Stopping NetworkManager daemon: "
+#~ msgstr "Arrêt du démon NetworkManager : "
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|status|condrestart}"
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|condrestart|try-restart|force-reload|"
+#~ "reload|status|fullstatus|graceful|help|configtest}"
+#~ msgstr ""
+#~ "Syntaxe : $prog {start|stop|restart|condrestart|try-restart|force-reload|"
+#~ "reload|status|fullstatus|graceful|help|configtest}"
+
+#~ msgid "Starting smokeping: "
+#~ msgstr "Démarrage de smokeping : "
+
+#~ msgid "Stopping Mldonkey (mlnet): "
+#~ msgstr "Arrêt du démon Mldonkey (mlnet) : "
+
+#~ msgid "Starting puppet: "
+#~ msgstr "Démarrage de puppet : "
+
+#~ msgid "Starting ${prog_base}:"
+#~ msgstr "Démarrage de ${prog_base} : "
+
+#~ msgid "Sending all processes the TERM signal..."
+#~ msgstr "Envoi du signal TERM à tous les processus..."
+
+#~ msgid "Rotating logs: "
+#~ msgstr "Rotation des journaux : "
+
+#~ msgid "*** the clamav-server can be configured"
+#~ msgstr "*** le serveur clamav peut être configuré"
+
+#~ msgid "Starting restorecond: "
+#~ msgstr "Démarrage de restorecond : "
+
+#~ msgid "Starting xenstored daemon: "
+#~ msgstr "Démarrage du démon xenstored : "
+
+#~ msgid "Starting ${ifprog}: "
+#~ msgstr "Démarrage de ${ifprog} : "
+
+#~ msgid "Starting UPS monitor (master): "
+#~ msgstr "Démarrage du moniteur (maître) UPS : "
+
+#~ msgid "/proc entries are not fixed"
+#~ msgstr "les entrées /proc ne sont pas fixées"
+
+#~ msgid "Starting ipmi_watchdog driver: "
+#~ msgstr "Démarrage du pilote ipmi_watchdog : "
+
+#~ msgid "Applying ktune sysctl settings:"
+#~ msgstr "Application des paramètres sysctl ktune :"
+
+#~ msgid "Stopping $SERVICE daemon: "
+#~ msgstr "Arrêt du démon $SERVICE : "
+
+#~ msgid "Starting named: "
+#~ msgstr "Démarrage de named : "
+
+#~ msgid "Shutting down NFS daemon: "
+#~ msgstr "Arrêt du démon NFS : "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|restartlog|condrestart|try-restart|"
+#~ "reload|force-reload|status}"
+#~ msgstr ""
+#~ "Syntaxe : $prog {start|stop|restart|restartlog|condrestart|try-restart|"
+#~ "reload|force-reload|status}"
+
+#~ msgid "ctdb is stopped"
+#~ msgstr "ctdb est arrêté"
+
+#~ msgid "Reloading Condor daemons: "
+#~ msgstr "Rechargement des démons Condor : "
+
+#~ msgid "$base (pid $pid) is running..."
+#~ msgstr "$base (pid $pid) en cours d'exécution..."
+
+#~ msgid "Shutting down postfix: "
+#~ msgstr "Arrêt de postfix : "
+
+#~ msgid "$prog already stopped."
+#~ msgstr "$prog est déjà arrêté."
+
+#~ msgid "Reloading INN Service: "
+#~ msgstr "Rechargement du service INN : "
+
+#~ msgid "Stopping Condor daemons: "
+#~ msgstr "Arrêt des démons Condor :"
+
+#~ msgid "Flushing all chains:"
+#~ msgstr "Suppression de toutes les chaînes : "
+
+#~ msgid "Initializing MySQL database: "
+#~ msgstr "Initialisation de la base de données MySQL : "
+
+#~ msgid "${IP6TABLES}: ${_IPV} is disabled."
+#~ msgstr "${IP6TABLES}: ${_IPV} est désactivé."
+
+#~ msgid "Starting incrond: "
+#~ msgstr "Démarrage d'incrond : "
+
+#~ msgid "Starting capi4linux:"
+#~ msgstr "Démarrage de capi4linux : "
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status|condrestart}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|reload|status|condrestart}"
+
+#~ msgid "Stopping disk encryption for $dst"
+#~ msgstr "Arrêt du chiffrement du disque pour $dst : "
+
+#~ msgid "Shutting down rfcomm: "
+#~ msgstr "Arrêt de rfcomm : "
+
+#~ msgid "Detaching loopback device $dev: "
+#~ msgstr "Détachement du périphérique loopback $dev : "
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|try-restart|force-reload|status}"
+
+#~ msgid "Shutting down greylistd: "
+#~ msgstr "Arrêt de greylistd : "
+
+#~ msgid "Stopping OpenSCADA daemon: "
+#~ msgstr "Arrêt du démon OpenSCADA : "
+
+#~ msgid "Stopping Perlbal: "
+#~ msgstr "Arrêt de Perlbal : "
+
+#~ msgid "Usage: $0 {start|stop}"
+#~ msgstr "Syntaxe : $0 {start|stop}"
+
+#~ msgid "Starting $desc ($prog): "
+#~ msgstr "Démarrage de $desc ($prog) : "
+
+#~ msgid "Stopping Shorewall: "
+#~ msgstr "Arrêt de Shorewall : "
+
+#~ msgid "${IPTABLES}: Setting chains to policy $policy: "
+#~ msgstr "${IPTABLES} : Configuration des chaînes sur la politique $policy : "
+
+#~ msgid "Reloading $PROG: "
+#~ msgstr "Rechargement de $PROG : "
+
+#~ msgid "Stopping yum-updatesd: "
+#~ msgstr "Arrêt de yum-updatesd : "
+
+#~ msgid "$0: error: $prog is not running"
+#~ msgstr "$0: error: $prog n'est pas en cours d'exécution"
+
+#~ msgid "\t-y \t\t: answer yes for all questions."
+#~ msgstr "\t-y \t\t : répond oui à toutes les questions."
+
+#~ msgid "Generate configuration puppet: "
+#~ msgstr "Rechargement de la configuration: "
+
+#~ msgid "Checking for ctdbd service: "
+#~ msgstr "Vérification du service ctdbd : "
+
+#~ msgid "restarting $prog..."
+#~ msgstr "redémarrage de $prog..."
+
+#~ msgid "Starting process accounting: "
+#~ msgstr "Démarrage de la gestion des processus : "
+
+#~ msgid ""
+#~ "Usage: $server {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Syntaxe : $server {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Starting YP map server: "
+#~ msgstr "Démarrage du serveur YP map : "
+
+#~ msgid "$prog is already stopped."
+#~ msgstr "$prog est déjà arrêté."
+
+#~ msgid "database check"
+#~ msgstr "vérification de la base de données"
+
+#~ msgid "Restarting Video Disk Recorder ($prog): "
+#~ msgstr "Démarrage de Video Disk Recorder ($prog): "
+
+#~ msgid "${IP6TABLES}: Saving firewall rules to $IP6TABLES_DATA: "
+#~ msgstr ""
+#~ "${IP6TABLES} : Sauvegarde des règles du pare-feu dans $IP6TABLES_DATA : "
+
+#~ msgid "Shutting down $progbase: "
+#~ msgstr "Arrêt de $progbase : "
+
+#~ msgid "(no mouse is configured)"
+#~ msgstr "(aucune souris n'est configurée)"
+
+#~ msgid "Starting $prog2: "
+#~ msgstr "Démarrage de $prog2: "
+
+#~ msgid "Applying sysctl settings from $SYSCTL_POST"
+#~ msgstr "Application des paramètres sysctl depuis $SYSCTL_POST"
+
+#~ msgid "Sending switchover request to $NAME "
+#~ msgstr "Envoi de la requête de bascule à $NAME "
+
+#~ msgid "Service $prog does not support the reload action: "
+#~ msgstr "Le service $prog ne peut pas être rechargé : "
+
+#~ msgid "Reloading Red Hat Network Daemon: "
+#~ msgstr "Rechargement du démon Red Hat Network : "
+
+#~ msgid "already started"
+#~ msgstr "déjà démarré"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+#~ msgstr ""
+#~ "Utilisation : $0 {start|stop|status|try-restart|restart|force-reload|"
+#~ "reload}"
+
+#~ msgid "reloading sm-client: "
+#~ msgstr "redémarrage de sm-client : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#~ msgid "\t-R \t\t: recursively dependency checking"
+#~ msgstr "\t-R \t\t : vérifie les dépendances récursivement"
+
+#~ msgid "Starting Avahi daemon... "
+#~ msgstr "Démarrage du démon Avahi... "
+
+#~ msgid "Stopping Pound: "
+#~ msgstr "Arrêt de Pound : "
+
+#~ msgid "Stopping $ical: "
+#~ msgstr "Arrêt de $ical : "
+
+#~ msgid "Configured NFS mountpoints: "
+#~ msgstr "Points de montage NFS configurés : "
+
+#~ msgid "Starting Pound: "
+#~ msgstr "Démarrage de Pound : "
+
+#~ msgid "Unmounting pipe file systems: "
+#~ msgstr "Démontage du système de fichiers pipe : "
+
+#~ msgid "Current ktune sysctl settings:"
+#~ msgstr "Paramètres sysctl ktune actuels :"
+
+#~ msgid "Usage: $prog {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "Syntaxe : $prog {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting distributed compiler scheduler: "
+#~ msgstr "Démarrage de l'ordonnanceur de compilation distribué : "
+
+#~ msgid "parse error"
+#~ msgstr "erreur d'analyse"
+
+#~ msgid "Starting $ID: "
+#~ msgstr "Démarrage de $ID : "
+
+#~ msgid "vncserver start"
+#~ msgstr "Démarrage de vncserver"
+
+#~ msgid "Usage: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+#~ msgstr ""
+#~ "Syntaxe : nfs {start|stop|status|restart|reload|condrestart|condstop}"
+
+#~ msgid "Active network block devices: "
+#~ msgstr "Périphériques bloc de réseau actifs : "
+
+#~ msgid "Shutting down $prog"
+#~ msgstr "Arrêt de $prog"
+
+#~ msgid "Starting system logger: "
+#~ msgstr "Démarrage de l'enregistreur de journaux du système : "
+
+#~ msgid "$4 (e$2.$3@$1) [pid $pid]"
+#~ msgstr "$4 (e$2.$3@$1) [pid $pid]"
+
+#~ msgid "Shutting down pkcsslotd:"
+#~ msgstr "Arrêt de pkcsslotd :"
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|condstart|condrestart|status}"
+
+#~ msgid "Reloading $prog2: "
+#~ msgstr "Rechargement de $prog2: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|cyclelogs|online|offline|command}"
+#~ msgstr ""
+#~ "Utilisation : $0 {start|stop|status|restart|condrestart|try-restart|"
+#~ "reload|force-reload|cyclelogs|online|offline|command}"
+
+#~ msgid "Starting ctdbd service: "
+#~ msgstr "Démarrage du service ctdbd : "
+
+#~ msgid "not reloading due to configuration syntax error"
+#~ msgstr ""
+#~ "pas de rechargement à cause d'une erreur de syntaxe dans la configuration"
+
+#~ msgid "Usage: $prog {start|stop|reload|restart|condrestart|status}"
+#~ msgstr "Syntaxe : $prog {start|stop|reload|restart|condrestart|status}"
+
+#~ msgid "Resuming logging: "
+#~ msgstr "Reprise de l'écriture du journal :"
+
+#~ msgid "Failed to stop \"$s\". "
+#~ msgstr "Échec de l'arrêt de « $s ». "
+
+#~ msgid "no running guests."
+#~ msgstr "aucun invité en cours d'exécution"
+
+#~ msgid "Starting icecast streaming daemon: "
+#~ msgstr "Démarrage du démon icecast : "
+
+#~ msgid "Stopping GNU Krell Monitors server ($prog): "
+#~ msgstr "Arrêt du serveur GNU Krell Monitors ($prog) : "
+
+#~ msgid "Usage: $prog {start|stop|status|restart|try-restart}"
+#~ msgstr "Syntaxe : $prog {start|stop|status|restart|try-restart}"
+
+#~ msgid "Usage: $0 {condrestart|start|stop|restart|reload|status}"
+#~ msgstr "Syntaxe : $0 {condrestart|start|stop|restart|reload|status}"
+
+#~ msgid "Starting kernel logger: "
+#~ msgstr "Démarrage de l'enregistreur de journaux du système: "
+
+#~ msgid "Shutting down ${NAME}: "
+#~ msgstr "Arrêt de ${NAME} : "
+
+#~ msgid "Usage: $0 {start|stop|restart|status|force-stop}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|status|force-stop}"
+
+#~ msgid "Telling INIT to go to single user mode."
+#~ msgstr "Indique à INIT d'utiliser un mode mono-utilisateur."
+
+#~ msgid "Starting $name: "
+#~ msgstr "Démarrage de $name : "
+
+#~ msgid "Failed to sort dependency"
+#~ msgstr "Impossible de classer la dépendance"
+
+#~ msgid "Mounting cgroup-hierarchy"
+#~ msgstr "Montage de cgroup-hierarchy"
+
+#~ msgid "Usage $0 {start|stop|restart|condrestart|save|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|condrestart|save|status}"
+
+#~ msgid "Starting PC/SC smart card daemon ($prog): "
+#~ msgstr "Démarrage du démon PC/SC smart card ($prog) : "
+
+#~ msgid ""
+#~ "Usage: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "Syntaxe : ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#~ msgid "*** Warning -- the system did not shut down cleanly. "
+#~ msgstr "*** Avertissement -- le système ne s'est pas arrêté correctement."
+
+#~ msgid "Stopping $prog for $file: "
+#~ msgstr "Arrêt de $prog pour $file : "
+
+#~ msgid "Shutting down $NAME: "
+#~ msgstr "Arrêt de $NAME : "
+
+#~ msgid "Configuration file /etc/radvd.conf missing"
+#~ msgstr "Le fichier de configuration /etc/radvd.conf est manquant"
+
+#~ msgid "Unmounting loopback filesystems (retry):"
+#~ msgstr "Démontage des systèmes de fichiers loopback (nouvel essai) : "
+
+#~ msgid "sfcb is not running"
+#~ msgstr "sfcb n'est pas en cours d'exécution"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|force-reload|status|panic|save}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|try-restart|force-reload|status|panic|"
+#~ "save}"
+
+#~ msgid "CTDB is already running"
+#~ msgstr "CTDB est déjà en cours d'exécution"
+
+#~ msgid "Error occured while calculating the IPv6to4 prefix"
+#~ msgstr "Une erreur s'est produite lors du calcul du préfixe IPv6to4"
+
+#~ msgid "fetch-crl-boot lockfile present"
+#~ msgstr ""
+#~ "fichier de verrouillage pour le démarrage de fetch-ctrl-boot présent"
+
+#~ msgid "$prog reload"
+#~ msgstr "Recharger $prog"
+
+#~ msgid "Stopping MogileFS tracker daemon: "
+#~ msgstr "Arrêt du démon de l'outil de suivi MogileFS : "
+
+#~ msgid "Starting unbound: "
+#~ msgstr "Démarrage de unbound : "
+
+#~ msgid "Dumping state of $prog in /tmp/sec.dump: "
+#~ msgstr "Vidage mémoire de $prog dans /tmp/sec.dump : "
+
+#~ msgid "Starting NIS service: "
+#~ msgstr "Démarrage du service NIS : "
+
+#~ msgid "Failed to run \"$s\". ($ret)"
+#~ msgstr "Impossible de lancer « $s ». ($ret)"
+
+#~ msgid "RSA key generation"
+#~ msgstr "Génération de la clé RSA"
+
+#~ msgid "PORT environment is not set."
+#~ msgstr "L'environnement PORT n'est pas configuré."
+
+#~ msgid "Usage: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "Syntaxe : pure-ftpd {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Killing all running contexts"
+#~ msgstr "Arrêt de tous les contextes en cours"
+
+#~ msgid "Turning off quotas: "
+#~ msgstr "Arrêt des quotas : "
+
+#~ msgid "${IPTABLES}: Applying firewall rules: "
+#~ msgstr "${IPTABLES} : Application des règles du pare-feu : "
+
+#~ msgid "Shutting down $LLDPAD: "
+#~ msgstr "Arrêt de $LLDPAD : "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|retune|help}"
+#~ msgstr ""
+#~ "Syntaxe : $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|retune|help}"
+
+#~ msgid "Mounting NFS filesystems: "
+#~ msgstr "Montage des systèmes de fichiers NFS : "
+
+#~ msgid "Starting NetworkManager daemon: "
+#~ msgstr "Démarrage du démon NetworkManager : "
+
+#~ msgid ""
+#~ "Usage: $PROG {start|stop|restart|reload|force-reload|try-restart|status}"
+#~ msgstr ""
+#~ "Syntaxe : $PROG {start|stop|restart|reload|force-reload|try-restart|"
+#~ "status}"
+
+#~ msgid "Stopping Frozen Bubble server(s): "
+#~ msgstr "Arrêt du/des serveur(s) Frozen Bubble : "
+
+#~ msgid ""
+#~ "Can not find util-vserver installation (the file '$UTIL_VSERVER_VARS' "
+#~ "would be expected); aborting..."
+#~ msgstr ""
+#~ "Impossible de trouver l'installation util-vserver (le fichier "
+#~ "« $UTIL_VSERVER_VARS » serait attendu); abandon..."
+
+#~ msgid "ctdb dead but subsys locked"
+#~ msgstr "ctdb est mort mais subsys est verrouillé"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "once|genconfig}"
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG"
+#~ msgstr "Sauvegarde des règles courantes dans $ARPTABLES_CONFIG"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|condrestart|reload|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "FireHOL: Blocking all communications:"
+#~ msgstr "FireHOL : Blocage de toutes les communications :"
+
+#~ msgid "Restarting $monitor: "
+#~ msgstr "Redémarrage de $monitor : "
+
+#~ msgid "$named reload"
+#~ msgstr "Rechargement de $named"
+
+#~ msgid "move passphrase file"
+#~ msgstr "déplacer le fichier de phrase de passe"
+
+#~ msgid "Entering non-interactive startup"
+#~ msgstr "Début du démarrage non-interactif"
+
+#~ msgid "Error: no valid $cfg found."
+#~ msgstr "Erreur : aucun $cfg valide trouvé."
+
+#~ msgid "*** Warning -- SELinux is active"
+#~ msgstr "*** Attention -- SELinux est actif"
+
+#~ msgid "Reloading xenconsoled daemon: "
+#~ msgstr "Rechargement du démon xenconsoled : "
+
+#~ msgid "Starting BitTorrent tracker: "
+#~ msgstr "Démarrage de l'outil de suivi BitTorrent : "
+
+#~ msgid "ERROR: [ipv6_log] Cannot log to channel '$channel'"
+#~ msgstr ""
+#~ "ERREUR : [ipv6_log] Impossible de se connecter au canal « $channel »"
+
+#~ msgid "Stopping $master_prog: "
+#~ msgstr "Arrêt de $master_prog : "
+
+#~ msgid "Stopping abrt daemon: "
+#~ msgstr "Arrêt du démon abrt : "
+
+#~ msgid "Reopening $prog log file: "
+#~ msgstr "Réouverture du fichier journal $prog : "
+
+#~ msgid ""
+#~ "Usage: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "Syntaxe : ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#~ msgid "Reloading atop daemon configuration: "
+#~ msgstr "Rechargement de la configuration du démon atop: "
+
+#~ msgid "Stopping CallWeaver: "
+#~ msgstr "Arrêt de CallWeaver : "
+
+#~ msgid "Reloading smb.conf file: "
+#~ msgstr "Rechargement du fichier smb.conf : "
+
+#~ msgid "Stopping capi4linux:"
+#~ msgstr "Arrêt de capi4linux : "
+
+#~ msgid "Shutting down upsdrvctl: "
+#~ msgstr "Arrêt de upsdrvctl : "
+
+#~ msgid "$message"
+#~ msgstr "$message"
+
+#~ msgid "Stopping INNFeed service: "
+#~ msgstr "Arrêt du service INNFeed : "
+
+#~ msgid "Process accounting is enabled."
+#~ msgstr "La gestion des processus est activée."
+
+#~ msgid "Stopping ${NAME} service: "
+#~ msgstr "Arrêt du service ${NAME}: "
+
+#~ msgid "Stopping xenner daemons"
+#~ msgstr "Arrêt des démons de xen : "
+
+#~ msgid "Moving"
+#~ msgstr "Déplacement de"
+
+#~ msgid "Resuming guests on $uri URI..."
+#~ msgstr "Reprise des invités sur l'URI $uri..."
+
+#~ msgid "Starting xenconsoled daemon: "
+#~ msgstr "Démarrage du démon xenconsoled : "
+
+#~ msgid "RSA1 key generation"
+#~ msgstr "Génération de la clé RSA1"
+
+#~ msgid "${IPTABLES}: ${_IPV} is disabled."
+#~ msgstr "${IPTABLES}: ${_IPV} est désactivé."
+
+#~ msgid "failed to clean cache $s.ko"
+#~ msgstr "Échec du nettoyage du cache $s.ko"
+
+#~ msgid "Starting $ical: "
+#~ msgstr "Démarrage de $ical : "
+
+#~ msgid "$0: Link is down"
+#~ msgstr "$0 : le lien est désactivé"
+
+#~ msgid "ktune settings are not applied."
+#~ msgstr "paramètres ktune non appliqués."
+
+#~ msgid "Process accounting is disabled."
+#~ msgstr "La gestion des processus est désactivée."
+
+#~ msgid "ERROR: Only root can run firstboot"
+#~ msgstr "ERREUR : Seul root est autorisé à exécuter firstboot"
+
+#~ msgid "Starting ejabberd: "
+#~ msgstr "Démarrage de ejabberd : "
+
+#~ msgid "Reloading configuration: "
+#~ msgstr "Rechargement de la configuration : "
+
+#~ msgid "found CRASH file, srv not started"
+#~ msgstr "fichier CRASH trouvé, srv non démarré"
+
+#~ msgid "Preparing $PROG certificat: "
+#~ msgstr "Préparation du certificat de $PROG : "
+
+#~ msgid "Configured CIFS mountpoints: "
+#~ msgstr "Points de montage CIFS configurés : "
+
+#~ msgid "Shutting down $prog (DHCPv6): "
+#~ msgstr "Arrêt de $prog (DHCPv6) : "
+
+#~ msgid "Please run makehistory and/or makedbz before starting innd."
+#~ msgstr "Exécuter makehistory et/ou makedbz avant de démarrer innd."
+
+#~ msgid "Enabling local filesystem quotas: "
+#~ msgstr "Activation des quotas des systèmes de fichiers locaux : "
+
+#~ msgid "Active NCP mountpoints: "
+#~ msgstr "Points de montage NCP actifs : "
+
+#~ msgid "Disabling periodic fetch-crl: "
+#~ msgstr "Désactivation de fetch-crl périodique : "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstop|condrestart|status}"
+#~ msgstr "Utilisation : $0 {start|stop|restart|condstop|condrestart|status}"
+
+#~ msgid "Shutting down exim: "
+#~ msgstr "Arrêt de exim : "
+
+#~ msgid "$0: error: program not installed"
+#~ msgstr "$0: erreur: programme non installé"
+
+#~ msgid "${IPTABLES}: Unloading modules: "
+#~ msgstr "${IPTABLES} : Déchargement des modules : "
+
+#~ msgid "Stopping pdns-recursor: "
+#~ msgstr "Arrêt de pdns-recursor : "
+
+#~ msgid "domain not found"
+#~ msgstr "domaine non trouvé"
+
+#~ msgid "$0: reload not supported"
+#~ msgstr "$0 : Le rechargement n'est pas supporté"
+
+#~ msgid "$prog is not running"
+#~ msgstr "$prog n'est pas en cours d'exécution"
+
+#~ msgid "sfcb ($pid) is running"
+#~ msgstr "sfcb ($pid) est en cours d'exécution"
+
+#~ msgid "Stopping named: "
+#~ msgstr "Arrêt de named : "
+
+#~ msgid "Stopping $prog"
+#~ msgstr "Arrêt de $prog"
+
+#~ msgid "Starting $prog for $ez_name: "
+#~ msgstr "Démarrage de $prog pour $ez_name : "
+
+#~ msgid "yY"
+#~ msgstr "yY"
+
+#~ msgid "Restarting puppet: "
+#~ msgstr "Redémarrage de puppet : "
+
+#~ msgid "Unregistering binary handler for qemu applications"
+#~ msgstr ""
+#~ "Désenregistrement du gestionnaire de binaire pour les applications qemu"
+
+#~ msgid "FireHOL: Restoring old firewall:"
+#~ msgstr "FireHOL : Restauration de l'ancien pare-feu :"
+
+#~ msgid "Shutting down NFS quotas: "
+#~ msgstr "Arrêt des quotas NFS : "
+
+#~ msgid "          restart|condrestart|try-restart|reload|force-reload"
+#~ msgstr "          restart|condrestart|try-restart|reload|force-reload"
+
+#~ msgid "$prog: already running"
+#~ msgstr "$prog est déjà en cours d'exécution"
+
+#~ msgid "Resuming guest $name: "
+#~ msgstr "Reprise de l'invité $name : "
+
+#~ msgid "sfcb is not running, but pid file exists"
+#~ msgstr "sfcb n'est pas en cours d'exécution, mais un fichier pid existe"
+
+#~ msgid "Force-stopping $prog: "
+#~ msgstr "Arrêt forcé de $prog : "
+
+#~ msgid "Reloading ${prog} config file: "
+#~ msgstr "Rechargement du fichier config de ${prog} : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload}"
+
+#~ msgid "Stopping smokeping: "
+#~ msgstr "Arrêt de smokeping : "
+
+#~ msgid "vncserver startup"
+#~ msgstr "Démarrage de vncserver"
+
+#~ msgid "Generating unbound control key and certificate: "
+#~ msgstr "Génération de la clé de contrôle non liée et du certificat :"
+
+#~ msgid ""
+#~ "Usage: $indexer {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Syntaxe : $indexer {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status"
+#~ msgstr "Syntaxe : $prog {start|stop|restart|condrestart|reload|status}"
+
+#~ msgid "Stopping INND service (the hard way): "
+#~ msgstr "Arrêt du service INND (manière forte) : "
+
+#~ msgid "$base dead but subsys locked"
+#~ msgstr "$base est mort mais subsys est verrouillé"
+
+#~ msgid "Shutting down argus: "
+#~ msgstr "Arrêt de argus : "
+
+#~ msgid "Stopping CGroup Rules Engine Daemon..."
+#~ msgstr "Arrêt du démon du moteur de règles CGroup : "
+
+#~ msgid "Stopping HAL daemon: "
+#~ msgstr "Arrêt du démon HAL : "
+
+#~ msgid "Starting asterisk: "
+#~ msgstr "Démarrage d'asterisk : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|reload|force-reload|restart|try-restart|status}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|reload|force-reload|restart|try-restart|status}"
+
+#~ msgid "Starting arptables_jf"
+#~ msgstr "Démarrage de arptables_jf"
+
+#~ msgid "Starting RPC gssd: "
+#~ msgstr "Démarrage de RPC gssd : "
+
+#~ msgid "reload"
+#~ msgstr "recharger"
+
+#~ msgid "fetch-crl-boot lockfile not-present"
+#~ msgstr "fichier de verrouillage de fetch-crl-boot absent"
+
+#~ msgid "Starting Mldonkey (mlnet): "
+#~ msgstr "Démarrage de Mldonkey (mlnet) : "
+
+#~ msgid "Setting up Logical Volume Management:"
+#~ msgstr "Configuration du gestionnaire de volume logique : "
+
+#~ msgid "Starting ladvd: "
+#~ msgstr "Démarrage de ladvd : "
+
+#~ msgid "Starting openvpn: "
+#~ msgstr "Démarrage de openvpn : "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status}"
+#~ msgstr ""
+#~ "Syntaxe : $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status}"
+
+#~ msgid "Reloading ${prog}: "
+#~ msgstr "Rechargement de ${prog} : "
+
+#~ msgid "Starting RPC idmapd: "
+#~ msgstr "Démarrage de RPC idmapd : "
+
+#~ msgid "Binary handler for Windows applications already registered"
+#~ msgstr ""
+#~ "Gestionnaire de binaire pour les applications Windows déjà référencé"
+
+#~ msgid "$s$pid is running..."
+#~ msgstr "$s$pid est en cours d'exécution..."
+
+#~ msgid "Fixing /proc entries visibility"
+#~ msgstr "Correction de la visibilité des entrées /proc"
+
+#~ msgid "program is not running"
+#~ msgstr "le programme n'est pas en cours d'exécution"
+
+#~ msgid "Stopping INN actived service: "
+#~ msgstr "Arrêt du service activé INN : "
+
+#~ msgid "Stopping all ${MODULE_NAME} drivers: "
+#~ msgstr "Arrêt de tous les pilotes ${MODULE_NAME} : "
+
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|reload|try-restart|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#~ msgid "$0: /etc/sysconfig/ktune does not exist."
+#~ msgstr "$0 : /etc/sysconfig/ktune n'existe pas."
+
+#~ msgid "Restarting..."
+#~ msgstr "Redémarrage..."
+
+#~ msgid "Shutting down kernel logger: "
+#~ msgstr "Arrêt de l'enregistreur de journaux du système: "
+
+#~ msgid "$prog exporting databases"
+#~ msgstr "exportation des bases de données par $prog"
+
+#~ msgid "CIM server is not running, but lock file exists"
+#~ msgstr ""
+#~ "Le serveur CIM n'est pas en cours d'exécution, mais un fichier de "
+#~ "verrouillage existe"
+
+#~ msgid "Starting Qpid AMQP daemon: "
+#~ msgstr "Démarrage du démon Qpid AMQP : "
+
+#~ msgid "Starting UPS driver controller: "
+#~ msgstr "Démarrage du contrôleur de pilote UPS : "
+
+#~ msgid "Shutting down BitTorrent seed client: "
+#~ msgstr "Arrêt du client BitTorrent seed : "
+
+#~ msgid "Reloading xend daemon: "
+#~ msgstr "Rechargement du démon xend : "
+
+#~ msgid "Halting system..."
+#~ msgstr "Arrêt du système..."
+
+#~ msgid "Reloading Avahi daemon... "
+#~ msgstr "Rechargement du démon Avahi..."
+
+#~ msgid "${IPTABLES}: /sbin/$IPTABLES does not exist."
+#~ msgstr "${IPTABLES} : /sbin/$IPTABLES n'existe pas."
+
+#~ msgid "Starting infrared remote control daemon ($prog): "
+#~ msgstr "Démarrage du démon télécommande infra-rouge ($prog) : "
+
+#~ msgid "$prog status is unknown"
+#~ msgstr "Le statut du $prog est inconnu"
+
+#~ msgid "Stopping YP map server: "
+#~ msgstr "Arrêt du serveur map YP : "
+
+#~ msgid "${IP6TABLES}: Firewall is not configured. "
+#~ msgstr "${IP6TABLES} : Le pare-feu n'est pas configuré. "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+
+#~ msgid "Monthly smolt check-in is disabled."
+#~ msgstr "La mise à jour mensuelle du profil Smolt est désactivée."
+
+#~ msgid "$prog check"
+#~ msgstr "vérification de $prog"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|try-restart|condrestart|reload|force-"
+#~ "reload|status}"
+
+#~ msgid "Usage: status {program}"
+#~ msgstr "Syntaxe : status {program}"
+
+#~ msgid "Binding NIS service: "
+#~ msgstr "Liaison du service NIS : "
+
+#~ msgid "Tap support not available: tunctl not found"
+#~ msgstr "Prise en charge TAP indisponible : tunctl non trouvé"
+
+#~ msgid "Usage: killproc {pids} [signal]"
+#~ msgstr "Syntaxe : killproc {pids} [signal]"
+
+#~ msgid "Stopping Red Hat Network Daemon: "
+#~ msgstr "Arrêt du démon Red Hat Network : "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|propagate}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|restart|propagate}"
+
+#~ msgid "Shutting down RPC svcgssd: "
+#~ msgstr "Arrêt des services RPC svcgssd : "
+
+#~ msgid "Reloading NIS service: "
+#~ msgstr "Rechargement du service NIS : "
+
+#~ msgid "Starting $SERVICE daemon: "
+#~ msgstr "Démarrage du démon $SERVICE : "
+
+#~ msgid "Stoping xen blktapctrl daemon: "
+#~ msgstr "Arrêt du démon xen blktapctrl : "
+
+#~ msgid "Stopping rusers services: "
+#~ msgstr "Arrêt des services rusers : "
+
+#~ msgid "Disabling Moodle cron job: "
+#~ msgstr "Désactivation de la tâche cron de Moodle : "
+
+#~ msgid "Starting dund: "
+#~ msgstr "Démarrage de dund : "
+
+#~ msgid "Stopping Orbited: "
+#~ msgstr "Arrêt d'Orbited : "
+
+#~ msgid "Reloading config for $prog: "
+#~ msgstr "Rechargement de la configuration pour $prog : "
+
+#~ msgid "Starting system message bus: "
+#~ msgstr "Démarrage du bus de messages du système : "
+
+#~ msgid "Restarting $gateway: "
+#~ msgstr "Redémarrage de $gateway : "
+
+#~ msgid "Shutting down ladvd: "
+#~ msgstr "Arrêt de ladvd : "
+
+#~ msgid "Usage: drbdlinksclean {start|stop|status|restart|force-reload}"
+#~ msgstr ""
+#~ "Utilisation : drbdlinksclean {start|stop|status|restart|force-reload}"
+
+#~ msgid "$prog importing databases"
+#~ msgstr "importation des bases de données par $prog"
+
+#~ msgid "Starting distributed compiler daemon: "
+#~ msgstr "Démarrage du démon de compilation distribué : "
+
+#~ msgid "Starting OpenSCADA daemon: "
+#~ msgstr "Démarrage du démon OpenSCADA : "
+
+#~ msgid "done"
+#~ msgstr "fait"
+
+#~ msgid "Stopping $PROG:"
+#~ msgstr "Arrêt de $PROG :"
+
+#~ msgid "Stopping supervisord: "
+#~ msgstr "Arrêt de supervisord : "
+
+#~ msgid "Suspending $name: "
+#~ msgstr "Interruption de $name : "
+
+#~ msgid "Starting vbi proxy daemon: "
+#~ msgstr "Démarrage du démon de proxy vbi : "
+
+#~ msgid "Enabling nightly yum update: "
+#~ msgstr "Activation de la mise à jour nocturne par yum : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#~ msgid "Reloading postfix: "
+#~ msgstr "Rechargement de postfix : "
+
+#~ msgid "Reloading maps"
+#~ msgstr "Rechargement des cartes"
+
+#~ msgid "Initializing OpenCT smart card terminals: "
+#~ msgstr "Initialisation des terminaux OpenCT smart card : "
+
+#~ msgid "Unconfigured: $prog, see /etc/sysconfig/hddtemp: "
+#~ msgstr "Non configuré : $prog, consultez /etc/sysconfig/hddtemp : "
+
+#~ msgid "${IPTABLES}: Saving firewall rules to $IPTABLES_DATA: "
+#~ msgstr ""
+#~ "${IPTABLES} : Sauvegarde des règles du pare-feu dans $IPTABLES_DATA : "
+
+#~ msgid "Setting network parameters... "
+#~ msgstr "Configuration des paramètres réseau..."
+
+#~ msgid "Stopping distributed compiler daemon: "
+#~ msgstr "Arrêt du démon de compilation distribué : "
+
+#~ msgid "Starting Condor daemons: "
+#~ msgstr "Démarrage des démons Condor : "
+
+#~ msgid "Path to vshelper has been set"
+#~ msgstr "Le chemin vers vshelper a été renseigné"
+
+#~ msgid "Running fetch-crl on boot can take a while: "
+#~ msgstr "Exécuter fetch-crl au démarrage peut prendre du temps : "
+
+#~ msgid "Stopping Wesnoth game server: "
+#~ msgstr "Arrêt du serveur de jeu Wesnoth : "
+
+#~ msgid "Stopping xenstored daemon: "
+#~ msgstr "Arrêt des démons xenstored : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|condrestart|try-restart|reload|force-"
+#~ "reload|status}"
+
+#~ msgid "Checking SMART devices now: "
+#~ msgstr "Vérification des périphériques SMART : "
+
+#~ msgid "Importing packets to monotone database: "
+#~ msgstr "Importation des paquets dans la base de données monotone :"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|rotate|resume}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload|rotate|resume}"
+
+#~ msgid "$prog is running..."
+#~ msgstr "$prog est en cours d'exécution..."
+
+#~ msgid "Reloading $LLDPAD is not supported: "
+#~ msgstr "Le rechargement de $LLDPAD n'est pas pris en charge : "
+
+#~ msgid "Mldonkey (mlnet) is stopped"
+#~ msgstr "Mldonkey (mlnet) est arrêté"
+
+#~ msgid "Starting $PROG: "
+#~ msgstr "Démarrage de $PROG : "
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status|help}"
+#~ msgstr "Syntaxe : $prog {start|stop|restart|condrestart|status|help}"
+
+#~ msgid "Shutting down icecast streaming daemon: "
+#~ msgstr "Arrêt du démon de streaming icecast : "
+
+#~ msgid "FireHOL: Clearing Firewall:"
+#~ msgstr "FireHOL : Nettoyage du pare-feu :"
+
+#~ msgid "(Repair filesystem)"
+#~ msgstr "(Réparer le système de fichiers)"
+
+#~ msgid "not reloading $httpd due to configuration syntax error"
+#~ msgstr ""
+#~ "Pas de rechargement de $httpd à cause d'une erreur de syntaxe dans la "
+#~ "configuration"
+
+#~ msgid "Stopping $SERVICE:"
+#~ msgstr "Arrêt de $SERVICE: "
+
+#~ msgid "Starting infrared remote control mouse daemon ($prog2): "
+#~ msgstr ""
+#~ "Démarrage du démon de la souris infra-rouge à télécommande ($prog2) : "
+
+#~ msgid "Setting NIS domain name $NISDOMAIN: "
+#~ msgstr "Configuration du nom de domaine NIS $NISDOMAIN : "
+
+#~ msgid "Starting Frozen Bubble server(s): "
+#~ msgstr "Démarrage du/des serveur(s) Frozen Bubble : "
+
+#~ msgid "Starting auto nice daemon:"
+#~ msgstr "Démarrage du démon auto nice : "
+
+#~ msgid "Checking database format in"
+#~ msgstr "Vérification du format de la base de données"
+
+#~ msgid "Suspending guests on $uri URI..."
+#~ msgstr "Interruption des invités sur l'URI $uri..."
+
+#~ msgid "Starting $prog: $conf"
+#~ msgstr "Démarrage de $prog : $conf"
+
+#~ msgid "Shutting down up-imapproxy daemon: "
+#~ msgstr "Arrêt du démon up-imapproxyd : "
+
+#~ msgid "Staring new master $prog: "
+#~ msgstr "Démarrage d'un nouveau master $prog : "
+
+#~ msgid "VNC server"
+#~ msgstr "Serveur VNC"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|reload|force-reload|condrestart|try-"
+#~ "restart|status}"
+
+#~ msgid "Options:"
+#~ msgstr "Options :"
+
+#~ msgid "packet import"
+#~ msgstr "importation de paquets"
+
+#~ msgid "$file: "
+#~ msgstr "$file : "
+
+#~ msgid "To lose old key remove file"
+#~ msgstr "Supprimer le fichier pour perdre les anciennes clés"
+
+#~ msgid "program is dead and /var/run pid file exists"
+#~ msgstr "le programme est mort mais le fichier pid /var/run existe"
+
+#~ msgid "Not stopping $prog: iscsi sessions still active"
+#~ msgstr "Pas d'arrêt de $prog : des sessions iSCSI sont toujours actives"
+
+#~ msgid ""
+#~ "$prog error importing databases, check ${CONFIGDIRECTORY}/rpm/db_import."
+#~ "log"
+#~ msgstr ""
+#~ "Erreur de $prog lors de l'importation des bases de données, vérifiez "
+#~ "${CONFIGDIRECTORY}/rpm/db_import.log"
+
+#~ msgid "Starting Orbited: "
+#~ msgstr "Démarrage d'Orbited : "
+
+#~ msgid "Starting BitTorrent seed client: "
+#~ msgstr "Démarrage du client BitTorrent seed : "
+
+#~ msgid "Shutting down pand: "
+#~ msgstr "Arrêt de pand : "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|help}"
+#~ msgstr ""
+#~ "Syntaxe : $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|help}"
+
+#~ msgid "Usage: $prog {start|stop|status|restart|condrestart}"
+#~ msgstr "Syntaxe : $prog {start|stop|status|restart|condrestart}"
+
+#~ msgid "Usage: $0 {start|stop|restart|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|status}"
+
+#~ msgid "Stopping INND service (gently): "
+#~ msgstr "Arrêt du service INND (manière douce) : "
+
+#~ msgid "Stopping RPC idmapd: "
+#~ msgstr "Arrêt de RPC idmapd : "
+
+#~ msgid "$file is not readable by \"$user\""
+#~ msgstr "L'utilisateur \"$user\" ne peut pas lire le fichier $file"
+
+#~ msgid "Stopping distributed compiler scheduler: "
+#~ msgstr "Arrêt de l'ordonnanceur de compilation distribué : "
+
+#~ msgid "Stopping $prog2: "
+#~ msgstr "Arrêt de $prog2 : "
+
+#~ msgid "An old version of the database format was found."
+#~ msgstr "Une ancienne version du format de la base de données a été trouvée."
+
+#~ msgid "Something bad happened, manual intervention required, maybe restart?"
+#~ msgstr ""
+#~ "Un problème est survenu, intervention manuelle requise, redémarrer ?"
+
+#~ msgid "Usage: $prog {start|stop|restart|reload|condrestart|status|help}"
+#~ msgstr "Syntaxe : $prog {start|stop|restart|reload|condrestart|status|help}"
+
+#~ msgid "Stopping Qpid AMQP daemon: "
+#~ msgstr "Arrêt du démon Qpid AMQP : "
+
+#~ msgid "Manifest does not exist: $PUPPETMASTER_MANIFEST"
+#~ msgstr "Le manifeste n'existe pas: $PUPPETMASTER_MANIFEST"
+
+#~ msgid "${IP6TABLES}: /sbin/$IP6TABLES does not exist."
+#~ msgstr "${IP6TABLES} : /sbin/$IP6TABLES n'existe pas."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|restart|probe|condrestart|condstop}"
+
+#~ msgid "Starting DAAP server: "
+#~ msgstr "Démarrage du serveur DAAP : "
+
+#~ msgid "Starting MogileFS tracker daemon: "
+#~ msgstr "Démarrage du démon de l'outil de suivi MogileFS : "
+
+#~ msgid "Nightly apt update is disabled."
+#~ msgstr "La mise à jour nocturne par apt a été désactivée."
+
+#~ msgid "Stopping OpenCT smart card terminals: "
+#~ msgstr "Arrêt des terminaux OpenCT smart card : "
+
+#~ msgid "Applying arptables firewall rules: "
+#~ msgstr "Application des règles du pare-feu arptables : "
+
+#~ msgid "certs generation"
+#~ msgstr "génération de certs"
+
+#~ msgid "Usage: $0 {start|stop|restart}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "configtest|status}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "configtest|status}"
+
+#~ msgid "Unmounting cgroup-hierarchy"
+#~ msgstr "Démontage de cgroup-hierarchy"
+
+#~ msgid "Starting rwho services: "
+#~ msgstr "Démarrage des services rwho : "
+
+#~ msgid "Stopping acpi daemon: "
+#~ msgstr "Arrêt du démon acpi : "
+
+#~ msgid "Initializing database: "
+#~ msgstr "Initialisation de la base de données : "
+
+#~ msgid "Unmounting loopback filesystems: "
+#~ msgstr "Démontage des systèmes de fichiers loopback : "
+
+#~ msgid "          stop-all|status-all}"
+#~ msgstr "          stop-all|status-all}"
+
+#~ msgid "${IP6TABLES}: Flushing firewall rules: "
+#~ msgstr "${IP6TABLES} : Suppression des règles du pare-feu : "
+
+#~ msgid "Loading default device map"
+#~ msgstr "Chargement de la configuration par défaut du périphérique"
+
+#~ msgid "$prog dead but pid file exists"
+#~ msgstr "$prog mort mais le fichier pid existe"
+
+#~ msgid "Shutting down dund: "
+#~ msgstr "Arrêt de dund : "
+
+#~ msgid "Restarting Shorewall: "
+#~ msgstr "Redémarrage de Shorewall : "
+
+#~ msgid "Shutting down..."
+#~ msgstr "Arrêt..."
+
+#~ msgid "Shutting down console mouse services: "
+#~ msgstr "Fermeture des services de souris de la console : "
+
+#~ msgid "Path to vshelper has not been set"
+#~ msgstr "Le chemin vers vshelper n'as pas été renseigné"
+
+#~ msgid "Reloading ser2net: "
+#~ msgstr "Rechargement de ser2net : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "stop|force-restart|force-reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-stop|force-restart|force-reload}"
+
+#~ msgid "Shutting down CIM server: "
+#~ msgstr "Arrêt du serveur CIM : "
+
+#~ msgid "Starting GNU Krell Monitors server ($prog): "
+#~ msgstr "Démarrage du serveur GNU Krell Monitors ($prog) : "
+
+#~ msgid "Stopping NFS statd: "
+#~ msgstr "Arrêt de NFS statd : "
+
+#~ msgid "Generating RSA key for server $MONOTONE_KEYID"
+#~ msgstr "Génération de la clé RSA pour le serveur $MONOTONE_KEYID"
+
+#~ msgid "Starting ${desc} (${prog}): "
+#~ msgstr "Démarrage de ${desc} (${prog}) : "
+
+#~ msgid "CIM server ($pid) is running"
+#~ msgstr "Le serveur CIM ($pid) est en cours d'exécution"
+
+#~ msgid "Starting $prog"
+#~ msgstr "Démarrage de $prog : "
+
+#~ msgid "Starting pdns-recursor: "
+#~ msgstr "Démarrage de $pdns-recursor : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|try-restart|status}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|reload|force-reload|try-restart|status}"
+
+#~ msgid "Stopping denyhosts: "
+#~ msgstr "Arrêt de denyhosts : "
+
+#~ msgid "Unregistering binary handler for Windows applications: "
+#~ msgstr ""
+#~ "Désenregistrement du gestionnaire de binaire pour les applications "
+#~ "Windows : "
+
+#~ msgid "Shutting down telescope daemon: "
+#~ msgstr "Arrêt du démon telescope : "
+
+#~ msgid "${IP6TABLES}: Unloading modules: "
+#~ msgstr "${IP6TABLES} : Déchargement des modules : "
+
+#~ msgid "Monthly smolt check-in is enabled."
+#~ msgstr "La mise à jour mensuelle du profil Smolt est activée."
+
+#~ msgid "Starting $prog for $file: "
+#~ msgstr "Démarrage de $prog pour $file : "
+
+#~ msgid "Starting sge_shadowd: "
+#~ msgstr "Démarrage de sge_shadowd : "
+
+#~ msgid "Initializing database"
+#~ msgstr "Initialisation de la base de données"
+
+#~ msgid "Shutting down $KIND services: "
+#~ msgstr "Fermeture des services $KIND : "
+
+#~ msgid "domain is '$NISDOMAIN' "
+#~ msgstr "le domaine est « NISDOMAIN »"
+
+#~ msgid "FireHOL: Activating new firewall:"
+#~ msgstr "FireHOL : Activation du nouveau pare-feu :"
+
+#~ msgid "Kernel is not compiled with IPv6 support"
+#~ msgstr "Le noyau n'a pas été compilé avec l'option IPv6"
+
+#~ msgid "Stopping $PROG: "
+#~ msgstr "Arrêt de $PROG : "
+
+#~ msgid "Resetting built-in chains to the default ACCEPT policy:"
+#~ msgstr "Reconfiguration des chaînes intégrées sur la politique ACCEPT : "
+
+#~ msgid "$s is stopped"
+#~ msgstr "$s est arrêté"
+
+#~ msgid "Stopping Video Disk Recorder ($prog): "
+#~ msgstr "Arrêt de Video Disk Recorder ($prog) : "
+
+#~ msgid "Start service $1 (Y)es/(N)o/(C)ontinue? [Y] "
+#~ msgstr "Démarrer le service $1 (Y)oui/(N)non/(C)ontinuer ? [Y]"
+
+#~ msgid "Stopping RPC gssd: "
+#~ msgstr "Arrêt des RPC gssd : "
+
+#~ msgid "$prog is already running."
+#~ msgstr "$prog est déjà en cours d'exécution."
+
+#~ msgid "Shutting down BitTorrent tracker: "
+#~ msgstr "Arrêt de l'outil de suivi BitTorrent : "
+
+#~ msgid "Checking filesystems"
+#~ msgstr "Vérification des systèmes de fichiers"
+
+#~ msgid "Shutting down NFS mountd: "
+#~ msgstr "Arrêt de NFS mountd : "
+
+#~ msgid "Starting $prog daemon: "
+#~ msgstr "Démarrage du démon $prog : "
+
+#~ msgid "Starting up $prog: "
+#~ msgstr "Démarrage de $prog : "
+
+#~ msgid "Orbited is running."
+#~ msgstr "Orbited est en cours d'exécution."
+
+#~ msgid "*** Dropping you to a shell; the system will reboot"
+#~ msgstr "*** Vous connecte à un shell ; le système va redémarrer"
+
+#~ msgid "Starting supervisord: "
+#~ msgstr "Démarrage de supervisord : "
+
+#~ msgid "*** Dropping you to a shell; the system will continue"
+#~ msgstr "*** Vous connecte à un shell ; le système va continuer"
+
+#~ msgid "$prog is stopped"
+#~ msgstr "$prog est arrêté"
+
+#~ msgid "Restarting $spooler: "
+#~ msgstr "Redémarrage de $spooler : "
+
+#~ msgid "Exporting $prog databases: "
+#~ msgstr "Exportations des bases de données de $prog"
+
+#~ msgid "Starting ${NAME} service: "
+#~ msgstr "Démarrage du service ${NAME} : "
+
+#~ msgid "$dst: no value for size option, skipping"
+#~ msgstr "$dst: aucune valeur pour l'option de taille,  ignorance"
+
+#~ msgid "Setting NIS domain: "
+#~ msgstr "Configuration du domaine NIS : "
+
+#~ msgid "Starting $gateway: "
+#~ msgstr "Démarrage de $gateway : "
+
+#~ msgid "Use \"scandvb -o vdr\" from the dvb-apps package to create one."
+#~ msgstr "Utilisez \"scandvb -o vdr\" du paquetage dvb-apps pour en créer un."
+
+#~ msgid "Reverting to ${KERNEL_ELEVATOR} elevator: "
+#~ msgstr "Restauration de l'ascenseur ${KERNEL_ELEVATOR} : "
+
+#~ msgid "Active CIFS mountpoints: "
+#~ msgstr "Points de montage CIFS actifs : "
+
+#~ msgid "DSS key generation"
+#~ msgstr "Génération de la clé DSS"
+
+#~ msgid "$prog shutdown"
+#~ msgstr "Arrêt de $prog"
+
+#~ msgid "Generating SSH2 RSA host key: "
+#~ msgstr "Génération de la clé d'hôte SSH2 RSA : "
+
+#~ msgid "Stopping ipmi_watchdog driver: "
+#~ msgstr "Arrêt du pilote ipmi_watchdog : "
+
+#~ msgid "Starting $prog (DHCPv6): "
+#~ msgstr "Démarrage de $prog (DHCPv6) : "
+
+#~ msgid "Starting INND system: "
+#~ msgstr "Démarrage du système INND : "
+
+#~ msgid "Starting $monitor: "
+#~ msgstr "Démarrage de $monitor : "
+
+#~ msgid "Table: $table"
+#~ msgstr "Table : $table"
+
+#~ msgid "Creating required directories"
+#~ msgstr "Création des répertoires requis"
+
+#~ msgid "Reloading Avahi DNS daemon... "
+#~ msgstr "Rechargement du démon Avahi DNS..."
+
+#~ msgid "FireHOL: Saving firewall to ${FIREHOL_AUTOSAVE}:"
+#~ msgstr "FireHOL : Sauvegarde du pare-feu dans ${FIREHOL_AUTOSAVE} :"
+
+#~ msgid "Nightly apt update is enabled."
+#~ msgstr "La mise à jour nocturne par apt est activée."
+
+#~ msgid "Stopping GNU cfengine environmental history daemon: "
+#~ msgstr "Arrêt du démon de l'historique d'environnement GNU cfengine : "
+
+#~ msgid "Starting postfix: "
+#~ msgstr "Démarrage de postfix : "
+
+#~ msgid "Starting abrt daemon: "
+#~ msgstr "Démarrage du démon abrt : "
+
+#~ msgid "Restarting $dagent: "
+#~ msgstr "Redémarrage de $dagent : "
+
+#~ msgid ""
+#~ "Usage: $gateway {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Syntaxe : $gateway {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Stopping $gateway: "
+#~ msgstr "Arrêt de $gateway : "
+
+#~ msgid "restart"
+#~ msgstr "redémarrage"
+
+#~ msgid "Starting exim: "
+#~ msgstr "Démarrage de exim : "
+
+#~ msgid "Stopping xend daemon: "
+#~ msgstr "Arrêt du démon xend : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|switch|status|restart|condrestart|condstop|"
+#~ "reload|force-reload}"
+
+#~ msgid "$s is dead, but another script is running."
+#~ msgstr "$s est mort, mais un autre script est en cours d'exécution."
+
+#~ msgid "Shutting down NFS services: "
+#~ msgstr "Arrêt des services NFS : "
+
+#~ msgid "Stopping monotone server: "
+#~ msgstr "Arrêt du serveur monotone : "
+
+#~ msgid "Configured NCP mountpoints: "
+#~ msgstr "Points de montage NCP configurés : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|cron|condrestart|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|reload|force-reload|status|cron|"
+#~ "condrestart|try-restart}"
+
+#~ msgid "Generate configuration puppetmaster: "
+#~ msgstr "Génère la configuration de puppetmaster: "
+
+#~ msgid "$dst: no value for cipher option, skipping"
+#~ msgstr "$dst: aucune valeur pour l'option de chiffre,  passage"
+
+#~ msgid "Shutting down Avahi daemon: "
+#~ msgstr "Arrêt du démon Avahi : "
+
+#~ msgid "Starting $KIND services: "
+#~ msgstr "Démarrage des services $KIND : "
+
+#~ msgid "$prog is running"
+#~ msgstr "$prog est en cours d'exécution"
+
+#~ msgid "$dst: no value for hash option, skipping"
+#~ msgstr "$dst: aucune valeur pour l'option de hachage, passage"
+
+#~ msgid "Reloading $SERVICE configuration: "
+#~ msgstr "Rechargement de la configuration de $SERVICE : "
+
+#~ msgid "${IPTABLES}: Flushing firewall rules: "
+#~ msgstr "${IPTABLES} : Suppression des règles du pare-feu : "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|condrestart|reload}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|restart|condrestart|reload}"
+
+#~ msgid "*** $0 can not be called in this way"
+#~ msgstr "*** $0 ne peut pas être appelé de cette manière"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|try-restart|force-reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|reload|try-restart|force-reload}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|condrestart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|try-restart|condrestart|reload|"
+#~ "force-reload}"
+
+#~ msgid "Denyhosts already running."
+#~ msgstr "Denyhosts est déjà en cours d'exécution."
+
+#~ msgid "Stoping Gadget daemon: "
+#~ msgstr "Arrêt du démon Gadget : "
+
+#~ msgid "Enabling Moodle cron job: "
+#~ msgstr "Activation de la tâche cron de Moodle : "
+
+#~ msgid "Waiting for network..."
+#~ msgstr "Attente de réseau..."
+
+#~ msgid "$DAEMON is not set."
+#~ msgstr "$DAEMON n'est pas configuré."
+
+#~ msgid "Starting pkcsslotd: "
+#~ msgstr "Démarrage de pkcsslotd : "
+
+#~ msgid "Starting puppetmaster: "
+#~ msgstr "Démarrage de puppetmaster : "
+
+#~ msgid "dead but pid file exists"
+#~ msgstr "mort mais le fichier pid existe"
+
+#~ msgid "Reloading infrared remote control daemon ($prog): "
+#~ msgstr "Rechargement du démon infra-rouge à télécommande ($prog) : "
+
+#~ msgid "Moving old server passphrase file to new location: "
+#~ msgstr ""
+#~ "Déplacement de l'ancienne phrase de passe du server vers un nouvel "
+#~ "emplacement :"
+
+#~ msgid "Stopping fail2ban: "
+#~ msgstr "Arrêt de fail2ban : "
+
+#~ msgid "Stopping $spooler: "
+#~ msgstr "Arrêt de $spooler : "
+
+#~ msgid "$dst: LUKS requires non-random key, skipping"
+#~ msgstr "$dst: LUKS requiert une clé non aléatoire, passage"
+
+#~ msgid "dead but subsys locked"
+#~ msgstr "est mort mais subsys est verrouillé"
+
+#~ msgid "$prog abort"
+#~ msgstr "abandon de $prog"
+
+#~ msgid "failed to shutdown in time"
+#~ msgstr "impossible d'arrêter à temps"
+
+#~ msgid "On the next boot fsck will be forced."
+#~ msgstr "Au prochain démarrage, fsck sera forcé."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|force-reload|condrestart}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|restart|force-reload|condrestart}"
+
+#~ msgid "FireHOL: Activating new firewall (${FIREHOL_COMMAND_COUNTER} rules):"
+#~ msgstr ""
+#~ "FireHOL : Activation du nouveau pare-feu (règles "
+#~ "${FIREHOL_COMMAND_COUNTER}) :"
+
+#~ msgid "Disabling monthly Smolt update: "
+#~ msgstr "Désactivation de la mise à jour mensuelle du profil Smolt : "
+
+#~ msgid "denyhosts cron service is disabled."
+#~ msgstr "Le service cron de denyhosts est désactivé."
+
+#~ msgid "$1 not available"
+#~ msgstr "$1 non disponible"
+
+#~ msgid "Shutting down sm-client: "
+#~ msgstr "Arrêt de sm-client : "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart} [<configfile.{yml|conf}>]"
+#~ msgstr ""
+#~ "Utilisation : $prog {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart} [<fichierconfig.{yml|conf}>]"
+
+#~ msgid "Stopping Gnokii SMS daemon ($prog): "
+#~ msgstr "Arrêt du démon Gnokii SMS ($prog) : "
+
+#~ msgid "\t-r kernelrelease: specify kernel release version"
+#~ msgstr "\t-r kernelrelease : spécifier la version du noyau"
+
+#~ msgid "status $rc of $prog"
+#~ msgstr "statut $rc de $prog"
+
+#~ msgid "Registering binary handler for Windows applications: "
+#~ msgstr ""
+#~ "Enregistrement du gestionnaire de binaire pour les applications Windows : "
+
+#~ msgid "Starting pand: "
+#~ msgstr "Démarrage de pand : "
+
+#~ msgid "Starting Gnokii SMS daemon ($prog): "
+#~ msgstr "Démarrage du démon Gnokii SMS ($prog) : "
+
+#~ msgid "$prog already running: "
+#~ msgstr "$prog est déjà en cours d'exécution : "
+
+#~ msgid "Starting Gadget daemon: "
+#~ msgstr "Démarrage du démon Gadget : "
+
+#~ msgid "*** Please see /usr/share/doc/clamav-server-*/README how"
+#~ msgstr "*** Consultez /usr/share/doc/clamav-server-*/README"
+
+#~ msgid "Stopping INND service (PID not found, the hard way): "
+#~ msgstr "Arrêt du service INND (PID introuvable, manière forte) : "
+
+#~ msgid "FireHOL: Saving your old firewall to a temporary file:"
+#~ msgstr ""
+#~ "FireHOL : Sauvegarde de votre ancien pare-feu dans un fichier temporaire :"
+
+#~ msgid "Active NFS mountpoints: "
+#~ msgstr "Points de montage NFS actifs : "
+
+#~ msgid "Starting router discovery: "
+#~ msgstr "Démarrage des services de recherche de routeurs : "
+
+#~ msgid "Mounting other filesystems: "
+#~ msgstr "Montage d'autres systèmes de fichiers : "
+
+#~ msgid "qemu binary format handlers are registered."
+#~ msgstr "Les gestionnaires de format binaire qemu sont enregistrés."
+
+#~ msgid "common address redundancy protocol daemon"
+#~ msgstr "démon du protocole de redondance d'adresses communes"
+
+#~ msgid "Reloading $desc ($prog): "
+#~ msgstr "Rechargement de $desc ($prog) : "
+
+#~ msgid "Starting $server: "
+#~ msgstr "Démarrage de $server : "
+
+#~ msgid "\t-c configfile\t: specify config file"
+#~ msgstr "\t-c configfile\t : spécifier le fichier de configuration"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|force-reload}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|restart|force-reload}"
+
+#~ msgid "irattach shutdown"
+#~ msgstr "Arrêt de irattach"
+
+#~ msgid "Stopping NFS locking: "
+#~ msgstr "Arrêt du verrouillage de NFS : "
+
+#~ msgid "${IP6TABLES}: Firewall is not running."
+#~ msgstr "${IP6TABLES} : Le pare-feu n'est pas en cours d'exécution."
+
+#~ msgid "Starting $prog: $conf, $INTERFACES, $DRIVERS"
+#~ msgstr "Démarrage de $prog: $conf, $INTERFACES, $DRIVERS"
+
+#~ msgid "Stopping hard disk temperature monitor daemon ($prog): "
+#~ msgstr ""
+#~ "Arrêt du démon de contrôle de la température du disque dur ($prog) : "
+
+#~ msgid "irattach startup"
+#~ msgstr "Démarrage de irattach"
+
+#~ msgid "Reloading $prog alias files: "
+#~ msgstr "Rechargement des fichiers alias de $prog : "
+
+#~ msgid "Starting ${prog}: "
+#~ msgstr "Démarrage de ${prog} : "
+
+#~ msgid "*** Run 'setenforce 1' to reenable."
+#~ msgstr "*** Lancer « setenforce 1 » pour réactiver."
+
+#~ msgid "Stopping preload daemon: "
+#~ msgstr "Arrêt du démon preload : "
+
+#~ msgid "Stopping PC/SC smart card daemon ($prog): "
+#~ msgstr "Arrêt du démon PC/SC smart card ($prog) : "
+
+#~ msgid "Starting ipmi_poweroff driver: "
+#~ msgstr "Démarrage du pilote ipmi_poweroff : "
+
+#~ msgid "Shutting down $prog for $ez_name: "
+#~ msgstr "Arrêt de $prog for $ez_name : "
+
+#~ msgid "Configuration file /etc/sysconfig/arptables missing"
+#~ msgstr "Le fichier de configuration /etc/sysconfig/arptables est manquant"
+
+#~ msgid "Failed to make stat directory ($STAT_PATH)"
+#~ msgstr ""
+#~ "Impossible d'établir les statistiques sur le répertoire ($STAT_PATH)"
+
+#~ msgid "Shuting down Bandwidthd network traffic monitor: "
+#~ msgstr "Arrêt du moniteur de trafic réseau Bandwidthd : "
+
+#~ msgid "Preparing $PROG config: "
+#~ msgstr "Préparation de la config de $PROG : "
+
+#~ msgid "Ignoring guests on $uri URI"
+#~ msgstr "Ne tient pas compte des invités sur l'URI $uri"
+
+#~ msgid "vncserver shutdown"
+#~ msgstr "Arrêt de vncserver"
+
+#~ msgid "Stopping xenconsoled daemon: "
+#~ msgstr "Arrêt du démon xenconsoled : "
+
+#~ msgid "Configured network block devices: "
+#~ msgstr "Périphériques bloc de réseau configurés : "
+
+#~ msgid ""
+#~ "Usage: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {condrestart|try-restart|start|stop|restart|reload|force-"
+#~ "reload|status}"
+
+#~ msgid "Starting GNU cfengine environmental history daemon: "
+#~ msgstr "Démarrage du démon de l'historique d'environnement GNU cfengine : "
+
+#~ msgid "Starting denyhosts: "
+#~ msgstr "Démarrage de denyhosts : "
+
+#~ msgid "cC"
+#~ msgstr "cC"
+
+#~ msgid "$prog compiled "
+#~ msgstr "$prog compilé"
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status|force-reload}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|try-restart|status|force-reload}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|force-reload|status|condrestart|try-restart|"
+#~ "configtest|usage}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|force-reload|status|condrestart|try-"
+#~ "restart|configtest|usage}"
+
+#~ msgid "Usage: $0 {start|stop|restart|force-reload|status|condrestart}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|force-reload|status|condrestart}"
+
+#~ msgid "not running"
+#~ msgstr "n'est pas en cours d'exécution"
+
+#~ msgid "Unmounting pipe file systems (retry): "
+#~ msgstr "Démontage des systèmes de fichiers pipe (nouvel essai) : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|force-reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|condrestart|try-restart|force-"
+#~ "reload}"
+
+#~ msgid "Reloading cyrus.conf file: "
+#~ msgstr "Rechargement du fichier cyrus.conf : "
+
+#~ msgid "Starting $LLDPAD: "
+#~ msgstr "Démarrage de $LLDPAD : "
+
+#~ msgid "Starting $indexer: "
+#~ msgstr "Démarrage de $indexer : "
+
+#~ msgid "Cleaning up systemtap scripts: "
+#~ msgstr "Nettoyage des scripts systemtap : "
+
+#~ msgid "Failed to make cache directory ($CACHE_PATH)"
+#~ msgstr "Impossible de créer un répertoire de cache ($CACHE_PATH)"
+
+#~ msgid "Restarting $prog for $file: "
+#~ msgstr "Redémarrage de $prog pour $file : "
+
+#~ msgid "$prog not running"
+#~ msgstr "$prog n'est pas en cours d'exécution"
+
+#~ msgid "Force-updating $prog configuration: "
+#~ msgstr "Mise à jour forcée de la configuration de $prog : "
+
+#~ msgid "Shutting down guests on $uri URI..."
+#~ msgstr "Arrêt des invités sur l'URI $uri..."
+
+#~ msgid "Clearing all current rules and user defined chains:"
+#~ msgstr ""
+#~ "Suppression de toutes les règles courantes et des chaînes définies par "
+#~ "l'utilisateur : "
+
+#~ msgid "Stopping YP passwd service: "
+#~ msgstr "Arrêt du service YP passwd : "
+
+#~ msgid "Orbited is not running."
+#~ msgstr "Orbited n'est pas en cours d'exécution."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|reload|abort|flush|check|status|"
+#~ "condrestart}"
+
+#~ msgid "Adding udev persistent rules"
+#~ msgstr "Ajout de règles persistantes udev"
+
+#~ msgid "Shutting down $name: "
+#~ msgstr "Arrêt de $name : "
+
+#~ msgid "database initialization"
+#~ msgstr "initialisation de la base de données"
+
+#~ msgid "Usage: $0 {start|stop|restart|force-reload|gueststatus|shutdown}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|force-reload|gueststatus|shutdown}"
+
+#~ msgid "CRITICAL "
+#~ msgstr "CRITIQUE"
+
+#~ msgid "Starting NFS quotas: "
+#~ msgstr "Démarrage des quotas NFS : "
+
+#~ msgid "Reloading ${NAME} service: "
+#~ msgstr "Rechargement du service ${NAME} : "
+
+#~ msgid "*** An error occurred during the file system check."
+#~ msgstr ""
+#~ "*** Une erreur s'est produite pendant la vérification du système de "
+#~ "fichiers."
+
+#~ msgid "Unmounting NCP filesystems: "
+#~ msgstr "Démontage des systèmes de fichiers NCP : "
+
+#~ msgid "Changing target policies to DROP: "
+#~ msgstr "Changement des politiques de cible pour DROP : "
+
+#~ msgid ""
+#~ "Usage: $ical {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Syntaxe : $ical {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Reloading ${prog_base}:"
+#~ msgstr "Rechargement de ${prog_base} : "
+
+#~ msgid "Generating dropbear DSS host key: "
+#~ msgstr "Génération de la clé d'hôte DropBear DSS : "
+
+#~ msgid "Re-reading $prog configuration: "
+#~ msgstr "Relecture de la configuration du démon $prog : "
+
+#~ msgid "Dependency loop detected on $s"
+#~ msgstr "Boucle de dépendances détectée dans $s"
+
+#~ msgid "%s is password protected"
+#~ msgstr "%s est protégé(e) par un mot de passe"
+
+#~ msgid "INSECURE OWNER FOR $key"
+#~ msgstr "PROPRIÉTAIRE NON SÉCURISÉ POUR $key"
+
+#~ msgid "FireHOL config ${FIREHOL_CONFIG} not found:"
+#~ msgstr "Configuration de FireHOL ${FIREHOL_CONFIG} introuvable :"
+
+#~ msgid "Current elevator settings:"
+#~ msgstr "Paramètres actuels de l'ascenseur :"
+
+#~ msgid "Loading Firmware"
+#~ msgstr "Chargement du Firmware"
+
+#~ msgid "Timeout on stopping $server"
+#~ msgstr "Délai dépassé lors de l'arrêt de $server"
+
+#~ msgid "Starting liquidwar game server: "
+#~ msgstr "Démarrage du serveur de jeu liquidwar : "
+
+#~ msgid ""
+#~ "$prog error exporting databases, check ${CONFIGDIRECTORY}/rpm/db_export."
+#~ "log"
+#~ msgstr ""
+#~ "$prog erreur lors de l'exportation des bases de données, vérifiez "
+#~ "${CONFIGDIRECTORY}/rpm/db_export.log"
+
+#~ msgid "Shutting down auto nice daemon:"
+#~ msgstr "Arrêt du démon auto nice : "
+
+#~ msgid "Stopping all running guests"
+#~ msgstr "Arrêt de tous les hôtes en cours d'exécution"
+
+#~ msgid "Generating dropbear RSA host key: "
+#~ msgstr "Génération de la clé d'hôte DropBear RSA : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "try-restart}"
+
+#~ msgid "Reloading $prog"
+#~ msgstr "Rechargement de $prog"
+
+#~ msgid "Usage: $prog {start|stop|reload|restart|condrestart|status|help}"
+#~ msgstr "Syntaxe : $prog {start|stop|reload|restart|condrestart|status|help}"
+
+#~ msgid "Stopping $desc ($prog): "
+#~ msgstr "Arrêt de $desc ($prog) : "
+
+#~ msgid "Sending all processes the KILL signal..."
+#~ msgstr "Envoi du signal KILL à tous les processus..."
+
+#~ msgid "Rescanning IB Subnet:"
+#~ msgstr "Second balayage d'IB Subnet: "
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG: "
+#~ msgstr "Sauvegarde des règles courantes dans $ARPTABLES_CONFIG : "
+
+#~ msgid "Starting Avahi DNS daemon... "
+#~ msgstr "Démarrage du démon Avahi DNS..."
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|condrestart|status}"
+
+#~ msgid "Starting Wesnoth game server: "
+#~ msgstr "Démarrage du serveur de jeu Wesnoth : "
+
+#~ msgid "Starting Bandwidthd network traffic monitor: "
+#~ msgstr "Démarrage du moniteur de trafic réseau Bandwidthd : "
+
+#~ msgid "Starting YP passwd service: "
+#~ msgstr "Démarrage du service YP passwd : "
+
+#~ msgid "Stopping $indexer: "
+#~ msgstr "Arrêt de $indexer : "
+
+#~ msgid "CIM server is not running, but pid file exists"
+#~ msgstr ""
+#~ "Le serveur CIM n'est pas en cours d'exécution, mais un fichier pid existe"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status}"
+#~ msgstr "Syntaxe : $prog {start|stop|restart|condrestart|status}"
+
+#~ msgid "program or service status is unknown"
+#~ msgstr "le statut du programme ou du service est inconnu"
+
+#~ msgid "Please specify a $type name"
+#~ msgstr "Veuillez préciser un nom $type"
+
+#~ msgid "Error. Default principal database does not exist."
+#~ msgstr ""
+#~ "Erreur. La base de données principale configurée par défaut n'existe pas."
+
+#~ msgid "$prog: Synchronizing with time server: "
+#~ msgstr "$prog : Synchronisation avec le serveur de temps : "
+
+#~ msgid "Stray lockfile present; removing it."
+#~ msgstr "un ancien fichier verrou présent; retrait de ce fichier."
+
+#~ msgid "$file is not owned by \"$user\""
+#~ msgstr "L'utilisateur \"$user\" n'est pas le propriétaire du fichier $file"
+
+#~ msgid "Starting $prog for $site: "
+#~ msgstr "Démarrage de $prog pour $site : "
+
+#~ msgid "Starting $type $name: "
+#~ msgstr "Démarrage de $type $name : "
+
+#~ msgid "Reloading ${NAME}"
+#~ msgstr "Rechargement de {$NAME}"
+
+#~ msgid "Starting Video Disk Recorder ($prog): "
+#~ msgstr "Démarrage de Video Disk Recorder ($prog) : "
+
+#~ msgid "$prog stopping "
+#~ msgstr "arrêt de $prog"
+
+#~ msgid "Starting $display_name: "
+#~ msgstr "Démarrage de $display_name : "
+
+#~ msgid "Stopping puppetmaster: "
+#~ msgstr "Arrêt de puppetmaster : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|condrestart|force-reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|reload|condrestart|force-reload}"
+
+#~ msgid "Starting Perlbal: "
+#~ msgstr "Démarrage de Perlbal : "
+
+#~ msgid "DSA key generation"
+#~ msgstr "Génération de la clé DSA"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+#~ "condrestart|condstop}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|pause|continue|reload|force-"
+#~ "reload|condrestart|condstop}"
+
+#~ msgid "Starting xen blktapctrl daemon: "
+#~ msgstr "Démarrage du démon xen blktapctrl : "
+
+#~ msgid "Starting nsd:"
+#~ msgstr "Démarrage de nsd : "
+
+#~ msgid "Starting spectrum transport: "
+#~ msgstr "Démarrage du spectrum de transport : "
+
+#~ msgid "$prog stop"
+#~ msgstr "arrêt de $prog"
+
+#~ msgid "Stopping YP server services: "
+#~ msgstr "Arrêt des services du serveur YP : "
+
+#~ msgid "Server key already installed"
+#~ msgstr "Serveur de clés déjà installé"
+
+#~ msgid "Enabling Bluetooth devices:"
+#~ msgstr "Activation des périphériques Bluetooth :"
+
+#~ msgid "On the next boot fsck will be skipped."
+#~ msgstr "fsck ne sera pas exécuté au prochain démarrage."
+
+#~ msgid "\tscript(s)\t: specify systemtap scripts"
+#~ msgstr "\tscript(s)\t : spécifier les scripts systemtap"
+
+#~ msgid "Enabling local swap partitions: "
+#~ msgstr "Activation des partitions swap locales : "
+
+#~ msgid "Starting xenner daemons"
+#~ msgstr "Démarrage des démons de xen"
+
+#~ msgid "Saving mixer settings"
+#~ msgstr "Sauvegarde des paramètres du mixeur"
+
+#~ msgid "Starting rfcomm: "
+#~ msgstr "Démarrage de rfcomm : "
+
+#~ msgid "Usage: $0 {start|stop|reload}"
+#~ msgstr "Syntaxe : $0 {start|stop|reload}"
+
+#~ msgid "Warning: $prog may not have exited, start/restart may fail"
+#~ msgstr ""
+#~ "Avertissement : $prog n'a peut être pas quitté, le (re)démarrage peut ne "
+#~ "pas fonctionner"
+
+#~ msgid "clement stop"
+#~ msgstr "arrêt de clement"
+
+#~ msgid "Generating SSH2 DSA host key: "
+#~ msgstr "Génération de la clé d'hôte SSH2 DSA"
+
+#~ msgid "Stopping $display_name: "
+#~ msgstr "Arrêt de $display_name : "
+
+#~ msgid "Periodic fetch-crl is disabled."
+#~ msgstr "fetch-crl périodique est désactivée."
+
+#~ msgid "Checking network-attached filesystems"
+#~ msgstr "Vérification des systèmes de fichiers attachés au réseau"
+
+#~ msgid "Shutting down $prog with output module $module: "
+#~ msgstr "Arrêt de $prog avec le module extérieur $module : "
+
+#~ msgid "Starting Xpilot game server: "
+#~ msgstr "Démarrage du serveur de jeu Xpilot : "
+
+#~ msgid "Starting argus: "
+#~ msgstr "Démarrage de argus : "
+
+#~ msgid "Shutting down ${prog}: "
+#~ msgstr "Arrêt de ${prog} : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+
+#~ msgid "Usage: killproc {program} [signal]"
+#~ msgstr "Syntaxe : killproc {program} [signal]"
+
+#~ msgid "Setting hostname ${HOSTNAME}: "
+#~ msgstr "Configuration du nom d'hôte ${HOSTNAME}: "
+
+#~ msgid "Stopping FCoE initiator service: "
+#~ msgstr "Arrêt du services de l'initiateur FCoE : "
+
+#~ msgid "Usage: $0 {start|stop|reload|restart|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|reload|restart|status}"
+
+#~ msgid "Starting $prog with output module $module: "
+#~ msgstr "Démarrage de $prog avec le module extérieur $module : "
+
+#~ msgid "ERROR: [ipv6_log] Missing 'message' (arg 1)"
+#~ msgstr "ERREUR : [ipv6_log] « message » manquant (arg 1)"
+
+#~ msgid "freshclam daemon NOT up and running (please check this)"
+#~ msgstr ""
+#~ "Le démon freshclam N'est PAS en cours d'exécution (veuillez vérifier ceci)"
+
+#~ msgid "$prog dead but subsys locked"
+#~ msgstr "&prog est mort mais subsys est verrouillé"
+
+#~ msgid "Running guests on $uri URI: "
+#~ msgstr "Exécution des invités sur l'URI $uri"
+
+#~ msgid "Saving random seed: "
+#~ msgstr "Sauvegarde du random seed : "
+
+#~ msgid "Loading ISDN modules"
+#~ msgstr "Chargement des modules RNIS"
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart} [VO]"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|status|condrestart} [VO]"
+
+#~ msgid "killing ctdbd "
+#~ msgstr "arrêt forcé de ctdbd "
+
+#~ msgid "Mounting local filesystems: "
+#~ msgstr "Montage des systèmes de fichiers locaux : "
+
+#~ msgid "key generation"
+#~ msgstr "génération de la clé"
+
+#~ msgid "Usage: $0 {start|stop|status"
+#~ msgstr "Syntaxe : $0 {start|stop|status"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|restart|try-restart|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|force-reload|restart|try-restart|status}"
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "Syntaxe : $prog {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload}"
+
+#~ msgid "Usage: $prog {start|stop|restart|status|compile|cleanup} [option]"
+#~ msgstr ""
+#~ "Syntaxe : $prog {start|stop|restart|status|compile|cleanup} [option]"
+
+#~ msgid ""
+#~ "Usage: $0 {start|forcestart|stop|status|restart|forcerestart|reload|"
+#~ "condrestart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|forcestart|stop|status|restart|forcerestart|reload|"
+#~ "condrestart}"
+
+#~ msgid "Starting sm-client: "
+#~ msgstr "Démarrage de sm-client : "
+
+#~ msgid "Starting $NAME: "
+#~ msgstr "Démarrage de $NAME : "
+
+#~ msgid "Pre-0.26 monotone database must be migrated by hand: "
+#~ msgstr ""
+#~ "Les versions antérieures à la 0.26 de la base de données monotone doivent "
+#~ "être migrées manuellement :"
+
+#~ msgid "${IPTABLES}: Loading additional modules: "
+#~ msgstr "${IPTABLES} : Chargement des modules additionnels : "
+
+#~ msgid "Usage: $progname {start|stop|restart|condrestart|status}"
+#~ msgstr "Syntaxe : $prog {start|stop|restart|condrestart|status}"
+
+#~ msgid "Mounting CIFS filesystems: "
+#~ msgstr "Montage des systèmes de fichiers CIFS : "
+
+#~ msgid "Generating exim certificate: "
+#~ msgstr "Génération du certificat exim : "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting rusers services: "
+#~ msgstr "Démarrage des services rusers : "
+
+#~ msgid "FireHOL: Processing file ${FIREHOL_CONFIG}:"
+#~ msgstr "FireHOL : Traitement du fichier ${FIREHOL_CONFIG} :"
+
+#~ msgid "Compiling systemtap scripts: "
+#~ msgstr "Compilation des scripts systemtap : "
+
+#~ msgid "Starting NFS daemon: "
+#~ msgstr "Démarrage du démon NFS : "
+
+#~ msgid "Starting telescope daemon: "
+#~ msgstr "Démarrage du démon telescope : "
+
+#~ msgid "Shutting down vmpsd: "
+#~ msgstr "Arrêt de vmpsd : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+#~ "reload}"
+
+#~ msgid "Disabling nightly apt update: "
+#~ msgstr "Désactivation de la mise à jour nocturne par apt : "
+
+#~ msgid "Starting NFS services: "
+#~ msgstr "Démarrage des services NFS : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+
+#~ msgid "Stopping Xpilot game server: "
+#~ msgstr "Arrêt du serveur de jeu Xpilot : "
+
+#~ msgid "already active"
+#~ msgstr "déjà actif"
+
+#~ msgid "Starting HAL daemon: "
+#~ msgstr "Démarrage du démon HAL : "
+
+#~ msgid "Stopping unbound: "
+#~ msgstr "Arrêt de unbound : "
+
+#~ msgid "No scripts exist."
+#~ msgstr "Aucun script n'existe."
+
+#~ msgid "/proc entries were fixed"
+#~ msgstr "les entrées /proc ont été corrigées"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|condrestart|reload||status|force-reload}"
+
+#~ msgid "Usage: $0 {start}"
+#~ msgstr "Syntaxe : $0 {start}"
+
+#~ msgid "Unmounting file systems"
+#~ msgstr "Démontage des systèmes de fichiers"
+
+#~ msgid "Periodic fetch-crl is enabled."
+#~ msgstr "fetch-crl périodique est activée."
+
+#~ msgid "(not starting, no services registered)"
+#~ msgstr "(pas démarré, aucun service enregistré)"
+
+#~ msgid "Shutting down $PROG: "
+#~ msgstr "Arrêt de $PROG : "
+
+#~ msgid "Netlabel is stopped."
+#~ msgstr "Netlabel est arrêté"
+
+#~ msgid "${SERVICE}: unrecognized service"
+#~ msgstr "${SERVICE}: service non reconnu"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|reload|force-reload|restart|try-restart|"
+#~ "probe}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|reload|force-reload|restart|try-restart|"
+#~ "probe}"
+
+#~ msgid "sfcb is not running, but lock file exists"
+#~ msgstr ""
+#~ "sfcb n'est pas en cours d'exécution, mais un fichier de verrouillage "
+#~ "existe"
+
+#~ msgid "Stopping $type $name: "
+#~ msgstr "Arrêt de $type $name : "
+
+#~ msgid ""
+#~ "See $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist for more information."
+#~ msgstr ""
+#~ "Lisez $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist pour plus "
+#~ "d'informations."
+
+#~ msgid "Starting $SERVICE: "
+#~ msgstr "Démarrage de $SERVICE : "
+
+#~ msgid "Mounting zfs partitions: "
+#~ msgstr "Montage des partitions zfs : "
+
+#~ msgid "INSECURE MODE FOR $key"
+#~ msgstr "MODE NON SÉCURISÉ POUR $key"
+
+#~ msgid "Loading new virus-database: "
+#~ msgstr "Chargement de la nouvelle base de données de virus : "
+
+#~ msgid "Stopping Crossfire game server: "
+#~ msgstr "Arrêt du serveur de jeu Crossfire : "
+
+#~ msgid "Shutting down process accounting: "
+#~ msgstr "Arrêt de la gestion des processus : "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|restart|reload}"
+
+#~ msgid "Reloading $prog: "
+#~ msgstr "Rechargement de $prog : "
+
+#~ msgid "Starting hard disk temperature monitor daemon ($prog): "
+#~ msgstr ""
+#~ "Démarrage du démon de contrôle de la température du disque dur ($prog) : "
+
+#~ msgid "Please stand by while rebooting the system..."
+#~ msgstr "Veuillez patienter lors du redémarrage du système..."
+
+#~ msgid "Shutting down Avahi DNS daemon: "
+#~ msgstr "Arrêt du démon Avahi DNS : "
+
+#~ msgid "Shutting down DAAP server: "
+#~ msgstr "Arrêt du serveur DAAP : "
+
+#~ msgid "Waiting for reader attach/detach events..."
+#~ msgstr "Attente des évènements attach/detach du lecteur..."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|reload|restart|condrestart|force-reload|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Mounting NCP filesystems: "
+#~ msgstr "Montage des systèmes de fichiers NCP : "
+
+#~ msgid "Shutting down amavisd-snmp-subagent: "
+#~ msgstr "Arrêt de amavisd-snmp-subagent : "
+
+#~ msgid "Stopping $server: "
+#~ msgstr "Arrêt de $server : "
+
+#~ msgid "Starting up CIM server: "
+#~ msgstr "Démarrage du serveur CIM : "
+
+#~ msgid "Starting CallWeaver: "
+#~ msgstr "Démarrage de CallWeaver : "
+
+#~ msgid "Stopping rstat services: "
+#~ msgstr "Arrêt des services rstat : "
+
+#~ msgid "Usage: $0 {start|stop|status|reload|restart|condrestart}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|reload|restart|condrestart}"
+
+#~ msgid "NTP server not specified in $ntpstep or $ntpconf"
+#~ msgstr "Le serveur NTP n'est pas spécifié dans $ntpstep ou $ntpconf"
+
+#~ msgid "Restarting $prog:"
+#~ msgstr "Redémarrage de $prog : "
+
+#~ msgid "Stopping liquidwar game server: "
+#~ msgstr "Arrêt du serveur de jeu liquidwar : "
+
+#~ msgid "Reloading nsca: "
+#~ msgstr "Rechargement de nsca : "
+
+#~ msgid "Stopping ipmi_poweroff driver: "
+#~ msgstr "Arrêt du pilote ipmi_poweroff : "
+
+#~ msgid "qemu binary format handlers are not registered."
+#~ msgstr "Les gestionnaires de format binaire qemu ne sont pas enregistrés."
+
+#~ msgid "Generating SSH1 RSA host key: "
+#~ msgstr "Génération de la clé d'hôte SSH1 RSA : "
+
+#~ msgid "Reloading CRLs: "
+#~ msgstr "Rechargement de CRL : "
+
+#~ msgid "${IPTABLES}: Firewall modules are not loaded."
+#~ msgstr "${IPTABLES} : Les modules du pare-feu ne sont pas chargés."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|try-restart|force-reload}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|restart|try-restart|force-reload}"
+
+#~ msgid "stale lock files may be present in $directory"
+#~ msgstr "d'anciens fichiers verroux peuvent être présents dans $directory"
+
+#~ msgid "${IP6TABLES}: Loading additional modules: "
+#~ msgstr "${IP6TABLES} : Chargement des modules additionnels : "
+
+#~ msgid "Turning off swap: "
+#~ msgstr "Arrêt de swap : "
+
+#~ msgid "named: already running"
+#~ msgstr "named : déjà en cours d'exécution"
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status|reload}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|condrestart|status|reload}"
+
+#~ msgid "ERROR: [ipv6_log] Loglevel isn't valid '$level' (arg 2)"
+#~ msgstr ""
+#~ "ERREUR : [ipv6_log] Le niveau de journal n'est pas valide « $level » (arg "
+#~ "2)"
+
+#~ msgid "Restarting $indexer: "
+#~ msgstr "Redémarrage de $indexer : "
+
+#~ msgid "          start-watchdog|stop-watchdog|status-watchdog"
+#~ msgstr "          start-watchdog|stop-watchdog|status-watchdog"
+
+#~ msgid "Shutting down ${prog_base}:"
+#~ msgstr "Arrêt de ${prog_base} : "
+
+#~ msgid "Stopping INNWatch service: "
+#~ msgstr "Arrêt du service INNWatch : "
+
+#~ msgid "Stopping asterisk: "
+#~ msgstr "Arrêt d'asterisk : "
+
+#~ msgid "initiators still connected"
+#~ msgstr "initiateurs toujours connectés"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status|dump}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|condrestart|try-restart|reload|force-"
+#~ "reload|status|dump}"
+
+#~ msgid "Usage: $0 {start|stop|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|status}"
+
+#~ msgid "Starting YP server services: "
+#~ msgstr "Démarrage des services du serveur YP : "
+
+#~ msgid "Usage: $0 {start|stop|status|condrestart|reload|restart}"
+#~ msgstr "Syntaxe : $0 {start|stop|status|condrestart|reload|restart}"
+
+#~ msgid "$prog already running."
+#~ msgstr "$prog est déjà en cours d'exécution."
+
+#~ msgid "Generating chrony command key: "
+#~ msgstr "Génération de la clé de commande chrony : "
+
+#~ msgid "Restarting $ical: "
+#~ msgstr "Redémarrage de $ical : "
+
+#~ msgid "Checking local filesystem quotas: "
+#~ msgstr "Vérification des quotas des systèmes de fichiers locaux : "
+
+#~ msgid "Starting NFS statd: "
+#~ msgstr "Démarrage de NFS statd : "
+
+#~ msgid "Starting $master_prog: "
+#~ msgstr "Démarrage de $master_prog : "
+
+#~ msgid "libvirt-guests is configured not to start any guests on boot"
+#~ msgstr ""
+#~ "libvirt-guests est configuré pour ne pas démarrer d'invité au démarrage"
+
+#~ msgid "innd shutdown"
+#~ msgstr "Arrêt d'innd"
+
+#~ msgid "Starting rstat services: "
+#~ msgstr "Démarrage des services rstat : "
+
+#~ msgid "denyhosts cron service is enabled."
+#~ msgstr "le service cron denyhosts est activé."
+
+#~ msgid "Reloading ${NAME}: "
+#~ msgstr "Rechargement de ${NAME} : "
+
+#~ msgid "Reloading exim:"
+#~ msgstr "Rechargement d'exim : "
+
+#~ msgid "Package sendmail-cf is required to update configuration."
+#~ msgstr ""
+#~ "Le paquet sendmail-cf est requis pour mettre à jour la configuration."
+
+#~ msgid "Shutting down restorecond: "
+#~ msgstr "Arrêt de restorecond : "
+
+#~ msgid "program is dead and /var/lock lock file exists"
+#~ msgstr ""
+#~ "la programme est mort et le fichier de verrouillage /var/lock existe"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status}"
+#~ msgstr "Syntaxe : $prog {start|stop|restart|condrestart|reload|status}"
+
+#~ msgid "($pid) is running..."
+#~ msgstr "($pid) est en cours d'exécution..."
+
+#~ msgid "Reloading $prog daemon configuration: "
+#~ msgstr "Rechargement de la configuration du démon $prog : "
+
+#~ msgid "Reloading ${prog} conig file: "
+#~ msgstr "Rechargement du fichier config de ${prog} : "
+
+#~ msgid "Key file for $dst not found, skipping"
+#~ msgstr "Fichier clé $dst non trouvé, passage"
+
+#~ msgid "Starting $progname: "
+#~ msgstr "Démarrage de $progname : "
+
+#~ msgid "Reloading securenets and ypserv.conf file:"
+#~ msgstr "Rechargement de securenets et du fichier ypserv.conf : "
+
+#~ msgid "Moodle cron job is disabled."
+#~ msgstr "La tâche cron de Moodle est désactivée."
+
+#~ msgid "already running."
+#~ msgstr "est déjà en cours d'exécution."
+
+#~ msgid "start"
+#~ msgstr "démarrer"
+
+#~ msgid "Updating RPMS in group $group: "
+#~ msgstr "Mise à jour des RPMS dans le groupe $group : "
+
+#~ msgid "not reloading ${httpd} due to configuration syntax error"
+#~ msgstr ""
+#~ "pas de rechargement de ${httpd} à cause d'une erreur de syntaxe dans la "
+#~ "configuration"
+
+#~ msgid "Shutting down ${desc} (${prog}): "
+#~ msgstr "Arrêt de ${desc} (${prog}) : "
+
+#~ msgid "Enabling periodic fetch-crl: "
+#~ msgstr "Activation de fetch-crl périodique : "
+
+#~ msgid "reload unimplemented"
+#~ msgstr "rechargement non implémenté"
+
+#~ msgid "Adding dhclient NTP servers to chrony: "
+#~ msgstr "Ajout de serveurs NTP dhclient à chrony : "
+
+#~ msgid "Stopping infrared remote control daemon ($prog): "
+#~ msgstr "Arrêt du démon infra-rouge à télécommande ($prog) : "
+
+#~ msgid "Unconfigured: $prog, /etc/gkrellmd.conf not found"
+#~ msgstr "Non configuré : $prog, /etc/gkrellmd.conf non trouvé"
+
+#~ msgid "Starting Crossfire game server: "
+#~ msgstr "Démarrage du serveur de jeu Crossfire : "
+
+#~ msgid "$0: error: insufficient privileges"
+#~ msgstr "$0: erreur: privilèges insuffisants"
+
+#~ msgid "Enabling /etc/fstab swaps: "
+#~ msgstr "Activation des /etc/fstab swaps : "
+
+#~ msgid "*** Disabling security enforcement for system recovery."
+#~ msgstr ""
+#~ "*** Désactivation du niveau de sécurité pour la restauration du système."
+
+#~ msgid "Stopping $progname: "
+#~ msgstr "Arrêt de $progname : "
+
+#~ msgid "is stopped"
+#~ msgstr "est arrêté"
+
+#~ msgid "Shutdown action requested but SHUTDOWN_TIMEOUT was not set"
+#~ msgstr "Arrêt demandé mais SHUTDOWN_TIMEOUT n'est pas défini"
+
+#~ msgid "$prog not supported"
+#~ msgstr "$prog n'est pas supporté"
+
+#~ msgid "Unloading ISDN modules"
+#~ msgstr "Déchargement des modules RNIS"
+
+#~ msgid "Stopping $dagent: "
+#~ msgstr "Arrêt de $dagent : "
+
+#~ msgid "Wine binary format handlers are not registered."
+#~ msgstr "Les gestionnaires de format binaire Wine ne sont pas enregistrés."
+
+#~ msgid ""
+#~ "ERROR: [ipv6_log] Syslog is chosen, but binary 'logger' doesn't exist or "
+#~ "isn't executable"
+#~ msgstr ""
+#~ "ERREUR: [ipv6_log] Syslog est sélectionné, mais le binaire « logger » "
+#~ "n'existe pas ou n'est pas exécutable"
+
+#~ msgid "Usage: $service {start|stop|restart|list|status|clean}"
+#~ msgstr "Syntaxe : $service {start|stop|restart|list|status|clean}"
+
+#~ msgid "Starting up-imapproxy daemon: "
+#~ msgstr "Démarrage du démon up-imapproxy: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#~ msgid "Stopping $name: "
+#~ msgstr "Arrêt de $name : "
+
+#~ msgid "Applying ${ELEVATOR} elevator: "
+#~ msgstr "Application de l'ascenseur ${ELEVATOR} : "
+
+#~ msgid "Starting amavisd-snmp-subagent: "
+#~ msgstr "Démarrage de amavisd-snmp-subagent : "
+
+#~ msgid "CIM server is not running"
+#~ msgstr "Le serveur CIM n'est pas en cours d'exécution"
+
+#~ msgid "Restarting $server: "
+#~ msgstr "Redémarrage de $server : "
+
+#~ msgid "Stopping puppet: "
+#~ msgstr "Arrêt de puppet : "
+
+#~ msgid "nN"
+#~ msgstr "nN"
+
+#~ msgid "          start-powercontrol|stop-powercontrol|status-powercontrol"
+#~ msgstr "          start-powercontrol|stop-powercontrol|status-powercontrol"
+
+#~ msgid "Starting fail2ban: "
+#~ msgstr "Démarrage de fail2ban : "
+
+#~ msgid "You need to upgrade the data format before using PostgreSQL."
+#~ msgstr ""
+#~ "Vous devez mettre à jour le format des données avant d'utiliser "
+#~ "PostgreSQL."
+
+#~ msgid "Starting Audio Entropy daemon... "
+#~ msgstr "Démarrage du démon audio d'Entropy... "
+
+#~ msgid "Remounting root filesystem in read-write mode: "
+#~ msgstr "Remontage du système de fichiers racine en mode lecture-écriture : "
+
+#~ msgid "$prog start"
+#~ msgstr "$prog start"
+
+#~ msgid "Unmounting $mountpoint:"
+#~ msgstr "Démontage des $points de montage: "
+
+#~ msgid "Nightly yum update is enabled."
+#~ msgstr "La mise à jour nocturne par yum est activée."
+
+#~ msgid "Syncing hardware clock to system time"
+#~ msgstr "Synchronisation de l'horloge du matériel avec l'heure du système"
+
+#~ msgid "Starting $spooler: "
+#~ msgstr "Démarrage de $spooler : "
+
+#~ msgid "Stopping $monitor: "
+#~ msgstr "Arrêt de $monitor : "
+
+#~ msgid "Configuration file or keys are invalid"
+#~ msgstr "Les touches ou les fichiers de configuration ne sont pas valides."
+
+#~ msgid "NOTICE   "
+#~ msgstr "NOTE   "
+
+#~ msgid "Reverting to saved sysctl settings: "
+#~ msgstr "Restauration des paramètres sysctl sauvegardés : "
+
+#~ msgid "Cleaning $type $name: "
+#~ msgstr "Nettoyage de $name $type : "
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|reload|status}"
+
+#~ msgid "Turning on allow_ypbind SELinux boolean"
+#~ msgstr "Activation du booléen SELinux allow_ypbind"
+
+#~ msgid "Starting acpi daemon: "
+#~ msgstr "Démarrage du démon acpi : "
+
+#~ msgid "Stopping vbi proxy daemon: "
+#~ msgstr "Arrêt du démon de proxy vbi : "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+
+#~ msgid "${IP6TABLES}: Setting chains to policy $policy: "
+#~ msgstr ""
+#~ "${IP6TABLES} : Configuration des chaînes sur la politique $policy : "
+
+#~ msgid "Automatic reboot in progress."
+#~ msgstr "Redémarrage automatique en cours."
+
+#~ msgid "Turning off allow_ypbind SELinux boolean"
+#~ msgstr "Désactivation du booléen SELinux allow_ypbind"
+
+#~ msgid "Reloading smokeping: "
+#~ msgstr "Rechargement de smokeping : "
+
+#~ msgid "httpd shutdown"
+#~ msgstr "Arrêt de httpd"
+
+#~ msgid "Starting ${NAME}: "
+#~ msgstr "Démarrage de ${NAME} : "
+
+#~ msgid "${IP6TABLES}: Firewall modules are not loaded."
+#~ msgstr "${IP6TABLES} : Les modules du pare-feu ne sont pas chargés."
+
+#~ msgid "Stopping ${ifprog}: "
+#~ msgstr "Arrêt de ${ifprog} : "
+
+#~ msgid "Enabling nightly apt update: "
+#~ msgstr "Activation de la mise à jour nocturne par apt : "
+
+#~ msgid "Shutting down ctdbd service: "
+#~ msgstr "Arrêt du service ctdbd : "
+
+#~ msgid "conf addition"
+#~ msgstr "ajout conf"
+
+#~ msgid "Reloading rules configuration..."
+#~ msgstr "Rechargement des règles de configuration..."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status|quickstart|quickstop}"
+#~ msgstr ""
+#~ "Syntaxe : $0 {start|stop|restart|reload|force-reload|condrestart|try-"
+#~ "restart|status|quickstart|quickstop}"
+
+#~ msgid "Registering binary handler for qemu applications"
+#~ msgstr ""
+#~ "Enregistrement du gestionnaire de binaire pour les applications qemu"
+
+#~ msgid "Stopping nsd: "
+#~ msgstr "Arrêt de nsd : "
+
+#~ msgid "/proc filesystem unavailable"
+#~ msgstr "Système de fichiers /proc non disponible"
+
+#~ msgid "Starting NFS mountd: "
+#~ msgstr "Démarrage de NFS mountd : "
+
+#~ msgid "Reloading rhnsd"
+#~ msgstr "Rechargement de rhnsd"
+
+#~ msgid "Enabling denyhosts cron service: "
+#~ msgstr "Activation du service cron de denyhosts : "
+
+#~ msgid "Starting $PROG:"
+#~ msgstr "Démarrage de $PROG : "
+
+#~ msgid "Starting monotone server: "
+#~ msgstr "Démarrage du serveur monotone : "
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status}"
+#~ msgstr "Syntaxe : $0 {start|stop|restart|try-restart|status}"
+
+#~ msgid "$prog flush"
+#~ msgstr "$prog flush"
+
+#~ msgid "Moodle cron job is enabled."
+#~ msgstr "La tâche cron de Moodle est activé."
+
+#~ msgid "Starting yum-updatesd: "
+#~ msgstr "Démarrage de yum-updatesd : "
+
+#~ msgid "${IP6TABLES}: Applying firewall rules: "
+#~ msgstr "${IP6TABLES} : Application des règles du pare-feu : "
+
+#~ msgid "Stopping $prog: "
+#~ msgstr "Arrêt de $prog : "
+
+#~ msgid "Shutting down Audio Entropy daemon: "
+#~ msgstr "Arrêt du démon d'Entropy Audio : "

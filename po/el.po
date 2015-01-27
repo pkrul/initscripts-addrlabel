@@ -1,0 +1,2378 @@
+#
+# Translators:
+# Dimitrios Michelinakis <dimitris@michelinakis.gr>, 2006
+# Dimitrios Typaldos <dtfedora@yahoo.com>, 2007
+# Dimitris Glezos <dimitris@glezos.com>, 2006, 2007, 2008
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# nikcha <nikosx@gmail.com>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: fedora-initscripts\n"
+"PO-Revision-Date: 2012-03-06 08:28+0000\n"
+"Last-Translator: notting <notting@redhat.com>\n"
+"Language-Team: Greek <trans-el@lists.fedoraproject.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../sysconfig/network-scripts/ifup-eth:231
+#, fuzzy
+msgid "Error, some other host already uses address ${ipaddr[$idx]}."
+msgstr "Σφάλμα, κάποιο άλλο σύστημα χρησιμοποιεί ήδη τη διεύθυνση ${IPADDR}."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:904
+msgid "No parameters given to setup a default route"
+msgstr ""
+"Δεν έχουν εισαχθεί παράμετροι για τον καθορισμό της διαδρομής προεπιλογής"
+
+#: ../sysconfig/network-scripts/ifup-aliases:67
+msgid "usage: ifup-aliases <net-device> [<parent-config>]\n"
+msgstr "χρήση: ifup-aliases <συσκευή-δικτύου> [<ρύθμιση-parent>]\n"
+
+#: ../sysconfig/network-scripts/ifup-sit:63
+msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
+msgstr ""
+"Λείπει απομακρυσμένη διεύθυνση IPv4 tunnel, οι ρυθμίσεις δεν είναι έγκυρες"
+
+#: ../service:78
+msgid "Redirecting to /bin/systemctl ${ACTION} ${OPTIONS} ${SERVICE}.service"
+msgstr ""
+
+#: ../rc.d/init.d/functions:410
+msgid "${base} status unknown due to insufficient privileges."
+msgstr ""
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:145
+msgid "Missing parameter 'IPv6-address' (arg 2)"
+msgstr "Ελλειπής παράμετρος 'IPv6-address' (παρ 2)"
+
+#: ../rc.d/init.d/functions:239 ../rc.d/init.d/functions:249
+msgid "Usage: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+msgstr "Χρήση: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+
+#: ../ppp/ip-up.ipv6to4:123 ../sysconfig/network-scripts/ifup-ipv6:226
+msgid ""
+"Warning: configured MTU '$IPV6TO4_MTU' for 6to4 exceeds maximum limit of "
+"'$tunnelmtu', ignored"
+msgstr ""
+"Προειδοποίηση: το διαμορφωμένο MTU '$IPV6TO4_MTU' για 6to4 υπερβαίνει το "
+"μέγιστο όριο του '$tunnelmtu', αγνοήθηκε"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:964
+msgid "Unsupported reason '$reason' for sending trigger to radvd"
+msgstr "Μη υποστηριζόμενη αιτία '$reason' για την αποστολή trigger στο radvd"
+
+#: ../sysconfig/network-scripts/ifup:103
+#: ../sysconfig/network-scripts/ifup-eth:78
+msgid ""
+"$alias device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr ""
+"$alias συσκευή ${DEVICE} δε φαίνεται να υπάρχει, καθυστερώντας την "
+"αρχικοποίηση."
+
+#: ../rc.d/init.d/functions:406
+msgid "${base} dead but pid file exists"
+msgstr "Το ${base} είναι νεκρό αλλά το αρχείο pid υπάρχει"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:100
+#: ../sysconfig/network-scripts/ifup-ipv6:117
+msgid "Please restart network with '/sbin/service network restart'"
+msgstr "Παρακαλώ επανεκκινείστε το δίκτυο με '/sbin/service network restart'"
+
+#: ../systemd/fedora-autorelabel:21
+msgid "*** when you leave the shell."
+msgstr "*** όταν θα εγκαταλείψετε το κέλυφος."
+
+#: ../sysconfig/network-scripts/ifup-ppp:75
+msgid "ifup-ppp for ${DEVNAME} exiting"
+msgstr "ifup-ppp για το ${DEVNAME}: Έξοδος"
+
+#: ../sysconfig/network-scripts/ifup-ppp:142
+msgid "pppd started for ${DEVNAME} on ${MODEMPORT} at ${LINESPEED}"
+msgstr "έναρξη pppd για ${DEVNAME} στο ${MODEMPORT} με ${LINESPEED}"
+
+#: ../rc.d/init.d/functions:463
+msgid "WARNING"
+msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:61
+msgid "Missing parameter 'IPv6-gateway' (arg 2)"
+msgstr "Ελλειπής παράμετρος 'IPv6-gateway' (παρ 2)"
+
+#: ../rc.d/init.d/functions:330
+msgid "Usage: pidfileofproc {program}"
+msgstr "Χρήση: pidfileofproc {program}"
+
+#: ../rc.d/init.d/functions:229
+msgid "$base startup"
+msgstr "έναρξη $base"
+
+#: ../ppp/ip-down.ipv6to4:35 ../ppp/ip-up.ipv6to4:41
+msgid ""
+"Argument 1 is empty but should contain interface name - skip IPv6to4 "
+"initialization"
+msgstr ""
+"Η παράμετρος 1 είναι κενή αλλά θα έπρεπε να περιέχει όνομα διεπαφής - "
+"προσπέραση IPv6to4 αρχικοποίησης"
+
+#: ../ppp/ip-up.ipv6to4:189 ../sysconfig/network-scripts/ifup-ipv6:292
+msgid "radvd control enabled, but config is not complete"
+msgstr "έλεγχος radvd ενεργοποιήθηκε, αλλά to config δεν είναι ολοκληρωμένο"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:383
+msgid "Missing parameter 'address' (arg 1)"
+msgstr "Ελλειπής παράμετρος 'address' (παρ 1)"
+
+#: ../rc.d/init.d/netconsole:76
+msgid "Server address not specified in /etc/sysconfig/netconsole"
+msgstr ""
+"Η διεύθυνση του εξυπηρετητή δεν έχει οριστεί στο /etc/sysconfig/netconsole"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:798
+msgid "Missing parameter 'IPv6 MTU' (arg 2)"
+msgstr "Ελλειπής παράμετρος 'IPv6 MTU' (παρ 2)"
+
+#: ../rc.d/init.d/network:67
+msgid "Bringing up loopback interface: "
+msgstr "Ενεργοποίηση διεπαφής loopback: "
+
+#: ../rc.d/init.d/functions:452
+msgid "PASSED"
+msgstr "ΕΓΚΡΙΘΗΚΕ"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:394
+msgid "Given address '$addr' is not a global IPv4 one (arg 1)"
+msgstr ""
+"Η καθορισμένη διεύθυνση '$addr' δεν είναι μία καθολική IPv4 διεύθυνση (παρ 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:706
+msgid "Missing parameter 'selection' (arg 2)"
+msgstr "Ελλειπής παράμετρος 'επιλογή' (παρ 2)"
+
+#: ../ppp/ip-up.ipv6to4:91 ../sysconfig/network-scripts/ifup-ipv6:211
+msgid ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+msgstr ""
+"Η διαμόρφωση IPv6to4 απαιτεί μία διεύθυνση IPv4 σε σχετική διεπαφή ή "
+"διαφορετικά όπως έχει καθοριστεί"
+
+#: ../sysconfig/network-scripts/ifup-aliases:190
+#, fuzzy
+msgid "error iN $FILE: didn't specify netmask or prefix"
+msgstr "σφάλμα στο $FILE: δεν έχει καθοριστεί συσκευή ή διεύθυνση ip"
+
+#: ../sysconfig/network-scripts/ifdown-tunnel:36
+#: ../sysconfig/network-scripts/ifup-tunnel:63
+msgid "Device '$DEVICE' isn't supported as a valid GRE device name."
+msgstr ""
+"Η συσκευή '$DEVICE' δεν υποστηρίζεται σαν ένα έγκυρο όνομα GRE συσκευής."
+
+#: ../sysconfig/network-scripts/ifup-eth:43
+msgid "Device ${DEVICE} has different MAC address than expected, ignoring."
+msgstr ""
+"Η συσκευή ${DEVICE} έχει διαφορετική διεύθυνση MAC από την αναμενόμενη, "
+"αγνόηση."
+
+#: ../sysconfig/network-scripts/ifup-aliases:264
+msgid "Error, some other host already uses address ${IPADDR}."
+msgstr "Σφάλμα, κάποιο άλλο σύστημα χρησιμοποιεί ήδη τη διεύθυνση ${IPADDR}."
+
+#: ../rc.d/init.d/network:271
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload}"
+msgstr "Χρήση: $0 {start|stop|status|restart|reload|force-reload}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:603
+msgid "Tunnel device '$device' creation didn't work"
+msgstr "Η δημιουργία της συσκευής tunnel '$device' δε δούλεψε"
+
+#: ../rc.d/init.d/netconsole:91
+msgid "Initializing netconsole"
+msgstr "Αρχικοποίηση netconsole"
+
+#: ../sysconfig/network-scripts/ifdown-eth:42
+#: ../sysconfig/network-scripts/ifdown-eth:48
+msgid ""
+"Device ${DEVICE} has MAC address ${FOUNDMACADDR}, instead of configured "
+"address ${HWADDR}. Ignoring."
+msgstr ""
+"Συσκευή ${DEVICE} έχει MAC διεύθυνση  ${FOUNDMACADDR}, αντί της ήδη "
+"διαμορφωμένης διεύθυνσης ${HWADDR}. Αγνόηση."
+
+#: ../rc.d/init.d/functions:441
+msgid "FAILED"
+msgstr "ΑΠΕΤΥΧΕ"
+
+#: ../sysconfig/network-scripts/ifup-eth:286
+#, fuzzy
+msgid "Determining IPv6 information for ${DEVICE}..."
+msgstr "Προσδιορισμός πληροφοριών IP για ${DEVICE}..."
+
+#: ../rc.d/init.d/functions:422
+msgid "${base} is stopped"
+msgstr "${base} είναι σταματημένο"
+
+#: ../rc.d/init.d/functions:151 ../rc.d/init.d/functions:187
+msgid "$0: Usage: daemon [+/-nicelevel] {program}"
+msgstr "$0: Χρήση: υπηρεσία_συστήματος [+/-επίπεδο_nice] {πρόγραμμα}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:165
+msgid "error in $FILE: invalid alias number"
+msgstr "σφάλμα στο $FILE: άκυρος αριθμός ψευδώνυμο"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:159
+msgid "Device '$device' doesn't exist"
+msgstr "Η συσκευή $device' δεν υπάρχει "
+
+#: ../sysconfig/network-scripts/ifup:30 ../sysconfig/network-scripts/ifup:38
+msgid "Usage: ifup <configuration>"
+msgstr "Χρήση: ifup <όνομα συσκευής>"
+
+#: ../sysconfig/network-scripts/ifup:126 ../sysconfig/network-scripts/ifup:127
+msgid "ERROR: could not add vlan ${VID} as ${DEVICE} on dev ${PHYSDEV}"
+msgstr ""
+"ΣΦΑΛΜΑ: αδυναμία προσθήκης vlan ${VID} ως ${DEVICE} στη συσκευή ${PHYSDEV}"
+
+#: ../sysconfig/network-scripts/ifup-ctc:37
+msgid "ERROR: ${DEVICE} did not come up!"
+msgstr ""
+
+#: ../ppp/ip-up.ipv6to4:138 ../sysconfig/network-scripts/ifup-ipv6:240
+msgid "Warning: interface 'tun6to4' does not support 'IPV6_DEFAULTGW', ignored"
+msgstr ""
+"Προειδοποίηση: η διεπαφή 'tun6to4' δεν υποστηρίζει 'IPV6_DEFAULTGW', αγνόηση"
+
+#: ../rc.d/init.d/network:133 ../rc.d/init.d/network:140
+msgid "Bringing up interface $i: "
+msgstr "Ενεργοποίηση διεπαφής $i: "
+
+#: ../sysconfig/network-scripts/init.ipv6-global:162
+msgid "Usage: $0 {start|stop|reload|restart|showsysctl}"
+msgstr "Χρήση: $0 {start|stop|reload|restart|showsysctl}"
+
+#: ../sysconfig/network-scripts/ifup-eth:80
+msgid "Device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr ""
+"Η συσκευή ${DEVICE} δε φαίνεται να υπάρχει, καθυστερώντας την αρχικοποίηση."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:841
+msgid "Given IPv6 default gateway '$address' is not in proper format"
+msgstr "Η καθορισμένη IPv6 πύλη προεπιλογής δεν είναι διαμορφωμένη κατάλληλα"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:140
+#: ../sysconfig/network-scripts/network-functions-ipv6:203
+#: ../sysconfig/network-scripts/network-functions-ipv6:232
+#: ../sysconfig/network-scripts/network-functions-ipv6:312
+#: ../sysconfig/network-scripts/network-functions-ipv6:427
+#: ../sysconfig/network-scripts/network-functions-ipv6:489
+#: ../sysconfig/network-scripts/network-functions-ipv6:523
+#: ../sysconfig/network-scripts/network-functions-ipv6:565
+#: ../sysconfig/network-scripts/network-functions-ipv6:643
+#: ../sysconfig/network-scripts/network-functions-ipv6:701
+#: ../sysconfig/network-scripts/network-functions-ipv6:754
+#: ../sysconfig/network-scripts/network-functions-ipv6:793
+#: ../sysconfig/network-scripts/network-functions-ipv6:921
+msgid "Missing parameter 'device' (arg 1)"
+msgstr "Ελλειπής παράμετρος 'συσκευή' (παρ 1)"
+
+#: ../rc.d/init.d/network:82
+msgid "No 802.1Q VLAN support available in kernel."
+msgstr "Δεν υπάρχει διαθέσιμη υποστήριξη 802.1Q VLAN στον πυρήνα."
+
+#: ../sysconfig/network-scripts/ifup-aliases:180
+msgid "error in $FILE: already seen device $parent_device:$DEVNUM in $devseen"
+msgstr ""
+"σφάλμα στο $FILE: η συσκευή $parent_device:$DEVNUM ήδη υπάρχει στο $devseen"
+
+#: ../systemd/fedora-autorelabel:20
+msgid "*** problems. Dropping you to a shell; the system will reboot"
+msgstr ""
+"*** προβλήματα. Μετάβαση σε περιβάλλον φλοιού; το σύστημα θα επανεκκινήσει"
+
+#: ../sysconfig/network-scripts/ifup-sit:71
+msgid "Device '$DEVICE' is already up, please shutdown first"
+msgstr ""
+"Η συσκευή '$DEVICE' είναι ήδη ενεργοποιημένη, παρακαλώ τερματίστε την πρώτα"
+
+#: ../systemd/fedora-autorelabel:26
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required."
+msgstr ""
+"*** Προειδοποίηση -- Απαιτείται εκτέλεση SELinux ${SELINUXTYPE} policy "
+"relabel."
+
+#: ../rc.d/init.d/netconsole:36
+msgid "Usage: $0 {start|stop|status|restart|condrestart}"
+msgstr "Χρήση: $0 {start|stop|status|restart|condrestart}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:231
+#: ../sysconfig/network-scripts/ifup-aliases:242
+msgid "error in ifcfg-${parent_device}: files"
+msgstr "σφάλμα στο ifcfg-${parent_device}: αρχεία"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:804
+msgid "Given IPv6 MTU '$ipv6_mtu' is out of range"
+msgstr "Επιλεγμένο IPv6 MTU '$ipv6_mtu' είναι εκτός ορίου τιμών"
+
+#: ../sysconfig/network-scripts/ifup-aliases:320
+msgid "error in $FILE: IPADDR_START greater than IPADDR_END"
+msgstr "σφάλμα στο $FILE: IPADDR_START μεγαλύτερο από IPADDR_END"
+
+#: ../sysconfig/network-scripts/ifup-eth:260
+#, fuzzy
+msgid "Error adding default gateway ${GATEWAY} for ${DEVICE}."
+msgstr "Σφάλμα προσθήκης διευθύνσεως ${IPADDR} για ${DEVICE}."
+
+#: ../rc.d/init.d/functions:430
+msgid "  OK  "
+msgstr "Εντάξει"
+
+#: ../sysconfig/network-scripts/network-functions:540
+msgid "INFO     "
+msgstr "ΠΛΗΡΟΦΟΡΗΣΗ     "
+
+#: ../sysconfig/network-scripts/ifup-aliases:185
+msgid "error in $FILE: didn't specify device or ipaddr"
+msgstr "σφάλμα στο $FILE: δεν έχει καθοριστεί συσκευή ή διεύθυνση ip"
+
+#: ../sysconfig/network-scripts/ifdown:33 ../sysconfig/network-scripts/ifup:49
+msgid "Users cannot control this device."
+msgstr "Χρήστες δε μπορούν να χρησιμοποιούν αυτή τη συσκευή."
+
+#: ../sysconfig/network-scripts/ifup:89
+msgid "PHYSDEV should be set for device ${DEVICE}"
+msgstr "Το PHYSDEV θα πρέπει να είναι ορισμένο για τη συσκευή ${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1031
+msgid "radvd not (properly) installed, triggering failed"
+msgstr "το radvd μη (κατάλληλα) εγκατεστημένο: triggering απέτυχε"
+
+#: ../sysconfig/network-scripts/ifup-eth:177
+#: ../sysconfig/network-scripts/ifup-eth:290
+msgid " failed."
+msgstr " απέτυχε."
+
+#: ../rc.d/init.d/functions:345
+msgid "Usage: pidofproc [-p pidfile] {program}"
+msgstr "Χρήση: pidofproc [-p pidfile] {program}"
+
+#: ../systemd/fedora-autorelabel:18
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required. "
+msgstr ""
+"*** Προειδοποίηση -- Απαιτείται SELinux ${SELINUXTYPE} policy relabel. "
+
+#: ../rc.d/init.d/network:258
+msgid "Configured devices:"
+msgstr "Ρυθμισμένες συσκευές:"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:895
+msgid "Given IPv6 default device '$device' requires an explicit nexthop"
+msgstr ""
+"Η καθορισμένη IPv6 συσκευή προεπιλογής '$device' απαιτεί ένα άμεσο nexthop"
+
+#: ../rc.d/init.d/functions:33
+#, fuzzy
+msgid "Starting $prog (via systemctl): "
+msgstr "Έναρξη $prog_base:"
+
+#: ../sysconfig/network-scripts/ifdown:15
+#: ../sysconfig/network-scripts/ifdown:22
+msgid "usage: ifdown <configuration>"
+msgstr "χρήση: ifdown <όνομα συσκευής>"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:276
+msgid ""
+"Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+msgstr ""
+"Συνήθως με τη χρήση των 6to4 και RADVD η προώθηση IPv6 θα έπρεπε να είναι "
+"ενεργοποιημένη αλλά τώρα δεν συμβαίνει"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:438
+#: ../sysconfig/network-scripts/network-functions-ipv6:495
+#: ../sysconfig/network-scripts/network-functions-ipv6:534
+msgid "Given device '$device' is not supported (arg 1)"
+msgstr "Η επιλεγμένη συσκευή '$device' δεν υποστηρίζεται (arg 1)"
+
+#: ../rc.d/init.d/netconsole:111
+msgid "netconsole module loaded"
+msgstr "Το άρθρωμα netconsole φορτώθηκε"
+
+#: ../rc.d/init.d/functions:269 ../rc.d/init.d/functions:296
+#: ../rc.d/init.d/functions:312
+msgid "$base shutdown"
+msgstr "Τερματισμός $base"
+
+#: ../sysconfig/network-scripts/ifup-tunnel:56
+msgid "Invalid tunnel type $TYPE"
+msgstr "Μη-έγκυρος τύπος tunnel $TYPE"
+
+#: ../sysconfig/network-scripts/ifup-ppp:48
+msgid "pppd does not exist or is not executable for ${DEVICE}"
+msgstr "Το pppd δεν υπάρχει ή δεν είναι εκτελέσιμο για το ${DEVICE}"
+
+#: ../sysconfig/network-scripts/ifup:37
+msgid "$0: configuration for ${1} not found."
+msgstr "$0: δε βρέθηκε η ρύθμιση για το ${1}."
+
+#: ../sysconfig/network-scripts/ifup-eth:165
+msgid "Determining IP information for ${DEVICE}..."
+msgstr "Προσδιορισμός πληροφοριών IP για ${DEVICE}..."
+
+#: ../systemd/fedora-autorelabel:19
+msgid "*** /etc/selinux/config indicates you want to manually fix labeling"
+msgstr "*** /etc/selinux/config υποδείχνει χειρωνακτική διόρθωση τίτλων"
+
+#: ../sysconfig/network-scripts/network-functions:537
+msgid "WARN     "
+msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ     "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:86
+msgid ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+msgstr ""
+"'Έλλειψη διαδρομής σε σύστημα' προσθέτει διαδρομή '$networkipv6' από την "
+"πύλη '$gatewayipv6' διαμέσου της συσκευής '$device'"
+
+#: ../rc.d/init.d/netconsole:82
+msgid "netconsole: can't resolve MAC address of $SYSLOGADDR"
+msgstr ""
+
+#: ../sysconfig/network-scripts/ifup-ppp:46
+msgid "ifup-ppp for ${DEVICE} exiting"
+msgstr "ifup-ppp για το ${DEVICE}: Έξοδος"
+
+#: ../sysconfig/network-scripts/ifdown-routes:5
+#, fuzzy
+msgid "usage: ifdown-routes <net-device> [<nickname>]"
+msgstr "χρήση: ifup-routes <net-device> [<ψευδώνυμο>]"
+
+#: ../sysconfig/network-scripts/ifup-eth:51
+msgid "Bridge support not available: brctl not found"
+msgstr "Υποστήριξη γέφυρας μη διαθέσιμη: αδυναμία εύρεσης brctl"
+
+#: ../rc.d/init.d/network:261
+msgid "Currently active devices:"
+msgstr "Ενεργές συσκευές:"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:590
+msgid ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+msgstr ""
+"Η καθορισμένη απομακρυσμένη διεύθυνση '$addressipv4tunnel'στην tunnel "
+"συσκευή '$device' είναι ήδη ρυθμισμένη στη συσκευή '$devnew'"
+
+#: ../sysconfig/network-scripts/ifdown-sit:40
+#: ../sysconfig/network-scripts/ifup-sit:58
+msgid ""
+"Device '$DEVICE' isn't supported here, use IPV6_AUTOTUNNEL setting and "
+"restart (IPv6) networking"
+msgstr ""
+"Συσκευή '$DEVICE' δεν υποστηρίζεται εδώ: χρησιμοποιείστε τη ρύθμιση "
+"IPV6_AUTOTUNNEL και επανεκκινήστε το δίκτυο (IPv6)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:343
+msgid "Missing parameter 'IPv4 address' (arg 1)"
+msgstr "Ελλειπής παράμετρος 'IPv4 address' (παρ 1)"
+
+#: ../rc.d/init.d/network:232
+msgid "Shutting down interface $i: "
+msgstr "Απενεργοποίηση διεπαφής $i: "
+
+#: ../sysconfig/network-scripts/ifup-ippp:374
+msgid ""
+"Warning: ipppd (kernel 2.4.x and below) doesn't support IPv6 using "
+"encapsulation 'syncppp'"
+msgstr ""
+"Προειδοποίηση: το ipppd (πυρήνας 2.4.x και παλαιότεροι) δεν υποστηρίζει IPv6 "
+"χρησιμοποιώντας ενθυλάκωση 'syncppp'"
+
+#: ../systemd/fedora-autorelabel:27
+msgid "*** Relabeling could take a very long time, depending on file"
+msgstr ""
+"*** Τιτλοποίηση εκ νέου μπορεί να διαρκέσει μεγάλο χρονικό διάστημα, "
+"εξαρτάται από το αρχείο"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:99
+msgid ""
+"Global IPv6 forwarding is enabled in configuration, but not currently "
+"enabled in kernel"
+msgstr ""
+"Καθολική προώθηση IPv6 ενεργοποιήθηκε στις ρυθμίσεις, αλλά δεν είναι "
+"ενεργοποιημένη τη συγκεκριμένη στιγμή στον πυρήνα"
+
+#: ../rc.d/init.d/functions:39
+#, fuzzy
+msgid "Reloading $prog configuration (via systemctl): "
+msgstr "Επανάληψη ανάγνωσης ρυθμίσεων $prog: "
+
+#: ../sysconfig/network-scripts/ifup-ippp:55
+msgid "$*"
+msgstr "$*"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:855
+msgid ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+msgstr ""
+"Η καθορισμένη IPv6 πύλη προεπιλογής '$address' είναι τοπικός σύνδεσμος, αλλά "
+"καμία συσκευή, scope ή gateway, δεν έχει καθοριστεί"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:610
+msgid "Tunnel device '$device' bringing up didn't work"
+msgstr "Η ενεργοποίηση της συσκευής tunnel '$device' δε δούλεψε"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:993
+msgid "Unsupported mechanism '$mechanism' for sending trigger to radvd"
+msgstr ""
+"Μη υποστηριζόμενος μηχανισμός '$mechanism' για αποστολή trigger στο radvd"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:398
+msgid "Given address '$addr' is not a valid IPv4 one (arg 1)"
+msgstr ""
+"Η καθορισμένη διεύθυνση '$addr' δεν είναι μία έγκυρη IPv4 διεύθυνση (παρ 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:432
+msgid "Missing parameter 'global IPv4 address' (arg 2)"
+msgstr "Ελλειπής παράμετρος 'global IPv4 address' (παρ 2)"
+
+#: ../sysconfig/network-scripts/ifup-ppp:74
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist"
+msgstr "Το /etc/sysconfig/network-scripts/chat-${DEVNAME} δεν υπάρχει"
+
+#: ../rc.d/init.d/netconsole:114
+msgid "netconsole module not loaded"
+msgstr "Το άρθρωμα netconsole δεν είναι φορτωμένο"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:89
+msgid "Unknown error"
+msgstr "Άγνωστο σφάλμα"
+
+#: ../rc.d/init.d/functions:371
+msgid "Usage: status [-p pidfile] {program}"
+msgstr "Χρήση: status [-p pidfile] {program}"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:299
+msgid "6to4 configuration is not valid"
+msgstr "Η διαμόρφωση 6to4 δεν είναι έγκυρη"
+
+#: ../sysconfig/network-scripts/ifup-ppp:82
+msgid "Setting up a new ${PEERCONF} config file"
+msgstr "Καθορισμός νέου αρχείου διαμόρφωσης ${PEERCONF}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:316
+msgid "error in $FILE: IPADDR_START and IPADDR_END don't agree"
+msgstr "σφάλμα στο $FILE: IPADDR_START και IPADDR_END δεν ταιριάζουν"
+
+#: ../rc.d/init.d/functions:303
+msgid "$base $killlevel"
+msgstr "$base $killlevel"
+
+#: ../sysconfig/network-scripts/ifup-ppp:59
+msgid "adsl-start does not exist or is not executable for ${DEVICE}"
+msgstr "Το adsl-start δεν υπάρχει ή δεν είναι εκτελέσιμο για το ${DEVICE}"
+
+#: ../sysconfig/network-scripts/ifup-eth:167
+msgid " failed; no link present.  Check cable?"
+msgstr " απέτυχε: έλλειψη συνδέσμου. Ελέγξατε τα καλώδια;"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:116
+msgid ""
+"Global IPv6 forwarding is disabled in configuration, but not currently "
+"disabled in kernel"
+msgstr ""
+"Καθολική προώθηση IPv6 απενεργοποιήθηκε στις ρυθμίσεις, αλλά τη συγκεκριμένη "
+"στιγμή δεν είναι απενεργοποιημένη στον πυρήνα"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:165
+msgid "Device '$device' enabling didn't work"
+msgstr "Η ενεργοποίηση της συσκευής '$device' δεν λειτούργησε"
+
+#: ../sysconfig/network-scripts/ifup-ppp:77
+msgid ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist for ${DEVICE}"
+msgstr ""
+"Το /etc/sysconfig/network-scripts/chat-${DEVNAME} δεν υπάρχει για το "
+"${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:186
+msgid "Cannot add IPv6 address '$address' on dev '$device'"
+msgstr ""
+"Η διεύθυνση IPv6 '$address' δε μπορεί να προστεθεί στη συσκευή '$device'"
+
+#: ../sysconfig/network-scripts/ifup-ippp:376
+msgid "Warning: link doesn't support IPv6 using encapsulation 'rawip'"
+msgstr ""
+"Προειδοποίηση: σύνδεσμος δεν υποστηρίζει IPv6 με χρήση ενθυλάκωσης 'rawip'"
+
+#: ../sys-unconfig:6
+msgid "Usage: sys-unconfig"
+msgstr "Χρήση: sys-unconfig"
+
+#: ../sysconfig/network-scripts/ifup-routes:5
+msgid "usage: ifup-routes <net-device> [<nickname>]"
+msgstr "χρήση: ifup-routes <net-device> [<ψευδώνυμο>]"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:570
+msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
+msgstr "Ελλειπής παράμετρος 'IPv4-tunnel address' (παρ 2)"
+
+#: ../rc.d/init.d/netconsole:101
+msgid "Disabling netconsole"
+msgstr "Απενεργοποιείται το netconsole"
+
+#: ../systemd/fedora-configure:19
+msgid "Resetting hostname ${HOSTNAME}: "
+msgstr "Επαναφορά του ονόματος συστήματος ως ${HOSTNAME}: "
+
+#: ../rc.d/init.d/network:246
+msgid "Shutting down loopback interface: "
+msgstr "Τερματισμός διεπαφής loopback: "
+
+#: ../sysconfig/network-scripts/ifup-eth:264
+#, fuzzy
+msgid "Erorr adding default gateway for ${REALDEVICE}."
+msgstr "Σφάλμα προσθήκης διευθύνσεως ${IPADDR} για ${DEVICE}."
+
+#: ../systemd/fedora-autorelabel:28
+msgid "*** system size and speed of hard drives."
+msgstr "*** μέγεθος συστήματος και ταχύτητα σκληρών δίσκων."
+
+#: ../sysconfig/network-scripts/network-functions:531
+msgid "DEBUG    "
+msgstr "ΑΠΟΣΦΑΛΜΑΤΩΣΗ    "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:959
+msgid "No reason given for sending trigger to radvd"
+msgstr "Δεν καθορίστηκε καμία αιτία για αποστολή trigger στο radvd"
+
+#: ../sysconfig/network-scripts/ifup-ipx:7
+msgid "usage: $0 <net-device>"
+msgstr "χρήση: $0 <net-device>"
+
+#: ../sysconfig/network-scripts/ifup-eth:174
+#: ../sysconfig/network-scripts/ifup-eth:288
+msgid " done."
+msgstr " ολοκλήρωση."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:56
+msgid "Missing parameter 'IPv6-network' (arg 1)"
+msgstr "Ελλειπής παράμετρος 'IPv6-network' (παρ 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1005
+msgid "Given pidfile '$pidfile' doesn't exist, cannot send trigger to radvd"
+msgstr ""
+"Το καθορισμένο pid αρχείο '$pidfile' δεν υπάρχει. Αδυναμία αποστολής trigger "
+"στο radvd"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:528
+msgid "Missing parameter 'local IPv4 address' (arg 2)"
+msgstr "Ελλειπής παράμετρος 'local IPv4 address' (παρ 2)"
+
+#: ../sysconfig/network-scripts/ifup-aliases:119
+msgid "Missing config file $PARENTCONFIG."
+msgstr "Έλλειψη αρχείου διαμόρφωσης $PARENTCONFIG."
+
+#: ../rc.d/init.d/functions:513
+msgid "$STRING"
+msgstr "$STRING"
+
+#: ../rc.d/init.d/functions:419
+msgid "${base} dead but subsys locked"
+msgstr "Το ${base} είναι νεκρό αλλά το subsys είναι κλειδωμένο"
+
+#: ../sysconfig/network-scripts/ifup-aliases:175
+msgid "error in $FILE: already seen ipaddr $IPADDR in $ipseen"
+msgstr "σφάλμα στο $FILE: διεύθυνση ip $IPADDR ήδη υπάρχει στο $ipseen"
+
+#: ../rc.d/init.d/functions:36
+#, fuzzy
+msgid "Stopping $prog (via systemctl): "
+msgstr "Τερματισμός υπηρεσίας $prog: "
+
+#: ../sysconfig/network-scripts/ifup-eth:237
+#, fuzzy
+msgid "Error adding address ${ipaddr[$idx]} for ${DEVICE}."
+msgstr "Σφάλμα προσθήκης διευθύνσεως ${IPADDR} για ${DEVICE}."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:710
+msgid "Unsupported selection '$selection' specified (arg 2)"
+msgstr "Καθορίστηκε μη υποστηριζόμενη επιλογή '$selection' (παρ 2)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1014
+msgid "Pidfile '$pidfile' is empty, cannot send trigger to radvd"
+msgstr ""
+"Το pid αρχείο '$pidfile' είναι άδειο, αδυναμία αποστολής trigger στο radvd"
+
+#: ../sysconfig/network-scripts/ifup-eth:201
+msgid "Failed to bring up ${DEVICE}."
+msgstr "Αποτυχία στην ενεργοποιήση του ${DEVICE}."
+
+#: ../sysconfig/network-scripts/ifup-ipv6:147
+msgid ""
+"Cannot enable IPv6 privacy method '$IPV6_PRIVACY', not supported by kernel"
+msgstr ""
+"Αδυναμία ενεργοποίησης IPv6 μεθόδου πολιτικής '$IPV6_PRIVACY': δεν "
+"υποστηρίζεται από τον πυρήνα"
+
+#: ../rc.d/init.d/network:152
+#, fuzzy
+msgid "Legacy static-route support not available: /sbin/route not found"
+msgstr "Υποστήριξη γέφυρας μη διαθέσιμη: αδυναμία εύρεσης brctl"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:114
+msgid "Tunnel device 'sit0' enabling didn't work"
+msgstr "Η ενεργοποίηση της συσκευής tunnel 'sit0' δε δούλεψε"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:171
+msgid "Device 'tun6to4' (from '$DEVICE') is already up, shutdown first"
+msgstr ""
+"Συσκευή 'tun6to4' (από '$DEVICE') είναι ακόμα σε λειτουργία, παρακαλώ "
+"απενεργοποιείστε την πρώτα"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:847
+msgid ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+msgstr ""
+"Η καθορισμένη IPv6 πύλη προεπιλογής '$address' έχει ορίσει scope "
+"'$device_scope', η συσκευή πύλης προεπιλεγής δε θα χρησιμοποιηθεί"
+
+#: ../rc.d/init.d/functions:396 ../rc.d/init.d/functions:402
+msgid "${base} (pid $pid) is running..."
+msgstr "${base} {pid $pid} είναι ενεργό..."
+
+#: ../sysconfig/network-scripts/ifup:96
+msgid "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+msgstr ""
+"Δεν υπάρχει υποστήριξη 802.1Q VLAN στον πυρήνα για την συσκευή ${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:898
+msgid "Given IPv6 default device '$device' doesn't exist or isn't up"
+msgstr ""
+"Η καθορισμένη IPv6 συσκευή προεπιλογής '$device' δεν υπάρχει ή δεν είναι "
+"ενεργοποιημένη"
+
+#: ../ppp/ip-up.ipv6to4:87 ../sysconfig/network-scripts/ifup-ipv6:198
+msgid "Given IPv4 address '$ipv4addr' is not globally usable"
+msgstr ""
+"Η καθορισμένη IPv4 διεύθυνση '$ipv4addr' δεν είναι καθολικά διαθέσιμη προς "
+"χρήση"
+
+#: ../ppp/ip-up.ipv6to4:186 ../sysconfig/network-scripts/ifup-ipv6:289
+msgid "Error occurred while calculating the IPv6to4 prefix"
+msgstr ""
+"Σφάλμα παρουσιάστηκε κατά τη διάρκεια υπολογισμού του IPv6to4 προθέματος"
+
+#: ../rc.d/init.d/functions:42
+#, fuzzy
+msgid "Restarting $prog (via systemctl): "
+msgstr "Επανέναρξη $prog: "
+
+#: ../sysconfig/network-scripts/ifup-ppp:45
+msgid "pppd does not exist or is not executable"
+msgstr "Το pppd δεν υπάρχει ή δεν είναι εκτελέσιμο"
+
+#: ../sysconfig/network-scripts/network-functions:534
+msgid "ERROR    "
+msgstr "ΣΦΑΛΜΑ   "
+
+#~ msgid "Reloading $prog for $ez_name: "
+#~ msgstr "Επαναφόρτωση $prog για $ez_name: "
+
+#~ msgid "Stopping incrond: "
+#~ msgstr "Τερματισμός incrond: "
+
+#~ msgid "Starting Shorewall: "
+#~ msgstr "Έναρξη Shorewall: "
+
+#~ msgid "Starting UPS monitor (slave): "
+#~ msgstr "Έναρξη επιτήρησης UPS (slave): "
+
+#~ msgid "Stopping infrared remote control mouse daemon ($prog2): "
+#~ msgstr "Τερματισμός απομακρυσμένου ελέγχου ποντικιού υπέρυθρων ($prog2): "
+
+#~ msgid "$base dead but pid file exists"
+#~ msgstr "Το $base είναι νεκρό αλλά το αρχείο pid υπάρχει"
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "Χρήση: $0 {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Starting console mouse services: "
+#~ msgstr "Έναρξη υπηρεσίας ποντικιού κονσόλας: "
+
+#~ msgid "Shutting down router discovery services: "
+#~ msgstr "Τερματισμός αναγνώρισης δρομολογητή: "
+
+#~ msgid "Starting Red Hat Network Daemon: "
+#~ msgstr "Έναρξη υπηρεσίας Red Hat Network:"
+
+#~ msgid "$prog already running"
+#~ msgstr "$prog είναι ήδη ενεργό"
+
+#~ msgid "Reloading ser2net"
+#~ msgstr "Επαναφόρτωση ser2net"
+
+#~ msgid "no dictionaries installed"
+#~ msgstr "δεν έχουν εγκατασταθεί λεξικά"
+
+#~ msgid "Starting vmpsd: "
+#~ msgstr "Έναρξη vmpsd: "
+
+#~ msgid "${IPTABLES}: Firewall is not running."
+#~ msgstr "${IPTABLES}: Το firewall δεν εκτελείται."
+
+#~ msgid "${IPTABLES}: Firewall is not configured. "
+#~ msgstr "${IPTABLES}: Το firewall δεν έχει ρυθμιστεί."
+
+#~ msgid "Unmounting CIFS filesystems: "
+#~ msgstr "Αποπροσάρτηση συστήματος αρχείων CIFS: "
+
+#~ msgid "Entering interactive startup"
+#~ msgstr "Είσοδος σε επιλεκτικό ξεκίνημα"
+
+#~ msgid "Starting RPC svcgssd: "
+#~ msgstr "Έναρξη RPC svcgssd: "
+
+#~ msgid "Starting $prog: "
+#~ msgstr "Έναρξη $prog: "
+
+#~ msgid "Starting xend daemon: "
+#~ msgstr "Έναρξη υπηρεσιών xend: "
+
+#~ msgid "Error. This appears to be a slave server, found kpropd.acl"
+#~ msgstr ""
+#~ "Σφάλμα. Αυτό φαίνεται να είναι ένας slave εξυπηρετητής, βρέθηκε kpropd.acl"
+
+#~ msgid "Saving $desc ($prog): "
+#~ msgstr "Αποθήκευση $desc ($prog): "
+
+#~ msgid "Starting preload daemon: "
+#~ msgstr "Έναρξη υπηρεσίας preload: "
+
+#~ msgid "Disabling denyhosts cron service: "
+#~ msgstr "Απενεργοποίηση υπηρεσίας cron denyhosts: "
+
+#~ msgid "Reloading "
+#~ msgstr "Επαναφόρτωση"
+
+#~ msgid "Stopping system message bus: "
+#~ msgstr "Τερματισμός διαύλου μηνυμάτων συστήματος: "
+
+#~ msgid "Disabling nightly yum update: "
+#~ msgstr "Απενεργοποίηση βραδινού yum update: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|condrestart|try-restart|"
+#~ "reload}"
+#~ msgstr ""
+#~ "Χρήση: $0 $0 {start|stop|status|restart|force-reload|condrestart|try-"
+#~ "restart|reload}"
+
+#~ msgid "Stopping UPS monitor: "
+#~ msgstr "Τερματισμός επιτήρησης UPS: "
+
+#~ msgid "Enabling monthly Smolt checkin: "
+#~ msgstr "Ενεργοποίηση μηνιαίας ενημέρωσης Smolt: "
+
+#~ msgid "Removing user defined chains:"
+#~ msgstr "Αφαίρεση αλυσίδων χρήστη:"
+
+#~ msgid "Starting $prog instance "
+#~ msgstr "Έναρξη στιγμιότυπου $prog: "
+
+#~ msgid "Nightly yum update is disabled."
+#~ msgstr "Το βραδινό yum update είναι απενεργοποιημένο."
+
+#~ msgid "Starting $dagent: "
+#~ msgstr "Έναρξη $dagent: "
+
+#~ msgid "Stopping rwho services: "
+#~ msgstr "Τερματισμός υπηρεσίας rwho: "
+
+#~ msgid "Shutting down NIS service: "
+#~ msgstr "Τερματισμός υπηρεσίας NIS: "
+
+#~ msgid "Flushing all current rules and user defined chains:"
+#~ msgstr "Καθαρισμός τρεχόντων κανόνων και αλυσίδων χρήστη:"
+
+#~ msgid "Usage: $0 {start|stop|status|restart}"
+#~ msgstr "Χρήση: $0 {start|stop|status|restart}"
+
+#~ msgid "Wine binary format handlers are registered."
+#~ msgstr "Χειριστές δυαδικής διαμόρφωσης wine έχουν καταγραφεί."
+
+#~ msgid "Reloading icecast: "
+#~ msgstr "Επαναφόρτωση icecast: "
+
+#~ msgid "Shutting down openvpn: "
+#~ msgstr "Τερματισμός openvpn: "
+
+#~ msgid "\t\tWelcome to "
+#~ msgstr "\t\tΚαλώς ήλθατε στο "
+
+#~ msgid "Shutting down $desc ($prog): "
+#~ msgstr "Τερματισμός $desc ($prog): "
+
+#~ msgid "Shutting down system logger: "
+#~ msgstr "Τερματισμός καταγραφής ιστορικού συστήματος: "
+
+#~ msgid "$base is stopped"
+#~ msgstr "$base είναι σταματημένο"
+
+#~ msgid "Checking configuration files for $prog: "
+#~ msgstr "Έλεγχος αρχείων ρυθμίσεων για $prog: "
+
+#~ msgid "$0: call me as 'halt' or 'reboot' please!"
+#~ msgstr "$0: παρακαλώ εκτελέστε την εντολή ως 'halt' ή 'reboot'!"
+
+#~ msgid "$NAME is attached to $DEVICE"
+#~ msgstr "Το $NAME είναι προσκολλημένο στο $DEVICE"
+
+#~ msgid "Shutting down $prog: "
+#~ msgstr "Τερματισμός $prog: "
+
+#~ msgid "Reloading acpi daemon:"
+#~ msgstr "Επαναφόρτωση υπηρεσίας acpi:"
+
+#~ msgid "Starting greylistd: "
+#~ msgstr "Έναρξη greylistd: "
+
+#~ msgid "Stopping NetworkManager daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας NetworkManager: "
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart}"
+#~ msgstr "Χρήση: $0 {start|stop|restart|status|condrestart}"
+
+#~ msgid "Starting smokeping: "
+#~ msgstr "Έναρξη smokeping:"
+
+#~ msgid "Starting puppet: "
+#~ msgstr "Έναρξη puppet: "
+
+#~ msgid "Starting ${prog_base}:"
+#~ msgstr "Έναρξη ${prog_base}:"
+
+#~ msgid "Sending all processes the TERM signal..."
+#~ msgstr "Αποστολή εντολής TERM προς όλες τις διεργασίες..."
+
+#~ msgid "Rotating logs: "
+#~ msgstr "Περιστροφή αρχείων καταγραφής: "
+
+#~ msgid "*** the clamav-server can be configured"
+#~ msgstr "*** ο εξυπηρετητής clamav μπορεί να διαμορφωθεί"
+
+#~ msgid "Starting restorecond: "
+#~ msgstr "Έναρξη restorecond: "
+
+#~ msgid "Starting UPS monitor (master): "
+#~ msgstr "Έναρξη επιτήρησης UPS (κύριος)"
+
+#~ msgid "/proc entries are not fixed"
+#~ msgstr "Οι καταχωρήσεις /proc δεν έχουν διορθωθεί"
+
+#~ msgid "Starting ipmi_watchdog driver: "
+#~ msgstr "Έναρξη οδηγού ipmi_watchdog: "
+
+#~ msgid "Stopping $SERVICE daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας $SERVICE: "
+
+#~ msgid "Starting named: "
+#~ msgstr "Έναρξη named: "
+
+#~ msgid "Shutting down NFS daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας NFS: "
+
+#~ msgid "Reloading Condor daemons: "
+#~ msgstr "Επαναφόρτωση υπηρεσιών Condor: "
+
+#~ msgid "$base (pid $pid) is running..."
+#~ msgstr "$base (pid $pid) είναι ενεργό..."
+
+#~ msgid "Shutting down postfix: "
+#~ msgstr "Τερματισμός postfix: "
+
+#~ msgid "Reloading INN Service: "
+#~ msgstr "Επαναφόρτωση υπηρεσίας INN: "
+
+#~ msgid "Stopping Condor daemons: "
+#~ msgstr "Τερματισμός υπηρεσιών Condor: "
+
+#~ msgid "Flushing all chains:"
+#~ msgstr "Καθαρισμός όλων των αλυσίδων:"
+
+#~ msgid "Initializing MySQL database: "
+#~ msgstr "Ενεργοποίηση ρυθμίσεων βάσης δεδομένων MySQL: "
+
+#~ msgid "${IP6TABLES}: ${_IPV} is disabled."
+#~ msgstr "${IP6TABLES}: Το ${_IPV} είναι απενεργοποιημένο."
+
+#~ msgid "Starting incrond: "
+#~ msgstr "Έναρξη incrond: "
+
+#~ msgid "Starting capi4linux:"
+#~ msgstr "Έναρξη capi4linux:"
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status|condrestart}"
+#~ msgstr "Χρήση: $0 {start|stop|restart|reload|status|condrestart}"
+
+#~ msgid "Shutting down rfcomm: "
+#~ msgstr "Τερματισμός rfcomm:"
+
+#~ msgid "Detaching loopback device $dev: "
+#~ msgstr "Αποσύνδεση συσκευής loopback $dev: "
+
+#~ msgid "Shutting down greylistd: "
+#~ msgstr "Τερματισμός greylistd: "
+
+#~ msgid "Stopping Perlbal: "
+#~ msgstr "Τερματισμός Perlbal: "
+
+#~ msgid "Usage: $0 {start|stop}"
+#~ msgstr "Χρήση: $0 {start|stop}"
+
+#~ msgid "Starting $desc ($prog): "
+#~ msgstr "Έναρξη $desc ($prog): "
+
+#~ msgid "Reloading $PROG: "
+#~ msgstr "Επαναφόρτωση $PROG: "
+
+#~ msgid "Stopping yum-updatesd: "
+#~ msgstr "Τερματισμός yum-updatesd: "
+
+#~ msgid "restarting $prog..."
+#~ msgstr "Επανέναρξη $prog..."
+
+#~ msgid "Starting process accounting: "
+#~ msgstr "Εκκίνηση διαδικασίας λογαριασμού: "
+
+#~ msgid "Starting YP map server: "
+#~ msgstr "Έναρξη εξυπηρετητή χαρτογράφησης YP: "
+
+#~ msgid "$prog is already stopped."
+#~ msgstr "Το $prog είναι ήδη σταματημένο."
+
+#~ msgid "(no mouse is configured)"
+#~ msgstr "(δεν έχει ρυθμιστεί ποντίκι)"
+
+#~ msgid "Starting $prog2: "
+#~ msgstr "Έναρξη $prog2: "
+
+#~ msgid "Service $prog does not support the reload action: "
+#~ msgstr ""
+#~ "Η υπηρεσία $prog δεν υποστηρίζει την ενέργεια επαναφόρτωσης (reload): "
+
+#~ msgid "Reloading Red Hat Network Daemon: "
+#~ msgstr "Επαναφόρτωση υπηρεσίας Red Hat Network: "
+
+#~ msgid "reloading sm-client: "
+#~ msgstr "επαναφόρτωση sm-client: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#~ msgid "Starting Avahi daemon... "
+#~ msgstr "Έναρξη υπηρεσίας Avahi... "
+
+#~ msgid "Stopping Pound: "
+#~ msgstr "Τερματισμός Pound: "
+
+#~ msgid "Stopping $ical: "
+#~ msgstr "Τερματισμός $ical:"
+
+#~ msgid "Configured NFS mountpoints: "
+#~ msgstr "Ρυθμισμένα σημεία προσάρτησης NFS: "
+
+#~ msgid "Starting Pound: "
+#~ msgstr "Έναρξη Pound: "
+
+#~ msgid "Unmounting pipe file systems: "
+#~ msgstr "Αποπροσάρτηση συστήματος αρχείων pipe: "
+
+#~ msgid "Usage: $prog {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "Χρήση: $prog {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "parse error"
+#~ msgstr "σφάλμα ανάλυσης"
+
+#~ msgid "Starting $ID: "
+#~ msgstr "Έναρξη $ID: "
+
+#~ msgid "vncserver start"
+#~ msgstr "έναρξη vncserver"
+
+#~ msgid "Active network block devices: "
+#~ msgstr "Ενεργές μπλοκ συσκευές δικτύου: "
+
+#~ msgid "Shutting down $prog"
+#~ msgstr "Τερματισμός $prog"
+
+#~ msgid "Starting system logger: "
+#~ msgstr "Έναρξη καταγραφής ιστορικού συστήματος: "
+
+#~ msgid "$4 (e$2.$3@$1) [pid $pid]"
+#~ msgstr "$4 (e$2.$3@$1) [pid $pid]"
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status}"
+#~ msgstr "Χρήση: $0 {start|stop|restart|condstart|condrestart|status}"
+
+#~ msgid "Reloading $prog2: "
+#~ msgstr "Επαναφόρτωση $prog2: "
+
+#~ msgid "not reloading due to configuration syntax error"
+#~ msgstr "αδυναμία επαναφόρτωσης εξαιτίας λάθους σύνταξης στις ρυθμίσεις"
+
+#~ msgid "Starting icecast streaming daemon: "
+#~ msgstr "Έναρξη υπηρεσίας icecast streaming: "
+
+#~ msgid "Usage: $prog {start|stop|status|restart|try-restart}"
+#~ msgstr "Χρήση: $prog {start|stop|status|restart|try-restart}"
+
+#~ msgid "Usage: $0 {condrestart|start|stop|restart|reload|status}"
+#~ msgstr "Χρήση: $0 {condrestart|start|stop|restart|reload|status}"
+
+#~ msgid "Shutting down ${NAME}: "
+#~ msgstr "Τερματισμός  ${NAME}: "
+
+#~ msgid "Telling INIT to go to single user mode."
+#~ msgstr "Αναφορά στο INIT να μεταβεί στην κατάσταση ατομικού χρήστη."
+
+#~ msgid "Starting $name: "
+#~ msgstr "Έναρξη $name: "
+
+#~ msgid "Usage $0 {start|stop|restart|condrestart|save|status}"
+#~ msgstr "Χρήση $0 {start|stop|restart|condrestart|save|status}"
+
+#~ msgid "Starting PC/SC smart card daemon ($prog): "
+#~ msgstr "Έναρξη υπηρεσίας έξυπνων καρτών PC/SC ($prog): "
+
+#~ msgid "*** Warning -- the system did not shut down cleanly. "
+#~ msgstr "*** Προειδοποίηση: το σύστημα δεν έκλεισε σωστά. "
+
+#~ msgid "Shutting down $NAME: "
+#~ msgstr "Τερματισμός $NAME: "
+
+#~ msgid "Unmounting loopback filesystems (retry):"
+#~ msgstr "Αποπροσάρτηση συστήματος αρχείων loopback (επανάληψη):"
+
+#~ msgid "Error occured while calculating the IPv6to4 prefix"
+#~ msgstr "Σφάλμα συνέβηκε κατά τη διάρκεια υπολογισμού του προθέματος IPv6to4"
+
+#~ msgid "$prog reload"
+#~ msgstr "επαναφόρτωση $prog"
+
+#~ msgid "Starting NIS service: "
+#~ msgstr "Έναρξη υπηρεσίας NIS: "
+
+#~ msgid "RSA key generation"
+#~ msgstr "Δημιουργία κλειδιού RSA"
+
+#~ msgid "PORT environment is not set."
+#~ msgstr "Το περιβάλλον PORT δεν έχει οριστεί."
+
+#~ msgid "Usage: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "Χρήση: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Killing all running contexts"
+#~ msgstr "Τερματίζονται όλα τα τρέχοντα contexts"
+
+#~ msgid "Turning off quotas: "
+#~ msgstr "Τερματισμός quotas: "
+
+#~ msgid "Mounting NFS filesystems: "
+#~ msgstr "Προσάρτηση συστημάτων αρχείων NFS: "
+
+#~ msgid "Starting NetworkManager daemon: "
+#~ msgstr "Έναρξη υπηρεσίας NetworkManager: "
+
+#~ msgid "Stopping Frozen Bubble server(s): "
+#~ msgstr "Τερματισμός εξυπηρετητών Frozen Bubble: "
+
+#~ msgid ""
+#~ "Can not find util-vserver installation (the file '$UTIL_VSERVER_VARS' "
+#~ "would be expected); aborting..."
+#~ msgstr ""
+#~ "Αδυναμία εύρεσης της εγκατάστασης util-vserver (το αρχείο "
+#~ "'$UTIL_VSERVER_VARS' αναμένονταν). Εγκατάλειψη..."
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG"
+#~ msgstr "Αποθήκευση των ενεργών κανόνων στο $ARPTABLES_CONFIG"
+
+#~ msgid "$named reload"
+#~ msgstr "επαναφόρτωση $named"
+
+#~ msgid "Entering non-interactive startup"
+#~ msgstr "Είσοδος σε μη επιλεκτικό ξεκίνημα"
+
+#~ msgid "Error: no valid $cfg found."
+#~ msgstr "Σφάλμα: δε βρέθηκε έγκυρο $cfg."
+
+#~ msgid "*** Warning -- SELinux is active"
+#~ msgstr "*** Προειδοποίηση -- Το SELinux είναι ενεργό"
+
+#~ msgid "Starting BitTorrent tracker: "
+#~ msgstr "Έναρξη BitTorrent tracker: "
+
+#~ msgid "ERROR: [ipv6_log] Cannot log to channel '$channel'"
+#~ msgstr "ΣΦΑΛΜΑ: [ipv6_log] Αδυναμία καταγραφής στο κανάλι '$channel'"
+
+#~ msgid "Reopening $prog log file: "
+#~ msgstr "Εκ νέου άνοιγμα αρχείου καταγραφής $prog: "
+
+#~ msgid "Stopping CallWeaver: "
+#~ msgstr "Τερματισμός CallWeaver: "
+
+#~ msgid "Reloading smb.conf file: "
+#~ msgstr "Επαναφόρτωση αρχείου smb.conf: "
+
+#~ msgid "Stopping capi4linux:"
+#~ msgstr "Τερματισμός capi4linux:"
+
+#~ msgid "$message"
+#~ msgstr "$message"
+
+#~ msgid "Stopping INNFeed service: "
+#~ msgstr "Τερματισμός υπηρεσίας INNFeed: "
+
+#~ msgid "Process accounting is enabled."
+#~ msgstr "Διαδικασία λογαριασμού ενεργοποιήθηκε."
+
+#~ msgid "Stopping ${NAME} service: "
+#~ msgstr "Τερματισμός υπηρεσίας ${NAME}: "
+
+#~ msgid "RSA1 key generation"
+#~ msgstr "Δημιουργία κλειδιού RSA1"
+
+#~ msgid "${IPTABLES}: ${_IPV} is disabled."
+#~ msgstr "${IPTABLES}: Το ${_IPV} είναι απενεργοποιημένο."
+
+#~ msgid "$0: Link is down"
+#~ msgstr "$0: Ο σύνδεσμος είναι ανενεργός"
+
+#~ msgid "Process accounting is disabled."
+#~ msgstr "Διαδικασία λογαριασμού απενεργοποιήθηκε."
+
+#~ msgid "Starting ejabberd: "
+#~ msgstr "Έναρξη ejabberd: "
+
+#~ msgid "Reloading configuration: "
+#~ msgstr "Επαναφόρτωση ρυθμίσεων: "
+
+#~ msgid "Configured CIFS mountpoints: "
+#~ msgstr "Ρυθμισμένα σημεία προσάρτησης CIFS: "
+
+#~ msgid "Please run makehistory and/or makedbz before starting innd."
+#~ msgstr ""
+#~ "Παρακαλώ εκτελέστε makehistory και/ή makedbz πριν να ενεργοποιήσετε το "
+#~ "innd."
+
+#~ msgid "Enabling local filesystem quotas: "
+#~ msgstr "Ενεργοποίηση quotas τοπικών συστημάτων αρχείων: "
+
+#~ msgid "Active NCP mountpoints: "
+#~ msgstr "Ενεργά σημεία προσάρτησης NCP: "
+
+#~ msgid "Shutting down exim: "
+#~ msgstr "Τερματισμός exim: "
+
+#~ msgid "Stopping pdns-recursor: "
+#~ msgstr "Τερματισμός pdns-recursor: "
+
+#~ msgid "domain not found"
+#~ msgstr "δε βρέθηκε το domain"
+
+#~ msgid "Stopping named: "
+#~ msgstr "Τερματισμός named: "
+
+#~ msgid "Stopping $prog"
+#~ msgstr "Τερματισμός $prog"
+
+#~ msgid "Starting $prog for $ez_name: "
+#~ msgstr "Έναρξη $prog για $ez_name: "
+
+#~ msgid "yY"
+#~ msgstr "νΝ"
+
+#~ msgid "Restarting puppet: "
+#~ msgstr "Επανέναρξη puppet: "
+
+#~ msgid "Unregistering binary handler for qemu applications"
+#~ msgstr "Διαγραφή δυαδικού χειριστή για εφαρμογές qemu"
+
+#~ msgid "Shutting down NFS quotas: "
+#~ msgstr "Τερματισμός NFS quotas: "
+
+#~ msgid "$prog: already running"
+#~ msgstr "$prog: είναι ήδη ενεργό"
+
+#~ msgid "vncserver startup"
+#~ msgstr "έναρξη vncserver"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status"
+#~ msgstr "Χρήση: $prog {start|stop|restart|condrestart|reload|status"
+
+#~ msgid "Stopping INND service (the hard way): "
+#~ msgstr "Τερματισμός υπηρεσίας INND (με το δύσκολο τρόπο): "
+
+#~ msgid "$base dead but subsys locked"
+#~ msgstr "Το $base είναι νεκρό αλλά το subsys είναι κλειδωμένο"
+
+#~ msgid "Shutting down argus: "
+#~ msgstr "Τερματισμός argus: "
+
+#~ msgid "Stopping HAL daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας HAL: "
+
+#~ msgid "Starting RPC gssd: "
+#~ msgstr "Έναρξη RPC gssd: "
+
+#~ msgid "reload"
+#~ msgstr "επαναφόρτωση"
+
+#~ msgid "Setting up Logical Volume Management:"
+#~ msgstr "Ρύθμιση διαχείρισης λογικών τόμων:"
+
+#~ msgid "Starting openvpn: "
+#~ msgstr "Έναρξη openvpn: "
+
+#~ msgid "Starting RPC idmapd: "
+#~ msgstr "Έναρξη RPC idmapd: "
+
+#~ msgid "Binary handler for Windows applications already registered"
+#~ msgstr ""
+#~ "Ένας δυαδικός χειριστής για εφαρμογές Windows είναι ήδη καταχωρημένος"
+
+#~ msgid "Fixing /proc entries visibility"
+#~ msgstr "Διόρθωση ορατότητας καταχωρήσεων /proc"
+
+#~ msgid "program is not running"
+#~ msgstr "Το πρόγραμμα δεν εκτελείται"
+
+#~ msgid "Stopping INN actived service: "
+#~ msgstr "Τερματισμός ενεργής υπηρεσίας INN: "
+
+#~ msgid "Stopping all ${MODULE_NAME} drivers: "
+#~ msgstr "Τερματισμός οδηγών ${MODULE_NAME}: "
+
+#~ msgid "Usage: $0 {start|stop|force-reload|reload|try-restart|status}"
+#~ msgstr "Χρήση: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#~ msgid "Starting Qpid AMQP daemon: "
+#~ msgstr "Έναρξη υπηρεσίας APM: "
+
+#~ msgid "Shutting down BitTorrent seed client: "
+#~ msgstr "Τερματισμός BitTorrent seed client: "
+
+#~ msgid "Halting system..."
+#~ msgstr "Τερματισμός συστήματος..."
+
+#~ msgid "Reloading Avahi daemon... "
+#~ msgstr "Επαναφόρτωση υπηρεσίας Avahi... "
+
+#~ msgid "Starting infrared remote control daemon ($prog): "
+#~ msgstr "Έναρξη απομακρυσμένου ελέγχου υπέρυθρων ($prog): "
+
+#~ msgid "Stopping YP map server: "
+#~ msgstr "Τερματισμός εξυπηρετητή χαρτογράφησης YP: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+
+#~ msgid "Monthly smolt check-in is disabled."
+#~ msgstr "Η μηνιαία ενημέρωση smolt είναι απενεργοποιημένη."
+
+#~ msgid "$prog check"
+#~ msgstr "έλεγχος $prog"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Usage: status {program}"
+#~ msgstr "Χρήση: status {program}"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|propagate}"
+#~ msgstr "Χρήση: $0 {start|stop|status|restart|propagate}"
+
+#~ msgid "Shutting down RPC svcgssd: "
+#~ msgstr "Τερματισμός RPC svcgssd: "
+
+#~ msgid "Starting $SERVICE daemon: "
+#~ msgstr "Έναρξη υπηρεσίας $SERVICE: "
+
+#~ msgid "Stopping rusers services: "
+#~ msgstr "Τερματισμός υπηρεσίας rusers: "
+
+#~ msgid "Starting system message bus: "
+#~ msgstr "Έναρξη διαύλου μηνυμάτων συστήματος: "
+
+#~ msgid "Stopping supervisord: "
+#~ msgstr "Τερματισμός supervisord: "
+
+#~ msgid "Starting vbi proxy daemon: "
+#~ msgstr "Έναρξη υπηρεσίας vbi proxy: "
+
+#~ msgid "Enabling nightly yum update: "
+#~ msgstr "Ενεργοποίηση βραδινού yum update: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#~ msgid "Reloading postfix: "
+#~ msgstr "Επαναφόρτωση postfix: "
+
+#~ msgid "Reloading maps"
+#~ msgstr "Επαναφόρτωση χαρτών"
+
+#~ msgid "Initializing OpenCT smart card terminals: "
+#~ msgstr "Ενεργοποίηση ρυθμίσεων smart card τερματικών OpenCT: "
+
+#~ msgid "Unconfigured: $prog, see /etc/sysconfig/hddtemp: "
+#~ msgstr "Χωρίς ρύθμιση: $prog, δείτε το /etc/sysconfig/hddtemp: "
+
+#~ msgid "Setting network parameters... "
+#~ msgstr "Καθορισμός δικτυακών παραμέτρων... "
+
+#~ msgid "Stopping Wesnoth game server: "
+#~ msgstr "Τερματισμός εξυπηρετητή παιχνιδιού Wesnoth: "
+
+#~ msgid "Checking SMART devices now: "
+#~ msgstr "Έλεγχος συσκευών SMART: "
+
+#~ msgid "$prog is running..."
+#~ msgstr "Το $prog εκτελείται..."
+
+#~ msgid "Starting $PROG: "
+#~ msgstr "Έναρξη $PROG: "
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status|help}"
+#~ msgstr "Χρήση: $prog {start|stop|restart|condrestart|status|help}"
+
+#~ msgid "Shutting down icecast streaming daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας icecast streaming: "
+
+#~ msgid "(Repair filesystem)"
+#~ msgstr "(Επισκευή συστήματος αρχείου)"
+
+#~ msgid "not reloading $httpd due to configuration syntax error"
+#~ msgstr ""
+#~ "αδυναμία επαναφόρτωσης $httpd εξαιτίας συντακτικού σφάλματος στις "
+#~ "ρυθμίσεις"
+
+#~ msgid "Starting infrared remote control mouse daemon ($prog2): "
+#~ msgstr "Έναρξη απομακρυσμένου ελέγχου ποντικιού υπέρυθρων ($prog2): "
+
+#~ msgid "Setting NIS domain name $NISDOMAIN: "
+#~ msgstr "Ορισμός ονόματος τομέα NIS $NISDOMAIN: "
+
+#~ msgid "Starting Frozen Bubble server(s): "
+#~ msgstr "Έναρξη εξυπηρετητών Frozen Bubble: "
+
+#~ msgid "Starting auto nice daemon:"
+#~ msgstr "Έναρξη υπηρεσίας αυτόματου nice:"
+
+#~ msgid "VNC server"
+#~ msgstr "Εξυπηρετητής VNC"
+
+#~ msgid "Options:"
+#~ msgstr "Επιλογές:"
+
+#~ msgid "Starting BitTorrent seed client: "
+#~ msgstr "Έναρξη BitTorrent seed client: "
+
+#~ msgid "Usage: $prog {start|stop|status|restart|condrestart}"
+#~ msgstr "Χρήση: $prog {start|stop|status|restart|condrestart}"
+
+#~ msgid "Usage: $0 {start|stop|restart|status}"
+#~ msgstr "Χρήση: $0 {start|stop|restart|status}"
+
+#~ msgid "Stopping INND service (gently): "
+#~ msgstr "Τερματισμός υπηρεσίας INND (με απαλό τρόπο): "
+
+#~ msgid "Stopping RPC idmapd: "
+#~ msgstr "Τερματισμός RPC idmapd: "
+
+#~ msgid "$file is not readable by \"$user\""
+#~ msgstr "Το $file δεν είναι αναγνώσιμο για το χρήστη \"$user\""
+
+#~ msgid "An old version of the database format was found."
+#~ msgstr "Μία παλαιά έκδοση της διαμόρφωσης βάσης δεδομένων βρέθηκε."
+
+#~ msgid "Stopping Qpid AMQP daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας acpi: "
+
+#~ msgid "Manifest does not exist: $PUPPETMASTER_MANIFEST"
+#~ msgstr "Manifest δεν υπάρχει: $PUPPETMASTER_MANIFEST"
+
+#~ msgid "Nightly apt update is disabled."
+#~ msgstr "Το βραδινό apt update είναι απενεργοποιημένο."
+
+#~ msgid "Stopping OpenCT smart card terminals: "
+#~ msgstr "Τερματισμός OpenCT smart card τερματικών: "
+
+#~ msgid "Applying arptables firewall rules: "
+#~ msgstr "Εφαρμογή·κανόνων·firewall arptables: "
+
+#~ msgid "Usage: $0 {start|stop|restart}"
+#~ msgstr "Χρήση: $0 {start|stop|restart}"
+
+#~ msgid "Starting rwho services: "
+#~ msgstr "Έναρξη υπηρεσίας rwho: "
+
+#~ msgid "Stopping acpi daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας acpi : "
+
+#~ msgid "Initializing database: "
+#~ msgstr "Ενεργοποίηση ρυθμίσεων βάσης δεδομένων: "
+
+#~ msgid "Unmounting loopback filesystems: "
+#~ msgstr "Αποπροσάρτηση συστήματος αρχείων loopback: "
+
+#~ msgid "          stop-all|status-all}"
+#~ msgstr "          stop-all|status-all}"
+
+#~ msgid "Loading default device map"
+#~ msgstr "Φόρτωση προεπιλεγμένου χάρτη συσκευών"
+
+#~ msgid "Shutting down dund: "
+#~ msgstr ">Τερματισμός dund: "
+
+#~ msgid "Shutting down console mouse services: "
+#~ msgstr "Τερματισμός υπηρεσίας ποντικιού κονσόλας: "
+
+#~ msgid "Reloading ser2net: "
+#~ msgstr "Επαναφόρτωση ser2net: "
+
+#~ msgid "Shutting down CIM server: "
+#~ msgstr "Τερματισμός εξυπηρετητή CIM: "
+
+#~ msgid "Stopping NFS statd: "
+#~ msgstr "Τερματισμός NFS statd: "
+
+#~ msgid "Starting ${desc} (${prog}): "
+#~ msgstr "Έναρξη ${desc} (${prog}): "
+
+#~ msgid "CIM server ($pid) is running"
+#~ msgstr "Ο εξυπηρετητής CIM ($pid) εκτελείται"
+
+#~ msgid "Starting $prog"
+#~ msgstr "Έναρξη $prog"
+
+#~ msgid "Starting pdns-recursor: "
+#~ msgstr "Έναρξη pdns-recursor: "
+
+#~ msgid "Stopping denyhosts: "
+#~ msgstr "Τερματισμός denyhosts: "
+
+#~ msgid "Unregistering binary handler for Windows applications: "
+#~ msgstr "Διαγραφή δυαδικού χειριστή για εφαρμογές Windows: "
+
+#~ msgid "Monthly smolt check-in is enabled."
+#~ msgstr "Ο μηνιαίος έλεγχος smolt είναι ενεγοποιημένος."
+
+#~ msgid "Shutting down $KIND services: "
+#~ msgstr "Τερματισμός υπηρεσίας $KIND: "
+
+#~ msgid "domain is '$NISDOMAIN' "
+#~ msgstr "το domain είναι '$NISDOMAIN' "
+
+#~ msgid "Kernel is not compiled with IPv6 support"
+#~ msgstr "Ο πυρήνας δεν υποστηρίζει IPv6"
+
+#~ msgid "Stopping $PROG: "
+#~ msgstr "Τερματισμός $PROG: "
+
+#~ msgid "Resetting built-in chains to the default ACCEPT policy:"
+#~ msgstr ""
+#~ "Επανακαθορισμός ενσωματωμένων αλυσίδων στην προεπιλεγμένη πολιτική ACCEPT:"
+
+#~ msgid "Stopping Video Disk Recorder ($prog): "
+#~ msgstr "Τερματισμός Video Disk Recorder ($prog): "
+
+#~ msgid "Start service $1 (Y)es/(N)o/(C)ontinue? [Y] "
+#~ msgstr "Έναρξη υπηρεσίας $1 (Ν)αι/(Ο)χι/(Σ)υνέχεια; [Ν] "
+
+#~ msgid "Stopping RPC gssd: "
+#~ msgstr "Τερματισμός RPC gssd: "
+
+#~ msgid "$prog is already running."
+#~ msgstr "Το $prog είναι ήδη ενεργό."
+
+#~ msgid "Shutting down BitTorrent tracker: "
+#~ msgstr "Τερματισμός BitTorrent tracker: "
+
+#~ msgid "Checking filesystems"
+#~ msgstr "Έλεγχος συστημάτων αρχείων"
+
+#~ msgid "Shutting down NFS mountd: "
+#~ msgstr "Τερματισμός NFS mountd: "
+
+#~ msgid "Starting $prog daemon: "
+#~ msgstr "Έναρξη υπηρεσίας $prog: "
+
+#~ msgid "Starting up $prog: "
+#~ msgstr "Έναρξη $prog: "
+
+#~ msgid "*** Dropping you to a shell; the system will reboot"
+#~ msgstr "*** Μεταφορά σε κέλυφος. Το σύστημα θα επανεκκινήσει"
+
+#~ msgid "Starting supervisord: "
+#~ msgstr "Έναρξη supervisord: "
+
+#~ msgid "*** Dropping you to a shell; the system will continue"
+#~ msgstr "*** Μεταφορά σε κέλυφος. Το σύστημα θα συνεχίσει"
+
+#~ msgid "$prog is stopped"
+#~ msgstr "$prog είναι σταματημένο"
+
+#~ msgid "Starting ${NAME} service: "
+#~ msgstr "Έναρξη υπηρεσίας ${NAME}: "
+
+#~ msgid "$dst: no value for size option, skipping"
+#~ msgstr "$dst: έλλειψη τιμής για την επιλογή μεγέθους, προσπέραση"
+
+#~ msgid "Setting NIS domain: "
+#~ msgstr "Ορισμός NIS domain: "
+
+#~ msgid "Active CIFS mountpoints: "
+#~ msgstr "Ενεργά σημεία προσάρτησης CIFS: "
+
+#~ msgid "$prog shutdown"
+#~ msgstr "τερματισμός $prog"
+
+#~ msgid "Generating SSH2 RSA host key: "
+#~ msgstr "Δημιουργία κλειδιού συστήματος SSH2 RSA: "
+
+#~ msgid "Stopping ipmi_watchdog driver: "
+#~ msgstr "Τερματισμός οδηγού ipmi_watchdog: "
+
+#~ msgid "Starting INND system: "
+#~ msgstr "Έναρξη συστήματος INND: "
+
+#~ msgid "Table: $table"
+#~ msgstr "Πίνακας: $table"
+
+#~ msgid "Creating required directories"
+#~ msgstr "Δημιουργία απαραίτητων καταλόγων"
+
+#~ msgid "Reloading Avahi DNS daemon... "
+#~ msgstr "Επαναφόρτωση υπηρεσίας Avahi DNS... "
+
+#~ msgid "Nightly apt update is enabled."
+#~ msgstr "Βραδινό apt update ενεργοποιήθηκε."
+
+#~ msgid "Stopping GNU cfengine environmental history daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας ιστορίας περιβάλλοντος GNU cfengine: "
+
+#~ msgid "Starting postfix: "
+#~ msgstr "Έναρξη postfix: "
+
+#~ msgid "restart"
+#~ msgstr "επανεκκίνηση"
+
+#~ msgid "Starting exim: "
+#~ msgstr "Έναρξη exim: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+
+#~ msgid "Shutting down NFS services: "
+#~ msgstr "Τερματισμός υπηρεσίας NFS: "
+
+#~ msgid "Configured NCP mountpoints: "
+#~ msgstr "Ρυθμισμένα σημεία προσάρτησης NCP: "
+
+#~ msgid "$dst: no value for cipher option, skipping"
+#~ msgstr "$dst: καμία τιμή για την επιλογή κρυπτογραφήματος: προσπέραση"
+
+#~ msgid "Shutting down Avahi daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας Avahi: "
+
+#~ msgid "Starting $KIND services: "
+#~ msgstr "Έναρξη υπηρεσίας $KIND: "
+
+#~ msgid "$prog is running"
+#~ msgstr "Το $prog εκτελείται"
+
+#~ msgid "$dst: no value for hash option, skipping"
+#~ msgstr "$dst: έλλειψη τιμής για την επιλογή hash, προσπέραση"
+
+#~ msgid "Reloading $SERVICE configuration: "
+#~ msgstr "Επαναφόρτωση ρυθμίσεων $SERVICE: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|condrestart|reload}"
+#~ msgstr "Χρήση: $0 {start|stop|status|restart|condrestart|reload}"
+
+#~ msgid "*** $0 can not be called in this way"
+#~ msgstr "*** $0 δεν πρέπει να καλείται με αυτόν τον τρόπο"
+
+#~ msgid "$DAEMON is not set."
+#~ msgstr "Το $DAEMON δεν είναι ορισμένο."
+
+#~ msgid "Starting puppetmaster: "
+#~ msgstr "Έναρξη puppetmaster: "
+
+#~ msgid "dead but pid file exists"
+#~ msgstr "νεκρό αλλά αρχείο pid υπάρχει"
+
+#~ msgid "Reloading infrared remote control daemon ($prog): "
+#~ msgstr "Επαναφόρτωση απομακρυσμένου ελέγχου υπέρυθρων ($prog): "
+
+#~ msgid "Stopping fail2ban: "
+#~ msgstr "Τερματισμός υπηρεσίας acpi: "
+
+#~ msgid "$dst: LUKS requires non-random key, skipping"
+#~ msgstr "$dst: LUKS απαιτεί μη τυχαίο κλειδί, προσπέραση"
+
+#~ msgid "dead but subsys locked"
+#~ msgstr "νεκρό αλλά το subsys κλειδωμένο"
+
+#~ msgid "$prog abort"
+#~ msgstr "Εγκατάλειψη $prog"
+
+#~ msgid "On the next boot fsck will be forced."
+#~ msgstr "Με την επόμενη εκκίνηση το fsck θα επιβληθεί."
+
+#~ msgid "Disabling monthly Smolt update: "
+#~ msgstr "Απενεργοποίηση μηνιαίας ενημέρωσης Smolt: "
+
+#~ msgid "$1 not available"
+#~ msgstr "$1 μη διαθέσιμο"
+
+#~ msgid "Shutting down sm-client: "
+#~ msgstr "Τερματισμός sm-client: "
+
+#~ msgid "Stopping Gnokii SMS daemon ($prog): "
+#~ msgstr "Τερματισμός υπηρεσίας Gnokii SMS ($prog): "
+
+#~ msgid "Registering binary handler for Windows applications: "
+#~ msgstr "Εγγραφή δυαδικού χειριστή για εφαρμογές Windows: "
+
+#~ msgid "Starting pand: "
+#~ msgstr "Έναρξη pand: "
+
+#~ msgid "Starting Gnokii SMS daemon ($prog): "
+#~ msgstr "Έναρξη υπηρεσίας Gnokii SMS ($prog): "
+
+#~ msgid "*** Please see /usr/share/doc/clamav-server-*/README how"
+#~ msgstr ""
+#~ "*** Παρακαλώ διαβάστε το /usr/share/doc/clamav-server-*/README για τον "
+#~ "τρόπο"
+
+#~ msgid "Active NFS mountpoints: "
+#~ msgstr "Ενεργά σημεία προσάρτησης NFS: "
+
+#~ msgid "Starting router discovery: "
+#~ msgstr "Έναρξη αναγνώρισης δρομολογητή: "
+
+#~ msgid "Mounting other filesystems: "
+#~ msgstr "Προσάρτηση άλλων συστημάτων αρχείων: "
+
+#~ msgid "qemu binary format handlers are registered."
+#~ msgstr "Χειριστές δυαδικής διαμόρφωσης qemu έχουν εγγραφεί."
+
+#~ msgid "common address redundancy protocol daemon"
+#~ msgstr "υπηρεσία πρωτοκόλλου common address redundancy"
+
+#~ msgid "irattach shutdown"
+#~ msgstr "τερματισμός irattach"
+
+#~ msgid "Stopping NFS locking: "
+#~ msgstr "Τερματισμός κλειδώματος NFS: "
+
+#~ msgid "Starting $prog: $conf, $INTERFACES, $DRIVERS"
+#~ msgstr "Έναρξη $prog: $conf, $INTERFACES, $DRIVERS"
+
+#~ msgid "Stopping hard disk temperature monitor daemon ($prog): "
+#~ msgstr ""
+#~ "Τερματισμός υπηρεσίας επιτήρησης θερμοκρασίας σκληρών δίσκων ($prog): "
+
+#~ msgid "irattach startup"
+#~ msgstr "έναρξη irattach"
+
+#~ msgid "Starting ${prog}: "
+#~ msgstr "Έναρξη ${prog}: "
+
+#~ msgid "*** Run 'setenforce 1' to reenable."
+#~ msgstr "*** Εκτελέστε 'setenforce 1' για επανενεργοποίηση."
+
+#~ msgid "Stopping PC/SC smart card daemon ($prog): "
+#~ msgstr "Τερματισμός υπηρεσίας έξυπνων καρτών PC/SC ($prog): "
+
+#~ msgid "Starting ipmi_poweroff driver: "
+#~ msgstr "Έναρξη οδηγού ipmi_poweroff: "
+
+#~ msgid "Shutting down $prog for $ez_name: "
+#~ msgstr "Τερματισμός $prog για $ez_name: "
+
+#~ msgid "vncserver shutdown"
+#~ msgstr "τερματισμός vncserver"
+
+#~ msgid "Configured network block devices: "
+#~ msgstr "Ρυθμισμένες block συσκευές δικτύου: "
+
+#~ msgid "Starting GNU cfengine environmental history daemon: "
+#~ msgstr "Έναρξη δαίμονα GNU cfengine ιστορίας περιβάλλοντος: "
+
+#~ msgid "Starting denyhosts: "
+#~ msgstr "Ενεργοποίηση denyhosts: "
+
+#~ msgid "cC"
+#~ msgstr "αΑ"
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status|force-reload}"
+#~ msgstr "Χρήση: $0 {start|stop|restart|try-restart|status|force-reload}"
+
+#~ msgid "Unmounting pipe file systems (retry): "
+#~ msgstr "Αποπροσάρτηση συστήματος αρχείων pipe (επανάληψη): "
+
+#~ msgid "Reloading cyrus.conf file: "
+#~ msgstr "Επαναφόρτωση αρχείου cyrus.conf: "
+
+#~ msgid "$prog not running"
+#~ msgstr "$prog δεν είναι ενεργό"
+
+#~ msgid "Clearing all current rules and user defined chains:"
+#~ msgstr ""
+#~ "Καθαρισμός όλων των ενεργών κανόνων και αλυσίδων καθορισμένα από το "
+#~ "χρήστη:"
+
+#~ msgid "Stopping YP passwd service: "
+#~ msgstr "Τερματισμός υπηρεσίας YP passwd: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+
+#~ msgid "Adding udev persistent rules"
+#~ msgstr "Πρόσθεση persistent κανόνων udev"
+
+#~ msgid "CRITICAL "
+#~ msgstr "ΚΡΙΣΙΜΗ ΚΑΤΑΣΤΑΣΗ "
+
+#~ msgid "Starting NFS quotas: "
+#~ msgstr "Έναρξη NFS quotas: "
+
+#~ msgid "*** An error occurred during the file system check."
+#~ msgstr "*** Συνέβηκε ένα σφάλμα κατά τον έλεγχο του συστήματος αρχείων."
+
+#~ msgid "Unmounting NCP filesystems: "
+#~ msgstr "Αποπροσάρτηση συστήματος αρχείων NCP: "
+
+#~ msgid "Changing target policies to DROP: "
+#~ msgstr "Αλλαγή πολιτικής στόχου σε DROP: "
+
+#~ msgid "Reloading ${prog_base}:"
+#~ msgstr "Επαναφόρτωση ${prog_base}:"
+
+#~ msgid "INSECURE OWNER FOR $key"
+#~ msgstr "ΜΗ ΑΣΦΑΛΗΣ ΚΑΤΟΧΟΣ ΓΙΑ ΤΟ $key"
+
+#~ msgid "Loading Firmware"
+#~ msgstr "Φόρτωση firmware"
+
+#~ msgid "Starting liquidwar game server: "
+#~ msgstr "Έναρξη εξυπηρετητή παιχνιδιού liquidwar: "
+
+#~ msgid "Shutting down auto nice daemon:"
+#~ msgstr "Τερματισμός υπηρεσίας αυτόματου nice:"
+
+#~ msgid "Stopping all running guests"
+#~ msgstr "Τερματισμός όλων των guests που εκτελούνται"
+
+#~ msgid "Reloading $prog"
+#~ msgstr "Επαναφόρτωση $prog"
+
+#~ msgid "Stopping $desc ($prog): "
+#~ msgstr "Τερματισμός $desc ($prog): "
+
+#~ msgid "Sending all processes the KILL signal..."
+#~ msgstr "Αποστολή εντολής KILL προς όλες τις διεργασίες..."
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG: "
+#~ msgstr "Αποθήκευση ενεργών κανόνων στο $ARPTABLES_CONFIG: "
+
+#~ msgid "Starting Avahi DNS daemon... "
+#~ msgstr "Έναρξη υπηρεσίας Avahi DNS... "
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status}"
+#~ msgstr "Χρήση: $0 {start|stop|restart|condrestart|status}"
+
+#~ msgid "Starting Wesnoth game server: "
+#~ msgstr "Έναρξη εξυπηρετητή παιχνιδιού Wesnoth: "
+
+#~ msgid "Starting YP passwd service: "
+#~ msgstr "Έναρξη υπηρεσίας YP passwd: "
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status}"
+#~ msgstr "Χρήση: $prog {start|stop|restart|condrestart|status}"
+
+#~ msgid "$prog: Synchronizing with time server: "
+#~ msgstr "$prog: Συγχρονισμός με εξυπηρετητή ώρας: "
+
+#~ msgid "$file is not owned by \"$user\""
+#~ msgstr "Το $file δεν κατέχεται από το χρήστη \"$user\""
+
+#~ msgid "Starting $prog for $site: "
+#~ msgstr "Έναρξη $prog για $site: "
+
+#~ msgid "Starting $type $name: "
+#~ msgstr "Έναρξη $type $name: "
+
+#~ msgid "Reloading ${NAME}"
+#~ msgstr "Επαναφόρτωση ${NAME}"
+
+#~ msgid "Starting $display_name: "
+#~ msgstr "Έναρξη $display_name: "
+
+#~ msgid "Stopping puppetmaster: "
+#~ msgstr "Τερματισμός puppetmaster: "
+
+#~ msgid "DSA key generation"
+#~ msgstr "Δημιουργία κλειδιού DSA"
+
+#~ msgid "$prog stop"
+#~ msgstr "Τερματισμός $prog"
+
+#~ msgid "Stopping YP server services: "
+#~ msgstr "Τερματισμός εξυπηρετητή υπηρεσίας YP: "
+
+#~ msgid "On the next boot fsck will be skipped."
+#~ msgstr "Με την επόμενη εκκίνηση το fsck θα προσπεραστεί."
+
+#~ msgid "Enabling local swap partitions: "
+#~ msgstr "Ενεργοποίηση τοπικών τμημάτων δίσκου swap: "
+
+#~ msgid "Saving mixer settings"
+#~ msgstr "Αποθήκευση ρυθμίσεων μίξης ήχου"
+
+#~ msgid "Starting rfcomm: "
+#~ msgstr "Έναρξη rfcomm: "
+
+#~ msgid "Generating SSH2 DSA host key: "
+#~ msgstr "Δημιουργία κλειδιού συστήματος SSH2 DSA: "
+
+#~ msgid "Stopping $display_name: "
+#~ msgstr "Τερματισμός $display_progname: "
+
+#~ msgid "Checking network-attached filesystems"
+#~ msgstr "Έλεγχος δικτυακών προσκολλημένων συστημάτων αρχείων"
+
+#~ msgid "Starting Xpilot game server: "
+#~ msgstr "Έναρξη εξυπηρετητή παιχνιδιού Xpilot: "
+
+#~ msgid "Starting argus: "
+#~ msgstr "Έναρξη argus: "
+
+#~ msgid "Shutting down ${prog}: "
+#~ msgstr "Τερματισμός ${prog}: "
+
+#~ msgid "Usage: killproc {program} [signal]"
+#~ msgstr "Χρήση: killproc {program} [signal]"
+
+#~ msgid "Setting hostname ${HOSTNAME}: "
+#~ msgstr "Καθορισμός του ονόματος συστήματος ως ${HOSTNAME}: "
+
+#~ msgid "ERROR: [ipv6_log] Missing 'message' (arg 1)"
+#~ msgstr "ΣΦΑΛΜΑ: [ipv6_log] Ελλειπές 'μήνυμα' (παρ 1)"
+
+#~ msgid "Saving random seed: "
+#~ msgstr "Αποθήκευση τυχαίου σπόρου: "
+
+#~ msgid "Loading ISDN modules"
+#~ msgstr "Φόρτωση μονάδων ISDN"
+
+#~ msgid "Mounting local filesystems: "
+#~ msgstr "Προσάρτηση τοπικών συστημάτων αρχείων: "
+
+#~ msgid "key generation"
+#~ msgstr "Δημιουργία κλειδιού"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|restart|try-restart|status}"
+#~ msgstr "Χρήση: $0 {start|stop|force-reload|restart|try-restart|status}"
+
+#~ msgid "Starting sm-client: "
+#~ msgstr "Έναρξη sm-client: "
+
+#~ msgid "Starting $NAME: "
+#~ msgstr "Έναρξη $NAME: "
+
+#~ msgid "Usage: $progname {start|stop|restart|condrestart|status}"
+#~ msgstr "Χρήση: $progname {start|stop|restart|condrestart|status}"
+
+#~ msgid "Mounting CIFS filesystems: "
+#~ msgstr "Προσάρτηση συστήματος αρχείων CIFS: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "Χρήση: $0 {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting rusers services: "
+#~ msgstr "Έναρξη υπηρεσίας rusers: "
+
+#~ msgid "Starting NFS daemon: "
+#~ msgstr "Έναρξη υπηρεσίας NFS: "
+
+#~ msgid "Disabling nightly apt update: "
+#~ msgstr "Απενεργοποίηση βραδινού apt update: "
+
+#~ msgid "Starting NFS services: "
+#~ msgstr "Έναρξη υπηρεσίας NFS: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+
+#~ msgid "Stopping Xpilot game server: "
+#~ msgstr "Τερματισμός εξυπηρετητή παιχνιδιού Xpilot: "
+
+#~ msgid "Starting HAL daemon: "
+#~ msgstr "Έναρξη υπηρεσίας HAL: "
+
+#~ msgid "/proc entries were fixed"
+#~ msgstr "Οι καταχωρήσεις /proc διορθώθηκαν"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+
+#~ msgid "Usage: $0 {start}"
+#~ msgstr "Χρήση: $0 {start}"
+
+#~ msgid "Unmounting file systems"
+#~ msgstr "Αποπροσάρτηση συστημάτων αρχείων"
+
+#~ msgid "Shutting down $PROG: "
+#~ msgstr "Τερματισμός $PROG: "
+
+#~ msgid "${SERVICE}: unrecognized service"
+#~ msgstr "${SERVICE}: μη αναγνωρίσιμη υπηρεσία"
+
+#~ msgid "Stopping $type $name: "
+#~ msgstr "Τερματισμός $type $name: "
+
+#~ msgid ""
+#~ "See $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist for more information."
+#~ msgstr ""
+#~ "Δείτε το $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist για "
+#~ "περισσότερες πληροφορίες."
+
+#~ msgid "Starting $SERVICE: "
+#~ msgstr "Έναρξη  $SERVICE: "
+
+#~ msgid "INSECURE MODE FOR $key"
+#~ msgstr "ΜΗ ΑΣΦΑΛΗΣ ΚΑΤΑΣΤΑΣΗ ΓΙΑ ΤΟ $key"
+
+#~ msgid "Loading new virus-database: "
+#~ msgstr "Φόρτωση νέας βάσης δεδομένων ιών: "
+
+#~ msgid "Stopping Crossfire game server: "
+#~ msgstr "Τερματισμός εξυπηρετητή παιχνιδιού Crossfire: "
+
+#~ msgid "Shutting down process accounting: "
+#~ msgstr "Τερματισμός διαδικασίας λογαριασμών: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload}"
+#~ msgstr "Χρήση: $0 {start|stop|status|restart|reload}"
+
+#~ msgid "Reloading $prog: "
+#~ msgstr "Επαναφόρτωση $prog: "
+
+#~ msgid "Starting hard disk temperature monitor daemon ($prog): "
+#~ msgstr "Έναρξη υπηρεσίας επιτήρησης θερμοκρασίας σκληρών δίσκων ($prog): "
+
+#~ msgid "Please stand by while rebooting the system..."
+#~ msgstr "Αναμονή επανεκκίνησης συστήματος..."
+
+#~ msgid "Shutting down Avahi DNS daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας Avahi DNS: "
+
+#~ msgid "Waiting for reader attach/detach events..."
+#~ msgstr "Αναμονή για σύνδεση/αποσύνδεση γεγονότων από το χρήστη..."
+
+#~ msgid "Mounting NCP filesystems: "
+#~ msgstr "Προσάρτηση συστήματος αρχείων NCP: "
+
+#~ msgid "Starting up CIM server: "
+#~ msgstr "Έναρξη εξυπηρετητή CIM: "
+
+#~ msgid "Starting CallWeaver: "
+#~ msgstr "Έναρξη CallWeaver: "
+
+#~ msgid "Stopping rstat services: "
+#~ msgstr "Τερματισμός υπηρεσίας rstat: "
+
+#~ msgid "Usage: $0 {start|stop|status|reload|restart|condrestart}"
+#~ msgstr "Χρήση: $0 {start|stop|status|reload|restart|condrestart}"
+
+#~ msgid "Restarting $prog:"
+#~ msgstr "Επανέναρξη $prog:"
+
+#~ msgid "Stopping liquidwar game server: "
+#~ msgstr "Τερματισμός εξυπηρετητή παιχνιδιού liquidwar: "
+
+#~ msgid "Stopping ipmi_poweroff driver: "
+#~ msgstr "Τερματισμός οδηγού ipmi_poweroff: "
+
+#~ msgid "qemu binary format handlers are not registered."
+#~ msgstr "Χειριστές δυαδικής διαμόρφωσης qemu δεν έχουν καταγραφεί."
+
+#~ msgid "Generating SSH1 RSA host key: "
+#~ msgstr "Δημιουργία κλειδιού συστήματος SSH1 RSA: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|try-restart|force-reload}"
+#~ msgstr "Χρήση: $0 {start|stop|status|restart|try-restart|force-reload}"
+
+#~ msgid "stale lock files may be present in $directory"
+#~ msgstr "παλαιά κλειδωμένα αρχεία μπορεί να υπάρχουν στο $directory"
+
+#~ msgid "${IP6TABLES}: Loading additional modules: "
+#~ msgstr "${IP6TABLES}: Φόρτωση επιπρόσθετων αρθρωμάτων: "
+
+#~ msgid "Turning off swap: "
+#~ msgstr "Απενεργοποίηση swap: "
+
+#~ msgid "named: already running"
+#~ msgstr "named: ήδη εκτελείται"
+
+#~ msgid "ERROR: [ipv6_log] Loglevel isn't valid '$level' (arg 2)"
+#~ msgstr ""
+#~ "ΣΦΑΛΜΑ: [ipv6_log] Επίπεδο καταγραφής '$level' δεν είναι έγκυρο (παρ 2)"
+
+#~ msgid "          start-watchdog|stop-watchdog|status-watchdog"
+#~ msgstr "          start-watchdog|stop-watchdog|status-watchdog"
+
+#~ msgid "Shutting down ${prog_base}:"
+#~ msgstr "Τερματισμός ${prog_base}:"
+
+#~ msgid "Stopping INNWatch service: "
+#~ msgstr "Τερματισμός υπηρεσίας INNWatch: "
+
+#~ msgid "Stopping asterisk: "
+#~ msgstr "Τερματισμός asterisk: "
+
+#~ msgid "Usage: $0 {start|stop|status}"
+#~ msgstr "Χρήση: $0 {start|stop|status}"
+
+#~ msgid "Starting YP server services: "
+#~ msgstr "Έναρξη εξυπηρετητή υπηρεσίας YP: "
+
+#~ msgid "Usage: $0 {start|stop|status|condrestart|reload|restart}"
+#~ msgstr "Χρήση: $0 {start|stop|status|condrestart|reload|restart}"
+
+#~ msgid "Checking local filesystem quotas: "
+#~ msgstr "Έλεγχος quotas τοπικών συστημάτων αρχείων: "
+
+#~ msgid "Starting NFS statd: "
+#~ msgstr "Έναρξη NFS statd: "
+
+#~ msgid "Starting $master_prog: "
+#~ msgstr "Έναρξη $master_prog: "
+
+#~ msgid "innd shutdown"
+#~ msgstr "τερματισμός innd"
+
+#~ msgid "Starting rstat services: "
+#~ msgstr "Έναρξη υπηρεσίας rstat: "
+
+#~ msgid "denyhosts cron service is enabled."
+#~ msgstr "η υπηρεσία cron denyhosts είναι ενεργοποιημένη."
+
+#~ msgid "Reloading ${NAME}: "
+#~ msgstr "Επαναφόρτωση ${NAME}: "
+
+#~ msgid "Reloading exim:"
+#~ msgstr "Επαναφόρτωση exim:"
+
+#~ msgid "Shutting down restorecond: "
+#~ msgstr "Τερματισμός restorecond: "
+
+#~ msgid "program is dead and /var/lock lock file exists"
+#~ msgstr "Το $prog είναι νεκρό και το αρχείο κλειδώματος /var/lock υπάρχει"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status}"
+#~ msgstr "Χρήση: $prog {start|stop|restart|condrestart|reload|status}"
+
+#~ msgid "($pid) is running..."
+#~ msgstr "($pid) εκτελείται..."
+
+#~ msgid "Reloading $prog daemon configuration: "
+#~ msgstr "Επαναφόρτωση ρυθμίσεων υπηρεσίας $prog: "
+
+#~ msgid "Key file for $dst not found, skipping"
+#~ msgstr "Αρχείο-κλειδί για το $dst δε βρέθηκε: προσπέραση"
+
+#~ msgid "Starting $progname: "
+#~ msgstr "Έναρξη $progname: "
+
+#~ msgid "start"
+#~ msgstr "έναρξη"
+
+#~ msgid "Updating RPMS in group $group: "
+#~ msgstr "Αναβάθμιση RPMS στην ομάδα $group: "
+
+#~ msgid "Stopping infrared remote control daemon ($prog): "
+#~ msgstr "Τερματισμός απομακρυσμένου ελέγχου υπέρυθρων ($prog): "
+
+#~ msgid "Starting Crossfire game server: "
+#~ msgstr "Έναρξη εξυπηρετητή παιχνιδιού Crossfire: "
+
+#~ msgid "Enabling /etc/fstab swaps: "
+#~ msgstr "Ενεργοποίηση /etc/fstab swaps: "
+
+#~ msgid "*** Disabling security enforcement for system recovery."
+#~ msgstr "*** Απενεργοποίηση επιβολής ασφάλειας για ανάκτηση συστήματος."
+
+#~ msgid "Stopping $progname: "
+#~ msgstr "Τερματισμός $progname: "
+
+#~ msgid "is stopped"
+#~ msgstr "είναι σταματημένο"
+
+#~ msgid "Unloading ISDN modules"
+#~ msgstr "Εκφόρτωση αρθρωμάτων ISDN"
+
+#~ msgid "Stopping $dagent: "
+#~ msgstr "Τερματισμός $dagent: "
+
+#~ msgid "Wine binary format handlers are not registered."
+#~ msgstr "Χειριστές δυαδικής διαμόρφωσης wine δεν έχουν εγγραφεί."
+
+#~ msgid "Usage: $service {start|stop|restart|list|status|clean}"
+#~ msgstr "Χρήση: $service {start|stop|restart|list|status|clean}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+#~ msgstr ""
+#~ "Χρήση: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#~ msgid "Stopping $name: "
+#~ msgstr "Τερματισμός $name: "
+
+#~ msgid "CIM server is not running"
+#~ msgstr "Ο εξυπηρετητή CIM δεν εκτελείται"
+
+#~ msgid "Stopping puppet: "
+#~ msgstr "Τερματισμός puppet: "
+
+#~ msgid "nN"
+#~ msgstr "οΟ"
+
+#~ msgid "          start-powercontrol|stop-powercontrol|status-powercontrol"
+#~ msgstr "          start-powercontrol|stop-powercontrol|status-powercontrol"
+
+#~ msgid "Starting fail2ban: "
+#~ msgstr "Έναρξη fail2ban: "
+
+#~ msgid "You need to upgrade the data format before using PostgreSQL."
+#~ msgstr ""
+#~ "Είναι απαραίτητη η αναβάθμιση της διαμόρφωσης δεδομένων πριν τη χρήση του "
+#~ "PostgreSQL."
+
+#~ msgid "Starting Audio Entropy daemon... "
+#~ msgstr "Έναρξη υπηρεσίας Audio Entropy... "
+
+#~ msgid "Remounting root filesystem in read-write mode: "
+#~ msgstr ""
+#~ "Επανάληψη προσάρτησης συστήματος αρχείων root σε κατάσταση read-write;"
+
+#~ msgid "$prog start"
+#~ msgstr "έναρξη $prog"
+
+#~ msgid "Nightly yum update is enabled."
+#~ msgstr "Το βραδινό yum update ενεργοποιήθηκε."
+
+#~ msgid "Syncing hardware clock to system time"
+#~ msgstr "Συγχρονισμός ρολογιού υλικού και ώρας συστήματος"
+
+#~ msgid "Configuration file or keys are invalid"
+#~ msgstr "Αρχείο διαμόρφωσης ή κλειδιά είναι άκυρα"
+
+#~ msgid "NOTICE   "
+#~ msgstr "ΕΙΔΟΠΟΙΗΣΗ   "
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status}"
+#~ msgstr "Χρήση: $0 {start|stop|restart|reload|status}"
+
+#~ msgid "Turning on allow_ypbind SELinux boolean"
+#~ msgstr "Ενεργοποίηση allow_ypbind SELinux boolean"
+
+#~ msgid "Starting acpi daemon: "
+#~ msgstr "Έναρξη υπηρεσίας acpi: "
+
+#~ msgid "Stopping vbi proxy daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας vbi proxy: "
+
+#~ msgid "Automatic reboot in progress."
+#~ msgstr "Αυτόματη επανεκκίνηση σε λειτουργία."
+
+#~ msgid "Turning off allow_ypbind SELinux boolean"
+#~ msgstr "Απενεργοποίηση allow_ypbind SELinux boolean"
+
+#~ msgid "Starting ${NAME}: "
+#~ msgstr "Έναρξη ${NAME}: "
+
+#~ msgid "${IP6TABLES}: Firewall modules are not loaded."
+#~ msgstr "${IP6TABLES}: Τα αρθρώματα firewall δεν έχουν φορτωθεί:·"
+
+#~ msgid "Stopping ${ifprog}: "
+#~ msgstr "Τερματισμός ${ifprog}: "
+
+#~ msgid "Enabling nightly apt update: "
+#~ msgstr "Ενεργοποίηση βραδινού apt update: "
+
+#~ msgid "Registering binary handler for qemu applications"
+#~ msgstr "Εγγραφή δυαδικού χειριστή για εφαρμογές qemu"
+
+#~ msgid "Stopping nsd: "
+#~ msgstr "Τερματισμός nsd: "
+
+#~ msgid "/proc filesystem unavailable"
+#~ msgstr "Μη διαθέσιμο σύστημα αρχείων /proc"
+
+#~ msgid "Starting NFS mountd: "
+#~ msgstr "Έναρξη NFS mountd: "
+
+#~ msgid "Enabling denyhosts cron service: "
+#~ msgstr "Ενεργοποίηση υπηρεσίας cron denyhosts: "
+
+#~ msgid "$prog flush"
+#~ msgstr "Καθαρισμός $prog"
+
+#~ msgid "Starting yum-updatesd: "
+#~ msgstr "Έναρξη yum-updatesd: "
+
+#~ msgid "${IP6TABLES}: Applying firewall rules: "
+#~ msgstr "${IP6TABLES}: Εφαρμογή κανόνων firewall:·"
+
+#~ msgid "Stopping $prog: "
+#~ msgstr "Τερματισμός $prog: "
+
+#~ msgid "Shutting down Audio Entropy daemon: "
+#~ msgstr "Τερματισμός υπηρεσίας Audio Entropy: "

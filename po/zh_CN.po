@@ -1,0 +1,3720 @@
+#
+# Translators:
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# Huan Chen <chenhuan126@126.com>, 2011
+# Leah Liu <lliu@redhat.com>, 2007, 2008, 2009
+# Leah Liu <weliu@redhat.com>, 2005
+# Tommy He <lovenemesis@gmail.com>, 2012
+# Sarah Wang <sarahs@redhat.com>, 2003, 2004
+# Wei Liu <LLIU@REDHAT.COM>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: fedora-initscripts\n"
+"PO-Revision-Date: 2012-03-07 01:11+0000\n"
+"Last-Translator: Wei Liu <LLIU@REDHAT.COM>\n"
+"Language-Team: Chinese (China) <trans-zh_cn@lists.fedoraproject.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../sysconfig/network-scripts/ifup-eth:231
+#, fuzzy
+msgid "Error, some other host already uses address ${ipaddr[$idx]}."
+msgstr "出错了，其它主机已在使用 ${IPADDR} 地址。"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:904
+msgid "No parameters given to setup a default route"
+msgstr "设置默认路由的参数未给定"
+
+#: ../sysconfig/network-scripts/ifup-aliases:67
+msgid "usage: ifup-aliases <net-device> [<parent-config>]\n"
+msgstr "用法：ifup-aliases <net-device> [<parent-config>]\n"
+
+#: ../sysconfig/network-scripts/ifup-sit:63
+msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
+msgstr "缺少隧道的远程 IPv4 地址，配置无效！"
+
+#: ../service:78
+msgid "Redirecting to /bin/systemctl ${ACTION} ${OPTIONS} ${SERVICE}.service"
+msgstr ""
+
+#: ../rc.d/init.d/functions:410
+msgid "${base} status unknown due to insufficient privileges."
+msgstr "由于权限不足，${base} 状态未知。"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:145
+msgid "Missing parameter 'IPv6-address' (arg 2)"
+msgstr "缺少参数 'IPv6-address' (参数2)"
+
+#: ../rc.d/init.d/functions:239 ../rc.d/init.d/functions:249
+msgid "Usage: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+msgstr "用法：killproc [-p pidfile] [ -d delay] {program} [-signal]"
+
+#: ../ppp/ip-up.ipv6to4:123 ../sysconfig/network-scripts/ifup-ipv6:226
+msgid ""
+"Warning: configured MTU '$IPV6TO4_MTU' for 6to4 exceeds maximum limit of "
+"'$tunnelmtu', ignored"
+msgstr ""
+"警告：为 6to4 配置的 MTU“$IPV6TO4_MTU”超过了 “$tunnelmtu”的最大限值，已忽略。"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:964
+msgid "Unsupported reason '$reason' for sending trigger to radvd"
+msgstr "不支持以原因 '$reason' 发送触发器给 radvd"
+
+#: ../sysconfig/network-scripts/ifup:103
+#: ../sysconfig/network-scripts/ifup-eth:78
+msgid ""
+"$alias device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "$alias 设备 ${DEVICE} 似乎不存在，推迟其初始化。"
+
+#: ../rc.d/init.d/functions:406
+msgid "${base} dead but pid file exists"
+msgstr "${base} 已死，但 pid 文件存在"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:100
+#: ../sysconfig/network-scripts/ifup-ipv6:117
+msgid "Please restart network with '/sbin/service network restart'"
+msgstr "请使用“/sbin/service network restart”重启网络"
+
+#: ../systemd/fedora-autorelabel:21
+msgid "*** when you leave the shell."
+msgstr "*** 当您离开 shell 时。"
+
+#: ../sysconfig/network-scripts/ifup-ppp:75
+msgid "ifup-ppp for ${DEVNAME} exiting"
+msgstr "对 ${DEVNAME} 的 ifup-ppp 正在退出"
+
+#: ../sysconfig/network-scripts/ifup-ppp:142
+msgid "pppd started for ${DEVNAME} on ${MODEMPORT} at ${LINESPEED}"
+msgstr ""
+"已为设备 ${DEVNAME} 在接口 ${MODEMPORT} 上以速率 ${LINESPEED} 启动 pppd"
+
+#: ../rc.d/init.d/functions:463
+msgid "WARNING"
+msgstr "警告"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:61
+msgid "Missing parameter 'IPv6-gateway' (arg 2)"
+msgstr "缺少参数 'IPv6-gateway'  (参数2)"
+
+#: ../rc.d/init.d/functions:330
+msgid "Usage: pidfileofproc {program}"
+msgstr "用法：pidfileofproc {program}"
+
+#: ../rc.d/init.d/functions:229
+msgid "$base startup"
+msgstr "$base 启动"
+
+#: ../ppp/ip-down.ipv6to4:35 ../ppp/ip-up.ipv6to4:41
+msgid ""
+"Argument 1 is empty but should contain interface name - skip IPv6to4 "
+"initialization"
+msgstr "参数1 应当包含接口名称但却无值 - 略过 IPv6to4 初始化"
+
+#: ../ppp/ip-up.ipv6to4:189 ../sysconfig/network-scripts/ifup-ipv6:292
+msgid "radvd control enabled, but config is not complete"
+msgstr "radvd 控制已启用，但其配置不完整"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:383
+msgid "Missing parameter 'address' (arg 1)"
+msgstr "缺少参数 'address'  (参数1)"
+
+#: ../rc.d/init.d/netconsole:76
+msgid "Server address not specified in /etc/sysconfig/netconsole"
+msgstr "服务器地址未在 /etc/sysconfig/netconsole 中指定"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:798
+msgid "Missing parameter 'IPv6 MTU' (arg 2)"
+msgstr "缺少参数 'IPv6 MTU' (参数2)"
+
+#: ../rc.d/init.d/network:67
+msgid "Bringing up loopback interface: "
+msgstr "正在打开环回接口："
+
+#: ../rc.d/init.d/functions:452
+msgid "PASSED"
+msgstr "通过"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:394
+msgid "Given address '$addr' is not a global IPv4 one (arg 1)"
+msgstr "所给的地址 '$addr' 不是全局通用的 IPv4 地址 (参数1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:706
+msgid "Missing parameter 'selection' (arg 2)"
+msgstr "缺少参数 'selection'  (参数2)"
+
+#: ../ppp/ip-up.ipv6to4:91 ../sysconfig/network-scripts/ifup-ipv6:211
+msgid ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+msgstr "IPv6to4 配置需要一个在相关接口上的 IPv4 地址或另外指定。"
+
+#: ../sysconfig/network-scripts/ifup-aliases:190
+#, fuzzy
+msgid "error iN $FILE: didn't specify netmask or prefix"
+msgstr "$FILE 中出错：device 或 ipaddr 未指定"
+
+#: ../sysconfig/network-scripts/ifdown-tunnel:36
+#: ../sysconfig/network-scripts/ifup-tunnel:63
+msgid "Device '$DEVICE' isn't supported as a valid GRE device name."
+msgstr "设备 '$DEVICE' 不是受支持的有效 GRE 设备名."
+
+#: ../sysconfig/network-scripts/ifup-eth:43
+msgid "Device ${DEVICE} has different MAC address than expected, ignoring."
+msgstr " ${DEVICE} 设备的 MAC 地址与预期不符，忽略。"
+
+#: ../sysconfig/network-scripts/ifup-aliases:264
+msgid "Error, some other host already uses address ${IPADDR}."
+msgstr "出错了，其它主机已在使用 ${IPADDR} 地址。"
+
+#: ../rc.d/init.d/network:271
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload}"
+msgstr "用法：$0 {start|stop|status|restart|reload|force-reload}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:603
+msgid "Tunnel device '$device' creation didn't work"
+msgstr "隧道设备 '$device' 创建无效"
+
+#: ../rc.d/init.d/netconsole:91
+msgid "Initializing netconsole"
+msgstr "正在初始化 netconsole"
+
+#: ../sysconfig/network-scripts/ifdown-eth:42
+#: ../sysconfig/network-scripts/ifdown-eth:48
+msgid ""
+"Device ${DEVICE} has MAC address ${FOUNDMACADDR}, instead of configured "
+"address ${HWADDR}. Ignoring."
+msgstr ""
+"设备 ${DEVICE} 具有 MAC 地址 ${FOUNDMACADDR}，而不是配置的地址 ${HWADDR}。忽"
+"略。"
+
+#: ../rc.d/init.d/functions:441
+msgid "FAILED"
+msgstr "失败"
+
+#: ../sysconfig/network-scripts/ifup-eth:286
+#, fuzzy
+msgid "Determining IPv6 information for ${DEVICE}..."
+msgstr "正在确定 ${DEVICE} 的 IP 信息..."
+
+#: ../rc.d/init.d/functions:422
+msgid "${base} is stopped"
+msgstr "已停止 ${base}"
+
+#: ../rc.d/init.d/functions:151 ../rc.d/init.d/functions:187
+msgid "$0: Usage: daemon [+/-nicelevel] {program}"
+msgstr "$0: 用法：daemon [+/-nicelevel] {program}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:165
+msgid "error in $FILE: invalid alias number"
+msgstr "$FILE 中出错：无效别名数"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:159
+msgid "Device '$device' doesn't exist"
+msgstr "设备 '$device' 不存在"
+
+#: ../sysconfig/network-scripts/ifup:30 ../sysconfig/network-scripts/ifup:38
+msgid "Usage: ifup <configuration>"
+msgstr "用法：ifup <设备名>"
+
+#: ../sysconfig/network-scripts/ifup:126 ../sysconfig/network-scripts/ifup:127
+msgid "ERROR: could not add vlan ${VID} as ${DEVICE} on dev ${PHYSDEV}"
+msgstr "错误：无法在 dev ${PHYSDEV}上将 vlan ${VID} 添加为 ${DEVICE}"
+
+#: ../sysconfig/network-scripts/ifup-ctc:37
+msgid "ERROR: ${DEVICE} did not come up!"
+msgstr ""
+
+#: ../ppp/ip-up.ipv6to4:138 ../sysconfig/network-scripts/ifup-ipv6:240
+msgid "Warning: interface 'tun6to4' does not support 'IPV6_DEFAULTGW', ignored"
+msgstr "警告：接口“tun6to4”不支持“IPV6_DEFAULTGW”，忽略"
+
+#: ../rc.d/init.d/network:133 ../rc.d/init.d/network:140
+msgid "Bringing up interface $i: "
+msgstr "正在打开接口 $i："
+
+#: ../sysconfig/network-scripts/init.ipv6-global:162
+msgid "Usage: $0 {start|stop|reload|restart|showsysctl}"
+msgstr "用法：$0 {start|stop|reload|restart|showsysctl}"
+
+#: ../sysconfig/network-scripts/ifup-eth:80
+msgid "Device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "设备 ${DEVICE} 似乎不存在, 延迟初始化操作。"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:841
+msgid "Given IPv6 default gateway '$address' is not in proper format"
+msgstr "指定的 IPv6 默认网关 '$address' 格式不正确"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:140
+#: ../sysconfig/network-scripts/network-functions-ipv6:203
+#: ../sysconfig/network-scripts/network-functions-ipv6:232
+#: ../sysconfig/network-scripts/network-functions-ipv6:312
+#: ../sysconfig/network-scripts/network-functions-ipv6:427
+#: ../sysconfig/network-scripts/network-functions-ipv6:489
+#: ../sysconfig/network-scripts/network-functions-ipv6:523
+#: ../sysconfig/network-scripts/network-functions-ipv6:565
+#: ../sysconfig/network-scripts/network-functions-ipv6:643
+#: ../sysconfig/network-scripts/network-functions-ipv6:701
+#: ../sysconfig/network-scripts/network-functions-ipv6:754
+#: ../sysconfig/network-scripts/network-functions-ipv6:793
+#: ../sysconfig/network-scripts/network-functions-ipv6:921
+msgid "Missing parameter 'device' (arg 1)"
+msgstr "缺少参数 'device' (参数1)"
+
+#: ../rc.d/init.d/network:82
+msgid "No 802.1Q VLAN support available in kernel."
+msgstr "内核中没有 802.1Q VLAN 支持。"
+
+#: ../sysconfig/network-scripts/ifup-aliases:180
+msgid "error in $FILE: already seen device $parent_device:$DEVNUM in $devseen"
+msgstr "$FILE 错误：已见设备 $parent_device：在 $devseen 中的 $DEVNUM"
+
+#: ../systemd/fedora-autorelabel:20
+msgid "*** problems. Dropping you to a shell; the system will reboot"
+msgstr "*** 出现问题。正在转到 shell；系统将重启"
+
+#: ../sysconfig/network-scripts/ifup-sit:71
+msgid "Device '$DEVICE' is already up, please shutdown first"
+msgstr "设备“$DEVICE”已打开，请先关闭"
+
+#: ../systemd/fedora-autorelabel:26
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required."
+msgstr "*** 警告 -- 需进行 SELinux ${SELINUXTYPE} 策略重标记。"
+
+#: ../rc.d/init.d/netconsole:36
+msgid "Usage: $0 {start|stop|status|restart|condrestart}"
+msgstr "用法：$0 {start|stop|status|restart|condrestart}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:231
+#: ../sysconfig/network-scripts/ifup-aliases:242
+msgid "error in ifcfg-${parent_device}: files"
+msgstr "ifcfg-${parent_device} 中: 文件出错"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:804
+msgid "Given IPv6 MTU '$ipv6_mtu' is out of range"
+msgstr "给定的 IPv6 MTU '$ipv6_mtu' 超出范围"
+
+#: ../sysconfig/network-scripts/ifup-aliases:320
+msgid "error in $FILE: IPADDR_START greater than IPADDR_END"
+msgstr "$FILE 中的错误：IPADDR_START 大于 IPADDR_END"
+
+#: ../sysconfig/network-scripts/ifup-eth:260
+#, fuzzy
+msgid "Error adding default gateway ${GATEWAY} for ${DEVICE}."
+msgstr "为 ${DEVICE} 添加地址 ${IPADDR} 出错。"
+
+#: ../rc.d/init.d/functions:430
+msgid "  OK  "
+msgstr "  确定  "
+
+#: ../sysconfig/network-scripts/network-functions:540
+msgid "INFO     "
+msgstr "信息        "
+
+#: ../sysconfig/network-scripts/ifup-aliases:185
+msgid "error in $FILE: didn't specify device or ipaddr"
+msgstr "$FILE 中出错：device 或 ipaddr 未指定"
+
+#: ../sysconfig/network-scripts/ifdown:33 ../sysconfig/network-scripts/ifup:49
+msgid "Users cannot control this device."
+msgstr "用户不能控制这一设备。"
+
+#: ../sysconfig/network-scripts/ifup:89
+msgid "PHYSDEV should be set for device ${DEVICE}"
+msgstr "应为设备 ${DEVICE} 设定 PHYSDEV"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1031
+msgid "radvd not (properly) installed, triggering failed"
+msgstr "未 (正确) 安装 radvd， 触发失败"
+
+#: ../sysconfig/network-scripts/ifup-eth:177
+#: ../sysconfig/network-scripts/ifup-eth:290
+msgid " failed."
+msgstr "失败。"
+
+#: ../rc.d/init.d/functions:345
+msgid "Usage: pidofproc [-p pidfile] {program}"
+msgstr "用法：pidofproc [-p pidfile] {program}"
+
+#: ../systemd/fedora-autorelabel:18
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required. "
+msgstr "*** 警告 -- SELinux ${SELINUXTYPE} 策略需重新标记。"
+
+#: ../rc.d/init.d/network:258
+msgid "Configured devices:"
+msgstr "已配置设备："
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:895
+msgid "Given IPv6 default device '$device' requires an explicit nexthop"
+msgstr "给定的 IPv6 默认设备 '$device' 需要明确的下一跳"
+
+#: ../rc.d/init.d/functions:33
+#, fuzzy
+msgid "Starting $prog (via systemctl): "
+msgstr "正在启动 $progbase："
+
+#: ../sysconfig/network-scripts/ifdown:15
+#: ../sysconfig/network-scripts/ifdown:22
+msgid "usage: ifdown <configuration>"
+msgstr "用法：ifdown <设备名>"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:276
+msgid ""
+"Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+msgstr "通常应启用 6to4 和 RADVD IPv6 转发，但未启用"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:438
+#: ../sysconfig/network-scripts/network-functions-ipv6:495
+#: ../sysconfig/network-scripts/network-functions-ipv6:534
+msgid "Given device '$device' is not supported (arg 1)"
+msgstr "不支持给定的设备 '$device'  (参数 1)"
+
+#: ../rc.d/init.d/netconsole:111
+msgid "netconsole module loaded"
+msgstr "已载入 netconsole 模块"
+
+#: ../rc.d/init.d/functions:269 ../rc.d/init.d/functions:296
+#: ../rc.d/init.d/functions:312
+msgid "$base shutdown"
+msgstr "$base 关闭"
+
+#: ../sysconfig/network-scripts/ifup-tunnel:56
+msgid "Invalid tunnel type $TYPE"
+msgstr "隧道类型 $TYPE 无效"
+
+#: ../sysconfig/network-scripts/ifup-ppp:48
+msgid "pppd does not exist or is not executable for ${DEVICE}"
+msgstr "pppd 不存在或对 ${DEVICE} 不可执行"
+
+#: ../sysconfig/network-scripts/ifup:37
+msgid "$0: configuration for ${1} not found."
+msgstr "$0： 未发现 ${1} 配置。"
+
+#: ../sysconfig/network-scripts/ifup-eth:165
+msgid "Determining IP information for ${DEVICE}..."
+msgstr "正在确定 ${DEVICE} 的 IP 信息..."
+
+#: ../systemd/fedora-autorelabel:19
+msgid "*** /etc/selinux/config indicates you want to manually fix labeling"
+msgstr "*** /etc/selinux/config 表明您要手动修正标记"
+
+#: ../sysconfig/network-scripts/network-functions:537
+msgid "WARN     "
+msgstr "警告     "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:86
+msgid ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+msgstr ""
+"“ 没有到达主机的路由” 正在添加经过网关 '$gatewayipv6' 通过设备 '$device' 的路"
+"由 '$networkipv6'"
+
+#: ../rc.d/init.d/netconsole:82
+msgid "netconsole: can't resolve MAC address of $SYSLOGADDR"
+msgstr "netconsole：无法解析 $SYSLOGADDR 的 MAC 地址"
+
+#: ../sysconfig/network-scripts/ifup-ppp:46
+msgid "ifup-ppp for ${DEVICE} exiting"
+msgstr "对 ${DEVICE} 的 ifup-ppp 正在退出"
+
+#: ../sysconfig/network-scripts/ifdown-routes:5
+#, fuzzy
+msgid "usage: ifdown-routes <net-device> [<nickname>]"
+msgstr "用法： ifup-routes <net-device> [<nickname>]"
+
+#: ../sysconfig/network-scripts/ifup-eth:51
+msgid "Bridge support not available: brctl not found"
+msgstr "网桥支持不可用：未找到 brctl"
+
+#: ../rc.d/init.d/network:261
+msgid "Currently active devices:"
+msgstr "当前活跃设备："
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:590
+msgid ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+msgstr ""
+"在隧道设备 '$device' 上指定的远端地址 '$addressipv4tunnel' 已在设备 "
+"'$devnew' 上配置"
+
+#: ../sysconfig/network-scripts/ifdown-sit:40
+#: ../sysconfig/network-scripts/ifup-sit:58
+msgid ""
+"Device '$DEVICE' isn't supported here, use IPV6_AUTOTUNNEL setting and "
+"restart (IPv6) networking"
+msgstr ""
+"在此处不支持设备 '$DEVICE' ，使用 IPV6_AUTOTUNNEL 设置并重启 (IPv6) 联网"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:343
+msgid "Missing parameter 'IPv4 address' (arg 1)"
+msgstr "缺少参数 'IPv4 address'  (参数 1)"
+
+#: ../rc.d/init.d/network:232
+msgid "Shutting down interface $i: "
+msgstr "正在关闭接口 $i："
+
+#: ../sysconfig/network-scripts/ifup-ippp:374
+msgid ""
+"Warning: ipppd (kernel 2.4.x and below) doesn't support IPv6 using "
+"encapsulation 'syncppp'"
+msgstr "警告：ipppd（内核 2.4.x 及更低版本）不支持使用封装“syncppp”的 IPv6"
+
+#: ../systemd/fedora-autorelabel:27
+msgid "*** Relabeling could take a very long time, depending on file"
+msgstr "*** 重标记可能会花很长的时间，取决于文件"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:99
+msgid ""
+"Global IPv6 forwarding is enabled in configuration, but not currently "
+"enabled in kernel"
+msgstr "IPv6 全局转发已在配置中启用，但当前未在内核中启用。"
+
+#: ../rc.d/init.d/functions:39
+#, fuzzy
+msgid "Reloading $prog configuration (via systemctl): "
+msgstr "正在重载 $prog 配置："
+
+#: ../sysconfig/network-scripts/ifup-ippp:55
+msgid "$*"
+msgstr "$*"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:855
+msgid ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+msgstr ""
+"给定的 IPv6 默认网关 '$address' 是链路本地地址， 但是没有指定范围或网关设备"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:610
+msgid "Tunnel device '$device' bringing up didn't work"
+msgstr "隧道设备 '$device' 启动失败"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:993
+msgid "Unsupported mechanism '$mechanism' for sending trigger to radvd"
+msgstr "不支持“$mechanism”机制用于发送触发器给 radvd"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:398
+msgid "Given address '$addr' is not a valid IPv4 one (arg 1)"
+msgstr "给定地址“$addr”不是有效 IPv4 地址（参数 1）"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:432
+msgid "Missing parameter 'global IPv4 address' (arg 2)"
+msgstr "缺少参数 'global IPv4 address'  (参数2)"
+
+#: ../sysconfig/network-scripts/ifup-ppp:74
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist"
+msgstr "/etc/sysconfig/network-scripts/chat-${DEVNAME} 不存在"
+
+#: ../rc.d/init.d/netconsole:114
+msgid "netconsole module not loaded"
+msgstr "未加载 netconsole 模块"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:89
+msgid "Unknown error"
+msgstr "未知错误"
+
+#: ../rc.d/init.d/functions:371
+msgid "Usage: status [-p pidfile] {program}"
+msgstr "用法：status [-p pidfile] {program}"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:299
+msgid "6to4 configuration is not valid"
+msgstr "6to4 配置无效"
+
+#: ../sysconfig/network-scripts/ifup-ppp:82
+msgid "Setting up a new ${PEERCONF} config file"
+msgstr "正在建立新的 ${PEERCONF} 配置文件"
+
+#: ../sysconfig/network-scripts/ifup-aliases:316
+msgid "error in $FILE: IPADDR_START and IPADDR_END don't agree"
+msgstr "$FILE 中出错：IPADDR_START 和 IPADDR_END 不符"
+
+#: ../rc.d/init.d/functions:303
+msgid "$base $killlevel"
+msgstr "$base $killlevel"
+
+#: ../sysconfig/network-scripts/ifup-ppp:59
+msgid "adsl-start does not exist or is not executable for ${DEVICE}"
+msgstr "adsl-start 不存在或无法对 ${DEVICE} 执行"
+
+#: ../sysconfig/network-scripts/ifup-eth:167
+msgid " failed; no link present.  Check cable?"
+msgstr "失败：不存在链接。检查电缆？"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:116
+msgid ""
+"Global IPv6 forwarding is disabled in configuration, but not currently "
+"disabled in kernel"
+msgstr "IPv6 全局转发已在配置中禁用，但当前未在内核中禁用。"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:165
+msgid "Device '$device' enabling didn't work"
+msgstr "设备 '$device' 启用无效"
+
+#: ../sysconfig/network-scripts/ifup-ppp:77
+msgid ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist for ${DEVICE}"
+msgstr "${DEVICE} 所需的 /etc/sysconfig/network-scripts/chat-${DEVNAME} 不存在"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:186
+msgid "Cannot add IPv6 address '$address' on dev '$device'"
+msgstr "无法在设备 '$device' 上添加 IPv6 地址 '$address' "
+
+#: ../sysconfig/network-scripts/ifup-ippp:376
+msgid "Warning: link doesn't support IPv6 using encapsulation 'rawip'"
+msgstr "警告：链接不支持使用封装“rawip”的 IPv6"
+
+#: ../sys-unconfig:6
+msgid "Usage: sys-unconfig"
+msgstr "用法： sys-unconfig"
+
+#: ../sysconfig/network-scripts/ifup-routes:5
+msgid "usage: ifup-routes <net-device> [<nickname>]"
+msgstr "用法： ifup-routes <net-device> [<nickname>]"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:570
+msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
+msgstr "缺少参数“IPv4 隧道地址” ( 参数2）"
+
+#: ../rc.d/init.d/netconsole:101
+msgid "Disabling netconsole"
+msgstr "正在禁用 netconsole"
+
+#: ../systemd/fedora-configure:19
+msgid "Resetting hostname ${HOSTNAME}: "
+msgstr "正在重设主机名 ${HOSTNAME}："
+
+#: ../rc.d/init.d/network:246
+msgid "Shutting down loopback interface: "
+msgstr "正在关闭环回接口："
+
+#: ../sysconfig/network-scripts/ifup-eth:264
+#, fuzzy
+msgid "Erorr adding default gateway for ${REALDEVICE}."
+msgstr "为 ${DEVICE} 添加地址 ${IPADDR} 出错。"
+
+#: ../systemd/fedora-autorelabel:28
+msgid "*** system size and speed of hard drives."
+msgstr "*** 硬盘驱动器的系统大小和速度。"
+
+#: ../sysconfig/network-scripts/network-functions:531
+msgid "DEBUG    "
+msgstr "调试"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:959
+msgid "No reason given for sending trigger to radvd"
+msgstr "未给出发送触发器给 radvd 的理由"
+
+#: ../sysconfig/network-scripts/ifup-ipx:7
+msgid "usage: $0 <net-device>"
+msgstr "用法：$0 <net-device>"
+
+#: ../sysconfig/network-scripts/ifup-eth:174
+#: ../sysconfig/network-scripts/ifup-eth:288
+msgid " done."
+msgstr " 完成。"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:56
+msgid "Missing parameter 'IPv6-network' (arg 1)"
+msgstr "缺少参数 'IPv6-network' (参数1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1005
+msgid "Given pidfile '$pidfile' doesn't exist, cannot send trigger to radvd"
+msgstr "给定的 pid 文件 '$pidfile' 不存在， 无法发送触发器给 radvd"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:528
+msgid "Missing parameter 'local IPv4 address' (arg 2)"
+msgstr "缺少参数“本地 IPv4 地址”（参数2）"
+
+#: ../sysconfig/network-scripts/ifup-aliases:119
+msgid "Missing config file $PARENTCONFIG."
+msgstr "缺少配置文件 $PARENTCONFIG。"
+
+#: ../rc.d/init.d/functions:513
+msgid "$STRING"
+msgstr "$STRING"
+
+#: ../rc.d/init.d/functions:419
+msgid "${base} dead but subsys locked"
+msgstr "${base} 已死，但是 subsys 被锁"
+
+#: ../sysconfig/network-scripts/ifup-aliases:175
+msgid "error in $FILE: already seen ipaddr $IPADDR in $ipseen"
+msgstr "$FILE 中出错：$ipseen 中有 IP 地址 $IPADDR "
+
+#: ../rc.d/init.d/functions:36
+#, fuzzy
+msgid "Stopping $prog (via systemctl): "
+msgstr "正在关闭$prog 端口监控程序："
+
+#: ../sysconfig/network-scripts/ifup-eth:237
+#, fuzzy
+msgid "Error adding address ${ipaddr[$idx]} for ${DEVICE}."
+msgstr "为 ${DEVICE} 添加地址 ${IPADDR} 出错。"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:710
+msgid "Unsupported selection '$selection' specified (arg 2)"
+msgstr "不支持指定的 '$selection' 选项 (参数 2)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1014
+msgid "Pidfile '$pidfile' is empty, cannot send trigger to radvd"
+msgstr "pidfile '$pidfile' 无内容， 无法发送触发器给 radvd"
+
+#: ../sysconfig/network-scripts/ifup-eth:201
+msgid "Failed to bring up ${DEVICE}."
+msgstr "启动 ${DEVICE} 失败。"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:147
+msgid ""
+"Cannot enable IPv6 privacy method '$IPV6_PRIVACY', not supported by kernel"
+msgstr "无法启用 IPv6 私有方法 '$IPV6_PRIVACY' ，内核不支持"
+
+#: ../rc.d/init.d/network:152
+#, fuzzy
+msgid "Legacy static-route support not available: /sbin/route not found"
+msgstr "网桥支持不可用：未找到 brctl"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:114
+msgid "Tunnel device 'sit0' enabling didn't work"
+msgstr "隧道设备 'sit0' 启动无效"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:171
+msgid "Device 'tun6to4' (from '$DEVICE') is already up, shutdown first"
+msgstr "设备 'tun6to4'（来自 '$DEVICE'）已在运行，请先关闭"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:847
+msgid ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+msgstr ""
+"给定的 IPv6 默认网关 '$address' 具有已定义的范围 '$device_scope' ， 给定的网"
+"关设备 '$device' 将不再使用"
+
+#: ../rc.d/init.d/functions:396 ../rc.d/init.d/functions:402
+msgid "${base} (pid $pid) is running..."
+msgstr "${base} (pid $pid) 正在运行..."
+
+#: ../sysconfig/network-scripts/ifup:96
+msgid "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+msgstr "在内核中未提供对设备 ${DEVICE} 的 802.1Q VLAN 支持。"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:898
+msgid "Given IPv6 default device '$device' doesn't exist or isn't up"
+msgstr "指定的 IPv6 默认设备 '$device' 不存在或未启动"
+
+#: ../ppp/ip-up.ipv6to4:87 ../sysconfig/network-scripts/ifup-ipv6:198
+msgid "Given IPv4 address '$ipv4addr' is not globally usable"
+msgstr "给定 IPv4 地址 '$ipv4addr' 不是全局通用的"
+
+#: ../ppp/ip-up.ipv6to4:186 ../sysconfig/network-scripts/ifup-ipv6:289
+msgid "Error occurred while calculating the IPv6to4 prefix"
+msgstr "IPv6to4 前缀计算出错"
+
+#: ../rc.d/init.d/functions:42
+#, fuzzy
+msgid "Restarting $prog (via systemctl): "
+msgstr "正在重启 $prog："
+
+#: ../sysconfig/network-scripts/ifup-ppp:45
+msgid "pppd does not exist or is not executable"
+msgstr "pppd 不存在或不可执行"
+
+#: ../sysconfig/network-scripts/network-functions:534
+msgid "ERROR    "
+msgstr "错误   "
+
+#~ msgid "Usage: ifup <device name>"
+#~ msgstr "用法：ifup <设备名>"
+
+#~ msgid "Reloading $prog for $ez_name: "
+#~ msgstr "正在为 $ez_name 重载 $prog："
+
+#~ msgid "Stopping incrond: "
+#~ msgstr "正在停止 incrond："
+
+#~ msgid "already stopped"
+#~ msgstr "已停止"
+
+#~ msgid "Starting Shorewall: "
+#~ msgstr "正在启动 Shorewall："
+
+#~ msgid "Starting UPS monitor (slave): "
+#~ msgstr "正在启动 UPS 监视器（从）："
+
+#~ msgid "Stopping infrared remote control mouse daemon ($prog2): "
+#~ msgstr "正在停止红外线遥控鼠标的守护进程（$prog2）："
+
+#~ msgid "Graceful shutdown of old $prog: "
+#~ msgstr "优雅关闭原 $prog："
+
+#~ msgid "$base dead but pid file exists"
+#~ msgstr "$base 进程已死，但 pid 文件存在"
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "用法：$0 {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Starting console mouse services: "
+#~ msgstr "正在启动控制台鼠标服务："
+
+#~ msgid "Shutting down router discovery services: "
+#~ msgstr "正在关闭路由器发现服务："
+
+#~ msgid "Starting Red Hat Network Daemon: "
+#~ msgstr "正在启动红帽网络守护进程："
+
+#~ msgid "$prog already running"
+#~ msgstr "$prog 已经运行"
+
+#~ msgid "Reloading ser2net"
+#~ msgstr "正在重载 ser2net"
+
+#~ msgid "no dictionaries installed"
+#~ msgstr "字典未安装"
+
+#~ msgid "Starting vmpsd: "
+#~ msgstr "正在启动 vmpsd："
+
+#~ msgid "Importing $prog databases: "
+#~ msgstr "正在导入 $prog 数据库："
+
+#~ msgid "to"
+#~ msgstr "至"
+
+#~ msgid "${IPTABLES}: Firewall is not running."
+#~ msgstr "${IPTABLES}：防火墙不在运行。"
+
+#~ msgid "${IPTABLES}: Firewall is not configured. "
+#~ msgstr "${IPTABLES}：防火墙未配置。"
+
+#~ msgid "Setting path to vshelper"
+#~ msgstr "正在设置 vshepler 的路径"
+
+#~ msgid "Unmounting CIFS filesystems: "
+#~ msgstr "正在卸载 CIFS 文件系统："
+
+#~ msgid "Stopping spectrum transport: "
+#~ msgstr "正在停止 spectrum 传输："
+
+#~ msgid "Entering interactive startup"
+#~ msgstr "正在进入互动式启动"
+
+#~ msgid "Starting RPC svcgssd: "
+#~ msgstr "正在启动 RPC svcgssd："
+
+#~ msgid "$s compilation failed "
+#~ msgstr "$s 编译失败"
+
+#~ msgid "Starting $prog: "
+#~ msgstr "正在启动 $prog："
+
+#~ msgid "Starting CGroup Rules Engine Daemon..."
+#~ msgstr "正在启动 CGroup 规则引擎守护进程..."
+
+#~ msgid "Starting xend daemon: "
+#~ msgstr "正在启动 xend 守护进程："
+
+#~ msgid "Error. This appears to be a slave server, found kpropd.acl"
+#~ msgstr "出错了。本机似乎是从服务器，发现 kpropd.acl"
+
+#~ msgid "Saving $desc ($prog): "
+#~ msgstr "正在保存 $desc（$prog）："
+
+#~ msgid "$prog startup"
+#~ msgstr "$prog 启动"
+
+#~ msgid "Starting preload daemon: "
+#~ msgstr "正在启动预载守护进程："
+
+#~ msgid "Disabling denyhosts cron service: "
+#~ msgstr "正在禁用 denyhosts cron 服务："
+
+#~ msgid ""
+#~ "Usage: $spooler {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "用法：$spooler {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Reloading "
+#~ msgstr "正在重载"
+
+#~ msgid "Stopping system message bus: "
+#~ msgstr "正在停止系统消息总线："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|reload|force-reload|status|condrestart|try-"
+#~ "restart}"
+
+#~ msgid "Insufficient privilege"
+#~ msgstr "权限不足"
+
+#~ msgid "Disabling nightly yum update: "
+#~ msgstr "正在禁用每晚 yum 更新："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|condrestart|try-restart|"
+#~ "reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|force-reload|condrestart|try-restart|"
+#~ "reload}"
+
+#~ msgid "ERROR: Program /usr/sbin/firstboot is not installed"
+#~ msgstr "出错：程序 /usr/sbin/firstboot 未安装"
+
+#~ msgid "Stopping UPS monitor: "
+#~ msgstr "正在停止 UPS 监视器："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+#~ "restart}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|reload|configtest|status|force-reload|upgrade|"
+#~ "restart}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|reload|configtest|status|force-reload|upgrade|"
+#~ "restart}"
+
+#~ msgid "Enabling monthly Smolt checkin: "
+#~ msgstr "正在启用每月 Smolt checkin："
+
+#~ msgid "Removing user defined chains:"
+#~ msgstr "正在删除用户定义链："
+
+#~ msgid "Starting $prog instance "
+#~ msgstr "正在启动 $prog 实例"
+
+#~ msgid "Nightly yum update is disabled."
+#~ msgstr "每晚 yum update 已禁用。"
+
+#~ msgid "Retrigger failed udev events"
+#~ msgstr "重触发曾失败的 udev 事件"
+
+#~ msgid "Starting $dagent: "
+#~ msgstr "正在启动 $dagent："
+
+#~ msgid "Stopping rwho services: "
+#~ msgstr "正在停止 rwho 服务："
+
+#~ msgid "Shutting down NIS service: "
+#~ msgstr "正在关闭 NIS 服务："
+
+#~ msgid "Flushing all current rules and user defined chains:"
+#~ msgstr "清除当前所有规则与用户定义链："
+
+#~ msgid "Usage: $0 {start|stop|status|restart}"
+#~ msgstr "用法： $0 {start|stop|status|restart}"
+
+#~ msgid "Wine binary format handlers are registered."
+#~ msgstr "Wine 二进制格式处理程序已注册。"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|status|condrestart|try-restart|reload|force-"
+#~ "reload|report}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|status|condrestart|try-restart|reload|force-"
+#~ "reload|report}"
+
+#~ msgid "Reloading icecast: "
+#~ msgstr "正在重载 icecast："
+
+#~ msgid "Shutting down openvpn: "
+#~ msgstr "正在关闭 openvpn："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+
+#~ msgid ""
+#~ "Usage: $monitor {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "用法：$monitor {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "\t\tWelcome to "
+#~ msgstr "\t\t欢迎来到"
+
+#~ msgid "Shutting down $desc ($prog): "
+#~ msgstr "正在关闭 $desc ($prog)："
+
+#~ msgid ""
+#~ "Usage: $dagent {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "用法：$dagent {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Shutting down system logger: "
+#~ msgstr "正在关闭系统日志器："
+
+#~ msgid "$base is stopped"
+#~ msgstr "$base 已停止"
+
+#~ msgid "Checking configuration files for $prog: "
+#~ msgstr "正在检查 $prog 的配置文件："
+
+#~ msgid "$0: call me as 'halt' or 'reboot' please!"
+#~ msgstr "$0：请用“halt”或“reboot”调用本程序！"
+
+#~ msgid "Starting FCoE initiator service: "
+#~ msgstr "正在启动 FCoE 发起端服务："
+
+#~ msgid "$NAME is attached to $DEVICE"
+#~ msgstr "$NAME 已附加于 $DEVICE"
+
+#~ msgid "Start freshclam"
+#~ msgstr "启动 freshclam"
+
+#~ msgid "Shutting down $prog: "
+#~ msgstr "正在关闭 $prog："
+
+#~ msgid "Reloading acpi daemon:"
+#~ msgstr "正在重载 acpi 守护进程："
+
+#~ msgid "Starting greylistd: "
+#~ msgstr "正在启动 greylistd："
+
+#~ msgid "Stopping NetworkManager daemon: "
+#~ msgstr "正在停止 NetworkManager 守护进程："
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart}"
+#~ msgstr "用法：$0 {start|stop|restart|status|condrestart}"
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|condrestart|try-restart|force-reload|"
+#~ "reload|status|fullstatus|graceful|help|configtest}"
+#~ msgstr ""
+#~ "用法： $prog {start|stop|restart|condrestart|try-restart|force-reload|"
+#~ "reload|status|fullstatus|graceful|help|configtest}"
+
+#~ msgid "Starting smokeping: "
+#~ msgstr "正在启动 smokeping："
+
+#~ msgid "Stopping Mldonkey (mlnet): "
+#~ msgstr "正在停止 Mldonkey（mlnet）："
+
+#~ msgid "Starting puppet: "
+#~ msgstr "正在启动 puppet："
+
+#~ msgid "Starting ${prog_base}:"
+#~ msgstr "正在启动 ${prog_base}："
+
+#~ msgid "Sending all processes the TERM signal..."
+#~ msgstr "正在向所有进程发送 TERM 信号..."
+
+#~ msgid "Rotating logs: "
+#~ msgstr "正在轮转日志："
+
+#~ msgid "*** the clamav-server can be configured"
+#~ msgstr "*** calmav-server 可配置"
+
+#~ msgid "Starting restorecond: "
+#~ msgstr "正在启动 restorecond："
+
+#~ msgid "Starting xenstored daemon: "
+#~ msgstr "正在启动 xenstored 守护进程："
+
+#~ msgid "Starting ${ifprog}: "
+#~ msgstr "正在启动 ${ifprog}："
+
+#~ msgid "Starting UPS monitor (master): "
+#~ msgstr "启动 UPS 监视程序（主）："
+
+#~ msgid "/proc entries are not fixed"
+#~ msgstr "/proc 条目未修复"
+
+#~ msgid "Starting ipmi_watchdog driver: "
+#~ msgstr "正在启动 ipmi_watchdog 驱动程序："
+
+#~ msgid "Applying ktune sysctl settings:"
+#~ msgstr "正在应用 ktune sysctl 设置："
+
+#~ msgid "Stopping $SERVICE daemon: "
+#~ msgstr "正在关闭 $SERVICE 守护进程："
+
+#~ msgid "Starting named: "
+#~ msgstr "正在启动 named："
+
+#~ msgid "Shutting down NFS daemon: "
+#~ msgstr "正在关闭 NFS 守护进程："
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|restartlog|condrestart|try-restart|"
+#~ "reload|force-reload|status}"
+#~ msgstr ""
+#~ "用法：$prog {start|stop|restart|restartlog|condrestart|try-restart|reload|"
+#~ "force-reload|status}"
+
+#~ msgid "ctdb is stopped"
+#~ msgstr "ctdb 已停止"
+
+#~ msgid "Reloading Condor daemons: "
+#~ msgstr "正在重载 Condor 守护进程："
+
+#~ msgid "$base (pid $pid) is running..."
+#~ msgstr "$base (pid $pid) 正在运行..."
+
+#~ msgid "Shutting down postfix: "
+#~ msgstr "正在关闭 postfix："
+
+#~ msgid "$prog already stopped."
+#~ msgstr "$prog 已停止。"
+
+#~ msgid "Reloading INN Service: "
+#~ msgstr "正在重载 INN 服务："
+
+#~ msgid "Stopping Condor daemons: "
+#~ msgstr "正在关闭 Condor 守护进程："
+
+#~ msgid "Flushing all chains:"
+#~ msgstr "正在清除所有链："
+
+#~ msgid "Initializing MySQL database: "
+#~ msgstr "正在初始化 MySQL 数据库："
+
+#~ msgid "${IP6TABLES}: ${_IPV} is disabled."
+#~ msgstr "${IP6TABLES}：${_IPV} 已禁用。"
+
+#~ msgid "Starting incrond: "
+#~ msgstr "正在启动 incrond："
+
+#~ msgid "Starting capi4linux:"
+#~ msgstr "正在启动 capi4linux："
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status|condrestart}"
+#~ msgstr "用法：$0 {start|stop|restart|reload|status|condrestart}"
+
+#~ msgid "Stopping disk encryption for $dst"
+#~ msgstr "正在停止对  $dst 的磁盘加密："
+
+#~ msgid "Shutting down rfcomm: "
+#~ msgstr "正在关闭 rfcomm："
+
+#~ msgid "Detaching loopback device $dev: "
+#~ msgstr "正在分离环回设备 $dev："
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+#~ msgstr "用法：$0 {start|stop|restart|try-restart|force-reload|status}"
+
+#~ msgid "Shutting down greylistd: "
+#~ msgstr "正在关闭 greylistd:"
+
+#~ msgid "Stopping OpenSCADA daemon: "
+#~ msgstr "正在停止 OpenSCADA 守护进程："
+
+#~ msgid "Stopping Perlbal: "
+#~ msgstr "正在停止 Perlbal："
+
+#~ msgid "Usage: $0 {start|stop}"
+#~ msgstr "用法：$0 {start|stop}"
+
+#~ msgid "Starting $desc ($prog): "
+#~ msgstr "正在启动 $desc ($prog)："
+
+#~ msgid "Stopping Shorewall: "
+#~ msgstr "正在停止 Shorewall："
+
+#~ msgid "${IPTABLES}: Setting chains to policy $policy: "
+#~ msgstr "${IPTABLES}：正在将链设为策略 $policy："
+
+#~ msgid "Reloading $PROG: "
+#~ msgstr "正在重载 $PROG："
+
+#~ msgid "Stopping yum-updatesd: "
+#~ msgstr "正在停止 yum-updatesd："
+
+#~ msgid "$0: error: $prog is not running"
+#~ msgstr "$0：错误：$prog 不在运行"
+
+#~ msgid "\t-y \t\t: answer yes for all questions."
+#~ msgstr "\t-y \t\t: 对所有问题回答是。"
+
+#~ msgid "Generate configuration puppet: "
+#~ msgstr "生成配置 puppet："
+
+#~ msgid "Checking for ctdbd service: "
+#~ msgstr "正在为 ctdbd 服务进行检查："
+
+#~ msgid "restarting $prog..."
+#~ msgstr "正在重启 $prog"
+
+#~ msgid "Starting process accounting: "
+#~ msgstr "正在启动进程记帐："
+
+#~ msgid ""
+#~ "Usage: $server {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "用法：$server {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Starting YP map server: "
+#~ msgstr "正在启动 YP 映射服务器："
+
+#~ msgid "$prog is already stopped."
+#~ msgstr "$prog 已停止。"
+
+#~ msgid "database check"
+#~ msgstr "数据库检查"
+
+#~ msgid "Restarting Video Disk Recorder ($prog): "
+#~ msgstr "正在重新启动影碟录制程序（$prog）："
+
+#~ msgid "${IP6TABLES}: Saving firewall rules to $IP6TABLES_DATA: "
+#~ msgstr "${IP6TABLES}： 正在将防火墙规则保存到 $IP6TABLES_DATA："
+
+#~ msgid "Shutting down $progbase: "
+#~ msgstr "正在关闭 $progbase："
+
+#~ msgid "(no mouse is configured)"
+#~ msgstr "（鼠标未配置）"
+
+#~ msgid "Starting $prog2: "
+#~ msgstr "正在启动 $prog2："
+
+#~ msgid "Applying sysctl settings from $SYSCTL_POST"
+#~ msgstr "正在从 $SYSCTL_POST 应用  sysctl 设置："
+
+#~ msgid "Sending switchover request to $NAME "
+#~ msgstr "向 $NAME 发送切换（switchhover）请求"
+
+#~ msgid "Service $prog does not support the reload action: "
+#~ msgstr "服务 $prog 不支持重载动作："
+
+#~ msgid "Reloading Red Hat Network Daemon: "
+#~ msgstr "正在重载红帽网络守护进程："
+
+#~ msgid "already started"
+#~ msgstr "已启动"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|try-restart|restart|force-reload|reload}"
+
+#~ msgid "reloading sm-client: "
+#~ msgstr "正在重载 sm-client："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#~ msgid "\t-R \t\t: recursively dependency checking"
+#~ msgstr "\t-R \t\t: 依存关系递归检查"
+
+#~ msgid "Starting Avahi daemon... "
+#~ msgstr "正在启动 Avahi 守护进程..."
+
+#~ msgid "Stopping Pound: "
+#~ msgstr "正在停止 Pound："
+
+#~ msgid "Stopping $ical: "
+#~ msgstr "正在停止 $ical："
+
+#~ msgid "Configured NFS mountpoints: "
+#~ msgstr "已配置 NFS 挂载点："
+
+#~ msgid "Starting Pound: "
+#~ msgstr "正在启动 Pound:"
+
+#~ msgid "Unmounting pipe file systems: "
+#~ msgstr "正在卸载管道文件系统："
+
+#~ msgid "Current ktune sysctl settings:"
+#~ msgstr "当前 ktune sysctl 设置："
+
+#~ msgid "Usage: $prog {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "用法：$prog {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting distributed compiler scheduler: "
+#~ msgstr "正在启动分布式编译器调度程序："
+
+#~ msgid "parse error"
+#~ msgstr "解析错误"
+
+#~ msgid "Starting $ID: "
+#~ msgstr "正在启动 $ID："
+
+#~ msgid "vncserver start"
+#~ msgstr "vncserver 启动"
+
+#~ msgid "Usage: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+#~ msgstr "用法：nfs {start|stop|status|restart|reload|condrestart|condstop}"
+
+#~ msgid "Active network block devices: "
+#~ msgstr "活网络块设备："
+
+#~ msgid "Shutting down $prog"
+#~ msgstr "正在关闭 $prog"
+
+#~ msgid "Starting system logger: "
+#~ msgstr "正在启动系统记录器："
+
+#~ msgid "$4 (e$2.$3@$1) [pid $pid]"
+#~ msgstr "$4 (e$2.$3@$1) [pid $pid]"
+
+#~ msgid "Shutting down pkcsslotd:"
+#~ msgstr "正在关闭 pkcsslotd："
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status}"
+#~ msgstr "用法：$0 {start|stop|restart|condstart|condrestart|status}"
+
+#~ msgid "Reloading $prog2: "
+#~ msgstr "正在重载 $prog2："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|cyclelogs|online|offline|command}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|cyclelogs|online|offline|command}"
+
+#~ msgid "Starting ctdbd service: "
+#~ msgstr "正在启动 ctdbd 服务："
+
+#~ msgid "not reloading due to configuration syntax error"
+#~ msgstr "由于设置中的语法错误而无法重载"
+
+#~ msgid "Usage: $prog {start|stop|reload|restart|condrestart|status}"
+#~ msgstr "用法：$prog {start|stop|reload|restart|condrestart|status}"
+
+#~ msgid "Resuming logging: "
+#~ msgstr "正在恢复记录："
+
+#~ msgid "Failed to stop \"$s\". "
+#~ msgstr " \"$s\" 停止失败。"
+
+#~ msgid "no running guests."
+#~ msgstr "没有运行中的客户端。"
+
+#~ msgid "Starting icecast streaming daemon: "
+#~ msgstr "正在启动 icecast 流媒体守护进程："
+
+#~ msgid "Stopping GNU Krell Monitors server ($prog): "
+#~ msgstr "正在终止 GNU Krell 监视器服务程序 ($prog)："
+
+#~ msgid "Usage: $prog {start|stop|status|restart|try-restart}"
+#~ msgstr "用法：$prog {start|stop|status|restart|try-restart}"
+
+#~ msgid "Usage: $0 {condrestart|start|stop|restart|reload|status}"
+#~ msgstr "用法：$0 {condrestart|start|stop|restart|reload|status}"
+
+#~ msgid "Starting kernel logger: "
+#~ msgstr "正在启动内核记录器："
+
+#~ msgid "Shutting down ${NAME}: "
+#~ msgstr "正在关闭 ${NAME}："
+
+#~ msgid "Usage: $0 {start|stop|restart|status|force-stop}"
+#~ msgstr "用法：$0 {start|stop|restart|status|force-stop}"
+
+#~ msgid "Telling INIT to go to single user mode."
+#~ msgstr "正在通知 INIT 进入单用户模式。"
+
+#~ msgid "Starting $name: "
+#~ msgstr "正在启动 $name："
+
+#~ msgid "Failed to sort dependency"
+#~ msgstr "依存关系排序失败"
+
+#~ msgid "Mounting cgroup-hierarchy"
+#~ msgstr "正在挂载 cgroup-hierarchy"
+
+#~ msgid "Usage $0 {start|stop|restart|condrestart|save|status}"
+#~ msgstr "用法：$0 {start|stop|restart|condrestart|save|status}"
+
+#~ msgid "Starting PC/SC smart card daemon ($prog): "
+#~ msgstr "正在启动 PC/SC 智能卡守护进程 ($prog)："
+
+#~ msgid ""
+#~ "Usage: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "用法：${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#~ msgid "*** Warning -- the system did not shut down cleanly. "
+#~ msgstr "*** 警告 -- 系统没有干净利落地关闭. "
+
+#~ msgid "Stopping $prog for $file: "
+#~ msgstr "正在为 $file 停止 $prog："
+
+#~ msgid "Shutting down $NAME: "
+#~ msgstr "正在关闭 $NAME："
+
+#~ msgid "Configuration file /etc/radvd.conf missing"
+#~ msgstr "缺少配置文件 /etc/radvd.conf"
+
+#~ msgid "Unmounting loopback filesystems (retry):"
+#~ msgstr "正在卸载环回文件系统（重试）："
+
+#~ msgid "sfcb is not running"
+#~ msgstr "sfcb 不在运行"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|force-reload|status|panic|save}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|restart|try-restart|force-reload|status|panic|save}"
+
+#~ msgid "CTDB is already running"
+#~ msgstr "CTDB 已在运行。"
+
+#~ msgid "Error occured while calculating the IPv6to4 prefix"
+#~ msgstr "IPv6to4 前缀计算出错"
+
+#~ msgid "fetch-crl-boot lockfile present"
+#~ msgstr "fetch-crl-boot lockfile 存在"
+
+#~ msgid "$prog reload"
+#~ msgstr "$prog 重载"
+
+#~ msgid "Stopping MogileFS tracker daemon: "
+#~ msgstr "正在停止 MogileFS 追踪器守护进程："
+
+#~ msgid "Starting unbound: "
+#~ msgstr "正在启动 unbound："
+
+#~ msgid "Dumping state of $prog in /tmp/sec.dump: "
+#~ msgstr "正在将 $prog 的状态转储到 /tmp/sec.dump 中："
+
+#~ msgid "Starting NIS service: "
+#~ msgstr "正在启动 NIS 服务："
+
+#~ msgid "Failed to run \"$s\". ($ret)"
+#~ msgstr " \"$s\" 运行失败。（$ret）"
+
+#~ msgid "RSA key generation"
+#~ msgstr "RSA 密钥生成"
+
+#~ msgid "PORT environment is not set."
+#~ msgstr "未设置 PORT 环境。"
+
+#~ msgid "Usage: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "用法：pure-ftpd {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Killing all running contexts"
+#~ msgstr "正在终止所有运行中的上下文"
+
+#~ msgid "Turning off quotas: "
+#~ msgstr "正在关闭配额："
+
+#~ msgid "${IPTABLES}: Applying firewall rules: "
+#~ msgstr "${IPTABLES}：正在应用防火墙规则："
+
+#~ msgid "Shutting down $LLDPAD: "
+#~ msgstr "正在关闭 $LLDPAD："
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|retune|help}"
+#~ msgstr ""
+#~ "用法：$prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|retune|help}"
+
+#~ msgid "Mounting NFS filesystems: "
+#~ msgstr "正在挂载 NFS 文件系统："
+
+#~ msgid "Starting NetworkManager daemon: "
+#~ msgstr "正在启动 NetworkManager 守护进程："
+
+#~ msgid ""
+#~ "Usage: $PROG {start|stop|restart|reload|force-reload|try-restart|status}"
+#~ msgstr ""
+#~ "用法：$PROG {start|stop|restart|reload|force-reload|try-restart|status}"
+
+#~ msgid "Stopping Frozen Bubble server(s): "
+#~ msgstr "正在停止 Frozen Bubble 服务:"
+
+#~ msgid ""
+#~ "Can not find util-vserver installation (the file '$UTIL_VSERVER_VARS' "
+#~ "would be expected); aborting..."
+#~ msgstr ""
+#~ "无法找到已安装的 util-vserver （文件“$UTIL_VSERVER_VARS”预期会存在）；正在"
+#~ "取消..."
+
+#~ msgid "ctdb dead but subsys locked"
+#~ msgstr "ctdb 已终止，但是 subsys 被锁定"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+#~ "genconfig}"
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG"
+#~ msgstr "正在将当前规则保存到 $ARPTABLES_CONFIG"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|status|restart|condrestart|reload|force-reload|try-"
+#~ "restart}"
+
+#~ msgid "FireHOL: Blocking all communications:"
+#~ msgstr "FireHOL：正在拦截所有通信："
+
+#~ msgid "Restarting $monitor: "
+#~ msgstr "正在重启 $monitor："
+
+#~ msgid "$named reload"
+#~ msgstr "$named 重载"
+
+#~ msgid "move passphrase file"
+#~ msgstr "移动密码短语文件"
+
+#~ msgid "Entering non-interactive startup"
+#~ msgstr "正在进入非互动式启动"
+
+#~ msgid "Error: no valid $cfg found."
+#~ msgstr "出错：未发现有效 $cfg。"
+
+#~ msgid "*** Warning -- SELinux is active"
+#~ msgstr "*** 警告 -- SELinux 处于激活状态"
+
+#~ msgid "Reloading xenconsoled daemon: "
+#~ msgstr "正在重载 xenconsoled 守护进程："
+
+#~ msgid "Starting BitTorrent tracker: "
+#~ msgstr "正在启动 BitTorrent 跟踪器："
+
+#~ msgid "ERROR: [ipv6_log] Cannot log to channel '$channel'"
+#~ msgstr "出错：[ipv6_log] 无法记录到通道“$channel”"
+
+#~ msgid "Stopping $master_prog: "
+#~ msgstr "正在停止 $master_prog："
+
+#~ msgid "Stopping abrt daemon: "
+#~ msgstr "正在停止 abrt 守护进程："
+
+#~ msgid "Reopening $prog log file: "
+#~ msgstr "重开 $prog 记录文件："
+
+#~ msgid ""
+#~ "Usage: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "用法：${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#~ msgid "Reloading atop daemon configuration: "
+#~ msgstr "正在重载 atop 守护进程配置："
+
+#~ msgid "Stopping CallWeaver: "
+#~ msgstr "正在停止 CallWeaver："
+
+#~ msgid "Reloading smb.conf file: "
+#~ msgstr "正在重载 smb.conf 文件："
+
+#~ msgid "Stopping capi4linux:"
+#~ msgstr "正在停止 capi4linux："
+
+#~ msgid "Shutting down upsdrvctl: "
+#~ msgstr "正在关闭 upsdrvct1："
+
+#~ msgid "$message"
+#~ msgstr "$message"
+
+#~ msgid "Stopping INNFeed service: "
+#~ msgstr "正在停止 INNFeed 服务："
+
+#~ msgid "Process accounting is enabled."
+#~ msgstr "进程记帐已启用。"
+
+#~ msgid "Stopping ${NAME} service: "
+#~ msgstr "正在停止 ${NAME} 服务："
+
+#~ msgid "Stopping xenner daemons"
+#~ msgstr "正在关闭 xenner 守护进程"
+
+#~ msgid "Moving"
+#~ msgstr "正在移动"
+
+#~ msgid "Resuming guests on $uri URI..."
+#~ msgstr "正在恢复在 $uri URI 上的客系统... "
+
+#~ msgid "Starting xenconsoled daemon: "
+#~ msgstr "启动 xenconsoled 守护进程："
+
+#~ msgid "RSA1 key generation"
+#~ msgstr "RSA1 密钥生成"
+
+#~ msgid "${IPTABLES}: ${_IPV} is disabled."
+#~ msgstr "${IPTABLES}：${_IPV} 已禁用。"
+
+#~ msgid "failed to clean cache $s.ko"
+#~ msgstr "清除缓存 $s.ko 失败"
+
+#~ msgid "Starting $ical: "
+#~ msgstr "正在启动 $ical："
+
+#~ msgid "$0: Link is down"
+#~ msgstr "$0：链接关闭"
+
+#~ msgid "ktune settings are not applied."
+#~ msgstr "未应用 ktune 设置。"
+
+#~ msgid "Process accounting is disabled."
+#~ msgstr "进程记帐被禁用。"
+
+#~ msgid "ERROR: Only root can run firstboot"
+#~ msgstr "出错：只有 root 用户可以运行 firstboot"
+
+#~ msgid "Starting ejabberd: "
+#~ msgstr "正在启动 ejabberd："
+
+#~ msgid "Reloading configuration: "
+#~ msgstr "正在重载配置："
+
+#~ msgid "found CRASH file, srv not started"
+#~ msgstr "找到 CRASH 文件，未启动 srv"
+
+#~ msgid "Preparing $PROG certificat: "
+#~ msgstr "正在准备 $PROG 证书： "
+
+#~ msgid "Configured CIFS mountpoints: "
+#~ msgstr "配置的 CIFS 挂载点："
+
+#~ msgid "Shutting down $prog (DHCPv6): "
+#~ msgstr "正在关闭 $prog（DHCPv6）："
+
+#~ msgid "Please run makehistory and/or makedbz before starting innd."
+#~ msgstr "请在启动 innd 前运行 makehistory 和/或 makedbz"
+
+#~ msgid "Enabling local filesystem quotas: "
+#~ msgstr "正在启用本地文件系统配额："
+
+#~ msgid "Active NCP mountpoints: "
+#~ msgstr "活 NCP 挂载点："
+
+#~ msgid "Disabling periodic fetch-crl: "
+#~ msgstr "正在禁用周期性 fetch-crl"
+
+#~ msgid "Usage: $0 {start|stop|restart|condstop|condrestart|status}"
+#~ msgstr "用法：$0 {start|stop|restart|condstop|condrestart|status}"
+
+#~ msgid "Shutting down exim: "
+#~ msgstr "正在关闭 exim："
+
+#~ msgid "$0: error: program not installed"
+#~ msgstr "$0: 出错：未安装程序"
+
+#~ msgid "${IPTABLES}: Unloading modules: "
+#~ msgstr "${IPTABLES}：正在卸载模块："
+
+#~ msgid "Stopping pdns-recursor: "
+#~ msgstr "正在停止 pdns-recursor："
+
+#~ msgid "domain not found"
+#~ msgstr "未发现域"
+
+#~ msgid "$0: reload not supported"
+#~ msgstr "$0：不支持重载"
+
+#~ msgid "$prog is not running"
+#~ msgstr "$prog 不在运行"
+
+#~ msgid "sfcb ($pid) is running"
+#~ msgstr "sfcb（$pid）正在运行"
+
+#~ msgid "Stopping named: "
+#~ msgstr "正在停止 named："
+
+#~ msgid "Stopping $prog"
+#~ msgstr "正在停止 $prog"
+
+#~ msgid "Starting $prog for $ez_name: "
+#~ msgstr "正在为 $ez_name 启动 $prog："
+
+#~ msgid "yY"
+#~ msgstr "yY"
+
+#~ msgid "Restarting puppet: "
+#~ msgstr "正在重启 puppet："
+
+#~ msgid "Unregistering binary handler for qemu applications"
+#~ msgstr "正在注销 QEMU 应用程序的二进制处理程序"
+
+#~ msgid "FireHOL: Restoring old firewall:"
+#~ msgstr "FireHOL：正在还原旧防火墙："
+
+#~ msgid "Shutting down NFS quotas: "
+#~ msgstr "正在关闭 NFS 配额："
+
+#~ msgid "          restart|condrestart|try-restart|reload|force-reload"
+#~ msgstr "          restart|condrestart|try-restart|reload|force-reload"
+
+#~ msgid "$prog: already running"
+#~ msgstr "$prog：已在运行"
+
+#~ msgid "Resuming guest $name: "
+#~ msgstr "正在恢复客系统 $name："
+
+#~ msgid "sfcb is not running, but pid file exists"
+#~ msgstr "sfcb 不在运行，但 pid 文件存在"
+
+#~ msgid "Force-stopping $prog: "
+#~ msgstr "正在强制停止 $prog："
+
+#~ msgid "Reloading ${prog} config file: "
+#~ msgstr "正在重载 ${prog} 配置文件："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload}"
+
+#~ msgid "Stopping smokeping: "
+#~ msgstr "正在停止 smokeping："
+
+#~ msgid "vncserver startup"
+#~ msgstr "vncserver 启动"
+
+#~ msgid "Generating unbound control key and certificate: "
+#~ msgstr "正在创建 unbound 控制密钥和证书："
+
+#~ msgid ""
+#~ "Usage: $indexer {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "用法: $indexer {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "restart}"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status"
+#~ msgstr "用法：$prog {start|stop|restart|condrestart|reload|status"
+
+#~ msgid "Stopping INND service (the hard way): "
+#~ msgstr "正在停止 INND 服务（强制）:"
+
+#~ msgid "$base dead but subsys locked"
+#~ msgstr "${base} 已终止，但 subsys 被锁"
+
+#~ msgid "Shutting down argus: "
+#~ msgstr "正在关闭 argus："
+
+#~ msgid "Stopping CGroup Rules Engine Daemon..."
+#~ msgstr "正在停止 CGroup 规则引擎守护进程......"
+
+#~ msgid "Stopping HAL daemon: "
+#~ msgstr "正在停止 HAL 守护进程："
+
+#~ msgid "Starting asterisk: "
+#~ msgstr "正在启动 asterisk："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|reload|force-reload|restart|try-restart|status}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|reload|force-reload|restart|try-restart|status}"
+
+#~ msgid "Starting arptables_jf"
+#~ msgstr "正在启动 arptables_jf"
+
+#~ msgid "Starting RPC gssd: "
+#~ msgstr "正在启动 RPC gssd："
+
+#~ msgid "reload"
+#~ msgstr "重载"
+
+#~ msgid "fetch-crl-boot lockfile not-present"
+#~ msgstr "fetch-crl-boot lockfile 不存在"
+
+#~ msgid "Starting Mldonkey (mlnet): "
+#~ msgstr "正在启动 Mldonkey（mlnet）："
+
+#~ msgid "Setting up Logical Volume Management:"
+#~ msgstr "正在设置逻辑卷管理系统："
+
+#~ msgid "Starting ladvd: "
+#~ msgstr "正在启动 ladvd："
+
+#~ msgid "Starting openvpn: "
+#~ msgstr "正在启动 openvpn："
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status}"
+#~ msgstr ""
+#~ "用法：$prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status}"
+
+#~ msgid "Reloading ${prog}: "
+#~ msgstr "正在重载 ${prog}："
+
+#~ msgid "Starting RPC idmapd: "
+#~ msgstr "正在启动 RPC idmapd："
+
+#~ msgid "Binary handler for Windows applications already registered"
+#~ msgstr "Windows 应用程序的二进制处理程序已注册"
+
+#~ msgid "$s$pid is running..."
+#~ msgstr "$s$pid 正在运行..."
+
+#~ msgid "Fixing /proc entries visibility"
+#~ msgstr "正在修复 /proc 条目的可见性"
+
+#~ msgid "program is not running"
+#~ msgstr "程序不在运行"
+
+#~ msgid "Stopping INN actived service: "
+#~ msgstr "正在停止 INN 激活的服务："
+
+#~ msgid "Stopping all ${MODULE_NAME} drivers: "
+#~ msgstr "正在停止所有 ${MODULE_NAME} 驱动程序："
+
+#~ msgid "None"
+#~ msgstr "无"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|reload|try-restart|status}"
+#~ msgstr "用法：$0 {start|stop|force-reload|reload|try-restart|status}"
+
+#~ msgid "$0: /etc/sysconfig/ktune does not exist."
+#~ msgstr "$0：/etc/sysconfig/ktune 不存在。"
+
+#~ msgid "Restarting..."
+#~ msgstr "正在重启..."
+
+#~ msgid "Shutting down kernel logger: "
+#~ msgstr "正在关闭内核记录器："
+
+#~ msgid "$prog exporting databases"
+#~ msgstr "$prog 正在导出数据库"
+
+#~ msgid "CIM server is not running, but lock file exists"
+#~ msgstr "CIM 服务器不在运行，但存在锁定文件"
+
+#~ msgid "Starting Qpid AMQP daemon: "
+#~ msgstr "正在启动 Qpid AMQP 守护进程："
+
+#~ msgid "Starting UPS driver controller: "
+#~ msgstr "正在启动 UPS 驱动程序控制器："
+
+#~ msgid "Shutting down BitTorrent seed client: "
+#~ msgstr "正在关闭 BitTorrent 种子客户端："
+
+#~ msgid "Reloading xend daemon: "
+#~ msgstr "正在重载 xend 守护进程："
+
+#~ msgid "Halting system..."
+#~ msgstr "正在中止系统..."
+
+#~ msgid "Reloading Avahi daemon... "
+#~ msgstr "正在重载 Avahi 进程:"
+
+#~ msgid "${IPTABLES}: /sbin/$IPTABLES does not exist."
+#~ msgstr "${IPTABLES}：/sbin/$IPTABLES 不存在。"
+
+#~ msgid "Starting infrared remote control daemon ($prog): "
+#~ msgstr "正在启动红外线遥控器守护进程 ($prog)："
+
+#~ msgid "$prog status is unknown"
+#~ msgstr "$prog 状态未知"
+
+#~ msgid "Stopping YP map server: "
+#~ msgstr "正在停止 YP 映射图服务器："
+
+#~ msgid "${IP6TABLES}: Firewall is not configured. "
+#~ msgstr "${IPTABLES}：防火墙未配置。"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+
+#~ msgid "Monthly smolt check-in is disabled."
+#~ msgstr "正在禁用每月 smolt 登记。"
+
+#~ msgid "$prog check"
+#~ msgstr "$prog 检查"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Usage: status {program}"
+#~ msgstr "用法： status {program}"
+
+#~ msgid "Binding NIS service: "
+#~ msgstr "正在绑定 NIS 服务："
+
+#~ msgid "Tap support not available: tunctl not found"
+#~ msgstr "分路器支持不可用：未找到 tunctl"
+
+#~ msgid "Usage: killproc {pids} [signal]"
+#~ msgstr "用法：killproc {pids} [signal]"
+
+#~ msgid "Stopping Red Hat Network Daemon: "
+#~ msgstr "正在停止红帽网络守护进程："
+
+#~ msgid "Usage: $0 {start|stop|status|restart|propagate}"
+#~ msgstr "用法: $0 {start|stop|status|restart|propagate}"
+
+#~ msgid "Shutting down RPC svcgssd: "
+#~ msgstr "正在关闭 RPC svcgssd："
+
+#~ msgid "Reloading NIS service: "
+#~ msgstr "正在重载 NIS 服务："
+
+#~ msgid "Starting $SERVICE daemon: "
+#~ msgstr "正在启动 $SERVICE 守护进程："
+
+#~ msgid "Stoping xen blktapctrl daemon: "
+#~ msgstr "正在关闭 xen blktapctr1 守护进程："
+
+#~ msgid "Stopping rusers services: "
+#~ msgstr "正在停止 rusers 服务："
+
+#~ msgid "Disabling Moodle cron job: "
+#~ msgstr "正在禁用 Moodle cron 任务："
+
+#~ msgid "Starting dund: "
+#~ msgstr "正在启动 dund："
+
+#~ msgid "Stopping Orbited: "
+#~ msgstr "正在停止 Orbited："
+
+#~ msgid "Reloading config for $prog: "
+#~ msgstr "正在为 $prog 重载 config："
+
+#~ msgid "Starting system message bus: "
+#~ msgstr "启动系统消息总线："
+
+#~ msgid "Restarting $gateway: "
+#~ msgstr "重新启动 $gateway："
+
+#~ msgid "Shutting down ladvd: "
+#~ msgstr "正在关闭 ladvd："
+
+#~ msgid "Usage: drbdlinksclean {start|stop|status|restart|force-reload}"
+#~ msgstr "用法：drbdlinksclean {start|stop|status|restart|force-reload}"
+
+#~ msgid "$prog importing databases"
+#~ msgstr "$prog 正在导入数据库"
+
+#~ msgid "Starting distributed compiler daemon: "
+#~ msgstr "正在启动分布编译器守护进程："
+
+#~ msgid "Starting OpenSCADA daemon: "
+#~ msgstr "正在启动 OpenSCADA 守护进程："
+
+#~ msgid "done"
+#~ msgstr "完成"
+
+#~ msgid "Stopping $PROG:"
+#~ msgstr "正在停止 $PROG："
+
+#~ msgid "Stopping supervisord: "
+#~ msgstr "正在停止 supervisord："
+
+#~ msgid "Suspending $name: "
+#~ msgstr "正在暂停 $name："
+
+#~ msgid "Starting vbi proxy daemon: "
+#~ msgstr "正在启动 vbi 代理守护进程： "
+
+#~ msgid "Enabling nightly yum update: "
+#~ msgstr "正在启用每晚 yum 更新："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#~ msgid "Reloading postfix: "
+#~ msgstr "正在重载 postfix："
+
+#~ msgid "Reloading maps"
+#~ msgstr "正在重载 maps"
+
+#~ msgid "Initializing OpenCT smart card terminals: "
+#~ msgstr "正在初始化 OpenCT 智能卡终端："
+
+#~ msgid "Unconfigured: $prog, see /etc/sysconfig/hddtemp: "
+#~ msgstr "未配置：$prog，请见 /etc/sysconfig/hddtemp："
+
+#~ msgid "${IPTABLES}: Saving firewall rules to $IPTABLES_DATA: "
+#~ msgstr "${IPTABLES}：正在将防火墙规则保存到 $IPTABLES_DATA："
+
+#~ msgid "Setting network parameters... "
+#~ msgstr "正在设置网络参数... "
+
+#~ msgid "Stopping distributed compiler daemon: "
+#~ msgstr "正在停止分布式编译器守护进程："
+
+#~ msgid "Starting Condor daemons: "
+#~ msgstr "正在启动 Condor 守护进程："
+
+#~ msgid "Path to vshelper has been set"
+#~ msgstr "已设定到 vshelper 的路径"
+
+#~ msgid "Running fetch-crl on boot can take a while: "
+#~ msgstr "在引导时运行 fetch-crl 会花点时间："
+
+#~ msgid "Stopping Wesnoth game server: "
+#~ msgstr "正在停止 Wesnoth 游戏服务器："
+
+#~ msgid "Stopping xenstored daemon: "
+#~ msgstr "正在终止 xenstpred 守护进程："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Checking SMART devices now: "
+#~ msgstr "现在正在检查 SMART 设备："
+
+#~ msgid "Importing packets to monotone database: "
+#~ msgstr "正在向 monotone 数据库导入数据包："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|rotate|resume}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|rotate|resume}"
+
+#~ msgid "$prog is running..."
+#~ msgstr "$prog 正在运行..."
+
+#~ msgid "Reloading $LLDPAD is not supported: "
+#~ msgstr "不支持重载 $LLDPAD："
+
+#~ msgid "Mldonkey (mlnet) is stopped"
+#~ msgstr "已停止 Mldonkey (mlnet)"
+
+#~ msgid "Starting $PROG: "
+#~ msgstr "正在启动 $PROG: "
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status|help}"
+#~ msgstr "用法：$prog {start|stop|restart|condrestart|status|help}"
+
+#~ msgid "Shutting down icecast streaming daemon: "
+#~ msgstr "正在关闭 icecast 流媒体进程:"
+
+#~ msgid "FireHOL: Clearing Firewall:"
+#~ msgstr "FireHOL：正清除防火墙："
+
+#~ msgid "(Repair filesystem)"
+#~ msgstr "(修复文件系统)"
+
+#~ msgid "not reloading $httpd due to configuration syntax error"
+#~ msgstr "因配置语法错误，无法重载 $httpd "
+
+#~ msgid "Stopping $SERVICE:"
+#~ msgstr "正在停止 $SERVICE："
+
+#~ msgid "Starting infrared remote control mouse daemon ($prog2): "
+#~ msgstr "正在启动红外遥控鼠标守护进程 ($prog2)："
+
+#~ msgid "Setting NIS domain name $NISDOMAIN: "
+#~ msgstr "正在设置 NIS 域名 $NISDOMAIN："
+
+#~ msgid "Starting Frozen Bubble server(s): "
+#~ msgstr "正在启动冰冻泡泡服务："
+
+#~ msgid "Starting auto nice daemon:"
+#~ msgstr "正在启动自动优先级守护进程："
+
+#~ msgid "Checking database format in"
+#~ msgstr "正在检查数据库格式"
+
+#~ msgid "Suspending guests on $uri URI..."
+#~ msgstr "正在暂停在 $uri URI 上的客系统..."
+
+#~ msgid "Starting $prog: $conf"
+#~ msgstr "正启动 $prog：$conf"
+
+#~ msgid "Shutting down up-imapproxy daemon: "
+#~ msgstr "正在关闭 up-imapproxyd 守护进程："
+
+#~ msgid "Staring new master $prog: "
+#~ msgstr "正在启动新的主 $prog："
+
+#~ msgid "VNC server"
+#~ msgstr "VNC 服务器"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status}"
+
+#~ msgid "Options:"
+#~ msgstr "选项："
+
+#~ msgid "packet import"
+#~ msgstr "数据包导入"
+
+#~ msgid "$file: "
+#~ msgstr "$file："
+
+#~ msgid "To lose old key remove file"
+#~ msgstr "要丢弃旧密钥，请删除文件"
+
+#~ msgid "program is dead and /var/run pid file exists"
+#~ msgstr "程序已死，而 /var/run pid 文件存在"
+
+#~ msgid "Not stopping $prog: iscsi sessions still active"
+#~ msgstr "未停止 $prog：iscsi 会话仍活跃"
+
+#~ msgid ""
+#~ "$prog error importing databases, check ${CONFIGDIRECTORY}/rpm/db_import."
+#~ "log"
+#~ msgstr "$prog 导入数据库出错，请检查 ${CONFIGDIRECTORY}/rpm/db_import.log"
+
+#~ msgid "Starting Orbited: "
+#~ msgstr "正在启动 Orbited："
+
+#~ msgid "Starting BitTorrent seed client: "
+#~ msgstr "正在启动 BitTorrent 种子客户端："
+
+#~ msgid "Shutting down pand: "
+#~ msgstr "正在关闭 pand："
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|help}"
+#~ msgstr ""
+#~ "用法：$prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|help}"
+
+#~ msgid "Usage: $prog {start|stop|status|restart|condrestart}"
+#~ msgstr "用法：$prog {start|stop|status|restart|condrestart}"
+
+#~ msgid "Usage: $0 {start|stop|restart|status}"
+#~ msgstr "用法： $0 {start|stop|restart|status}"
+
+#~ msgid "Stopping INND service (gently): "
+#~ msgstr "正在 (柔和地) 停止 INND 服务:"
+
+#~ msgid "Stopping RPC idmapd: "
+#~ msgstr "正在启动 RPC idmapd："
+
+#~ msgid "$file is not readable by \"$user\""
+#~ msgstr "\"$user\" 无法读取 $file"
+
+#~ msgid "Stopping distributed compiler scheduler: "
+#~ msgstr "正在停止分布式编译器调度程序。"
+
+#~ msgid "Stopping $prog2: "
+#~ msgstr "正在停止 $prog2："
+
+#~ msgid "An old version of the database format was found."
+#~ msgstr "发现数据库格式的旧版本。"
+
+#~ msgid "Something bad happened, manual intervention required, maybe restart?"
+#~ msgstr "出现问题，需要手动干预，可能要重启，继续？"
+
+#~ msgid "Usage: $prog {start|stop|restart|reload|condrestart|status|help}"
+#~ msgstr "用法：$prog {start|stop|restart|reload|condrestart|status|help}"
+
+#~ msgid "Stopping Qpid AMQP daemon: "
+#~ msgstr "正在终止 Qpid AMQP 守护进程："
+
+#~ msgid "Manifest does not exist: $PUPPETMASTER_MANIFEST"
+#~ msgstr "Manifest 不存在： $PUPPETMASTER_MANIFEST"
+
+#~ msgid "${IP6TABLES}: /sbin/$IP6TABLES does not exist."
+#~ msgstr "${IP6TABLES}：/sbin/$IP6TABLES 不存在。"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+#~ msgstr "用法：$0 {start|stop|status|restart|probe|condrestart|condstop}"
+
+#~ msgid "Starting DAAP server: "
+#~ msgstr "正在启动 DAAP 服务器："
+
+#~ msgid "Starting MogileFS tracker daemon: "
+#~ msgstr "正在启动 MogileFS 追踪器守护进程："
+
+#~ msgid "Nightly apt update is disabled."
+#~ msgstr "已禁用每晚 apt 更新。"
+
+#~ msgid "Stopping OpenCT smart card terminals: "
+#~ msgstr "正在停止 OpenCT 智能卡终端："
+
+#~ msgid "Applying arptables firewall rules: "
+#~ msgstr "正在应用 arptables 防火墙规则："
+
+#~ msgid "certs generation"
+#~ msgstr "证书生成"
+
+#~ msgid "Usage: $0 {start|stop|restart}"
+#~ msgstr "用法： $0 {start|restart|restart}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "configtest|status}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "configtest|status}"
+
+#~ msgid "Unmounting cgroup-hierarchy"
+#~ msgstr "正在卸载 cgroup-hierarchy"
+
+#~ msgid "Starting rwho services: "
+#~ msgstr "正启动 rwho 服务："
+
+#~ msgid "Stopping acpi daemon: "
+#~ msgstr "正在关闭 acpi 守护进程："
+
+#~ msgid "Initializing database: "
+#~ msgstr "正初始化数据库："
+
+#~ msgid "Unmounting loopback filesystems: "
+#~ msgstr "卸载环回文件系统："
+
+#~ msgid "          stop-all|status-all}"
+#~ msgstr "stop-all|status-all}"
+
+#~ msgid "${IP6TABLES}: Flushing firewall rules: "
+#~ msgstr "${IP6TABLES}：正在清除防火墙规则："
+
+#~ msgid "Loading default device map"
+#~ msgstr "正在载入默认设备映射"
+
+#~ msgid "$prog dead but pid file exists"
+#~ msgstr "$prog 已死，但 pid 文件仍存在"
+
+#~ msgid "Shutting down dund: "
+#~ msgstr "正在关闭 dund："
+
+#~ msgid "Restarting Shorewall: "
+#~ msgstr "正在重启 Shorewall："
+
+#~ msgid "Shutting down..."
+#~ msgstr "正关闭..."
+
+#~ msgid "Shutting down console mouse services: "
+#~ msgstr "正在关闭控制台鼠标服务："
+
+#~ msgid "Path to vshelper has not been set"
+#~ msgstr "未设定到 vshelper 的路径"
+
+#~ msgid "Reloading ser2net: "
+#~ msgstr "正在重载 ser2net:"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "stop|force-restart|force-reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "stop|force-restart|force-reload}"
+
+#~ msgid "Shutting down CIM server: "
+#~ msgstr "正在关闭 CIM 服务器："
+
+#~ msgid "Starting GNU Krell Monitors server ($prog): "
+#~ msgstr "正在启动 GNU Krell 监视服务器（$prog）："
+
+#~ msgid "Stopping NFS statd: "
+#~ msgstr "正在停止 NFS statd："
+
+#~ msgid "Generating RSA key for server $MONOTONE_KEYID"
+#~ msgstr "正在为服务器 $MONOTONE_KEYID 创建 RSA 密钥"
+
+#~ msgid "Starting ${desc} (${prog}): "
+#~ msgstr "正启动 ${desc} ($prog)："
+
+#~ msgid "CIM server ($pid) is running"
+#~ msgstr "CIM 服务器 ($pid) 正在运行..."
+
+#~ msgid "Starting $prog"
+#~ msgstr "正在启动 $prog"
+
+#~ msgid "Starting pdns-recursor: "
+#~ msgstr "正在启动 pdns-recursor："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|try-restart|status}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|reload|force-reload|try-restart|status}"
+
+#~ msgid "Stopping denyhosts: "
+#~ msgstr "正停止 denyhosts："
+
+#~ msgid "Unregistering binary handler for Windows applications: "
+#~ msgstr "正在注销用于 Windows 应用程序的二进制处理器："
+
+#~ msgid "Shutting down telescope daemon: "
+#~ msgstr "正在关闭 telescope 守护进程："
+
+#~ msgid "${IP6TABLES}: Unloading modules: "
+#~ msgstr "${IPTABLES}：正在卸载模块："
+
+#~ msgid "Monthly smolt check-in is enabled."
+#~ msgstr "正在启动每月 smolt 登记。"
+
+#~ msgid "Starting $prog for $file: "
+#~ msgstr "正在为 $file 启动 $prog："
+
+#~ msgid "Starting sge_shadowd: "
+#~ msgstr "正在启动 sge_shadowd："
+
+#~ msgid "Initializing database"
+#~ msgstr "正在初始化数据库"
+
+#~ msgid "Shutting down $KIND services: "
+#~ msgstr "正在关闭 $KIND 服务："
+
+#~ msgid "domain is '$NISDOMAIN' "
+#~ msgstr "域为‘$NISDOMAIN’"
+
+#~ msgid "FireHOL: Activating new firewall:"
+#~ msgstr "FireHOL：正激活新防火墙："
+
+#~ msgid "Kernel is not compiled with IPv6 support"
+#~ msgstr "编译内核时未带 IPv6 支持"
+
+#~ msgid "Stopping $PROG: "
+#~ msgstr "正在停止 $PROG: "
+
+#~ msgid "Resetting built-in chains to the default ACCEPT policy:"
+#~ msgstr "正在重设内置链为默认 ACCEPT 策略："
+
+#~ msgid "$s is stopped"
+#~ msgstr "已停止 $s"
+
+#~ msgid "Stopping Video Disk Recorder ($prog): "
+#~ msgstr "正停止影碟录制器 ($prog)："
+
+#~ msgid "Start service $1 (Y)es/(N)o/(C)ontinue? [Y] "
+#~ msgstr "启动服务 $1 (Y)是/(N)否/(C)继续？[Y] "
+
+#~ msgid "Stopping RPC gssd: "
+#~ msgstr "正在停止 RPC gssd："
+
+#~ msgid "$prog is already running."
+#~ msgstr "$prog 已在运行。"
+
+#~ msgid "Shutting down BitTorrent tracker: "
+#~ msgstr "正在关闭 BitTorrent tracker："
+
+#~ msgid "Checking filesystems"
+#~ msgstr "正在检查文件系统"
+
+#~ msgid "Shutting down NFS mountd: "
+#~ msgstr "正在关闭 NFS mountd："
+
+#~ msgid "Starting $prog daemon: "
+#~ msgstr "正在启动 $prog："
+
+#~ msgid "Starting up $prog: "
+#~ msgstr "正在启动 $prog："
+
+#~ msgid "Orbited is running."
+#~ msgstr "Orbited 正在运行。"
+
+#~ msgid "*** Dropping you to a shell; the system will reboot"
+#~ msgstr "*** 正在转到 shell；系统将重启"
+
+#~ msgid "Starting supervisord: "
+#~ msgstr "正在启动 supervisord："
+
+#~ msgid "*** Dropping you to a shell; the system will continue"
+#~ msgstr "*** 正在转到 shell；系统将继续"
+
+#~ msgid "$prog is stopped"
+#~ msgstr "已停止 $prog"
+
+#~ msgid "Restarting $spooler: "
+#~ msgstr "正在重启 $spooler："
+
+#~ msgid "Exporting $prog databases: "
+#~ msgstr "正在导出 $prog 数据库："
+
+#~ msgid "Starting ${NAME} service: "
+#~ msgstr "正在启动 ${NAME} 服务："
+
+#~ msgid "$dst: no value for size option, skipping"
+#~ msgstr "$dst： size 选项无值，略过"
+
+#~ msgid "Setting NIS domain: "
+#~ msgstr "正在设定 NIS 域："
+
+#~ msgid "Starting $gateway: "
+#~ msgstr "正在启动 $gateway："
+
+#~ msgid "Use \"scandvb -o vdr\" from the dvb-apps package to create one."
+#~ msgstr "用 dvb-apps 软件包提供的命令 \"scandvb -o vdr\" 创建一个."
+
+#~ msgid "Reverting to ${KERNEL_ELEVATOR} elevator: "
+#~ msgstr "还原至 ${KERNEL_ELEVATOR} elevator："
+
+#~ msgid "Active CIFS mountpoints: "
+#~ msgstr "活跃 CIFS 挂载点："
+
+#~ msgid "DSS key generation"
+#~ msgstr "DSS 密钥生成"
+
+#~ msgid "$prog shutdown"
+#~ msgstr "$prog 关闭"
+
+#~ msgid "Generating SSH2 RSA host key: "
+#~ msgstr "正在生成 SSH2 RSA 主机密钥："
+
+#~ msgid "Stopping ipmi_watchdog driver: "
+#~ msgstr "正在停止 ipmi_watchdog 驱动："
+
+#~ msgid "Starting $prog (DHCPv6): "
+#~ msgstr "正在启动 $prog（DHCPv6）："
+
+#~ msgid "Starting INND system: "
+#~ msgstr "正在启动 INND 系统："
+
+#~ msgid "Starting $monitor: "
+#~ msgstr "正在启动 $monitor："
+
+#~ msgid "Table: $table"
+#~ msgstr "表格：$table"
+
+#~ msgid "Creating required directories"
+#~ msgstr "正在创建所需目录"
+
+#~ msgid "Reloading Avahi DNS daemon... "
+#~ msgstr "正在重载 Avahi DNS 守护进程："
+
+#~ msgid "FireHOL: Saving firewall to ${FIREHOL_AUTOSAVE}:"
+#~ msgstr "FireHOL：正在将防火墙保存为 ${FIREHOL_AUTOSAVE}："
+
+#~ msgid "Nightly apt update is enabled."
+#~ msgstr "已启用每晚 apt 更新。"
+
+#~ msgid "Stopping GNU cfengine environmental history daemon: "
+#~ msgstr "正在停止 GNU cfengine 环境历史守护进程："
+
+#~ msgid "Starting postfix: "
+#~ msgstr "正在启动 postfix： "
+
+#~ msgid "Starting abrt daemon: "
+#~ msgstr "正在启动 abrt 守护进程："
+
+#~ msgid "Restarting $dagent: "
+#~ msgstr "正在重启 $dagent："
+
+#~ msgid ""
+#~ "Usage: $gateway {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "用法：$gateway {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Stopping $gateway: "
+#~ msgstr "停止 $gateway："
+
+#~ msgid "restart"
+#~ msgstr "重启"
+
+#~ msgid "Starting exim: "
+#~ msgstr "正在启动 exim："
+
+#~ msgid "Stopping xend daemon: "
+#~ msgstr "正在关闭 xend 守护进程："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+
+#~ msgid "$s is dead, but another script is running."
+#~ msgstr "$s 已死，但另一脚本仍在运行。"
+
+#~ msgid "Shutting down NFS services: "
+#~ msgstr "正在关闭 NFS 服务："
+
+#~ msgid "Stopping monotone server: "
+#~ msgstr "正在停止 monotone 服务器："
+
+#~ msgid "Configured NCP mountpoints: "
+#~ msgstr "配置的 NCP 挂载点："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|cron|condrestart|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|reload|force-reload|status|cron|condrestart|"
+#~ "try-restart}"
+
+#~ msgid "Generate configuration puppetmaster: "
+#~ msgstr "生成配置 puppetmaster："
+
+#~ msgid "$dst: no value for cipher option, skipping"
+#~ msgstr "$dst： cipher 选项无值，略过"
+
+#~ msgid "Shutting down Avahi daemon: "
+#~ msgstr "正在关闭 Avahi 守护进程："
+
+#~ msgid "Starting $KIND services: "
+#~ msgstr "正在启动 $KIND 服务："
+
+#~ msgid "$prog is running"
+#~ msgstr "$prog 正在运行"
+
+#~ msgid "$dst: no value for hash option, skipping"
+#~ msgstr "$dst： hash选项无值，略过"
+
+#~ msgid "Reloading $SERVICE configuration: "
+#~ msgstr "正在重载 $SERVICE 配置："
+
+#~ msgid "${IPTABLES}: Flushing firewall rules: "
+#~ msgstr "${IPTABLES}：清除防火墙规则："
+
+#~ msgid "Usage: $0 {start|stop|status|restart|condrestart|reload}"
+#~ msgstr "用法：$0 {start|stop|status|restart|condrestart|reload}"
+
+#~ msgid "*** $0 can not be called in this way"
+#~ msgstr "***不能以这种方式调用 $0"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|try-restart|force-reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|reload|try-restart|force-reload}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|condrestart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|try-restart|condrestart|reload|force-"
+#~ "reload}"
+
+#~ msgid "Denyhosts already running."
+#~ msgstr "Denyhosts 已在运行。"
+
+#~ msgid "Stoping Gadget daemon: "
+#~ msgstr "正在停止 Gadget 守护进程："
+
+#~ msgid "Enabling Moodle cron job: "
+#~ msgstr "正在启用 Moodle cron 任务："
+
+#~ msgid "Waiting for network..."
+#~ msgstr "正在等待网络...."
+
+#~ msgid "$DAEMON is not set."
+#~ msgstr "未设置 $DAEMON"
+
+#~ msgid "Starting pkcsslotd: "
+#~ msgstr "正在启动 pkcsslotd："
+
+#~ msgid "Starting puppetmaster: "
+#~ msgstr "正在启动 puppetmaster："
+
+#~ msgid "dead but pid file exists"
+#~ msgstr "进程已死，但 pid 文件仍存在"
+
+#~ msgid "Reloading infrared remote control daemon ($prog): "
+#~ msgstr "正在重载红外遥控守护进程 ($prog)："
+
+#~ msgid "Moving old server passphrase file to new location: "
+#~ msgstr "正在将旧的服务器密码短语文件移至新位置："
+
+#~ msgid "Stopping fail2ban: "
+#~ msgstr "正在停止 fail2ban："
+
+#~ msgid "Stopping $spooler: "
+#~ msgstr "正在停止 $spooler："
+
+#~ msgid "$dst: LUKS requires non-random key, skipping"
+#~ msgstr "$dst： LUKS 需要非随机的密钥，略过"
+
+#~ msgid "dead but subsys locked"
+#~ msgstr "进程已死，但 subsys 被锁"
+
+#~ msgid "$prog abort"
+#~ msgstr "$prog 中止"
+
+#~ msgid "failed to shutdown in time"
+#~ msgstr "及时关机失败"
+
+#~ msgid "On the next boot fsck will be forced."
+#~ msgstr "下次启动时将强制使用 fsck。"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|force-reload|condrestart}"
+#~ msgstr "用法：$0 {start|stop|status|restart|force-reload|condrestart}"
+
+#~ msgid "FireHOL: Activating new firewall (${FIREHOL_COMMAND_COUNTER} rules):"
+#~ msgstr "FireHOL：正在激活新防火墙 (${FIREHOL_COMMAND_COUNTER} 规则)："
+
+#~ msgid "Disabling monthly Smolt update: "
+#~ msgstr "正在禁用 Smolt 月更新："
+
+#~ msgid "denyhosts cron service is disabled."
+#~ msgstr "已禁用 denyhost cron 服务。"
+
+#~ msgid "$1 not available"
+#~ msgstr "$1 不可用"
+
+#~ msgid "Shutting down sm-client: "
+#~ msgstr "正在关闭 sm-client："
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart} [<configfile.{yml|conf}>]"
+#~ msgstr ""
+#~ "用法：$prog {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart} [<configfile.{yml|conf}>]"
+
+#~ msgid "Stopping Gnokii SMS daemon ($prog): "
+#~ msgstr "正在关闭 Gnokii SMS 守护进程 ($prog)："
+
+#~ msgid "\t-r kernelrelease: specify kernel release version"
+#~ msgstr "\t-r kernelrelease：指定内核发行版本"
+
+#~ msgid "status $rc of $prog"
+#~ msgstr "$prog 的 $rc 状态"
+
+#~ msgid "Registering binary handler for Windows applications: "
+#~ msgstr "正在注册用于 Windows 应用程序的二进制处理器："
+
+#~ msgid "Starting pand: "
+#~ msgstr "正在启动 pand："
+
+#~ msgid "Starting Gnokii SMS daemon ($prog): "
+#~ msgstr "正在启动 Gnokii SMS 守护进程 ($prog)："
+
+#~ msgid "$prog already running: "
+#~ msgstr "$prog 已运行："
+
+#~ msgid "Starting Gadget daemon: "
+#~ msgstr "正在启动 Gadget 守护进程："
+
+#~ msgid "*** Please see /usr/share/doc/clamav-server-*/README how"
+#~ msgstr "*** 方法请见 /usr/share/doc/clamav-server-*/README "
+
+#~ msgid "Stopping INND service (PID not found, the hard way): "
+#~ msgstr "正在停止 INND 服务（未找到 PID，强制停止）："
+
+#~ msgid "FireHOL: Saving your old firewall to a temporary file:"
+#~ msgstr "FireHOL：正在将您的旧防火墙保存到临时文件："
+
+#~ msgid "Active NFS mountpoints: "
+#~ msgstr "活跃 NFS 挂载点："
+
+#~ msgid "Starting router discovery: "
+#~ msgstr "正在启动路由器发现："
+
+#~ msgid "Mounting other filesystems: "
+#~ msgstr "正在挂载其它文件系统："
+
+#~ msgid "qemu binary format handlers are registered."
+#~ msgstr "已注册 QEMU 二进制格式处理器。"
+
+#~ msgid "common address redundancy protocol daemon"
+#~ msgstr "共用地址冗余协议守护进程"
+
+#~ msgid "Reloading $desc ($prog): "
+#~ msgstr "正在重载 $desc ($prog)："
+
+#~ msgid "Starting $server: "
+#~ msgstr "正在启动 $server："
+
+#~ msgid "\t-c configfile\t: specify config file"
+#~ msgstr "\t-c configfile\t：指定配置文件"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|force-reload}"
+#~ msgstr "用法：$0 {start|stop|status|restart|force-reload}"
+
+#~ msgid "irattach shutdown"
+#~ msgstr "irattach 关闭"
+
+#~ msgid "Stopping NFS locking: "
+#~ msgstr "停止 NFS 锁定："
+
+#~ msgid "${IP6TABLES}: Firewall is not running."
+#~ msgstr "${IP6TABLES}：防火墙不在运行。"
+
+#~ msgid "Starting $prog: $conf, $INTERFACES, $DRIVERS"
+#~ msgstr "正在启动 $prog：$conf，$INTERFACES，$DRIVERS"
+
+#~ msgid "Stopping hard disk temperature monitor daemon ($prog): "
+#~ msgstr "正在停止硬盘温度监测守护进程 ($prog)："
+
+#~ msgid "irattach startup"
+#~ msgstr "irattach 启动"
+
+#~ msgid "Reloading $prog alias files: "
+#~ msgstr "正在重载 $prog 别名文件："
+
+#~ msgid "Starting ${prog}: "
+#~ msgstr "正在启动 ${prog}："
+
+#~ msgid "*** Run 'setenforce 1' to reenable."
+#~ msgstr "*** 请运行 'setenforce 1' 重新启用。"
+
+#~ msgid "Stopping preload daemon: "
+#~ msgstr "正在停止 preload 守护进程："
+
+#~ msgid "Stopping PC/SC smart card daemon ($prog): "
+#~ msgstr "正在关闭 PC/SC智能卡守护进程 ($prog)："
+
+#~ msgid "Starting ipmi_poweroff driver: "
+#~ msgstr "正在启动 ipmi_poweroff 驱动："
+
+#~ msgid "Shutting down $prog for $ez_name: "
+#~ msgstr "正在为 $ez_name 关闭 $prog："
+
+#~ msgid "Configuration file /etc/sysconfig/arptables missing"
+#~ msgstr "缺少配置文件 /etc/sysconfig/arptables"
+
+#~ msgid "Failed to make stat directory ($STAT_PATH)"
+#~ msgstr "stat 目录 ($STAT_PATH) 生成失败"
+
+#~ msgid "Shuting down Bandwidthd network traffic monitor: "
+#~ msgstr "正在关闭 Bandwidthd 网络流量监测器："
+
+#~ msgid "Preparing $PROG config: "
+#~ msgstr "正在准备 $PROG 配置："
+
+#~ msgid "Ignoring guests on $uri URI"
+#~ msgstr "正在忽略在 $uri URI 上的客系统"
+
+#~ msgid "vncserver shutdown"
+#~ msgstr "vncserver 关闭"
+
+#~ msgid "Stopping xenconsoled daemon: "
+#~ msgstr "正在停止 xenconsoled 守护进程："
+
+#~ msgid "Configured network block devices: "
+#~ msgstr "已配置网络块设备："
+
+#~ msgid ""
+#~ "Usage: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "用法： $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Starting GNU cfengine environmental history daemon: "
+#~ msgstr "正在启动 GNU cfengine 环境历史守护进程："
+
+#~ msgid "Starting denyhosts: "
+#~ msgstr "正在启动 denyhosts："
+
+#~ msgid "cC"
+#~ msgstr "cC"
+
+#~ msgid "$prog compiled "
+#~ msgstr "已编译 $prog"
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status|force-reload}"
+#~ msgstr "用法：$0 {start|stop|restart|try-restart|status|force-reload}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|force-reload|status|condrestart|try-restart|"
+#~ "configtest|usage}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|force-reload|status|condrestart|try-restart|"
+#~ "configtest|usage}"
+
+#~ msgid "Usage: $0 {start|stop|restart|force-reload|status|condrestart}"
+#~ msgstr "用法：$0 {start|stop|restart|force-reload|status|condrestart}"
+
+#~ msgid "not running"
+#~ msgstr "不在运行"
+
+#~ msgid "Unmounting pipe file systems (retry): "
+#~ msgstr "正在卸载管道文件系统（重试）："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|force-reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|condrestart|try-restart|force-reload}"
+
+#~ msgid "Reloading cyrus.conf file: "
+#~ msgstr "正在重载 cyrus.conf 文件："
+
+#~ msgid "Starting $LLDPAD: "
+#~ msgstr "正在启动 $LLDPAD 中："
+
+#~ msgid "Starting $indexer: "
+#~ msgstr "正在启动 $indexer 中："
+
+#~ msgid "Cleaning up systemtap scripts: "
+#~ msgstr "正在清除 systemtap 脚本："
+
+#~ msgid "Failed to make cache directory ($CACHE_PATH)"
+#~ msgstr "cache 目录 ($CACHE_PATH) 生成失败"
+
+#~ msgid "Restarting $prog for $file: "
+#~ msgstr "正在为 $file 启动 $prog："
+
+#~ msgid "$prog not running"
+#~ msgstr "$prog 不在运行"
+
+#~ msgid "Force-updating $prog configuration: "
+#~ msgstr "正在强制更新 $prog 配置："
+
+#~ msgid "Shutting down guests on $uri URI..."
+#~ msgstr "正在关闭在 $uri URI 的客系统："
+
+#~ msgid "Clearing all current rules and user defined chains:"
+#~ msgstr "正在清除所有当前规则与用户定义链："
+
+#~ msgid "Stopping YP passwd service: "
+#~ msgstr "停止 YP 口令服务："
+
+#~ msgid "Orbited is not running."
+#~ msgstr "Orbited 不在运行。"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+
+#~ msgid "Adding udev persistent rules"
+#~ msgstr "正在添加 udev 持久规则"
+
+#~ msgid "Shutting down $name: "
+#~ msgstr "正在关闭 $name："
+
+#~ msgid "database initialization"
+#~ msgstr "数据库初始化"
+
+#~ msgid "Usage: $0 {start|stop|restart|force-reload|gueststatus|shutdown}"
+#~ msgstr "用法：$0 {start|stop|restart|force-reload|gueststatus|shutdown}"
+
+#~ msgid "CRITICAL "
+#~ msgstr "临界"
+
+#~ msgid "Starting NFS quotas: "
+#~ msgstr "正在启动 NFS 配额："
+
+#~ msgid "Reloading ${NAME} service: "
+#~ msgstr "正在重载 ${NAME} 服务："
+
+#~ msgid "*** An error occurred during the file system check."
+#~ msgstr "*** 文件系统检查出错。"
+
+#~ msgid "Unmounting NCP filesystems: "
+#~ msgstr "正在卸载 NCP 文件系统："
+
+#~ msgid "Changing target policies to DROP: "
+#~ msgstr "正在将目标策略改为 DROP："
+
+#~ msgid ""
+#~ "Usage: $ical {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "用法：$ical {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Reloading ${prog_base}:"
+#~ msgstr "正在重载 ${prog_base}："
+
+#~ msgid "Generating dropbear DSS host key: "
+#~ msgstr "正在生成 dropbear DSS 主机密钥："
+
+#~ msgid "Re-reading $prog configuration: "
+#~ msgstr "正在重载 $prog 配置："
+
+#~ msgid "Dependency loop detected on $s"
+#~ msgstr "在 $s 上发现依存循环"
+
+#~ msgid "%s is password protected"
+#~ msgstr "%s 有密码保护"
+
+#~ msgid "INSECURE OWNER FOR $key"
+#~ msgstr "$key 的所有者不安全"
+
+#~ msgid "FireHOL config ${FIREHOL_CONFIG} not found:"
+#~ msgstr "未找到 FireHOL 配置 ${FIREHOL_CONFIG}："
+
+#~ msgid "Current elevator settings:"
+#~ msgstr "当前 elevator 设置："
+
+#~ msgid "Loading Firmware"
+#~ msgstr "正在载入固件"
+
+#~ msgid "Timeout on stopping $server"
+#~ msgstr "$server 停止超时"
+
+#~ msgid "Starting liquidwar game server: "
+#~ msgstr "正在启动 liquidwar 游戏服务器："
+
+#~ msgid ""
+#~ "$prog error exporting databases, check ${CONFIGDIRECTORY}/rpm/db_export."
+#~ "log"
+#~ msgstr "$prog 导出数据库出错，请检查 ${CONFIGDIRECTORY}/rpm/db_export.log"
+
+#~ msgid "Shutting down auto nice daemon:"
+#~ msgstr "正在关闭自动适宜守护进程："
+
+#~ msgid "Stopping all running guests"
+#~ msgstr "正在停止所有运行中的客系统"
+
+#~ msgid "Generating dropbear RSA host key: "
+#~ msgstr "正在生成 dropbear RSA 主机密钥："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|status|restart|reload|force-reload|condrestart|try-"
+#~ "restart}"
+
+#~ msgid "Reloading $prog"
+#~ msgstr "正在重载 $prog"
+
+#~ msgid "Usage: $prog {start|stop|reload|restart|condrestart|status|help}"
+#~ msgstr "用法：$prog {start|stop|reload|restart|condrestart|status|help}"
+
+#~ msgid "Stopping $desc ($prog): "
+#~ msgstr "正在停止 $desc ($prog)："
+
+#~ msgid "Sending all processes the KILL signal..."
+#~ msgstr "正在向所有进程发出 KILL 信号..."
+
+#~ msgid "Rescanning IB Subnet:"
+#~ msgstr "正在重扫描 IB 子网："
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG: "
+#~ msgstr "正在将当前规则保存至 $ARPTABLES_CONFIG："
+
+#~ msgid "Starting Avahi DNS daemon... "
+#~ msgstr "正在启动 Avahi DNS 守护进程…"
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status}"
+#~ msgstr "用法：$0 {start|stop|restart|condrestart|status}"
+
+#~ msgid "Starting Wesnoth game server: "
+#~ msgstr "正在启动 Wesnoth 游戏服务器："
+
+#~ msgid "Starting Bandwidthd network traffic monitor: "
+#~ msgstr "正在启动 Bandwidthd 网络流量监测器："
+
+#~ msgid "Starting YP passwd service: "
+#~ msgstr "正在启动 YP 口令服务："
+
+#~ msgid "Stopping $indexer: "
+#~ msgstr "正在停止 $indexer ："
+
+#~ msgid "CIM server is not running, but pid file exists"
+#~ msgstr "CIM 服务器不在运行，但 pid 文件存在"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status}"
+#~ msgstr "用法：$prog {start|stop|restart|condrestart|status|help}"
+
+#~ msgid "program or service status is unknown"
+#~ msgstr "程序或服务状态未知"
+
+#~ msgid "Please specify a $type name"
+#~ msgstr "请指定 $type 名称"
+
+#~ msgid "Error. Default principal database does not exist."
+#~ msgstr "错误。默认主体数据库不存在。"
+
+#~ msgid "$prog: Synchronizing with time server: "
+#~ msgstr "$prog：正在与时间服务器同步："
+
+#~ msgid "Stray lockfile present; removing it."
+#~ msgstr "出现离题的锁定文件，删除中。"
+
+#~ msgid "$file is not owned by \"$user\""
+#~ msgstr "$file 并不属 \"$user\" 所有"
+
+#~ msgid "Starting $prog for $site: "
+#~ msgstr "正在为 $site 启动 $prog："
+
+#~ msgid "Starting $type $name: "
+#~ msgstr "正在启动 $type $name："
+
+#~ msgid "Reloading ${NAME}"
+#~ msgstr "正在重载 ${NAME}"
+
+#~ msgid "Starting Video Disk Recorder ($prog): "
+#~ msgstr "正在启动影碟录制器 ($prog)："
+
+#~ msgid "$prog stopping "
+#~ msgstr "正在停止 $prog "
+
+#~ msgid "Starting $display_name: "
+#~ msgstr "正在启动 $display_name："
+
+#~ msgid "Stopping puppetmaster: "
+#~ msgstr "正在停止 puppetmaster："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|condrestart|force-reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|reload|condrestart|force-reload}"
+
+#~ msgid "Starting Perlbal: "
+#~ msgstr "正在启动 Perlbal："
+
+#~ msgid "DSA key generation"
+#~ msgstr "DSA 密钥生成"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+#~ "condrestart|condstop}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+#~ "condrestart|condstop}"
+
+#~ msgid "Starting xen blktapctrl daemon: "
+#~ msgstr "正在启动 xen blktapctrl 守护进程："
+
+#~ msgid "Starting nsd:"
+#~ msgstr "正在启动 nsd："
+
+#~ msgid "Starting spectrum transport: "
+#~ msgstr "正在启动 spectrum 传输："
+
+#~ msgid "$prog stop"
+#~ msgstr "$prog 停止"
+
+#~ msgid "Stopping YP server services: "
+#~ msgstr "正在停止 YP 服务器服务："
+
+#~ msgid "Server key already installed"
+#~ msgstr "已安装服务器密钥"
+
+#~ msgid "Enabling Bluetooth devices:"
+#~ msgstr "正在启动蓝牙设备："
+
+#~ msgid "On the next boot fsck will be skipped."
+#~ msgstr "在下次引导时将跳过 fsck。"
+
+#~ msgid "\tscript(s)\t: specify systemtap scripts"
+#~ msgstr "\tscript(s)\t：指定 systemtap 脚本"
+
+#~ msgid "Enabling local swap partitions: "
+#~ msgstr "正在启用本地交换分区："
+
+#~ msgid "Starting xenner daemons"
+#~ msgstr "正在启动 xenner 守护进程"
+
+#~ msgid "Saving mixer settings"
+#~ msgstr "正在保存混音器设置"
+
+#~ msgid "Starting rfcomm: "
+#~ msgstr "正在启动 rfcomm："
+
+#~ msgid "Usage: $0 {start|stop|reload}"
+#~ msgstr "用法：$0 {start|stop|reload}"
+
+#~ msgid "Warning: $prog may not have exited, start/restart may fail"
+#~ msgstr "警告：$prog 可能未退出，启动/重启可能失败"
+
+#~ msgid "clement stop"
+#~ msgstr "停止 clement"
+
+#~ msgid "Generating SSH2 DSA host key: "
+#~ msgstr "正在生成 SSH2 DSA 主机密钥："
+
+#~ msgid "Stopping $display_name: "
+#~ msgstr "正在停止 $display_name："
+
+#~ msgid "Periodic fetch-crl is disabled."
+#~ msgstr "已禁用定期 fetch-crl。"
+
+#~ msgid "Checking network-attached filesystems"
+#~ msgstr "正在检查联网文件系统"
+
+#~ msgid "Shutting down $prog with output module $module: "
+#~ msgstr "正在关闭带输出模块 $module 的 $prog："
+
+#~ msgid "Starting Xpilot game server: "
+#~ msgstr "正在启动 Xpilot 游戏服务器："
+
+#~ msgid "Starting argus: "
+#~ msgstr "正在启动 argus："
+
+#~ msgid "Shutting down ${prog}: "
+#~ msgstr "正在关闭 ${prog}："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+
+#~ msgid "Usage: killproc {program} [signal]"
+#~ msgstr "用法： killproc {program} [signal]"
+
+#~ msgid "Setting hostname ${HOSTNAME}: "
+#~ msgstr "正在设定主机名 ${HOSTNAME}："
+
+#~ msgid "Stopping FCoE initiator service: "
+#~ msgstr "正在停止 FCoE 发起端服务："
+
+#~ msgid "Usage: $0 {start|stop|reload|restart|status}"
+#~ msgstr "用法: $0 {start|stop|reload|restart|status}"
+
+#~ msgid "Starting $prog with output module $module: "
+#~ msgstr "正在启动带输出模块 $module 的 $prog："
+
+#~ msgid "ERROR: [ipv6_log] Missing 'message' (arg 1)"
+#~ msgstr "错误：[ipv6_log] 缺少 'message' (参数 1)"
+
+#~ msgid "freshclam daemon NOT up and running (please check this)"
+#~ msgstr "freshclam 守护进程未启动或不在运行（请检查）"
+
+#~ msgid "$prog dead but subsys locked"
+#~ msgstr "$prog 已死，但是 subsys 被锁"
+
+#~ msgid "Running guests on $uri URI: "
+#~ msgstr "正在运行在 $uri URI 的客系统："
+
+#~ msgid "Saving random seed: "
+#~ msgstr "正在保存随机种子："
+
+#~ msgid "Loading ISDN modules"
+#~ msgstr "正在载入 ISDN 模块"
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart} [VO]"
+#~ msgstr "用法：$0 {start|stop|restart|status|condrestart} [VO]"
+
+#~ msgid "killing ctdbd "
+#~ msgstr "正在杀死 ctdbd"
+
+#~ msgid "Mounting local filesystems: "
+#~ msgstr "正在挂载本地文件系统："
+
+#~ msgid "key generation"
+#~ msgstr "密钥生成"
+
+#~ msgid "Usage: $0 {start|stop|status"
+#~ msgstr "用法： $0 {start|stop|status"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|restart|try-restart|status}"
+#~ msgstr "用法：$0 {start|stop|force-reload|restart|try-restart|status}"
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "用法：$prog {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload}"
+
+#~ msgid "Usage: $prog {start|stop|restart|status|compile|cleanup} [option]"
+#~ msgstr "用法： $prog {start|stop|restart|status|compile|cleanup} [option]"
+
+#~ msgid ""
+#~ "Usage: $0 {start|forcestart|stop|status|restart|forcerestart|reload|"
+#~ "condrestart}"
+#~ msgstr ""
+#~ "用法：$0 {start|forcestart|stop|status|restart|forcerestart|reload|"
+#~ "condrestart}"
+
+#~ msgid "Starting sm-client: "
+#~ msgstr "正在启动 sm-client："
+
+#~ msgid "Starting $NAME: "
+#~ msgstr "正在启动 $NAME："
+
+#~ msgid "Pre-0.26 monotone database must be migrated by hand: "
+#~ msgstr "必须手动迁移 Pre-0.26 monotone 数据库"
+
+#~ msgid "${IPTABLES}: Loading additional modules: "
+#~ msgstr "${IPTABLES}：正在载入附加模块："
+
+#~ msgid "Usage: $progname {start|stop|restart|condrestart|status}"
+#~ msgstr "用法：$progname {start|stop|restart|condrestart|status}"
+
+#~ msgid "Mounting CIFS filesystems: "
+#~ msgstr "正在挂载 CIFS 文件系统："
+
+#~ msgid "Generating exim certificate: "
+#~ msgstr "正在生成 exim 证书："
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "用法：$0 {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting rusers services: "
+#~ msgstr "正在启动 rusers 服务："
+
+#~ msgid "FireHOL: Processing file ${FIREHOL_CONFIG}:"
+#~ msgstr "FireHOL：正在处理文件 ${FIREHOL_CONFIG}："
+
+#~ msgid "Compiling systemtap scripts: "
+#~ msgstr "正在编译 systemtap 脚本："
+
+#~ msgid "Starting NFS daemon: "
+#~ msgstr "正在启动 NFS 守护进程："
+
+#~ msgid "Starting telescope daemon: "
+#~ msgstr "正在启动 telescope 守护进程："
+
+#~ msgid "Shutting down vmpsd: "
+#~ msgstr "正在关闭 vmpsd："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+#~ "reload}"
+
+#~ msgid "Disabling nightly apt update: "
+#~ msgstr "禁用每晚 apt 更新:"
+
+#~ msgid "Starting NFS services: "
+#~ msgstr "正在启动 NFS 服务："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+
+#~ msgid "Stopping Xpilot game server: "
+#~ msgstr "正在停止 Xpilot 游戏服务器："
+
+#~ msgid "already active"
+#~ msgstr "已经活动。"
+
+#~ msgid "Starting HAL daemon: "
+#~ msgstr "正在启动 HAL 守护进程："
+
+#~ msgid "Stopping unbound: "
+#~ msgstr "正在停止 unbound："
+
+#~ msgid "No scripts exist."
+#~ msgstr "脚本不存在。"
+
+#~ msgid "/proc entries were fixed"
+#~ msgstr "/proc 条目已修正"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "用法: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|condrestart|reload|status|force-reload}"
+
+#~ msgid "Usage: $0 {start}"
+#~ msgstr "用法：$0 {start}"
+
+#~ msgid "Unmounting file systems"
+#~ msgstr "正在卸载文件系统"
+
+#~ msgid "Periodic fetch-crl is enabled."
+#~ msgstr "已启用定期 fetch-crl。"
+
+#~ msgid "(not starting, no services registered)"
+#~ msgstr "（未启动，没有已注册的服务）"
+
+#~ msgid "Shutting down $PROG: "
+#~ msgstr "正在关闭 $PROG："
+
+#~ msgid "Netlabel is stopped."
+#~ msgstr "已停止 Netlabel"
+
+#~ msgid "${SERVICE}: unrecognized service"
+#~ msgstr "${SERVICE}: 未被识别的服务"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|reload|force-reload|restart|try-restart|"
+#~ "probe}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|reload|force-reload|restart|try-restart|probe}"
+
+#~ msgid "sfcb is not running, but lock file exists"
+#~ msgstr "sfcb 不在运行，但锁定文件存在"
+
+#~ msgid "Stopping $type $name: "
+#~ msgstr "正在停止 $type $name："
+
+#~ msgid ""
+#~ "See $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist for more information."
+#~ msgstr "详情请见 $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist"
+
+#~ msgid "Starting $SERVICE: "
+#~ msgstr "正在启动 $SERVICE："
+
+#~ msgid "Mounting zfs partitions: "
+#~ msgstr "正在挂载 zfs 分区："
+
+#~ msgid "INSECURE MODE FOR $key"
+#~ msgstr "$key 的模式不安全"
+
+#~ msgid "Loading new virus-database: "
+#~ msgstr "正在载入新的病毒库："
+
+#~ msgid "Stopping Crossfire game server: "
+#~ msgstr "正在停止 Crossfire 游戏服务器："
+
+#~ msgid "Shutting down process accounting: "
+#~ msgstr "正在关闭进程记帐："
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload}"
+#~ msgstr "用法：$0 {start|stop|status|restart|reload}"
+
+#~ msgid "Reloading $prog: "
+#~ msgstr "正在重载 $prog："
+
+#~ msgid "Starting hard disk temperature monitor daemon ($prog): "
+#~ msgstr "正在启动硬盘温度监测守护进程 ($prog)："
+
+#~ msgid "Please stand by while rebooting the system..."
+#~ msgstr "正在重启系统，请稍候..."
+
+#~ msgid "Shutting down Avahi DNS daemon: "
+#~ msgstr "正在关闭 Avahi DNS守护进程："
+
+#~ msgid "Shutting down DAAP server: "
+#~ msgstr "正在关闭 DAAP 服务器："
+
+#~ msgid "Waiting for reader attach/detach events..."
+#~ msgstr "等待读取器的连接/断开事件..."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|reload|restart|condrestart|force-reload|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|status|reload|restart|condrestart|force-reload|try-"
+#~ "restart}"
+
+#~ msgid "Mounting NCP filesystems: "
+#~ msgstr "正在挂载 NCP 文件系统："
+
+#~ msgid "Shutting down amavisd-snmp-subagent: "
+#~ msgstr "正在关闭 amavisd-snmp-subagent："
+
+#~ msgid "Stopping $server: "
+#~ msgstr "正在停止 $server："
+
+#~ msgid "Starting up CIM server: "
+#~ msgstr "正在启动 CIM 服务器："
+
+#~ msgid "Starting CallWeaver: "
+#~ msgstr "正在启动 CallWeaver："
+
+#~ msgid "Stopping rstat services: "
+#~ msgstr "正在停止 rstat 服务："
+
+#~ msgid "Usage: $0 {start|stop|status|reload|restart|condrestart}"
+#~ msgstr "用法： $0 {start|stop|status|reload|restart|condrestart}"
+
+#~ msgid "NTP server not specified in $ntpstep or $ntpconf"
+#~ msgstr "未在 $ntpstep 或 $ntpconf 中指定 NTP 服务器"
+
+#~ msgid "Restarting $prog:"
+#~ msgstr "正在重启 $prog："
+
+#~ msgid "Stopping liquidwar game server: "
+#~ msgstr "正在停止 liquidwar 游戏服务器:"
+
+#~ msgid "Reloading nsca: "
+#~ msgstr "正在重载 nsca："
+
+#~ msgid "Stopping ipmi_poweroff driver: "
+#~ msgstr "正在停止 ipmi_poweroff 驱动："
+
+#~ msgid "qemu binary format handlers are not registered."
+#~ msgstr "未注册 QEMU 的二进制格式处理器。"
+
+#~ msgid "Generating SSH1 RSA host key: "
+#~ msgstr "正在生成 SSH1 RSA 主机密钥："
+
+#~ msgid "Reloading CRLs: "
+#~ msgstr "正在重载 CRL："
+
+#~ msgid "${IPTABLES}: Firewall modules are not loaded."
+#~ msgstr "${IPTABLES}：未载入防火墙模块。"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|try-restart|force-reload}"
+#~ msgstr "用法: $0 {start|stop|status|restart|try-restart|force-reload}"
+
+#~ msgid "stale lock files may be present in $directory"
+#~ msgstr "$directory 中可能存在陈旧的锁文件"
+
+#~ msgid "${IP6TABLES}: Loading additional modules: "
+#~ msgstr "${IP6TABLES}：正在载入附加模块："
+
+#~ msgid "Turning off swap: "
+#~ msgstr "正在关闭交换区："
+
+#~ msgid "named: already running"
+#~ msgstr "named：已在运行"
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status|reload}"
+#~ msgstr "用法：$0 {start|stop|restart|condrestart|status|reload}"
+
+#~ msgid "ERROR: [ipv6_log] Loglevel isn't valid '$level' (arg 2)"
+#~ msgstr "错误：[ipv6_log] 记录级别不是有效的 '$level' (参数 2)"
+
+#~ msgid "Restarting $indexer: "
+#~ msgstr "正在重新启动 $indexer 中："
+
+#~ msgid "          start-watchdog|stop-watchdog|status-watchdog"
+#~ msgstr "          start-watchdog|stop-watchdog|status-watchdog"
+
+#~ msgid "Shutting down ${prog_base}:"
+#~ msgstr "正在关闭 ${prog_base}："
+
+#~ msgid "Stopping INNWatch service: "
+#~ msgstr "正在停止 INNWatch 服务："
+
+#~ msgid "Stopping asterisk: "
+#~ msgstr "正在停止 asterisk："
+
+#~ msgid "initiators still connected"
+#~ msgstr "发起端仍处于连接状态"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status|dump}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status|dump}"
+
+#~ msgid "Usage: $0 {start|stop|status}"
+#~ msgstr "用法： $0 {start|stop|status}"
+
+#~ msgid "Starting YP server services: "
+#~ msgstr "启动 YP 服务器的服务："
+
+#~ msgid "Usage: $0 {start|stop|status|condrestart|reload|restart}"
+#~ msgstr "用法：$0 {start|stop|status|condrestart|reload|restart}"
+
+#~ msgid "$prog already running."
+#~ msgstr "$prog 已经在运行。"
+
+#~ msgid "Generating chrony command key: "
+#~ msgstr "正在生成 chrony 命令密钥："
+
+#~ msgid "Restarting $ical: "
+#~ msgstr "正在重新启动 $ical："
+
+#~ msgid "Checking local filesystem quotas: "
+#~ msgstr "检查本地文件系统的配额："
+
+#~ msgid "Starting NFS statd: "
+#~ msgstr "正在启动 NFS statd："
+
+#~ msgid "Starting $master_prog: "
+#~ msgstr "正在启动 $master_prog："
+
+#~ msgid "libvirt-guests is configured not to start any guests on boot"
+#~ msgstr "libvirt-guests 被配置为在引导时不启动任何客系统"
+
+#~ msgid "innd shutdown"
+#~ msgstr "innd 关闭"
+
+#~ msgid "Starting rstat services: "
+#~ msgstr "正在启动 rstat 服务："
+
+#~ msgid "denyhosts cron service is enabled."
+#~ msgstr "禁用 Denyhost cron 服务。"
+
+#~ msgid "Reloading ${NAME}: "
+#~ msgstr "正在重载 ${NAME}："
+
+#~ msgid "Reloading exim:"
+#~ msgstr "正在重载 exim："
+
+#~ msgid "Package sendmail-cf is required to update configuration."
+#~ msgstr "需要软件包 sendmail-cf 以更新配置。"
+
+#~ msgid "Shutting down restorecond: "
+#~ msgstr "正在关闭 restorecond："
+
+#~ msgid "program is dead and /var/lock lock file exists"
+#~ msgstr "程序已死，且 /var/lock 锁定文件存在"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status}"
+#~ msgstr "用法：$prog {start|stop|restart|condrestart|reload|status}"
+
+#~ msgid "($pid) is running..."
+#~ msgstr "($pid) 正在运行..."
+
+#~ msgid "Reloading $prog daemon configuration: "
+#~ msgstr "正在重载 $prog 守护进程配置："
+
+#~ msgid "Reloading ${prog} conig file: "
+#~ msgstr "正在重载 ${prog} 配置文件："
+
+#~ msgid "Key file for $dst not found, skipping"
+#~ msgstr "未找到 $dst 的密钥文件，略过中"
+
+#~ msgid "Starting $progname: "
+#~ msgstr "正在启动 $progname: "
+
+#~ msgid "Reloading securenets and ypserv.conf file:"
+#~ msgstr "重新载入 securenets 和 ypserv.conf 文件："
+
+#~ msgid "Moodle cron job is disabled."
+#~ msgstr "已禁用 Moodle cron 任务。"
+
+#~ msgid "already running."
+#~ msgstr "已在运行。"
+
+#~ msgid "start"
+#~ msgstr "启动"
+
+#~ msgid "Updating RPMS in group $group: "
+#~ msgstr "正在 $group 组中升级 RPMS："
+
+#~ msgid "not reloading ${httpd} due to configuration syntax error"
+#~ msgstr "由于配置语法错误而无法重载 ${httpd}"
+
+#~ msgid "Shutting down ${desc} (${prog}): "
+#~ msgstr "正在关闭 ${desc} ($prog)："
+
+#~ msgid "Enabling periodic fetch-crl: "
+#~ msgstr "正在启用定期 fetch-crl："
+
+#~ msgid "reload unimplemented"
+#~ msgstr "未实现重载"
+
+#~ msgid "Adding dhclient NTP servers to chrony: "
+#~ msgstr "正在添加 dhclient NTP 服务器到 chrony："
+
+#~ msgid "Stopping infrared remote control daemon ($prog): "
+#~ msgstr "正在终止红外遥控守护进程 ($prog)："
+
+#~ msgid "Unconfigured: $prog, /etc/gkrellmd.conf not found"
+#~ msgstr "未配置：$prog，未找到 /etc/gkrellmd.conf"
+
+#~ msgid "Starting Crossfire game server: "
+#~ msgstr "正在启动  Crossfire 游戏服务器："
+
+#~ msgid "$0: error: insufficient privileges"
+#~ msgstr "$0：错误：权限不足"
+
+#~ msgid "Enabling /etc/fstab swaps: "
+#~ msgstr "正在启用 /etc/fstab 中的交换区："
+
+#~ msgid "*** Disabling security enforcement for system recovery."
+#~ msgstr "*** 为系统恢复而关闭安全强制。"
+
+#~ msgid "Stopping $progname: "
+#~ msgstr "正在停止 $progname:"
+
+#~ msgid "is stopped"
+#~ msgstr "已停止"
+
+#~ msgid "Shutdown action requested but SHUTDOWN_TIMEOUT was not set"
+#~ msgstr "请求执行停止操作，但未设定 SHUTDOWN_TIMEOUT"
+
+#~ msgid "$prog not supported"
+#~ msgstr "不支持 $prog"
+
+#~ msgid "Unloading ISDN modules"
+#~ msgstr "正在卸载 ISDN 模块"
+
+#~ msgid "Stopping $dagent: "
+#~ msgstr "正在停止 $dagent："
+
+#~ msgid "Wine binary format handlers are not registered."
+#~ msgstr "未注册 Wine 二进制格式处理程序。"
+
+#~ msgid ""
+#~ "ERROR: [ipv6_log] Syslog is chosen, but binary 'logger' doesn't exist or "
+#~ "isn't executable"
+#~ msgstr ""
+#~ "错误：已选择 [ipv6_log] 系统记录，但二进制 '记录器' 不存在或不可执行"
+
+#~ msgid "Usage: $service {start|stop|restart|list|status|clean}"
+#~ msgstr "用法： $service {start|stop|restart|list|status|clean}"
+
+#~ msgid "Starting up-imapproxy daemon: "
+#~ msgstr "正在启动 up-imapproxy 守护进程："
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+#~ msgstr ""
+#~ "用法： $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#~ msgid "Stopping $name: "
+#~ msgstr "正在停止 $name："
+
+#~ msgid "Applying ${ELEVATOR} elevator: "
+#~ msgstr "正在应用 ${ELEVATOR} elevator："
+
+#~ msgid "Starting amavisd-snmp-subagent: "
+#~ msgstr "正在启动 amavisd-snmp-subagent："
+
+#~ msgid "CIM server is not running"
+#~ msgstr "CIM 服务器不在运行"
+
+#~ msgid "Restarting $server: "
+#~ msgstr "正在重启 $server："
+
+#~ msgid "Stopping puppet: "
+#~ msgstr "正在停止 puppet："
+
+#~ msgid "nN"
+#~ msgstr "nN"
+
+#~ msgid "          start-powercontrol|stop-powercontrol|status-powercontrol"
+#~ msgstr "          start-powercontrol|stop-powercontrol|status-powercontrol"
+
+#~ msgid "Starting fail2ban: "
+#~ msgstr "正在启动 fail2ban："
+
+#~ msgid "You need to upgrade the data format before using PostgreSQL."
+#~ msgstr "必须在使用 PostgreSQL 前升级数据格式。"
+
+#~ msgid "Starting Audio Entropy daemon... "
+#~ msgstr "正在启动音频熵守护进程..."
+
+#~ msgid "Remounting root filesystem in read-write mode: "
+#~ msgstr "正在以读写模式重新挂载根文件系统："
+
+#~ msgid "$prog start"
+#~ msgstr "$prog 启动"
+
+#~ msgid "Unmounting $mountpoint:"
+#~ msgstr "正在卸载 $mountpoint："
+
+#~ msgid "Nightly yum update is enabled."
+#~ msgstr "已启用 yum 每晚更新。"
+
+#~ msgid "Syncing hardware clock to system time"
+#~ msgstr "正在将硬件时钟同步到系统时钟"
+
+#~ msgid "Starting $spooler: "
+#~ msgstr "正在启动 $spooler："
+
+#~ msgid "Stopping $monitor: "
+#~ msgstr "正在停止 $monitor："
+
+#~ msgid "Configuration file or keys are invalid"
+#~ msgstr "配置文件或密钥无效"
+
+#~ msgid "NOTICE   "
+#~ msgstr "NOTICE   "
+
+#~ msgid "Reverting to saved sysctl settings: "
+#~ msgstr "恢复到已保存的 sysctl 设置："
+
+#~ msgid "Cleaning $type $name: "
+#~ msgstr "清除 $type $name："
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status}"
+#~ msgstr "用法：$0 {start|stop|restart|reload|status}"
+
+#~ msgid "Turning on allow_ypbind SELinux boolean"
+#~ msgstr "正在打开 allow_ypbind SELinux 逻辑值"
+
+#~ msgid "Starting acpi daemon: "
+#~ msgstr "正在启动 acpi 守护进程："
+
+#~ msgid "Stopping vbi proxy daemon: "
+#~ msgstr "正在停止 vbi 代理程序: "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+#~ msgstr "用法：$0 {start|stop|restart|condstart|condrestart|status|condstop}"
+
+#~ msgid "${IP6TABLES}: Setting chains to policy $policy: "
+#~ msgstr "${IP6TABLES}：正在将链设为 $policy 策略："
+
+#~ msgid "Automatic reboot in progress."
+#~ msgstr "自动重启进行中。"
+
+#~ msgid "Turning off allow_ypbind SELinux boolean"
+#~ msgstr "正在关闭 allow_ypbind SELinux 逻辑值"
+
+#~ msgid "Reloading smokeping: "
+#~ msgstr "正在重载 smokeping："
+
+#~ msgid "httpd shutdown"
+#~ msgstr "httpd 关闭"
+
+#~ msgid "Starting ${NAME}: "
+#~ msgstr "正在启动 ${NAME}："
+
+#~ msgid "${IP6TABLES}: Firewall modules are not loaded."
+#~ msgstr "${IP6TABLES}：未载入防火墙模块。"
+
+#~ msgid "Stopping ${ifprog}: "
+#~ msgstr "正在停止 ${ifprog}："
+
+#~ msgid "Enabling nightly apt update: "
+#~ msgstr "正在启用 apt 每晚更新："
+
+#~ msgid "Shutting down ctdbd service: "
+#~ msgstr "正在关闭 ctdbd 服务："
+
+#~ msgid "conf addition"
+#~ msgstr "配置添加"
+
+#~ msgid "Reloading rules configuration..."
+#~ msgstr "正在重载规则配置..."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status|quickstart|quickstop}"
+#~ msgstr ""
+#~ "用法：$0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status|quickstart|quickstop}"
+
+#~ msgid "Registering binary handler for qemu applications"
+#~ msgstr "正在为 QEMU 应用程序注册二进制处理程序"
+
+#~ msgid "Stopping nsd: "
+#~ msgstr "正在停止 nsd："
+
+#~ msgid "/proc filesystem unavailable"
+#~ msgstr "/proc 文件系统不可用"
+
+#~ msgid "Starting NFS mountd: "
+#~ msgstr "正在启动 NFS mountd："
+
+#~ msgid "Reloading rhnsd"
+#~ msgstr "正在重载 rhnsd"
+
+#~ msgid "Enabling denyhosts cron service: "
+#~ msgstr "正在启用 denyhosts cron 服务："
+
+#~ msgid "Starting $PROG:"
+#~ msgstr "正在启动 $PROG："
+
+#~ msgid "Starting monotone server: "
+#~ msgstr "正在启动 monotone 服务程序："
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status}"
+#~ msgstr "用法：$0 {start|stop|restart|try-restart|status}"
+
+#~ msgid "$prog flush"
+#~ msgstr "刷新 $prog "
+
+#~ msgid "Moodle cron job is enabled."
+#~ msgstr "已启用 Moodle cron 任务。"
+
+#~ msgid "Starting yum-updatesd: "
+#~ msgstr "正在启动 yum-updatesd："
+
+#~ msgid "${IP6TABLES}: Applying firewall rules: "
+#~ msgstr "${IP6TABLES}：正在应用防火墙规则："
+
+#~ msgid "Stopping $prog: "
+#~ msgstr "正在停止 $prog："
+
+#~ msgid "Shutting down Audio Entropy daemon: "
+#~ msgstr "正在关闭音频熵守护进程："

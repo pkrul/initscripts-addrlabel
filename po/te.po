@@ -1,0 +1,3732 @@
+#
+# Translators:
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# Krishnababu Krothapalli <kkrothap@redhat.com>, 2007, 2008, 2009
+# Krishnababu Krothapalli <krisnababu@gmail.com>, 2011
+# Sree Ganesh <sthottem@redhat.com>, 2006
+# sudheesh001 <sudheesh1995@outlook.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: fedora-initscripts\n"
+"PO-Revision-Date: 2013-04-22 18:55+0000\n"
+"Last-Translator: sudheesh001 <sudheesh1995@outlook.com>\n"
+"Language-Team: Telugu (http://www.transifex.com/projects/p/fedora/language/"
+"te/)\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../sysconfig/network-scripts/ifup-eth:231
+#, fuzzy
+msgid "Error, some other host already uses address ${ipaddr[$idx]}."
+msgstr "దోషం, వేరే ఆతిధేయి ఇప్పడికే చిరునామా ఉపయోగించి ఉన్నాడు ${IPADDR}."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:904
+msgid "No parameters given to setup a default route"
+msgstr "సిద్ధ routeని అమర్చటానికి ఏ పారామితీ ఇవ్వబడలేదు"
+
+#: ../sysconfig/network-scripts/ifup-aliases:67
+msgid "usage: ifup-aliases <net-device> [<parent-config>]\n"
+msgstr "వాడు: ifup-aliases <net-device> [<parent-config>]\n"
+
+#: ../sysconfig/network-scripts/ifup-sit:63
+msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
+msgstr "ట్యూనెల్ యొక్క రిమోట్IPv4 చిరునామా తప్పిపోయింది, ఆకృతీకరణ సరైనదికాదు"
+
+#: ../service:78
+msgid "Redirecting to /bin/systemctl ${ACTION} ${OPTIONS} ${SERVICE}.service"
+msgstr ""
+
+#: ../rc.d/init.d/functions:410
+msgid "${base} status unknown due to insufficient privileges."
+msgstr "సరిపోని అనుమతుల కారణంగా ${base} స్థితి తెలియకుంది."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:145
+msgid "Missing parameter 'IPv6-address' (arg 2)"
+msgstr "తప్పిపోయిన పారామితి 'IPv6-address' (arg 2)"
+
+#: ../rc.d/init.d/functions:239 ../rc.d/init.d/functions:249
+msgid "Usage: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+msgstr "వాడుక: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+
+#: ../ppp/ip-up.ipv6to4:123 ../sysconfig/network-scripts/ifup-ipv6:226
+msgid ""
+"Warning: configured MTU '$IPV6TO4_MTU' for 6to4 exceeds maximum limit of "
+"'$tunnelmtu', ignored"
+msgstr ""
+"హెచ్చరిక: MTU '$IPV6TO4_MTU'ని 6నుండీ4 ఆకృతీకరించటం '$tunnelmtu' యొక్క గరిష్ట పరిమితిని "
+"అధికమిస్తోంది, గుర్తించబడలేదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:964
+msgid "Unsupported reason '$reason' for sending trigger to radvd"
+msgstr "మద్దతివ్వని కారణం '$reason' trigger నుండీ radvdకి"
+
+#: ../sysconfig/network-scripts/ifup:103
+#: ../sysconfig/network-scripts/ifup-eth:78
+msgid ""
+"$alias device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "$alias సాధనం ${DEVICE} ప్రస్తుతం ఉన్నట్లు లేదు, సంస్థాపనను కొనసాగిస్తోంది."
+
+#: ../rc.d/init.d/functions:406
+msgid "${base} dead but pid file exists"
+msgstr "${base} లేదు కానీ pid ఫైలు ఉంది"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:100
+#: ../sysconfig/network-scripts/ifup-ipv6:117
+msgid "Please restart network with '/sbin/service network restart'"
+msgstr "నెట్వర్కును '/sbin/service network restart'తో పునఃప్రారంభించు"
+
+#: ../systemd/fedora-autorelabel:21
+msgid "*** when you leave the shell."
+msgstr "*** మీరు ఈ షల్లును విడిచేటప్పుడు."
+
+#: ../sysconfig/network-scripts/ifup-ppp:75
+msgid "ifup-ppp for ${DEVNAME} exiting"
+msgstr "${DEVNAME} కోసం ifup-ppp బయటకువస్తోంది"
+
+#: ../sysconfig/network-scripts/ifup-ppp:142
+msgid "pppd started for ${DEVNAME} on ${MODEMPORT} at ${LINESPEED}"
+msgstr "pppd ${DEVNAME} లో ${MODEMPORT} యందు ${LINESPEED} ప్రారంభమయ్యింది"
+
+#: ../rc.d/init.d/functions:463
+msgid "WARNING"
+msgstr "హెచ్చరిక"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:61
+msgid "Missing parameter 'IPv6-gateway' (arg 2)"
+msgstr "పారామితి 'IPv6-gateway' (arg 2) తప్పిపోయింది"
+
+#: ../rc.d/init.d/functions:330
+msgid "Usage: pidfileofproc {program}"
+msgstr "వాడుక: pidfileofproc {program}"
+
+#: ../rc.d/init.d/functions:229
+msgid "$base startup"
+msgstr "$ఆధార startup"
+
+#: ../ppp/ip-down.ipv6to4:35 ../ppp/ip-up.ipv6to4:41
+msgid ""
+"Argument 1 is empty but should contain interface name - skip IPv6to4 "
+"initialization"
+msgstr "వాదం 1 ఖాళీగా ఉంది కానీ అంతర్ముఖీన నామాన్ని కలిగి ఉండాలి - skip IPv6to4 initialization"
+
+#: ../ppp/ip-up.ipv6to4:189 ../sysconfig/network-scripts/ifup-ipv6:292
+msgid "radvd control enabled, but config is not complete"
+msgstr "radvd నియంత్రణ సాధ్యం, కానీ ఆకృతి పూర్తికాలేదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:383
+msgid "Missing parameter 'address' (arg 1)"
+msgstr "పారామితుల 'చిరునామా' (arg 1) తప్పిపోయింది"
+
+#: ../rc.d/init.d/netconsole:76
+msgid "Server address not specified in /etc/sysconfig/netconsole"
+msgstr "/etc/sysconfig/netconsole లో సర్వర్ చిరునామాను తెలుపలేదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:798
+msgid "Missing parameter 'IPv6 MTU' (arg 2)"
+msgstr "తప్పిపోయిన పారామితి 'IPv6 MTU' (arg 2)"
+
+#: ../rc.d/init.d/network:67
+msgid "Bringing up loopback interface: "
+msgstr "loopback అంతర్ముఖీనతను తీసుకొస్తోంది: "
+
+#: ../rc.d/init.d/functions:452
+msgid "PASSED"
+msgstr "వెళ్లింది"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:394
+msgid "Given address '$addr' is not a global IPv4 one (arg 1)"
+msgstr "ఇవ్వబడ్డ చిరునామాలు '$addr' సార్వజనిక IPv4 one (arg 1) కావు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:706
+msgid "Missing parameter 'selection' (arg 2)"
+msgstr "తప్పిపోయిన పారామితి 'selection' (arg 2)"
+
+#: ../ppp/ip-up.ipv6to4:91 ../sysconfig/network-scripts/ifup-ipv6:211
+msgid ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+msgstr ""
+"IPv6to4 ఆకృతీకణకు ఒక IPv4 చిరునామాను సంబంధిత అంతర్ముఖంలోనూ లేదా తెలుపబడిన వాటిలోనూ కలిగి ఉండాలి"
+
+#: ../sysconfig/network-scripts/ifup-aliases:190
+#, fuzzy
+msgid "error iN $FILE: didn't specify netmask or prefix"
+msgstr "$FILEలో దోషమ్: సాధనం లేదా ipaddr తెలుపబడలేదు"
+
+#: ../sysconfig/network-scripts/ifdown-tunnel:36
+#: ../sysconfig/network-scripts/ifup-tunnel:63
+msgid "Device '$DEVICE' isn't supported as a valid GRE device name."
+msgstr "సాధనం '$DEVICE' సరైన GRE సాధన నామంగా మద్దతివ్వలేదు ."
+
+#: ../sysconfig/network-scripts/ifup-eth:43
+msgid "Device ${DEVICE} has different MAC address than expected, ignoring."
+msgstr "సాధనం ${DEVICE} ఊహించిన దానికంటే వేరైన MAC చిరునామాని కలిగిఉంది, గుర్తించటంలేదు."
+
+#: ../sysconfig/network-scripts/ifup-aliases:264
+msgid "Error, some other host already uses address ${IPADDR}."
+msgstr "దోషం, వేరే ఆతిధేయి ఇప్పడికే చిరునామా ఉపయోగించి ఉన్నాడు ${IPADDR}."
+
+#: ../rc.d/init.d/network:271
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload}"
+msgstr "వాడుక: $0 {start|stop|status|restart|reload|force-reload}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:603
+msgid "Tunnel device '$device' creation didn't work"
+msgstr "Tunnel సాధన '$device' సృష్టి వనిచేయటమ్ లేదు"
+
+#: ../rc.d/init.d/netconsole:91
+msgid "Initializing netconsole"
+msgstr "netconsoleను సంస్థాపిస్తోంది"
+
+#: ../sysconfig/network-scripts/ifdown-eth:42
+#: ../sysconfig/network-scripts/ifdown-eth:48
+msgid ""
+"Device ${DEVICE} has MAC address ${FOUNDMACADDR}, instead of configured "
+"address ${HWADDR}. Ignoring."
+msgstr ""
+"ఆకృతీకరించబడ్డ చిరునామాకి బదులు ${HWADDR}, సాధనం ${DEVICE} MAC చిరునామాని "
+"${FOUNDMACADDR} కలిగి ఉంది. Ignoring."
+
+#: ../rc.d/init.d/functions:441
+msgid "FAILED"
+msgstr "విఫలమైంది"
+
+#: ../sysconfig/network-scripts/ifup-eth:286
+#, fuzzy
+msgid "Determining IPv6 information for ${DEVICE}..."
+msgstr "${DEVICE}...కోసం ఐపి సమాచారాన్ని నిర్ణయించుతోంది"
+
+#: ../rc.d/init.d/functions:422
+msgid "${base} is stopped"
+msgstr "${base} ఆపబడింది"
+
+#: ../rc.d/init.d/functions:151 ../rc.d/init.d/functions:187
+msgid "$0: Usage: daemon [+/-nicelevel] {program}"
+msgstr "$0: వాడుక: daemon [+/-nicelevel] {program}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:165
+msgid "error in $FILE: invalid alias number"
+msgstr "$FILEలో దోషం: చెల్లని alias సంఖ్య"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:159
+msgid "Device '$device' doesn't exist"
+msgstr "సాధనం '$device' లేదు"
+
+#: ../sysconfig/network-scripts/ifup:30 ../sysconfig/network-scripts/ifup:38
+msgid "Usage: ifup <configuration>"
+msgstr "వాడు: ifup <device name>"
+
+#: ../sysconfig/network-scripts/ifup:126 ../sysconfig/network-scripts/ifup:127
+msgid "ERROR: could not add vlan ${VID} as ${DEVICE} on dev ${PHYSDEV}"
+msgstr "దోషం: vlan ${VID}ను ${DEVICE}గా dev ${PHYSDEV}లో కలప లేదు"
+
+#: ../sysconfig/network-scripts/ifup-ctc:37
+msgid "ERROR: ${DEVICE} did not come up!"
+msgstr ""
+
+#: ../ppp/ip-up.ipv6to4:138 ../sysconfig/network-scripts/ifup-ipv6:240
+msgid "Warning: interface 'tun6to4' does not support 'IPV6_DEFAULTGW', ignored"
+msgstr "హెచ్చరిక: అంతర్ముఖీన 'tun6to4' మద్దతివ్వదు 'IPV6_DEFAULTGW', గుర్తించబడలేదు"
+
+#: ../rc.d/init.d/network:133 ../rc.d/init.d/network:140
+msgid "Bringing up interface $i: "
+msgstr "$i అంతర్ముఖీనతను తీసుకొస్తోంది: "
+
+#: ../sysconfig/network-scripts/init.ipv6-global:162
+msgid "Usage: $0 {start|stop|reload|restart|showsysctl}"
+msgstr "వాడుక: $0 {start|stop|reload|restart|showsysctl}"
+
+#: ../sysconfig/network-scripts/ifup-eth:80
+msgid "Device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "సాధనం ${DEVICE} ఉన్నట్లు లేదు, సంస్థాపనను మళ్లీ చేస్తోంది."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:841
+msgid "Given IPv6 default gateway '$address' is not in proper format"
+msgstr "ఇవ్వబడిన IPv6 సిద్ధ gateway '$address' సరైన ఆకృతిలో లేదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:140
+#: ../sysconfig/network-scripts/network-functions-ipv6:203
+#: ../sysconfig/network-scripts/network-functions-ipv6:232
+#: ../sysconfig/network-scripts/network-functions-ipv6:312
+#: ../sysconfig/network-scripts/network-functions-ipv6:427
+#: ../sysconfig/network-scripts/network-functions-ipv6:489
+#: ../sysconfig/network-scripts/network-functions-ipv6:523
+#: ../sysconfig/network-scripts/network-functions-ipv6:565
+#: ../sysconfig/network-scripts/network-functions-ipv6:643
+#: ../sysconfig/network-scripts/network-functions-ipv6:701
+#: ../sysconfig/network-scripts/network-functions-ipv6:754
+#: ../sysconfig/network-scripts/network-functions-ipv6:793
+#: ../sysconfig/network-scripts/network-functions-ipv6:921
+msgid "Missing parameter 'device' (arg 1)"
+msgstr "పారామితి తప్పిపోయింది 'device' (arg 1)"
+
+#: ../rc.d/init.d/network:82
+msgid "No 802.1Q VLAN support available in kernel."
+msgstr "No 802.1Q VLAN మద్దతు కెర్నలులో అందుబాటులో ఉంటుంది."
+
+#: ../sysconfig/network-scripts/ifup-aliases:180
+msgid "error in $FILE: already seen device $parent_device:$DEVNUM in $devseen"
+msgstr "$FILEలో దోషం: సాధనాన్ని $parent_device చూడబడింది:$devseenలోని $DEVNUM"
+
+#: ../systemd/fedora-autorelabel:20
+msgid "*** problems. Dropping you to a shell; the system will reboot"
+msgstr "*** సమస్యలు. మిమ్మల్ని షల్లులో ఉంచటంవల్ల; కంప్యూటరు రీబూట్ చేయాలి"
+
+#: ../sysconfig/network-scripts/ifup-sit:71
+msgid "Device '$DEVICE' is already up, please shutdown first"
+msgstr "సాధనం '$DEVICE' ఇప్పటికే పైన ఉంది, దయచేసి ముందు ముయ్యండి"
+
+#: ../systemd/fedora-autorelabel:26
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required."
+msgstr "*** హెచ్చరిక -- SELinux ${SELINUXTYPE} విధాన రీలేబుల్ కావలసి ఉంది."
+
+#: ../rc.d/init.d/netconsole:36
+msgid "Usage: $0 {start|stop|status|restart|condrestart}"
+msgstr "వాడుక: $0 {start|stop|status|restart|condrestart}"
+
+#: ../sysconfig/network-scripts/ifup-aliases:231
+#: ../sysconfig/network-scripts/ifup-aliases:242
+msgid "error in ifcfg-${parent_device}: files"
+msgstr "ifcfg-${parent_device}లో దోషం: ఫైళ్లు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:804
+msgid "Given IPv6 MTU '$ipv6_mtu' is out of range"
+msgstr "ఇవ్వబడిన IPv6 MTU '$ipv6_mtu' స్థాయికి మించి ఉంది"
+
+#: ../sysconfig/network-scripts/ifup-aliases:320
+msgid "error in $FILE: IPADDR_START greater than IPADDR_END"
+msgstr "$FILEలో దోషం: IPADDR_START IPADDR_ENDకంటే ఎక్కువ"
+
+#: ../sysconfig/network-scripts/ifup-eth:260
+#, fuzzy
+msgid "Error adding default gateway ${GATEWAY} for ${DEVICE}."
+msgstr "${DEVICE} కోసం దోషాన్ని కలిపే చిరునామాలు ${IPADDR}."
+
+#: ../rc.d/init.d/functions:430
+msgid "  OK  "
+msgstr "  సరే  "
+
+#: ../sysconfig/network-scripts/network-functions:540
+msgid "INFO     "
+msgstr "సమాచారం     "
+
+#: ../sysconfig/network-scripts/ifup-aliases:185
+msgid "error in $FILE: didn't specify device or ipaddr"
+msgstr "$FILEలో దోషమ్: సాధనం లేదా ipaddr తెలుపబడలేదు"
+
+#: ../sysconfig/network-scripts/ifdown:33 ../sysconfig/network-scripts/ifup:49
+msgid "Users cannot control this device."
+msgstr "వినియోగదారుడు ఈ సాధనాన్ని నియంత్రించలేడు."
+
+#: ../sysconfig/network-scripts/ifup:89
+msgid "PHYSDEV should be set for device ${DEVICE}"
+msgstr "PHYSDEV సాధనంకోసం తప్పక అమర్చాలి ${DEVICE}"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1031
+msgid "radvd not (properly) installed, triggering failed"
+msgstr "radvd (సరిగా) సంస్థాపించబడలేదు, triggering విఫలమైంది"
+
+#: ../sysconfig/network-scripts/ifup-eth:177
+#: ../sysconfig/network-scripts/ifup-eth:290
+msgid " failed."
+msgstr " విఫలమైంది."
+
+#: ../rc.d/init.d/functions:345
+msgid "Usage: pidofproc [-p pidfile] {program}"
+msgstr "వాదుక: pidofproc [-p pidfile] {program}"
+
+#: ../systemd/fedora-autorelabel:18
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required. "
+msgstr "*** హెచ్చరిక -- SELinux ${SELINUXTYPE} విధాన రీలేబుల్ కావలసి ఉంది. "
+
+#: ../rc.d/init.d/network:258
+msgid "Configured devices:"
+msgstr "ఆకృతీకరించిన సాధనాలు:"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:895
+msgid "Given IPv6 default device '$device' requires an explicit nexthop"
+msgstr "ఇవ్వబడ్డ IPv6 సిద్ధ సాధనం '$device'కి ఖచ్చితమైన nexthop కావలసి ఉంది"
+
+#: ../rc.d/init.d/functions:33
+#, fuzzy
+msgid "Starting $prog (via systemctl): "
+msgstr "$progbase ను ప్రారంభిస్తోంది: "
+
+#: ../sysconfig/network-scripts/ifdown:15
+#: ../sysconfig/network-scripts/ifdown:22
+msgid "usage: ifdown <configuration>"
+msgstr "వాడు: ifdown <device name>"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:276
+msgid ""
+"Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+msgstr "6నుండీ4 మరియూ RADVD IPv6ని ఉపయోగించి ముందుకు పంపటం సాధారణంగా కుదరదు,  ఔనా"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:438
+#: ../sysconfig/network-scripts/network-functions-ipv6:495
+#: ../sysconfig/network-scripts/network-functions-ipv6:534
+msgid "Given device '$device' is not supported (arg 1)"
+msgstr "ఇవ్వబడ్డ సాధనం '$device' మద్దతివ్వటం లేదు (arg 1)"
+
+#: ../rc.d/init.d/netconsole:111
+msgid "netconsole module loaded"
+msgstr "వలయతెర గుణకం లోడవుతున్నది"
+
+#: ../rc.d/init.d/functions:269 ../rc.d/init.d/functions:296
+#: ../rc.d/init.d/functions:312
+msgid "$base shutdown"
+msgstr "$ఆధార మూసివేత"
+
+#: ../sysconfig/network-scripts/ifup-tunnel:56
+msgid "Invalid tunnel type $TYPE"
+msgstr "చెల్లని ట్యూనెల్ రకం $TYPE"
+
+#: ../sysconfig/network-scripts/ifup-ppp:48
+msgid "pppd does not exist or is not executable for ${DEVICE}"
+msgstr "pppd లేదు లేదా అది ${DEVICE}కి executable కాదు"
+
+#: ../sysconfig/network-scripts/ifup:37
+msgid "$0: configuration for ${1} not found."
+msgstr "$0: ${1} కోసం ఆకృతీకరణ కనుగొనబడలేదు."
+
+#: ../sysconfig/network-scripts/ifup-eth:165
+msgid "Determining IP information for ${DEVICE}..."
+msgstr "${DEVICE}...కోసం ఐపి సమాచారాన్ని నిర్ణయించుతోంది"
+
+#: ../systemd/fedora-autorelabel:19
+msgid "*** /etc/selinux/config indicates you want to manually fix labeling"
+msgstr "*** /etc/selinux/config indicates మీకు మానవీయ fix labeling కావా"
+
+#: ../sysconfig/network-scripts/network-functions:537
+msgid "WARN     "
+msgstr "హెచ్చరిక     "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:86
+msgid ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+msgstr ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+
+#: ../rc.d/init.d/netconsole:82
+msgid "netconsole: can't resolve MAC address of $SYSLOGADDR"
+msgstr "netconsole:$SYSLOGADDR యోక్క MAC చిరునామాను పరిష్కరించలేదు"
+
+#: ../sysconfig/network-scripts/ifup-ppp:46
+msgid "ifup-ppp for ${DEVICE} exiting"
+msgstr "ifup-ppp కోసం ${DEVICE} బయటకు వస్తోంది"
+
+#: ../sysconfig/network-scripts/ifdown-routes:5
+#, fuzzy
+msgid "usage: ifdown-routes <net-device> [<nickname>]"
+msgstr "వాడుక: ifup-routes <net-device> [<nickname>]"
+
+#: ../sysconfig/network-scripts/ifup-eth:51
+msgid "Bridge support not available: brctl not found"
+msgstr "Bridge అందుబాటులో లేదు: brctl కనుగొనబడలేదు"
+
+#: ../rc.d/init.d/network:261
+msgid "Currently active devices:"
+msgstr "ప్రస్తుతం క్రియాశీలంగా ఉన్న సాధనం:"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:590
+msgid ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+msgstr ""
+"ట్యూనెల్ సాధనం '$device'లో ఇవ్వబడిన remote చిరునామా '$addressipv4tunnel' ఇప్పటికే "
+"'$devnew' సాధనంలో ఆకృతీకరించబడింది"
+
+#: ../sysconfig/network-scripts/ifdown-sit:40
+#: ../sysconfig/network-scripts/ifup-sit:58
+msgid ""
+"Device '$DEVICE' isn't supported here, use IPV6_AUTOTUNNEL setting and "
+"restart (IPv6) networking"
+msgstr ""
+"'$DEVICE' సాధనానికి ఇక్కడ మద్దతివ్వబడలేదు, IPV6_AUTOTUNNEL అమర్పును ఉపయోగించు మరియూ "
+"(IPv6) నెట్వర్కింగును పునఃప్రారంభించు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:343
+msgid "Missing parameter 'IPv4 address' (arg 1)"
+msgstr "తప్పిపోయిన 'IPv4 పారామితి చిరునామాలు' (arg 1)"
+
+#: ../rc.d/init.d/network:232
+msgid "Shutting down interface $i: "
+msgstr "$i అంతర్ముఖీనతను మూస్తోంది: "
+
+#: ../sysconfig/network-scripts/ifup-ippp:374
+msgid ""
+"Warning: ipppd (kernel 2.4.x and below) doesn't support IPv6 using "
+"encapsulation 'syncppp'"
+msgstr ""
+"హెచ్చరిక: ipppd (kernel 2.4.x and below) IPv6 వినియోగానికి మద్దతివ్వటంలేదు encapsulation "
+"'syncppp'"
+
+#: ../systemd/fedora-autorelabel:27
+msgid "*** Relabeling could take a very long time, depending on file"
+msgstr "***  ఫైలుమీద ఆధారపడి, రీలేబులింగు ఎక్కువసమయం తీసుకోవచ్చు"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:99
+msgid ""
+"Global IPv6 forwarding is enabled in configuration, but not currently "
+"enabled in kernel"
+msgstr "సార్వజనిక IPv6ని పురోగమింపచేయటం కుదరదు, కానీ ప్రస్తుతం కెర్నలులో ఉంచబడింది"
+
+#: ../rc.d/init.d/functions:39
+#, fuzzy
+msgid "Reloading $prog configuration (via systemctl): "
+msgstr "$prog ఆకృతీకరణను తిరిగిలోడ్ చేస్తోంది: "
+
+#: ../sysconfig/network-scripts/ifup-ippp:55
+msgid "$*"
+msgstr "$*"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:855
+msgid ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+msgstr ""
+"ఇవ్వబడిన IPv6 సిద్ధ gateway '$address' link-localగా ఉంది, కానీ ఏ scope లేదా gateway "
+"సాధనమూ తెలుపబడలేదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:610
+msgid "Tunnel device '$device' bringing up didn't work"
+msgstr "ట్యానల్ సాధనం '$device' తీసుకుని రావటం పనిచేయక పోవచ్చు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:993
+msgid "Unsupported mechanism '$mechanism' for sending trigger to radvd"
+msgstr "trigger నుండీ radvdకి పంపటానికి మద్దతివ్వని విధానం'$mechanism'"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:398
+msgid "Given address '$addr' is not a valid IPv4 one (arg 1)"
+msgstr "ఇవ్వబడిన చిరునామాలు '$addr' సరైన IPv4 (arg 1) చిరునామాలు కావు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:432
+msgid "Missing parameter 'global IPv4 address' (arg 2)"
+msgstr "తప్పిపోయిన పారామితి 'global IPv4 address' (arg 2)"
+
+#: ../sysconfig/network-scripts/ifup-ppp:74
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist"
+msgstr "/etc/sysconfig/network-scripts/chat-${DEVNAME} లేదు"
+
+#: ../rc.d/init.d/netconsole:114
+msgid "netconsole module not loaded"
+msgstr " వలయతెర గుణకం లోడుకాలేదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:89
+msgid "Unknown error"
+msgstr "తెలియని దోషం"
+
+#: ../rc.d/init.d/functions:371
+msgid "Usage: status [-p pidfile] {program}"
+msgstr "వాడుక: స్థితి [-p pidfile] {program}"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:299
+msgid "6to4 configuration is not valid"
+msgstr "6to4 ఆకృతీకరణ సరైనది కాదు"
+
+#: ../sysconfig/network-scripts/ifup-ppp:82
+msgid "Setting up a new ${PEERCONF} config file"
+msgstr "ఒక కొత్త ${PEERCONF} config fileఆకృతి ఫైలును అమర్చుతోంది"
+
+#: ../sysconfig/network-scripts/ifup-aliases:316
+msgid "error in $FILE: IPADDR_START and IPADDR_END don't agree"
+msgstr "$ఫైలులో దోషం: IPADDR_START మరియూ IPADDR_END అంగీకరించబడదు"
+
+#: ../rc.d/init.d/functions:303
+msgid "$base $killlevel"
+msgstr "$ఆధార $killస్థాయి"
+
+#: ../sysconfig/network-scripts/ifup-ppp:59
+msgid "adsl-start does not exist or is not executable for ${DEVICE}"
+msgstr "adsl-start లేదు లేదా ${DEVICE}కి executable కాదు"
+
+#: ../sysconfig/network-scripts/ifup-eth:167
+msgid " failed; no link present.  Check cable?"
+msgstr " విఫలమైంది; ఏలింకూ లేదు.  cableను వెతుకు?"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:116
+msgid ""
+"Global IPv6 forwarding is disabled in configuration, but not currently "
+"disabled in kernel"
+msgstr "సార్వజనిక IPv6 forwarding ఆకృతీకరణలో సాధ్యం కాదు, కానీ ప్రస్తుతం కెర్నల్లో అసాధ్యం కాదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:165
+msgid "Device '$device' enabling didn't work"
+msgstr "సాధనం '$device' enabling పనిచేయటంలేదు"
+
+#: ../sysconfig/network-scripts/ifup-ppp:77
+msgid ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist for ${DEVICE}"
+msgstr "${DEVICE} కోసం /etc/sysconfig/network-scripts/chat-${DEVNAME} లేదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:186
+msgid "Cannot add IPv6 address '$address' on dev '$device'"
+msgstr "dev '$device'లో IPv6 చిరునామాలను కలపలేదు '$address'"
+
+#: ../sysconfig/network-scripts/ifup-ippp:376
+msgid "Warning: link doesn't support IPv6 using encapsulation 'rawip'"
+msgstr "హెచ్చరిక: లింకు IPv6 వినియోగ encapsulation 'rawip'కు మద్దతివ్వదు"
+
+#: ../sys-unconfig:6
+msgid "Usage: sys-unconfig"
+msgstr "వాడుక: sys-unconfig"
+
+#: ../sysconfig/network-scripts/ifup-routes:5
+msgid "usage: ifup-routes <net-device> [<nickname>]"
+msgstr "వాడుక: ifup-routes <net-device> [<nickname>]"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:570
+msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
+msgstr "తప్పిపోయిన 'IPv4-tunnel address'  పారామితి (arg 2)"
+
+#: ../rc.d/init.d/netconsole:101
+msgid "Disabling netconsole"
+msgstr "వలయతెరను అచేతనంచేస్తుంది"
+
+#: ../systemd/fedora-configure:19
+msgid "Resetting hostname ${HOSTNAME}: "
+msgstr "ఆతిధేయనామం ${HOSTNAME}ను తిరిగి అమర్చుతోంది: "
+
+#: ../rc.d/init.d/network:246
+msgid "Shutting down loopback interface: "
+msgstr "loopback అంతర్ముఖీనతను మూస్తోంది: "
+
+#: ../sysconfig/network-scripts/ifup-eth:264
+#, fuzzy
+msgid "Erorr adding default gateway for ${REALDEVICE}."
+msgstr "${DEVICE} కోసం దోషాన్ని కలిపే చిరునామాలు ${IPADDR}."
+
+#: ../systemd/fedora-autorelabel:28
+msgid "*** system size and speed of hard drives."
+msgstr "*** కంప్యూటరు పరిణామం మరియూ హార్డుడ్రైవుల వేగం."
+
+#: ../sysconfig/network-scripts/network-functions:531
+msgid "DEBUG    "
+msgstr "DEBUG    "
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:959
+msgid "No reason given for sending trigger to radvd"
+msgstr "trigger నుండీ radvdకి పంపటానికి ఏకారణమూ కనుగొనబడలేదు"
+
+#: ../sysconfig/network-scripts/ifup-ipx:7
+msgid "usage: $0 <net-device>"
+msgstr "వాడుక: $0 <net-device>"
+
+#: ../sysconfig/network-scripts/ifup-eth:174
+#: ../sysconfig/network-scripts/ifup-eth:288
+msgid " done."
+msgstr " అయ్యింది."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:56
+msgid "Missing parameter 'IPv6-network' (arg 1)"
+msgstr "తప్పిపోయిన పారామితి 'IPv6-network' (arg 1)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1005
+msgid "Given pidfile '$pidfile' doesn't exist, cannot send trigger to radvd"
+msgstr "ఇవ్వబడిన pidfile '$pidfile' లేదు, triggerను radvdకి పంపలేము"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:528
+msgid "Missing parameter 'local IPv4 address' (arg 2)"
+msgstr "'local IPv4 address' (arg 2) పారామితి తప్పిపోయింది"
+
+#: ../sysconfig/network-scripts/ifup-aliases:119
+msgid "Missing config file $PARENTCONFIG."
+msgstr "$PARENTCONFIG ఆకృతీకరణ ఫైలు తప్పిపోయింది."
+
+#: ../rc.d/init.d/functions:513
+msgid "$STRING"
+msgstr "$STRING"
+
+#: ../rc.d/init.d/functions:419
+msgid "${base} dead but subsys locked"
+msgstr "${base} లేదు కానీ subsys లాక్ చేయబడింది"
+
+#: ../sysconfig/network-scripts/ifup-aliases:175
+msgid "error in $FILE: already seen ipaddr $IPADDR in $ipseen"
+msgstr "$FILEలో దోషం: ipaddr $IPADDRను $ipseenలో ఇప్పటికే చూసింది"
+
+#: ../rc.d/init.d/functions:36
+#, fuzzy
+msgid "Stopping $prog (via systemctl): "
+msgstr "$prog డెమోన్ను ఆపుతోంది: "
+
+#: ../sysconfig/network-scripts/ifup-eth:237
+#, fuzzy
+msgid "Error adding address ${ipaddr[$idx]} for ${DEVICE}."
+msgstr "${DEVICE} కోసం దోషాన్ని కలిపే చిరునామాలు ${IPADDR}."
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:710
+msgid "Unsupported selection '$selection' specified (arg 2)"
+msgstr "మద్దతివ్వని ఎన్నిక '$selection' specified (arg 2)"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:1014
+msgid "Pidfile '$pidfile' is empty, cannot send trigger to radvd"
+msgstr "Pidఫైలు '$pidfile' ఖాళీగా ఉంది, triggerను radvdకి పంపలేము"
+
+#: ../sysconfig/network-scripts/ifup-eth:201
+msgid "Failed to bring up ${DEVICE}."
+msgstr "${DEVICE}ను తీసుకు రావటంలో విఫలమైంది."
+
+#: ../sysconfig/network-scripts/ifup-ipv6:147
+msgid ""
+"Cannot enable IPv6 privacy method '$IPV6_PRIVACY', not supported by kernel"
+msgstr "IPv6 ముందలి విధానాన్ని '$IPV6_PRIVACY' enable చేయలేదు, కెర్నలు చేత మద్దతివ్వబడలేదు"
+
+#: ../rc.d/init.d/network:152
+#, fuzzy
+msgid "Legacy static-route support not available: /sbin/route not found"
+msgstr "Bridge అందుబాటులో లేదు: brctl కనుగొనబడలేదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:114
+msgid "Tunnel device 'sit0' enabling didn't work"
+msgstr "Tunnel సాధనం 'sit0' enabling పనిచేయటంలేదు"
+
+#: ../sysconfig/network-scripts/ifup-ipv6:171
+msgid "Device 'tun6to4' (from '$DEVICE') is already up, shutdown first"
+msgstr "సాధనం 'tun6to4' ('$DEVICE' నుండీ) ఇప్పటికే ఉంది, మొదట దాన్ని ముయ్యండి"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:847
+msgid ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+msgstr ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+
+#: ../rc.d/init.d/functions:396 ../rc.d/init.d/functions:402
+msgid "${base} (pid $pid) is running..."
+msgstr "${base} (pid $pid) నడుస్తోంది..."
+
+#: ../sysconfig/network-scripts/ifup:96
+msgid "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+msgstr "సాధనం ${DEVICE} కోసం ఏ 802.1Q VLAN మద్దతూ అందుబాటులో లేదు"
+
+#: ../sysconfig/network-scripts/network-functions-ipv6:898
+msgid "Given IPv6 default device '$device' doesn't exist or isn't up"
+msgstr "IPv6 సిద్ధ సాధనాన్ని '$device' ఇవ్వటం లేక పోవచ్చు లేదా పైన ఉండకపోవచ్చు"
+
+#: ../ppp/ip-up.ipv6to4:87 ../sysconfig/network-scripts/ifup-ipv6:198
+msgid "Given IPv4 address '$ipv4addr' is not globally usable"
+msgstr "ఇవ్వబడిన IPv4 చిరునామా '$ipv4addr' సార్వగనికంగా ఉపయోగించటానికి వీలుకాదు"
+
+#: ../ppp/ip-up.ipv6to4:186 ../sysconfig/network-scripts/ifup-ipv6:289
+msgid "Error occurred while calculating the IPv6to4 prefix"
+msgstr "IPv6to4 prefixని లెక్కిస్తున్నప్పుడు దోషం సంభవించింది"
+
+#: ../rc.d/init.d/functions:42
+#, fuzzy
+msgid "Restarting $prog (via systemctl): "
+msgstr "$progను పునఃప్రారంభిస్తోంది: "
+
+#: ../sysconfig/network-scripts/ifup-ppp:45
+msgid "pppd does not exist or is not executable"
+msgstr "pppd లేదు లేదా అది executable కానిదై ఉండి ఉంటుంది"
+
+#: ../sysconfig/network-scripts/network-functions:534
+msgid "ERROR    "
+msgstr "దోషం    "
+
+#~ msgid "Usage: ifup <device name>"
+#~ msgstr "వాడు: ifup <device name>"
+
+#~ msgid "Reloading $prog for $ez_name: "
+#~ msgstr "$ez_name కోసం తిరిగి లోడు చేస్తోంది: "
+
+#~ msgid "Stopping incrond: "
+#~ msgstr "incrondని ఆపుతోంది: "
+
+#~ msgid "already stopped"
+#~ msgstr "ఇప్పటికే ఆగిపోయింది"
+
+#~ msgid "Starting Shorewall: "
+#~ msgstr "షోర్‌వాల్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting UPS monitor (slave): "
+#~ msgstr "UPS మోనిటరును ప్రారంభిస్తోంది (slave): "
+
+#~ msgid "Stopping infrared remote control mouse daemon ($prog2): "
+#~ msgstr "infrared remote control mouse daemon ($prog2)ను ఆపుతోంది: "
+
+#~ msgid "Graceful shutdown of old $prog: "
+#~ msgstr "పాత $prog యొక్క గ్రేస్‌ఫుల్ మూసివేత: "
+
+#~ msgid "$base dead but pid file exists"
+#~ msgstr "$ఆధారం లేదు కానీ pid ఫైలు ఉంది"
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "వాడుక: $0 {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Starting console mouse services: "
+#~ msgstr "కన్సోలు మౌసు సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down router discovery services: "
+#~ msgstr "router కనుగొనే సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting Red Hat Network Daemon: "
+#~ msgstr "Red Hat నెట్వర్కు డెమోన్‌ను ప్రారంభించుచున్నది: "
+
+#~ msgid "$prog already running"
+#~ msgstr "$prog ఇప్పటికే ‌నడుస్తోంది"
+
+#~ msgid "Reloading ser2net"
+#~ msgstr "ser2netని తిరిగి లోడుచేస్తోంది"
+
+#~ msgid "no dictionaries installed"
+#~ msgstr "ఏ నిఘంటువులూ సంస్థాపించబడలేదు"
+
+#~ msgid "Starting vmpsd: "
+#~ msgstr "vmpsd ప్రారంభించుచున్నది: "
+
+#~ msgid "Importing $prog databases: "
+#~ msgstr "$prog డాటాబేస్‌లను దిగుమతి చేయుచున్నది: "
+
+#~ msgid "to"
+#~ msgstr "యిచటకు"
+
+#~ msgid "${IPTABLES}: Firewall is not running."
+#~ msgstr "${IPTABLES}: ఫైర్‌వాల్ నడుచుటలేదు."
+
+#~ msgid "${IPTABLES}: Firewall is not configured. "
+#~ msgstr "${IPTABLES}: ఫైర్‌వాల్ ఆకృతీకరించబడిలేదు. "
+
+#~ msgid "Setting path to vshelper"
+#~ msgstr "vshelper కు మార్గాన్ని అమర్చండి"
+
+#~ msgid "Unmounting CIFS filesystems: "
+#~ msgstr "CIFS ఫైళ్ల విధానాన్ని మరల్చలేము: "
+
+#~ msgid "Stopping spectrum transport: "
+#~ msgstr "స్పెక్ట్రమ్ బదలీకరణను ఆపుతోంది: "
+
+#~ msgid "Entering interactive startup"
+#~ msgstr "పారస్పర్య ప్రారంభానికి ప్రవేశిస్తోంది"
+
+#~ msgid "Starting RPC svcgssd: "
+#~ msgstr "RPC svcgssdను ప్రారంభిస్తోంది: "
+
+#~ msgid "$s compilation failed "
+#~ msgstr "$s నిర్వర్తనము విఫలమైంది"
+
+#~ msgid "Starting $prog: "
+#~ msgstr "$progను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting CGroup Rules Engine Daemon..."
+#~ msgstr "CGroup నియమాల యింజన్ డెమోన్‌ను ప్రారంభిస్తోంది..."
+
+#~ msgid "Starting xend daemon: "
+#~ msgstr "xend daemonను ప్రారంభిస్తోంది: "
+
+#~ msgid "Error. This appears to be a slave server, found kpropd.acl"
+#~ msgstr "దోషం. ఇది స్లేవ్ సర్వరుగా కనిపిస్తోంది, kpropd.aclని కనుక్కో"
+
+#~ msgid "Saving $desc ($prog): "
+#~ msgstr "$desc ($prog)ని భద్రపరుస్తోంది: "
+
+#~ msgid "$prog startup"
+#~ msgstr "$prog ప్రారంభము"
+
+#~ msgid "Starting preload daemon: "
+#~ msgstr "ప్రిలోడ్ డెమోన్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Disabling denyhosts cron service: "
+#~ msgstr "denyhosts cron సేవ ను అసాధ్యం చేస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $spooler {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Usage: $spooler {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Reloading "
+#~ msgstr "తిరిగి లోడుచేస్తోంది"
+
+#~ msgid "Stopping system message bus: "
+#~ msgstr "కంప్యూటరు సమాచార busను ఆపుతోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|condrestart|try-"
+#~ "restart}"
+
+#~ msgid "Insufficient privilege"
+#~ msgstr "సరిపోని అనుమతి"
+
+#~ msgid "Disabling nightly yum update: "
+#~ msgstr "nightly yum నవీకరణను అచేతనం చేస్తోంది : "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|condrestart|try-restart|"
+#~ "reload}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|condrestart|try-restart|"
+#~ "reload}"
+
+#~ msgid "ERROR: Program /usr/sbin/firstboot is not installed"
+#~ msgstr "ERROR: ప్రోగ్రామ్ /usr/sbin/firstboot సంస్థాపించబడిలేదు"
+
+#~ msgid "Stopping UPS monitor: "
+#~ msgstr "UPS మోనిటరును ఆపుతోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+#~ "restart}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|reload|configtest|status|force-reload|upgrade|"
+#~ "restart}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|reload|configtest|status|force-reload|upgrade|"
+#~ "restart}"
+
+#~ msgid "Enabling monthly Smolt checkin: "
+#~ msgstr "మంత్లీ స్మాల్టు చెకిన్ ను సిద్దపరుస్తుంది: "
+
+#~ msgid "Removing user defined chains:"
+#~ msgstr "వినియోగదారుడు నిర్వచించిన chainలను తొలగిస్తోంది:"
+
+#~ msgid "Starting $prog instance "
+#~ msgstr "$prog ఇన్ స్టాన్సు ప్రారంభిస్తోంది:"
+
+#~ msgid "Nightly yum update is disabled."
+#~ msgstr "Nightly yum update అసాధ్యం."
+
+#~ msgid "Retrigger failed udev events"
+#~ msgstr "విఫలమైన udev ఘటనలను తిరిగి ట్రిగ్గర్ చేస్తోంది"
+
+#~ msgid "Starting $dagent: "
+#~ msgstr "$dagent ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping rwho services: "
+#~ msgstr "rwho సేవలను ఆపుతోంది: "
+
+#~ msgid "Shutting down NIS service: "
+#~ msgstr "NIS సేవలను ముగిస్తోంది: "
+
+#~ msgid "Flushing all current rules and user defined chains:"
+#~ msgstr "Flushing all current rules and user defined chains:"
+
+#~ msgid "Usage: $0 {start|stop|status|restart}"
+#~ msgstr "వాడుక: $0 {start|stop|status|restart}"
+
+#~ msgid "Wine binary format handlers are registered."
+#~ msgstr "Wine binary ఆకృతిలోని handlers నమోదుచేయబడ్డాయి."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|status|condrestart|try-restart|reload|force-"
+#~ "reload|report}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|status|condrestart|try-restart|reload|force-"
+#~ "reload|report}"
+
+#~ msgid "Reloading icecast: "
+#~ msgstr "icecastను రీలోడు చేస్తోంది: "
+
+#~ msgid "Shutting down openvpn: "
+#~ msgstr "openvpnను మూస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+#~ "genconfig}"
+
+#~ msgid ""
+#~ "Usage: $monitor {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Usage: $monitor {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "\t\tWelcome to "
+#~ msgstr "\t\tకి. స్వాగతం"
+
+#~ msgid "Shutting down $desc ($prog): "
+#~ msgstr "$desc ($prog)ను మూస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $dagent {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Usage: $dagent {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Shutting down system logger: "
+#~ msgstr "కంప్యూటరు ప్రవేశాన్ని మూస్తోంది: "
+
+#~ msgid "$base is stopped"
+#~ msgstr "$base ఆపబడింది"
+
+#~ msgid "Checking configuration files for $prog: "
+#~ msgstr "$prog కోసం ఆకృతీకరణ ఫైళ్లను వెతుకుతోంది: "
+
+#~ msgid "$0: call me as 'halt' or 'reboot' please!"
+#~ msgstr "$0:దయచేసి 'halt' లేదా 'reboot'గా పిలువు!"
+
+#~ msgid "Starting FCoE initiator service: "
+#~ msgstr "FCoE సిద్దీకరణ సేవను ప్రారంభిస్తోంది: "
+
+#~ msgid "$NAME is attached to $DEVICE"
+#~ msgstr "$నామం $సాధనానికి అనుసంధించబడింది"
+
+#~ msgid "Start freshclam"
+#~ msgstr "freshclam ప్రారంభించుము"
+
+#~ msgid "Shutting down $prog: "
+#~ msgstr "$progను మూస్తోంది: "
+
+#~ msgid "Reloading acpi daemon:"
+#~ msgstr "acpi daemonను తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid "Starting greylistd: "
+#~ msgstr "greylistd ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping NetworkManager daemon: "
+#~ msgstr "నెట్వర్కు నిర్వాహకుడి డెమోన్ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart}"
+#~ msgstr "వాడుక: $0 {start|stop|restart|status|condrestart}"
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|condrestart|try-restart|force-reload|"
+#~ "reload|status|fullstatus|graceful|help|configtest}"
+#~ msgstr ""
+#~ "Usage: $prog {start|stop|restart|condrestart|try-restart|force-reload|"
+#~ "reload|status|fullstatus|graceful|help|configtest}"
+
+#~ msgid "Starting smokeping: "
+#~ msgstr "స్మోక్‌పింగ్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping Mldonkey (mlnet): "
+#~ msgstr "Mldonkey (mlnet) ఆపుతోంది: "
+
+#~ msgid "Starting puppet: "
+#~ msgstr "puppetను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting ${prog_base}:"
+#~ msgstr "${prog_base}ను ప్రారంభిస్తోంది:"
+
+#~ msgid "Sending all processes the TERM signal..."
+#~ msgstr "TERM సిగ్నల్లుకు అన్ని విధానాలనూ పంపుతోంది..."
+
+#~ msgid "Rotating logs: "
+#~ msgstr "పునరావృతమయ్యే లాగ్లు: "
+
+#~ msgid "*** the clamav-server can be configured"
+#~ msgstr "*** clamav-server ఆకృతీకరించబడాలి"
+
+#~ msgid "Starting restorecond: "
+#~ msgstr "restorecondను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting xenstored daemon: "
+#~ msgstr "xenstored డెమోన్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting ${ifprog}: "
+#~ msgstr "${ifprog} ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting UPS monitor (master): "
+#~ msgstr "UPS monitor (master)ను ప్రారంభిస్తోంది: "
+
+#~ msgid "/proc entries are not fixed"
+#~ msgstr "/proc entries ఫిక్సు చేయబడలేదు"
+
+#~ msgid "Starting ipmi_watchdog driver: "
+#~ msgstr "ipmi_watchdog డ్రైవును ప్రారంభిస్తోంది: "
+
+#~ msgid "Applying ktune sysctl settings:"
+#~ msgstr "ktune sysctl అమరికలను ఆపాదిస్తోంది:"
+
+#~ msgid "Stopping $SERVICE daemon: "
+#~ msgstr "$SERVICE డెమోన్ను ఆపుతోంది: "
+
+#~ msgid "Starting named: "
+#~ msgstr "namedని ప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down NFS daemon: "
+#~ msgstr "NFS డెమోన్ను మూస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|restartlog|condrestart|try-restart|"
+#~ "reload|force-reload|status}"
+#~ msgstr ""
+#~ "Usage: $prog {start|stop|restart|restartlog|condrestart|try-restart|"
+#~ "reload|force-reload|status}"
+
+#~ msgid "ctdb is stopped"
+#~ msgstr "ctdb ఆపబడింది"
+
+#~ msgid "Reloading Condor daemons: "
+#~ msgstr "కాండోర్ డెమోన్స్‍‌ను తిరిగినింపుతోంది: "
+
+#~ msgid "$base (pid $pid) is running..."
+#~ msgstr "$base (pid $pid) నడుస్తోంది..."
+
+#~ msgid "Shutting down postfix: "
+#~ msgstr "postfixను మూస్తోంది: "
+
+#~ msgid "$prog already stopped."
+#~ msgstr "$prog యిప్పటికే ఆపబడింది."
+
+#~ msgid "Reloading INN Service: "
+#~ msgstr "INN సేవలను తిరిగి లోడు చేస్తోంది: "
+
+#~ msgid "Stopping Condor daemons: "
+#~ msgstr "కాన్‌డోర్ డెమోన్స్‍‌ను నిలిపివేస్తోంది: "
+
+#~ msgid "Flushing all chains:"
+#~ msgstr "Flushing all chains:"
+
+#~ msgid "Initializing MySQL database: "
+#~ msgstr "MySQL సమాచారనిధిని సంస్థాపిస్తోంది: "
+
+#~ msgid "${IP6TABLES}: ${_IPV} is disabled."
+#~ msgstr "${IP6TABLES}: ${_IPV} అచేతనం చేయబడింది."
+
+#~ msgid "Starting incrond: "
+#~ msgstr "incrond ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting capi4linux:"
+#~ msgstr "capi4linuxను ప్రారంభిస్తోంది:"
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status|condrestart}"
+#~ msgstr "వాడుక: $0 {start|stop|restart|reload|status|condrestart}"
+
+#~ msgid "Stopping disk encryption for $dst"
+#~ msgstr "$dst కొరకు డిస్కు ఎన్క్రిప్షన్‌ను ఆపుతోంది"
+
+#~ msgid "Shutting down rfcomm: "
+#~ msgstr "rfcomm మూసివేస్తోంది: "
+
+#~ msgid "Detaching loopback device $dev: "
+#~ msgstr "Detaching loopback device $dev: "
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+#~ msgstr "వాడుక: $0 {start|stop|restart|try-restart|force-reload|status}"
+
+#~ msgid "Shutting down greylistd: "
+#~ msgstr "greylistd ని మూస్తోంది: "
+
+#~ msgid "Stopping OpenSCADA daemon: "
+#~ msgstr "OpenSCADA డెమోన్ ఆపుతోంది: "
+
+#~ msgid "Stopping Perlbal: "
+#~ msgstr "Perlbal ఆపుతోంది: "
+
+#~ msgid "Usage: $0 {start|stop}"
+#~ msgstr "వాడుక: $0 {start|stop}"
+
+#~ msgid "Starting $desc ($prog): "
+#~ msgstr "$desc ($prog)ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping Shorewall: "
+#~ msgstr "షోర్‌వాల్‌ను ఆపుతోంది: "
+
+#~ msgid "${IPTABLES}: Setting chains to policy $policy: "
+#~ msgstr "${IPTABLES}: చైన్స్‍‌ను విధానం $policy కు అమరుస్తోంది: "
+
+#~ msgid "Reloading $PROG: "
+#~ msgstr "$PROGని తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid "Stopping yum-updatesd: "
+#~ msgstr "yum-updatesdను ఆపుతోంది: "
+
+#~ msgid "$0: error: $prog is not running"
+#~ msgstr "$0: error: $prog నడుచుటలేదు"
+
+#~ msgid "\t-y \t\t: answer yes for all questions."
+#~ msgstr "\t-y \t\t: అన్ని ప్రశ్నలకు అవును అనే సమాధానము యిచ్చును."
+
+#~ msgid "Generate configuration puppet: "
+#~ msgstr "ఆకృతీకరణ పప్పెట్‌ను వుద్భవింపచేయుము: "
+
+#~ msgid "Checking for ctdbd service: "
+#~ msgstr "ctdbd సేవ కొరకు పరిశీలించుచున్నది: "
+
+#~ msgid "restarting $prog..."
+#~ msgstr "$progను పునఃప్రారంభిస్తోంది:"
+
+#~ msgid "Starting process accounting: "
+#~ msgstr "గణన విధానం ప్రారంభిస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $server {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Usage: $server {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Starting YP map server: "
+#~ msgstr "YP మాప్ సర్వరును ప్రారంభిస్తోంది: "
+
+#~ msgid "$prog is already stopped."
+#~ msgstr "$prog ఆపబడింది."
+
+#~ msgid "database check"
+#~ msgstr "డాటాబేసు పరిశీలన"
+
+#~ msgid "Restarting Video Disk Recorder ($prog): "
+#~ msgstr "Video Disk Recorder ($prog)ను పునఃప్రారంభిస్తోంది: "
+
+#~ msgid "${IP6TABLES}: Saving firewall rules to $IP6TABLES_DATA: "
+#~ msgstr "${IP6TABLES}: ఫైర్‌వాల్ నియమాల్ని $IP6TABLES_DATA కు దాస్తోంది: "
+
+#~ msgid "Shutting down $progbase: "
+#~ msgstr "$progbase ను మూస్తోంది: "
+
+#~ msgid "(no mouse is configured)"
+#~ msgstr "(ఏ మౌసూ ఆకృతీకరించబడలేదు)"
+
+#~ msgid "Starting $prog2: "
+#~ msgstr "$prog2ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Applying sysctl settings from $SYSCTL_POST"
+#~ msgstr "sysctl అమరికలను $SYSCTL_POST నుండి ఆపాదిస్తోంది"
+
+#~ msgid "Sending switchover request to $NAME "
+#~ msgstr "$NAME కు మారిపోవుటకు అభ్యర్థన పంపబడుతుంది"
+
+#~ msgid "Service $prog does not support the reload action: "
+#~ msgstr "$prog సేవ మరలవచ్చు చర్యకు మద్దతు నీయదు:"
+
+#~ msgid "Reloading Red Hat Network Daemon: "
+#~ msgstr "Red Hat నెట్వర్కు డెమోన్‌ను తిరిగిలోడు చేస్తోంది: "
+
+#~ msgid "already started"
+#~ msgstr "ఇప్పటికే ప్రారంభమైంది"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+
+#~ msgid "reloading sm-client: "
+#~ msgstr "sm-కక్షిదారుని తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#~ msgid "\t-R \t\t: recursively dependency checking"
+#~ msgstr "\t-R \t\t: పునరావృతముగా ఆధారపు(డిపెన్డెన్సీ) పరిశీలన"
+
+#~ msgid "Starting Avahi daemon... "
+#~ msgstr "Avahi daemon ను ప్రారంభిస్తోంది... "
+
+#~ msgid "Stopping Pound: "
+#~ msgstr "Pound ని ఆపుతోంది: "
+
+#~ msgid "Stopping $ical: "
+#~ msgstr "$ical ఆపివేస్తోంది: "
+
+#~ msgid "Configured NFS mountpoints: "
+#~ msgstr "NFS mountpointలను ఆకృతీకరిస్తోంది: "
+
+#~ msgid "Starting Pound: "
+#~ msgstr "Pound ని ప్రారంభిస్తోంది: "
+
+#~ msgid "Unmounting pipe file systems: "
+#~ msgstr "Unmounting పైప్ ఫైల్ విధానాలు: "
+
+#~ msgid "Current ktune sysctl settings:"
+#~ msgstr "ప్రస్తుత ktune sysctl అమరికలు:"
+
+#~ msgid "Usage: $prog {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "వాడుక: $prog {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting distributed compiler scheduler: "
+#~ msgstr "పంచిన కంపైలర్‌ షెడ్యూలర్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "parse error"
+#~ msgstr "పార్శ్ దోషము"
+
+#~ msgid "Starting $ID: "
+#~ msgstr "$IDని ప్రారంభిస్తోంది: "
+
+#~ msgid "vncserver start"
+#~ msgstr "vncసర్వరు ప్రారంభం"
+
+#~ msgid "Usage: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+#~ msgstr "Usage: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+
+#~ msgid "Active network block devices: "
+#~ msgstr "క్రియాశీల నెట్వర్కును అడ్డుకునే సాధనాలు: "
+
+#~ msgid "Shutting down $prog"
+#~ msgstr "$progని మూస్తోంది"
+
+#~ msgid "Starting system logger: "
+#~ msgstr "కంప్యూటరు లాగరును ప్రారంభిస్తోంది: "
+
+#~ msgid "$4 (e$2.$3@$1) [pid $pid]"
+#~ msgstr "$4 (e$2.$3@$1) [pid $pid]"
+
+#~ msgid "Shutting down pkcsslotd:"
+#~ msgstr "pkcsslotd మూసివేయి:"
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status}"
+#~ msgstr "వాడుక: $0 {start|stop|restart|condstart|condrestart|status}"
+
+#~ msgid "Reloading $prog2: "
+#~ msgstr "$prog2ని తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|cyclelogs|online|offline|command}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|cyclelogs|online|offline|command}"
+
+#~ msgid "Starting ctdbd service: "
+#~ msgstr "ctdbd సేవను ప్రారంభిస్తోంది: "
+
+#~ msgid "not reloading due to configuration syntax error"
+#~ msgstr "ఆకృతీకరణ వాక్య దోషం వల్ల లోడుచేయబడలేదు"
+
+#~ msgid "Usage: $prog {start|stop|reload|restart|condrestart|status}"
+#~ msgstr "Usage: $prog {start|stop|reload|restart|condrestart|status}"
+
+#~ msgid "Resuming logging: "
+#~ msgstr "లాగింగ్‌ను తిరిగికొనసాగిస్తోంది: "
+
+#~ msgid "Failed to stop \"$s\". "
+#~ msgstr "\"$s\" ఆపుటకు విఫలమైంది. "
+
+#~ msgid "no running guests."
+#~ msgstr "ఎటువంటి నడిచే గెస్టులులేవు."
+
+#~ msgid "Starting icecast streaming daemon: "
+#~ msgstr "icecast streaming డెమోన్ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping GNU Krell Monitors server ($prog): "
+#~ msgstr "GNU Krell Monitors server ($prog) ఆపివేస్తోంది: "
+
+#~ msgid "Usage: $prog {start|stop|status|restart|try-restart}"
+#~ msgstr "వాడుక: $prog {start|stop|status|restart|try-restart}"
+
+#~ msgid "Usage: $0 {condrestart|start|stop|restart|reload|status}"
+#~ msgstr "Usage: $0 {condrestart|start|stop|restart|reload|status}"
+
+#~ msgid "Starting kernel logger: "
+#~ msgstr "కెర్నల్ లాగరును ప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down ${NAME}: "
+#~ msgstr "${NAME} మూసివేస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|restart|status|force-stop}"
+#~ msgstr "Usage: $0 {start|stop|restart|status|force-stop}"
+
+#~ msgid "Telling INIT to go to single user mode."
+#~ msgstr "INITకి సింగిల్ వినియోగదారుని రీతికి వెళ్లమని చెబుతోంది."
+
+#~ msgid "Starting $name: "
+#~ msgstr "$name ప్రారంభిస్తోంది: "
+
+#~ msgid "Failed to sort dependency"
+#~ msgstr "ఆధారము(డిపెన్డెన్సీ)ను క్రమపరచుటలో విఫలమైంది"
+
+#~ msgid "Mounting cgroup-hierarchy"
+#~ msgstr "cgroup-హైరార్కీను మౌంటుచేస్తోంది"
+
+#~ msgid "Usage $0 {start|stop|restart|condrestart|save|status}"
+#~ msgstr "వాడుక $0 {start|stop|restart|condrestart|save|status}"
+
+#~ msgid "Starting PC/SC smart card daemon ($prog): "
+#~ msgstr "PC/SC స్మార్టు కార్డు డెమోన్ను ప్రారమ్భిస్తోంది ($prog): "
+
+#~ msgid ""
+#~ "Usage: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "వినియోగం: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#~ msgid "*** Warning -- the system did not shut down cleanly. "
+#~ msgstr "*** హెచ్చరిక -- కంప్యూటరు పూర్తికా మూయబడలేదు. "
+
+#~ msgid "Stopping $prog for $file: "
+#~ msgstr "$prog ను $file కొరకు ఆపుతోంది: "
+
+#~ msgid "Shutting down $NAME: "
+#~ msgstr "$NAME మూస్తోంది: "
+
+#~ msgid "Configuration file /etc/radvd.conf missing"
+#~ msgstr "ఆకృతీకరణ దస్త్రము /etc/radvd.conf తప్పిపోయింది"
+
+#~ msgid "Unmounting loopback filesystems (retry):"
+#~ msgstr "Unmounting loopback ఫైలు విధానాలు (retry):"
+
+#~ msgid "sfcb is not running"
+#~ msgstr "sfcb నడుచుటలేదు"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|force-reload|status|panic|save}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|try-restart|force-reload|status|panic|save}"
+
+#~ msgid "CTDB is already running"
+#~ msgstr "CTDB యిప్పటికే నడుచుచున్నది"
+
+#~ msgid "Error occured while calculating the IPv6to4 prefix"
+#~ msgstr "IPv6to4 prefixని లెక్కిస్తున్నప్పుడు దోషం సంభవించింది"
+
+#~ msgid "fetch-crl-boot lockfile present"
+#~ msgstr "fetch-crl-boot లాక్‌ఫైల్ వుంది"
+
+#~ msgid "$prog reload"
+#~ msgstr "$prog రీలోడ్"
+
+#~ msgid "Stopping MogileFS tracker daemon: "
+#~ msgstr "MogileFS ట్రాకర్ డెమోన్‌ను ఆపివేస్తోంది: "
+
+#~ msgid "Starting unbound: "
+#~ msgstr "అన్‌బౌండ్ ప్రారంభిస్తోంది: "
+
+#~ msgid "Dumping state of $prog in /tmp/sec.dump: "
+#~ msgstr "/tmp/sec.dump నందు $prog యొక్క డంపింగ్ స్థితి: "
+
+#~ msgid "Starting NIS service: "
+#~ msgstr "NIS సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "Failed to run \"$s\". ($ret)"
+#~ msgstr "\"$s\" నడుపుటలో విఫలమైంది. ($ret)"
+
+#~ msgid "RSA key generation"
+#~ msgstr "RSA కీ నిష్పాదన"
+
+#~ msgid "PORT environment is not set."
+#~ msgstr "PORT వాతావరణం అమర్చలేదు."
+
+#~ msgid "Usage: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "వాడుక: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Killing all running contexts"
+#~ msgstr "నడుస్తున్న అన్ని కాంటెస్టులను చంపుతోంది"
+
+#~ msgid "Turning off quotas: "
+#~ msgstr "Turning off quotas: "
+
+#~ msgid "${IPTABLES}: Applying firewall rules: "
+#~ msgstr "${IPTABLES}: ఫైర్‌వాల్ నియమాలను ఆపాదిస్తోంది: "
+
+#~ msgid "Shutting down $LLDPAD: "
+#~ msgstr "$LLDPAD మూసివేయుట: "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|retune|help}"
+#~ msgstr ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|retune|help}"
+
+#~ msgid "Mounting NFS filesystems: "
+#~ msgstr "NFS ఫైలు విధానాలను మరల్చుతోంది: "
+
+#~ msgid "Starting NetworkManager daemon: "
+#~ msgstr "NetworkManager డెమోన్ను ప్రారంభిస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $PROG {start|stop|restart|reload|force-reload|try-restart|status}"
+#~ msgstr ""
+#~ "Usage: $PROG {start|stop|restart|reload|force-reload|try-restart|status}"
+
+#~ msgid "Stopping Frozen Bubble server(s): "
+#~ msgstr "Frozen Bubble సర్వర్(ల)ను ఆపుతోంది: "
+
+#~ msgid ""
+#~ "Can not find util-vserver installation (the file '$UTIL_VSERVER_VARS' "
+#~ "would be expected); aborting..."
+#~ msgstr ""
+#~ "util-vserver సంస్థాపన (the file '$UTIL_VSERVER_VARS' would be expected) "
+#~ "కనుగొనబడలేదు; aborting..."
+
+#~ msgid "ctdb dead but subsys locked"
+#~ msgstr "ctdb అంతమైంది అయితే subsys లాకైంది"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+#~ "genconfig}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+#~ "genconfig}"
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG"
+#~ msgstr "ప్రస్తుత నియమాలను $ARPTABLES_CONFIGకి భద్రపరుస్తోంది"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload|try-"
+#~ "restart}"
+
+#~ msgid "FireHOL: Blocking all communications:"
+#~ msgstr "FireHOL: అన్ని సంధానాలను నిలిపివేస్తోంది:"
+
+#~ msgid "Restarting $monitor: "
+#~ msgstr "$monitor పునఃప్రారంభిస్తోంది: "
+
+#~ msgid "$named reload"
+#~ msgstr "$named తిరిగిలోడుచేయి"
+
+#~ msgid "move passphrase file"
+#~ msgstr "సంకేతపదము దస్త్రమును కదుపుము"
+
+#~ msgid "Entering non-interactive startup"
+#~ msgstr "non-interactive startupకి ప్రవేశిస్తోంది"
+
+#~ msgid "Error: no valid $cfg found."
+#~ msgstr "దోషం: సరైన $cfg కనపడలేదు."
+
+#~ msgid "*** Warning -- SELinux is active"
+#~ msgstr "*** హెచ్చరిక -- SELinux క్రియాశీలంగా ఉంది"
+
+#~ msgid "Reloading xenconsoled daemon: "
+#~ msgstr "xenconsoled డెమోన్‌ను తిరిగిలోడ్ చేస్తోంది: "
+
+#~ msgid "Starting BitTorrent tracker: "
+#~ msgstr "BitTorrent trackerను ప్రారంభిస్తోంది: "
+
+#~ msgid "ERROR: [ipv6_log] Cannot log to channel '$channel'"
+#~ msgstr "దోషం: [ipv6_log] '$channel'కి లాగవ్వలేదు"
+
+#~ msgid "Stopping $master_prog: "
+#~ msgstr "$master_prog ఆపుతోంది: "
+
+#~ msgid "Stopping abrt daemon: "
+#~ msgstr "abrt డెమోన్ ఆపుతోంది: "
+
+#~ msgid "Reopening $prog log file: "
+#~ msgstr "$prog log ఫైలును తిరిగి తెరుస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+#~ msgstr ""
+#~ "ఉపయోగం: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#~ msgid "Reloading atop daemon configuration: "
+#~ msgstr "atop ఆకృతీకరణను తిరిగిలోడు చేస్తోంది: "
+
+#~ msgid "Stopping CallWeaver: "
+#~ msgstr "CallWeaver ఆపుతోంది: "
+
+#~ msgid "Reloading smb.conf file: "
+#~ msgstr "smb.conf ఫైలును తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid "Stopping capi4linux:"
+#~ msgstr "capi4linuxను ఆపుతోంది:"
+
+#~ msgid "Shutting down upsdrvctl: "
+#~ msgstr "upsdrvctl ను మూసివేస్తోంది: "
+
+#~ msgid "$message"
+#~ msgstr "$సమాచారం"
+
+#~ msgid "Stopping INNFeed service: "
+#~ msgstr "INNFeed సేవను ఆపుతోంది: "
+
+#~ msgid "Process accounting is enabled."
+#~ msgstr "విధాన గణనం వీలుకాదు."
+
+#~ msgid "Stopping ${NAME} service: "
+#~ msgstr "${NAME} సేవను ఆపుతోంది: "
+
+#~ msgid "Stopping xenner daemons"
+#~ msgstr "Xenner డెమోన్స్‍‌ను ఆపివేస్తోంది"
+
+#~ msgid "Moving"
+#~ msgstr "కదుపుతోంది"
+
+#~ msgid "Resuming guests on $uri URI..."
+#~ msgstr "$uri URI పై గెస్టులను తిరిగికొనసాగిస్తోంది..."
+
+#~ msgid "Starting xenconsoled daemon: "
+#~ msgstr "xenconsoled డెమోన్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "RSA1 key generation"
+#~ msgstr "RSA1 కీ నిష్పాదన"
+
+#~ msgid "${IPTABLES}: ${_IPV} is disabled."
+#~ msgstr "${IPTABLES}: ${_IPV} అచేతనమైంది."
+
+#~ msgid "failed to clean cache $s.ko"
+#~ msgstr "క్యాచీ $s.ko శుభ్రపరచుటలో విఫలమైంది"
+
+#~ msgid "Starting $ical: "
+#~ msgstr "$ical ప్రారంభిస్తోంది: "
+
+#~ msgid "$0: Link is down"
+#~ msgstr "$0: లింకు కింద ఉంది"
+
+#~ msgid "ktune settings are not applied."
+#~ msgstr "ktune అమరికలు ఆపాదింపబడవు."
+
+#~ msgid "Process accounting is disabled."
+#~ msgstr "విధాన గణనం కుదరదు."
+
+#~ msgid "ERROR: Only root can run firstboot"
+#~ msgstr "దోషం: root మాత్రమే firstboot నడుపగలదు"
+
+#~ msgid "Starting ejabberd: "
+#~ msgstr "ejabberdను ప్రారంభిస్తోంది: "
+
+#~ msgid "Reloading configuration: "
+#~ msgstr "ఆకృతీకరణను తిరిగి లోడు చేస్తోంది: "
+
+#~ msgid "found CRASH file, srv not started"
+#~ msgstr "CRASH దస్త్రమును కనుగొన్నది, srv ప్రారంభమవలేదు"
+
+#~ msgid "Preparing $PROG certificat: "
+#~ msgstr "$PROG ధృవీకరణపత్రంను సిద్దపరచుట: "
+
+#~ msgid "Configured CIFS mountpoints: "
+#~ msgstr "CIFS mountpointలను ఆకృతీకరిస్తోంది: "
+
+#~ msgid "Shutting down $prog (DHCPv6): "
+#~ msgstr "$prog (DHCPv6) మూసివేస్తోంది: "
+
+#~ msgid "Please run makehistory and/or makedbz before starting innd."
+#~ msgstr "దయచేసి ప్రారంభించటానికి ముందు makehistory మరియూ/లేదా makedbzను ఉపయోగించండి."
+
+#~ msgid "Enabling local filesystem quotas: "
+#~ msgstr "స్థానిక ఫైలు విధాన కోటాలను సాధ్యం చేస్తోంది: "
+
+#~ msgid "Active NCP mountpoints: "
+#~ msgstr "క్రియాశీల NCP mountpoints: "
+
+#~ msgid "Disabling periodic fetch-crl: "
+#~ msgstr "క్రమానుగత fetch-crl అచేతనపరుస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstop|condrestart|status}"
+#~ msgstr "Usage: $0 {start|stop|restart|condstop|condrestart|status}"
+
+#~ msgid "Shutting down exim: "
+#~ msgstr "eximను మూస్తోంది: "
+
+#~ msgid "$0: error: program not installed"
+#~ msgstr "$0: error: ప్రోగ్రామ్ సంస్థాపించబడలేదు"
+
+#~ msgid "${IPTABLES}: Unloading modules: "
+#~ msgstr "${IPTABLES}: మాడ్యూల్స్‍‌ను దించుతోంది: "
+
+#~ msgid "Stopping pdns-recursor: "
+#~ msgstr "pdns-recursor ఆపుతోంది: "
+
+#~ msgid "domain not found"
+#~ msgstr "డొమైన్ కనబడుటలేదు"
+
+#~ msgid "$0: reload not supported"
+#~ msgstr "$0: తిరిగిలోడ్‌చేయుట మద్దతివ్వడం లేదు"
+
+#~ msgid "$prog is not running"
+#~ msgstr "$prog నడుచుట లేదు"
+
+#~ msgid "sfcb ($pid) is running"
+#~ msgstr "sfcb ($pid) నడుచుచున్నది"
+
+#~ msgid "Stopping named: "
+#~ msgstr "namedని ఆపుతోంది: "
+
+#~ msgid "Stopping $prog"
+#~ msgstr "$progను ఆపుతోంది"
+
+#~ msgid "Starting $prog for $ez_name: "
+#~ msgstr "$progని $ez_name కోసం ప్రారంభిస్తోంది: "
+
+#~ msgid "yY"
+#~ msgstr "yY"
+
+#~ msgid "Restarting puppet: "
+#~ msgstr "puppetను పునఃప్రాంభిస్తోంది: "
+
+#~ msgid "Unregistering binary handler for qemu applications"
+#~ msgstr "qemu అనువర్తనాలకోసం నమోదు చేయని బైనరీ handler"
+
+#~ msgid "FireHOL: Restoring old firewall:"
+#~ msgstr "FireHOL: పాత ఫైర్‌వాల్‌ను తిరిగివుంచుతోంది:"
+
+#~ msgid "Shutting down NFS quotas: "
+#~ msgstr "NFS quotasను మూస్తోంది: "
+
+#~ msgid "          restart|condrestart|try-restart|reload|force-reload"
+#~ msgstr "          restart|condrestart|try-restart|reload|force-reload"
+
+#~ msgid "$prog: already running"
+#~ msgstr "$prog: ఇప్పటికే‌నడుస్తోంది"
+
+#~ msgid "Resuming guest $name: "
+#~ msgstr "గెస్టు $name తిరిగికొనసాగిస్తోంది: "
+
+#~ msgid "sfcb is not running, but pid file exists"
+#~ msgstr "sfcb నడుచుట లేదు, అయితే pid ఫైల్ వుంది"
+
+#~ msgid "Force-stopping $prog: "
+#~ msgstr "$prog బలవంతంగా-నిలిపివేస్తోంది: "
+
+#~ msgid "Reloading ${prog} config file: "
+#~ msgstr "${prog} ఆకృతీకరణ దస్త్రమును తిరిగిలోడు చేస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload}"
+
+#~ msgid "Stopping smokeping: "
+#~ msgstr "స్మోక్‌పింగును ఆపుతోంది: "
+
+#~ msgid "vncserver startup"
+#~ msgstr "vncserver startup"
+
+#~ msgid "Generating unbound control key and certificate: "
+#~ msgstr "అన్‌బౌండ్ నియంత్రణ కీను మరియు దృవీకరణపత్రమును ఉద్బవింపచేస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $indexer {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Usage: $indexer {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status"
+#~ msgstr "వాడుక: $prog {start|stop|restart|condrestart|reload|status"
+
+#~ msgid "Stopping INND service (the hard way): "
+#~ msgstr "INND సేవను (the hard way) ఆపుతోంది: "
+
+#~ msgid "$base dead but subsys locked"
+#~ msgstr "$base లేదు కానీ subsys లాకయ్యింది"
+
+#~ msgid "Shutting down argus: "
+#~ msgstr "argusను మూస్తోంది: "
+
+#~ msgid "Stopping CGroup Rules Engine Daemon..."
+#~ msgstr "CGroup నియమాల యింజన్ డెమోన్‌ను ఆపివేస్తోంది..."
+
+#~ msgid "Stopping HAL daemon: "
+#~ msgstr "HAL డెమోన్ను ఆపుతోంది: "
+
+#~ msgid "Starting asterisk: "
+#~ msgstr "asterisk ప్రారంభిస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|reload|force-reload|restart|try-restart|status}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|reload|force-reload|restart|try-restart|status}"
+
+#~ msgid "Starting arptables_jf"
+#~ msgstr "arptables_jf ను ప్రారంభిస్తోంది"
+
+#~ msgid "Starting RPC gssd: "
+#~ msgstr "RPC gssdను ప్రారంభిస్తోంది: "
+
+#~ msgid "reload"
+#~ msgstr "తిరిగిలోడుచేయి"
+
+#~ msgid "fetch-crl-boot lockfile not-present"
+#~ msgstr "fetch-crl-boot లాక్‌ఫైల్ లేదు"
+
+#~ msgid "Starting Mldonkey (mlnet): "
+#~ msgstr "Mldonkey (mlnet) ప్రారంభిస్తోంది: "
+
+#~ msgid "Setting up Logical Volume Management:"
+#~ msgstr "తార్కిక విలువల నిర్వహణను అమర్చుతోంది:"
+
+#~ msgid "Starting ladvd: "
+#~ msgstr "ladvd ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting openvpn: "
+#~ msgstr "openvpnను ప్రారంభిస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status}"
+#~ msgstr ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status}"
+
+#~ msgid "Reloading ${prog}: "
+#~ msgstr "${prog} తిరిగిలోడు చేయుచున్నది: "
+
+#~ msgid "Starting RPC idmapd: "
+#~ msgstr "RPC idmapdను ప్రారంభిస్తోంది: "
+
+#~ msgid "Binary handler for Windows applications already registered"
+#~ msgstr "Windows అనువర్తనాలకోసం binary handlerను నమోదు చేస్తోంది"
+
+#~ msgid "$s$pid is running..."
+#~ msgstr "$s$pid నడుస్తోంది..."
+
+#~ msgid "Fixing /proc entries visibility"
+#~ msgstr "/proc ప్రవేశాల దృశ్యత్వంను సరిచేస్తుంది"
+
+#~ msgid "program is not running"
+#~ msgstr "ప్రోగ్రామ్ నడువటలేదు"
+
+#~ msgid "Stopping INN actived service: "
+#~ msgstr "INN క్రియాశీలం చేయబడ్డ సేవలు ఆపుతోంది: "
+
+#~ msgid "Stopping all ${MODULE_NAME} drivers: "
+#~ msgstr "అన్ని ${MODULE_NAME} డ్రైవర్లనూ ఆపుతోంది: "
+
+#~ msgid "None"
+#~ msgstr "ఏదీకాదు"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|reload|try-restart|status}"
+#~ msgstr "వాడుక: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#~ msgid "$0: /etc/sysconfig/ktune does not exist."
+#~ msgstr "$0: /etc/sysconfig/ktune లేదు."
+
+#~ msgid "Restarting..."
+#~ msgstr "పునఃప్రారంభిస్తోంది..."
+
+#~ msgid "Shutting down kernel logger: "
+#~ msgstr "కెర్నల్ లాగర్‌ను మూసివేస్తోంది: "
+
+#~ msgid "$prog exporting databases"
+#~ msgstr "$prog డాటాబేస్‌లను యెగుమతిచేస్తోంది"
+
+#~ msgid "CIM server is not running, but lock file exists"
+#~ msgstr "CIM సేవిక నడుచుట లేదు, అయితే లాక్ ఫైల్ వుంది"
+
+#~ msgid "Starting Qpid AMQP daemon: "
+#~ msgstr "Qpid AMQP daemonను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting UPS driver controller: "
+#~ msgstr "UPS డ్రైవర్ నియంత్రిక ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down BitTorrent seed client: "
+#~ msgstr "BitTorrent సీడ్ కక్షిదారుని మూస్తోంది: "
+
+#~ msgid "Reloading xend daemon: "
+#~ msgstr "xen డెమోన్‌ను తిరిగిలోడ్ చేస్తోంది: "
+
+#~ msgid "Halting system..."
+#~ msgstr "కంప్యూటరును హాల్టుచేస్తోంది..."
+
+#~ msgid "Reloading Avahi daemon... "
+#~ msgstr "Avahi డెమోన్ ను లోడుచేస్తోంది... "
+
+#~ msgid "${IPTABLES}: /sbin/$IPTABLES does not exist."
+#~ msgstr "${IPTABLES}: /sbin/$IPTABLES లేదు."
+
+#~ msgid "Starting infrared remote control daemon ($prog): "
+#~ msgstr "infrared remote నియంత్రణ daemon ($prog)ను ప్రారంభిస్తోంది: "
+
+#~ msgid "$prog status is unknown"
+#~ msgstr "$prog స్థితి తెలియదు"
+
+#~ msgid "Stopping YP map server: "
+#~ msgstr "YP మాప్ సర్వరును ఆపుతోంది: "
+
+#~ msgid "${IP6TABLES}: Firewall is not configured. "
+#~ msgstr "${IP6TABLES}: ఫైర్‌వాల్ ఆకృతీకరించ బడలేదు. "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+
+#~ msgid "Monthly smolt check-in is disabled."
+#~ msgstr "మంత్లీ స్మాల్ట చెక్-ఇన్ అచేతనంధ్యంగా ఉంది."
+
+#~ msgid "$prog check"
+#~ msgstr "$prog శోధన"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Usage: status {program}"
+#~ msgstr "వాడుక: స్థాయి {program}"
+
+#~ msgid "Binding NIS service: "
+#~ msgstr "NIS సేవను కూడబెడుతుంది: "
+
+#~ msgid "Tap support not available: tunctl not found"
+#~ msgstr "టాప్ మద్దతు అందుబాటులోలేదు: tunctl కనబడలేదు"
+
+#~ msgid "Usage: killproc {pids} [signal]"
+#~ msgstr "Usage: killproc {pids} [signal]"
+
+#~ msgid "Stopping Red Hat Network Daemon: "
+#~ msgstr "Red Hat నెట్వర్కు డెమోన్‌ను నిలిపివేస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|propagate}"
+#~ msgstr "వాడుక: $0 {start|stop|status|restart|propagate}"
+
+#~ msgid "Shutting down RPC svcgssd: "
+#~ msgstr "RPC svcgssdని మూస్తోంది: "
+
+#~ msgid "Reloading NIS service: "
+#~ msgstr "NIS సేవను తిరిగిలోడు చేస్తోంది: "
+
+#~ msgid "Starting $SERVICE daemon: "
+#~ msgstr "$SERVICE డెమోన్ ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stoping xen blktapctrl daemon: "
+#~ msgstr "xen blktapctrl డెమోన్‌ను ఆపుతోంది: "
+
+#~ msgid "Stopping rusers services: "
+#~ msgstr "rusers సేవలను ఆపుతోంది: "
+
+#~ msgid "Disabling Moodle cron job: "
+#~ msgstr " Moodle cron ఉద్యోగాన్ని అచేతనం చేస్తోంది: "
+
+#~ msgid "Starting dund: "
+#~ msgstr "dund ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping Orbited: "
+#~ msgstr "ఆర్బిటెడ్‌ను నిలిపివేస్తోంది: "
+
+#~ msgid "Reloading config for $prog: "
+#~ msgstr "$prog కొరకు ఆకృతీకరణను తిరిగిలోడు చేస్తోంది: "
+
+#~ msgid "Starting system message bus: "
+#~ msgstr "కంప్యూటరు సమాచర busని ప్రారంభిస్తోంది: "
+
+#~ msgid "Restarting $gateway: "
+#~ msgstr "$gateway పునఃప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down ladvd: "
+#~ msgstr "ladvdను మూసివేయుచున్నది: "
+
+#~ msgid "Usage: drbdlinksclean {start|stop|status|restart|force-reload}"
+#~ msgstr "Usage: drbdlinksclean {start|stop|status|restart|force-reload}"
+
+#~ msgid "$prog importing databases"
+#~ msgstr "$prog డాటాబేస్‌లను దిగుమతిచేస్తోంది"
+
+#~ msgid "Starting distributed compiler daemon: "
+#~ msgstr "పంపిణి నిర్వర్తిని డెమోన్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting OpenSCADA daemon: "
+#~ msgstr "OpenSCADA డెమోన్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "done"
+#~ msgstr "అయినది"
+
+#~ msgid "Stopping $PROG:"
+#~ msgstr "$PROGను ఆపుతోంది: "
+
+#~ msgid "Stopping supervisord: "
+#~ msgstr "సూపర్విజార్డును ఆపుతోంది: "
+
+#~ msgid "Suspending $name: "
+#~ msgstr "$name అర్ధాతరనిలుపుదల: "
+
+#~ msgid "Starting vbi proxy daemon: "
+#~ msgstr "vbi proxy డెమోన్ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Enabling nightly yum update: "
+#~ msgstr "nightly yum నవీకరణను సాధ్యం చేస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#~ msgid "Reloading postfix: "
+#~ msgstr "postfixను తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid "Reloading maps"
+#~ msgstr "mapsని తిరిగి లోడుచేస్తోంది"
+
+#~ msgid "Initializing OpenCT smart card terminals: "
+#~ msgstr "OpenCT smart card terminalsను Initializing చేస్తోంది : "
+
+#~ msgid "Unconfigured: $prog, see /etc/sysconfig/hddtemp: "
+#~ msgstr "ఆకృతీకరించని: $prog, see /etc/sysconfig/hddtemp: "
+
+#~ msgid "${IPTABLES}: Saving firewall rules to $IPTABLES_DATA: "
+#~ msgstr "${IPTABLES}: పైర్‌వాల్ నియమాల్ని $IPTABLES_DATA కు దాస్తోంది: "
+
+#~ msgid "Setting network parameters... "
+#~ msgstr "network పారామితులను అమర్చుతోంది... "
+
+#~ msgid "Stopping distributed compiler daemon: "
+#~ msgstr "పంపిణి నిర్వర్తిని డెమోన్‌ను ఆపివేస్తోంది."
+
+#~ msgid "Starting Condor daemons: "
+#~ msgstr "కాండోర్ డెమోన్స్‍‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Path to vshelper has been set"
+#~ msgstr "vshelper కు మార్గం ఉంచబడుతోంది"
+
+#~ msgid "Running fetch-crl on boot can take a while: "
+#~ msgstr "boot పై fetch-crl నడుపుట కొంత సమయం పడుతుంది: "
+
+#~ msgid "Stopping Wesnoth game server: "
+#~ msgstr "Wesnoth గేమ్ సర్వరును ఆపుతోంది: "
+
+#~ msgid "Stopping xenstored daemon: "
+#~ msgstr "xenstored డెమోన్‌ను ఆపివేస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Checking SMART devices now: "
+#~ msgstr "SMART సాధనాలను ఇప్పుడు వెతుకుతోంది: "
+
+#~ msgid "Importing packets to monotone database: "
+#~ msgstr "మోనోటోన్ డాటాబేసునకు సంచులను(ప్యాకెట్లు) దిగుమతి చేయుచున్నది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|rotate|resume}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|rotate|resume}"
+
+#~ msgid "$prog is running..."
+#~ msgstr "$prog నడుస్తోంది..."
+
+#~ msgid "Reloading $LLDPAD is not supported: "
+#~ msgstr "$LLDPAD తిరిగిలోడుచేయుట మద్దతించబడుటలేదు: "
+
+#~ msgid "Mldonkey (mlnet) is stopped"
+#~ msgstr "Mldonkey (mlnet) ఆపివేయబడింది"
+
+#~ msgid "Starting $PROG: "
+#~ msgstr "$PROGను ప్రారంభిస్తోంది: "
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status|help}"
+#~ msgstr "వాడుక: $prog {start|stop|restart|condrestart|status|help}"
+
+#~ msgid "Shutting down icecast streaming daemon: "
+#~ msgstr "icecast streaming daemonన్ను మూసివేస్తోంది: "
+
+#~ msgid "FireHOL: Clearing Firewall:"
+#~ msgstr "FireHOL: ఫైర్‌వాల్ శుబ్రపరుస్తోంది:"
+
+#~ msgid "(Repair filesystem)"
+#~ msgstr "(ఫైలువిధానాన్ని రిపేర్ చేయి)"
+
+#~ msgid "not reloading $httpd due to configuration syntax error"
+#~ msgstr "$httpdని ఆకృతీకరణ వాక్యదోషం వల్ల తిరిగి లోడు చేయలేము"
+
+#~ msgid "Stopping $SERVICE:"
+#~ msgstr "$SERVICE ఆపుతోంది: "
+
+#~ msgid "Starting infrared remote control mouse daemon ($prog2): "
+#~ msgstr "infrared remote control mouse daemon ($prog2)ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Setting NIS domain name $NISDOMAIN: "
+#~ msgstr "NIS క్షేత్ర నామాన్ని $NISDOMAIN అమర్చుతోంది: "
+
+#~ msgid "Starting Frozen Bubble server(s): "
+#~ msgstr "Frozen Bubble సర్వర్(ల)ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting auto nice daemon:"
+#~ msgstr "auto nice daemonను ప్రారంభిస్తోంది: "
+
+#~ msgid "Checking database format in"
+#~ msgstr "డాటాబేస్ రూపాంతరాన్ని లోనికితెస్తోంది"
+
+#~ msgid "Suspending guests on $uri URI..."
+#~ msgstr "$uri URI పై గెస్టుల అర్ధాంతరనిలుపుదల..."
+
+#~ msgid "Starting $prog: $conf"
+#~ msgstr "$prog: $conf ప్రారంభం"
+
+#~ msgid "Shutting down up-imapproxy daemon: "
+#~ msgstr "up-imapproxyd డెమోన్‌ను మూసివేస్తోంది: "
+
+#~ msgid "Staring new master $prog: "
+#~ msgstr "కొత్త మాస్టర్ $progకు స్టార్ యిచ్చుచున్నది: "
+
+#~ msgid "VNC server"
+#~ msgstr "VNC సర్వరు"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status}"
+#~ msgstr ""
+#~ "వినియోగం: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status}"
+
+#~ msgid "Options:"
+#~ msgstr "ఐచ్చికాలు:"
+
+#~ msgid "packet import"
+#~ msgstr "సంచి దిగుమతి"
+
+#~ msgid "$file: "
+#~ msgstr "$file: "
+
+#~ msgid "To lose old key remove file"
+#~ msgstr "పాత కీను కోల్పోవుటకు దస్త్రమును తొలగించుము"
+
+#~ msgid "program is dead and /var/run pid file exists"
+#~ msgstr "ప్రోగ్రామ్ ముగిసింది మరియు /var/run pid దస్త్రము ఉంది"
+
+#~ msgid "Not stopping $prog: iscsi sessions still active"
+#~ msgstr "$progను ఆపుట లేదు: iscsi విభాగములు(సెషన్లు) యింకా క్రియాశీలముగా వున్నాయి"
+
+#~ msgid ""
+#~ "$prog error importing databases, check ${CONFIGDIRECTORY}/rpm/db_import."
+#~ "log"
+#~ msgstr ""
+#~ "డాటాబేస్‌లను దిగుమతి చేయుటలో $prog దోషం, ${CONFIGDIRECTORY}/rpm/db_import.log "
+#~ "పరిశీలించండి"
+
+#~ msgid "Starting Orbited: "
+#~ msgstr "ఆర్బిటెడ్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting BitTorrent seed client: "
+#~ msgstr "BitTorrent seed కక్షిదారుని ప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down pand: "
+#~ msgstr "pand మూసివేయుచున్నది: "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|help}"
+#~ msgstr ""
+#~ "Usage: $prog {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "status|help}"
+
+#~ msgid "Usage: $prog {start|stop|status|restart|condrestart}"
+#~ msgstr "వాడుక: $prog {start|stop|status|restart|condrestart}"
+
+#~ msgid "Usage: $0 {start|stop|restart|status}"
+#~ msgstr "వాడుక: $0 {start|stop|restart|status}"
+
+#~ msgid "Stopping INND service (gently): "
+#~ msgstr "INND సేవలను (gently) ఆపుతోంది: "
+
+#~ msgid "Stopping RPC idmapd: "
+#~ msgstr "RPC idmapdను ఆపుతోంది: "
+
+#~ msgid "$file is not readable by \"$user\""
+#~ msgstr "$ఫైలు \"$user\" చేత చదవటానికి కుదరనిది"
+
+#~ msgid "Stopping distributed compiler scheduler: "
+#~ msgstr "డిస్ట్రిబ్యూటెడ్ కంపైలర్ షెడ్యూలర్‌ను ఆపుతోంది: "
+
+#~ msgid "Stopping $prog2: "
+#~ msgstr "$prog2ని ఆపుతోంది: "
+
+#~ msgid "An old version of the database format was found."
+#~ msgstr "సమాచారనిధి యొక్క పాత ప్రతి కనుగొనబడింది."
+
+#~ msgid "Something bad happened, manual intervention required, maybe restart?"
+#~ msgstr "ఏదో చెడు జరిగిందా, మానవీయ కల్పించుకొనవలసి వుందా, పునఃప్రారంభించాలా?"
+
+#~ msgid "Usage: $prog {start|stop|restart|reload|condrestart|status|help}"
+#~ msgstr "Usage: $prog {start|stop|restart|reload|condrestart|status|help}"
+
+#~ msgid "Stopping Qpid AMQP daemon: "
+#~ msgstr "Qpid AMQP డెమోన్ను ఆపుతోంది: "
+
+#~ msgid "Manifest does not exist: $PUPPETMASTER_MANIFEST"
+#~ msgstr "Manifest లేదు: $PUPPETMASTER_MANIFEST"
+
+#~ msgid "${IP6TABLES}: /sbin/$IP6TABLES does not exist."
+#~ msgstr "${IP6TABLES}: /sbin/$IP6TABLES లేదు."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+#~ msgstr "Usage: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+
+#~ msgid "Starting DAAP server: "
+#~ msgstr "DAAP సేవికను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting MogileFS tracker daemon: "
+#~ msgstr "MogileFS ట్రాకర్ డెమోన్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Nightly apt update is disabled."
+#~ msgstr "Nightly apt update అసాధ్యం."
+
+#~ msgid "Stopping OpenCT smart card terminals: "
+#~ msgstr "OpenCT smart card టెర్మినళ్లను ఆపుతోంది: "
+
+#~ msgid "Applying arptables firewall rules: "
+#~ msgstr "arpపట్టికల ఫైరువాల్ నియమాలను అనువర్తిస్తోంది: "
+
+#~ msgid "certs generation"
+#~ msgstr "certs జనరేషన్"
+
+#~ msgid "Usage: $0 {start|stop|restart}"
+#~ msgstr "వాడుక: $0 {start|stop|restart}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "configtest|status}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|force-reload|condrestart|try-restart|"
+#~ "configtest|status}"
+
+#~ msgid "Unmounting cgroup-hierarchy"
+#~ msgstr "cgroup-హైరార్కీను అన్‌మౌంట్ చేయుట"
+
+#~ msgid "Starting rwho services: "
+#~ msgstr "rwho సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping acpi daemon: "
+#~ msgstr "acpi డెమోన్ను ఆపుతోంది: "
+
+#~ msgid "Initializing database: "
+#~ msgstr "సమాచారనిధిని సంస్థాపిస్తోంది: "
+
+#~ msgid "Unmounting loopback filesystems: "
+#~ msgstr "Unmounting loopback ఫైలు విధానాలు: "
+
+#~ msgid "          stop-all|status-all}"
+#~ msgstr "          అన్నింటినీ-ఆపు|అన్నింటి-స్థాయి}"
+
+#~ msgid "${IP6TABLES}: Flushing firewall rules: "
+#~ msgstr "${IP6TABLES}: ఫైర్‌వాల్ నియమాల్ని ఫ్లష్ చేస్తోంది: "
+
+#~ msgid "Loading default device map"
+#~ msgstr "సిద్ధ సాధనమాప్పును లోడుచేస్తోంది"
+
+#~ msgid "$prog dead but pid file exists"
+#~ msgstr "$prog అంతమైంది అయితే pid ఫైలు వుంది"
+
+#~ msgid "Shutting down dund: "
+#~ msgstr "dund మూసివేయుచున్నది: "
+
+#~ msgid "Restarting Shorewall: "
+#~ msgstr "షోర్‌వాల్‌ను పునఃప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down..."
+#~ msgstr "మూసివేస్తోంది..."
+
+#~ msgid "Shutting down console mouse services: "
+#~ msgstr "కన్సోలు మౌసు సేవలను మూస్తోంది: "
+
+#~ msgid "Path to vshelper has not been set"
+#~ msgstr "vshelper కు మార్గం ఏర్పరచబడలేదు"
+
+#~ msgid "Reloading ser2net: "
+#~ msgstr "ser2netను తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "stop|force-restart|force-reload}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "stop|force-restart|force-reload}"
+
+#~ msgid "Shutting down CIM server: "
+#~ msgstr "CIM సర్వరును మూస్తోంది: "
+
+#~ msgid "Starting GNU Krell Monitors server ($prog): "
+#~ msgstr "GNU Krell మానిటర్స్‍ సేవికను ($prog) ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping NFS statd: "
+#~ msgstr "NFS statdను ఆపుతోంది: "
+
+#~ msgid "Generating RSA key for server $MONOTONE_KEYID"
+#~ msgstr "RSA కీను సేవిక $MONOTONE_KEYID కొరకు ఉద్భవింపచేస్తోంది"
+
+#~ msgid "Starting ${desc} (${prog}): "
+#~ msgstr "${desc} (${prog}) ప్రారంభిస్తోంది: "
+
+#~ msgid "CIM server ($pid) is running"
+#~ msgstr "CIM సర్వరు ($pid) నడుస్తోంది"
+
+#~ msgid "Starting $prog"
+#~ msgstr "$progను ప్రారంభిస్తోంది"
+
+#~ msgid "Starting pdns-recursor: "
+#~ msgstr "pdns-recursorను ప్రారంభిస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|try-restart|status}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|try-restart|status}"
+
+#~ msgid "Stopping denyhosts: "
+#~ msgstr "denyhostsని ఆపుతోంది: "
+
+#~ msgid "Unregistering binary handler for Windows applications: "
+#~ msgstr "Windows అనువర్తనాలకోసం నమోదుకాని binary handler: "
+
+#~ msgid "Shutting down telescope daemon: "
+#~ msgstr "టెలీస్కోప్ డెమోన్‌ను మూసివేయుచున్నది: "
+
+#~ msgid "${IP6TABLES}: Unloading modules: "
+#~ msgstr "${IP6TABLES}: మాడ్యూల్స్‍‌ను దించుతోంది: "
+
+#~ msgid "Monthly smolt check-in is enabled."
+#~ msgstr "నెలవారీ smolt check-in సాధ్యం అయ్యింది."
+
+#~ msgid "Starting $prog for $file: "
+#~ msgstr "$progను $file కొరకు ప్రారంభించుచున్నది: "
+
+#~ msgid "Starting sge_shadowd: "
+#~ msgstr "sge_shadowd ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Initializing database"
+#~ msgstr "డాటాబేసును సిద్దపరుస్తోంది"
+
+#~ msgid "Shutting down $KIND services: "
+#~ msgstr "$KIND సేవలను మూస్తోంది: "
+
+#~ msgid "domain is '$NISDOMAIN' "
+#~ msgstr "క్షేత్ర నామం '$NISDOMAIN' "
+
+#~ msgid "FireHOL: Activating new firewall:"
+#~ msgstr "FireHOL: కొత్త ఫైర్‌వాల్‌ను క్రియాశీలపరస్తోంది:"
+
+#~ msgid "Kernel is not compiled with IPv6 support"
+#~ msgstr "కెర్నలు IPv6 మద్దతుతో పూర్తికాలేదు"
+
+#~ msgid "Stopping $PROG: "
+#~ msgstr "$PROGను ఆపుతోంది: "
+
+#~ msgid "Resetting built-in chains to the default ACCEPT policy:"
+#~ msgstr "built-in chainsను సిద్ధ ACCEPT విధానానికి తిరిగి అమర్చుతోంది:"
+
+#~ msgid "$s is stopped"
+#~ msgstr "$s నిలిపివేయబడింది"
+
+#~ msgid "Stopping Video Disk Recorder ($prog): "
+#~ msgstr "Video Disk Recorder ($prog)ను ఆపుతోంది: "
+
+#~ msgid "Start service $1 (Y)es/(N)o/(C)ontinue? [Y] "
+#~ msgstr "సేవల ప్రారంభం $1 (Y)అవును/(N)కాదు/(C)కొనసాగించు? [Y] "
+
+#~ msgid "Stopping RPC gssd: "
+#~ msgstr "RPC gssdను ప్రారంభిస్తోంది: "
+
+#~ msgid "$prog is already running."
+#~ msgstr "$prog ఇప్పటికే ‌నడుస్తోంది."
+
+#~ msgid "Shutting down BitTorrent tracker: "
+#~ msgstr "BitTorrent trackerను మూస్తోంది: "
+
+#~ msgid "Checking filesystems"
+#~ msgstr "ఫైళ్లవిధానాలను వెతుకుతోంది"
+
+#~ msgid "Shutting down NFS mountd: "
+#~ msgstr "NFS mountdని మూస్తోంది: "
+
+#~ msgid "Starting $prog daemon: "
+#~ msgstr "$prog డెమోన్ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting up $prog: "
+#~ msgstr "$progను ప్రారంభిస్తోంది: "
+
+#~ msgid "Orbited is running."
+#~ msgstr "ఆర్బిటెడ్ నడుచుచున్నది."
+
+#~ msgid "*** Dropping you to a shell; the system will reboot"
+#~ msgstr "*** మిమ్మల్ని షల్లో ఉంచటానికి; కంప్యూటరును పునఃప్రారంభించాలి"
+
+#~ msgid "Starting supervisord: "
+#~ msgstr "supervisordను ప్రారంభిస్తోంది: "
+
+#~ msgid "*** Dropping you to a shell; the system will continue"
+#~ msgstr "*** మిమ్మల్ని షల్లో ఉంచటానికి; కంప్యూటరు కొనసాగించబడాలి"
+
+#~ msgid "$prog is stopped"
+#~ msgstr "$prog ఆపబడింది"
+
+#~ msgid "Restarting $spooler: "
+#~ msgstr "$spooler పునఃప్రారంభిస్తోంది: "
+
+#~ msgid "Exporting $prog databases: "
+#~ msgstr "$prog డాటాబేస్‌లను యెగుమతిచేస్తోంది: "
+
+#~ msgid "Starting ${NAME} service: "
+#~ msgstr "${NAME} సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "$dst: no value for size option, skipping"
+#~ msgstr "$dst: పరిమాణ ఐచ్ఛికానికి ఏ విలువాలేదు, దాటవేస్తోంది"
+
+#~ msgid "Setting NIS domain: "
+#~ msgstr "NIS డొమైన్ ను అమరుస్తోంది: "
+
+#~ msgid "Starting $gateway: "
+#~ msgstr "$gateway ప్రారంభిస్తోంది: "
+
+#~ msgid "Use \"scandvb -o vdr\" from the dvb-apps package to create one."
+#~ msgstr ""
+#~ "ఒక దానిని సృష్టించుటకు dvb-apps ప్యాకేజీ నుండి \"scandvb -o vdr\" ను ఉపయోగించండి."
+
+#~ msgid "Reverting to ${KERNEL_ELEVATOR} elevator: "
+#~ msgstr "${KERNEL_ELEVATOR} ఎలివేటర్‌కు తిరిగివుంచుతోంది: "
+
+#~ msgid "Active CIFS mountpoints: "
+#~ msgstr "క్రియాశీల CIFS mountpointలు: "
+
+#~ msgid "DSS key generation"
+#~ msgstr "DSS కీ ఉద్భవం"
+
+#~ msgid "$prog shutdown"
+#~ msgstr "$prog ముగించబడింది"
+
+#~ msgid "Generating SSH2 RSA host key: "
+#~ msgstr "SSH2 RSA ఆతిధేయ కీని నిష్పాదిస్తోంది: "
+
+#~ msgid "Stopping ipmi_watchdog driver: "
+#~ msgstr "ipmi_watchdog డ్రైవరును ఆపుతోంది: "
+
+#~ msgid "Starting $prog (DHCPv6): "
+#~ msgstr "$prog (DHCPv6) ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting INND system: "
+#~ msgstr "INND విధానాన్ని ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting $monitor: "
+#~ msgstr "$monitor ప్రారంభిస్తోంది: "
+
+#~ msgid "Table: $table"
+#~ msgstr "పట్టిక: $పట్టిక"
+
+#~ msgid "Creating required directories"
+#~ msgstr "కావాలిసిన సంచయాలను సృష్టిస్తోంది"
+
+#~ msgid "Reloading Avahi DNS daemon... "
+#~ msgstr "Avahi DNS daemonన్ను తిరిగి లోడుచేస్తోంది... "
+
+#~ msgid "FireHOL: Saving firewall to ${FIREHOL_AUTOSAVE}:"
+#~ msgstr "FireHOL: ఫైర్‌వాల్‌ను ${FIREHOL_AUTOSAVE}కు దాస్తోంది:"
+
+#~ msgid "Nightly apt update is enabled."
+#~ msgstr "Nightly apt నవీకరణ అసాధ్యంగా ఉంది."
+
+#~ msgid "Stopping GNU cfengine environmental history daemon: "
+#~ msgstr "GNU cfengine వాతావరణ history డెమోన్ను ఆపుతోంది: "
+
+#~ msgid "Starting postfix: "
+#~ msgstr "postfixను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting abrt daemon: "
+#~ msgstr "abrt డెమోన్ ప్రారంభిస్తోంది: "
+
+#~ msgid "Restarting $dagent: "
+#~ msgstr "$dagent పునఃప్రారంభిస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $gateway {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+#~ msgstr ""
+#~ "Usage: $gateway {start|stop|status|reload|restart|condrestart|force-"
+#~ "reload|try-restart}"
+
+#~ msgid "Stopping $gateway: "
+#~ msgstr "$gateway నిలిపివేస్తోంది: "
+
+#~ msgid "restart"
+#~ msgstr "పునఃప్రారంభించు"
+
+#~ msgid "Starting exim: "
+#~ msgstr "eximను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping xend daemon: "
+#~ msgstr "xend డెమోన్‌ను ఆపివేస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+#~ "force-reload}"
+
+#~ msgid "$s is dead, but another script is running."
+#~ msgstr "$s నశించినది, కాని వేరొక స్క్రిప్టు నడుచుచున్నది."
+
+#~ msgid "Shutting down NFS services: "
+#~ msgstr "NFS సేవలను మూస్తోంది: "
+
+#~ msgid "Stopping monotone server: "
+#~ msgstr "మెనోటోన్ సేవికను నిలిపివేయుచున్నది: "
+
+#~ msgid "Configured NCP mountpoints: "
+#~ msgstr "NCP mountpointలను ఆకృతీకరిస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|cron|condrestart|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|status|cron|condrestart|"
+#~ "try-restart}"
+
+#~ msgid "Generate configuration puppetmaster: "
+#~ msgstr "ఆకృతీకరణ పప్పెట్‌మాస్టరును వుద్భవింపచేస్తుంది: "
+
+#~ msgid "$dst: no value for cipher option, skipping"
+#~ msgstr "$dst: cipher ఐచ్ఛికానికి విలువలేదు, దాటవేస్తోంది"
+
+#~ msgid "Shutting down Avahi daemon: "
+#~ msgstr "Avahi daemonను మూస్తోంది: "
+
+#~ msgid "Starting $KIND services: "
+#~ msgstr "$KIND సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "$prog is running"
+#~ msgstr "$prog నడుస్తోంది"
+
+#~ msgid "$dst: no value for hash option, skipping"
+#~ msgstr "$dst: hash ఐచ్ఛికానికి ఏ విలువాలేదు, దాటవేస్తోంది"
+
+#~ msgid "Reloading $SERVICE configuration: "
+#~ msgstr "$SERVICE ఆకృతీకరణను తిరిగి లోడు చేస్తోంది: "
+
+#~ msgid "${IPTABLES}: Flushing firewall rules: "
+#~ msgstr "${IPTABLES}: ఫైర్‌వాల్స్‍ నియమాలను ఫ్లష్ చేస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|condrestart|reload}"
+#~ msgstr "వాడుక: $0 {start|stop|status|restart|condrestart|reload}"
+
+#~ msgid "*** $0 can not be called in this way"
+#~ msgstr "*** $0 ఈ రీతిలో పిలవబడదు"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|try-restart|force-reload}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|reload|try-restart|force-reload}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|condrestart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|condrestart|reload|force-"
+#~ "reload}"
+
+#~ msgid "Denyhosts already running."
+#~ msgstr "తిరస్కరితహోస్టులు యిప్పటికే నడుస్తున్నాయి."
+
+#~ msgid "Stoping Gadget daemon: "
+#~ msgstr "గాడ్జెట్ డెమోన్ ఆపుతోంది: "
+
+#~ msgid "Enabling Moodle cron job: "
+#~ msgstr "Moodle cron ఉద్యోగాన్ని చేతనం చేస్తోంది: "
+
+#~ msgid "Waiting for network..."
+#~ msgstr "నెట్వర్కు కొరకు వేచిచూస్తోంది..."
+
+#~ msgid "$DAEMON is not set."
+#~ msgstr "$DAEMON అమర్చి లేదు."
+
+#~ msgid "Starting pkcsslotd: "
+#~ msgstr "pkcsslotd ప్రారంభించుచున్నది: "
+
+#~ msgid "Starting puppetmaster: "
+#~ msgstr "puppetmasterను ప్రారంభిస్తోంది: "
+
+#~ msgid "dead but pid file exists"
+#~ msgstr "లేదు కానీ ఫైలు ఉంది"
+
+#~ msgid "Reloading infrared remote control daemon ($prog): "
+#~ msgstr "infrared remote control daemon ($prog)ను తిరిగి లోడు చేస్తోంది: "
+
+#~ msgid "Moving old server passphrase file to new location: "
+#~ msgstr "పాత సేవిక సంకేతపదము దస్త్రమును కొత్త స్థానమునకు కదుల్చుచున్నది: "
+
+#~ msgid "Stopping fail2ban: "
+#~ msgstr " fail2ban ను ఆపుతోంది: "
+
+#~ msgid "Stopping $spooler: "
+#~ msgstr "$spooler నిలిపివేస్తోంది: "
+
+#~ msgid "$dst: LUKS requires non-random key, skipping"
+#~ msgstr "$dst: LUKSకి random కాని కీ కావలసి ఉంది, దాటుతోంది"
+
+#~ msgid "dead but subsys locked"
+#~ msgstr "లేదు కానీ subsys లాక్ చేయబడింది"
+
+#~ msgid "$prog abort"
+#~ msgstr "$prog abort"
+
+#~ msgid "failed to shutdown in time"
+#~ msgstr "సమయం లోపల మూసివేయుట విఫలమైంది"
+
+#~ msgid "On the next boot fsck will be forced."
+#~ msgstr "తరువాతి boot fsck మీద వత్తిడి తేబడుతుంది."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|force-reload|condrestart}"
+#~ msgstr "Usage: $0 {start|stop|status|restart|force-reload|condrestart}"
+
+#~ msgid "FireHOL: Activating new firewall (${FIREHOL_COMMAND_COUNTER} rules):"
+#~ msgstr "FireHOL: కొత్త ఫైర్‌వాల్‌ను క్రియాశీలపరస్తోంది (${FIREHOL_COMMAND_COUNTER} rules):"
+
+#~ msgid "Disabling monthly Smolt update: "
+#~ msgstr "monthly Smolt నవీకరణను అచేతనం చేస్తోంది: "
+
+#~ msgid "denyhosts cron service is disabled."
+#~ msgstr "Denyhosts cron సేవ అచేతనంగా ఉంది."
+
+#~ msgid "$1 not available"
+#~ msgstr "$1 అందుబాటులో లేదు"
+
+#~ msgid "Shutting down sm-client: "
+#~ msgstr "sm-client కక్షిదారుని మూస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart} [<configfile.{yml|conf}>]"
+#~ msgstr ""
+#~ "Usage: $prog {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart} [<configfile.{yml|conf}>]"
+
+#~ msgid "Stopping Gnokii SMS daemon ($prog): "
+#~ msgstr "Gnokii SMS daemon ($prog)న్ను ఆపుతోంది: "
+
+#~ msgid "\t-r kernelrelease: specify kernel release version"
+#~ msgstr "\t-r kernelrelease: కెర్నల్ విడుదల వర్షన్‌ను తెలుపుము"
+
+#~ msgid "status $rc of $prog"
+#~ msgstr "$prog యొక్క స్థితి $rc"
+
+#~ msgid "Registering binary handler for Windows applications: "
+#~ msgstr "Windows అనువర్తనాలకోసం binary handlerను నమోదు చేస్తోంది: "
+
+#~ msgid "Starting pand: "
+#~ msgstr "pand ప్రారంభించుచున్నది: "
+
+#~ msgid "Starting Gnokii SMS daemon ($prog): "
+#~ msgstr "Gnokii SMS daemon ($prog)న్ను ప్రారంభిస్తోంది: "
+
+#~ msgid "$prog already running: "
+#~ msgstr "$prog యిప్పటికే నడుస్తోంది: "
+
+#~ msgid "Starting Gadget daemon: "
+#~ msgstr "గాడ్జెట్ డెమోన్ ప్రారంభించుచున్నది: "
+
+#~ msgid "*** Please see /usr/share/doc/clamav-server-*/README how"
+#~ msgstr "*** దయచేసి /usr/share/doc/clamav-server-*/README howని చూడండి"
+
+#~ msgid "Stopping INND service (PID not found, the hard way): "
+#~ msgstr "INND సేవను ఆపుతోంది (PID కనబడలేదు, క్లిష్ట మార్గము): "
+
+#~ msgid "FireHOL: Saving your old firewall to a temporary file:"
+#~ msgstr "FireHOL: మీ పాత ఫైర్‌వాల్‌ను తాత్కాలిక ఫైలునకు దాయుట:"
+
+#~ msgid "Active NFS mountpoints: "
+#~ msgstr "క్రియాశీల NFS mountpointలు: "
+
+#~ msgid "Starting router discovery: "
+#~ msgstr "routerని కనుగొనటమ్ ప్రారంభిస్తోంది: "
+
+#~ msgid "Mounting other filesystems: "
+#~ msgstr "ఇతర ఫైలు విధానాన్నిమౌంట్ చేస్తోంది: "
+
+#~ msgid "qemu binary format handlers are registered."
+#~ msgstr "qemu binary ఆకృతి handlerలు నమోదయ్యాయి."
+
+#~ msgid "common address redundancy protocol daemon"
+#~ msgstr "redundancy protocol daemon ఉమ్మడి చిరునామా"
+
+#~ msgid "Reloading $desc ($prog): "
+#~ msgstr "$desc ($prog) తిరిగి నింపుతోంది: "
+
+#~ msgid "Starting $server: "
+#~ msgstr "$server ప్రారంభించుట: "
+
+#~ msgid "\t-c configfile\t: specify config file"
+#~ msgstr "\t-c configfile\t: ఆకృతీకరణ ఫైలును తెలుపుము"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|force-reload}"
+#~ msgstr "ఉపయోగం: $0 {start|stop|status|restart|force-reload}"
+
+#~ msgid "irattach shutdown"
+#~ msgstr "irattach మూసివేత"
+
+#~ msgid "Stopping NFS locking: "
+#~ msgstr "NFS లాకింగును ఆపుతోంది: "
+
+#~ msgid "${IP6TABLES}: Firewall is not running."
+#~ msgstr "${IP6TABLES}: ఫైర్‌వాల్ నడుస్తోంది."
+
+#~ msgid "Starting $prog: $conf, $INTERFACES, $DRIVERS"
+#~ msgstr "$prog: $conf, $INTERFACES, $DRIVERS లను పప్రారంభిస్తోంది"
+
+#~ msgid "Stopping hard disk temperature monitor daemon ($prog): "
+#~ msgstr "హార్డు డిస్కు temperature monitor daemon ($prog)న్ను ఆపుతోంది: "
+
+#~ msgid "irattach startup"
+#~ msgstr "irattach ప్రారమ్భించబడింది"
+
+#~ msgid "Reloading $prog alias files: "
+#~ msgstr "$prog యెలియాస్ ఫైళ్ళను తిరిగిలోడుచేయుట: "
+
+#~ msgid "Starting ${prog}: "
+#~ msgstr "${prog}ని ప్రారంభిస్తోంది: "
+
+#~ msgid "*** Run 'setenforce 1' to reenable."
+#~ msgstr "*** 'setenforce 1'ని reenableకి ఉపయోగించు."
+
+#~ msgid "Stopping preload daemon: "
+#~ msgstr "ప్రలోడ్ డెమోన్‌ను ఆపుతోంది: "
+
+#~ msgid "Stopping PC/SC smart card daemon ($prog): "
+#~ msgstr "PC/SC స్మార్టు కార్డు డెమోన్ను ప్రారంభిస్తోంది ($prog): "
+
+#~ msgid "Starting ipmi_poweroff driver: "
+#~ msgstr "ipmi_poweroff డ్రైవరును ప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down $prog for $ez_name: "
+#~ msgstr "$prog for $ez_nameను మూస్తోంది: "
+
+#~ msgid "Configuration file /etc/sysconfig/arptables missing"
+#~ msgstr "ఆకృతీకరణ దస్త్రము /etc/sysconfig/arptables తప్పిపోయింది"
+
+#~ msgid "Failed to make stat directory ($STAT_PATH)"
+#~ msgstr "stat సంచయం ($STAT_PATH) చేయుటకు విఫలమైంది"
+
+#~ msgid "Shuting down Bandwidthd network traffic monitor: "
+#~ msgstr "బ్యాండ్‌విడ్తు నెట్వర్కు ట్రాఫిక్ మానిటరును మూసివేయి: "
+
+#~ msgid "Preparing $PROG config: "
+#~ msgstr "$PROG ఆకృతీకరణను సిద్దపరుస్తోంది: "
+
+#~ msgid "Ignoring guests on $uri URI"
+#~ msgstr "$uri URI పై గెస్టులను విస్మరించుట"
+
+#~ msgid "vncserver shutdown"
+#~ msgstr "vncserver ముయ్యబడింది"
+
+#~ msgid "Stopping xenconsoled daemon: "
+#~ msgstr "xenconsoled డెమోన్‌ను ఆపుతోంది: "
+
+#~ msgid "Configured network block devices: "
+#~ msgstr "ఆకృతీకరించబడ్డ నెట్వర్కు అడ్డంకు సాధనాలు: "
+
+#~ msgid ""
+#~ "Usage: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+#~ "status}"
+#~ msgstr ""
+#~ "Usage: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+#~ "status}"
+
+#~ msgid "Starting GNU cfengine environmental history daemon: "
+#~ msgstr "GNU cfengine environmental history daemonన్ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting denyhosts: "
+#~ msgstr "denyhostsలను ప్రారంభిస్తోంది: "
+
+#~ msgid "cC"
+#~ msgstr "cC"
+
+#~ msgid "$prog compiled "
+#~ msgstr "$prog నిర్వర్తించబడింది "
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status|force-reload}"
+#~ msgstr "వాడుక: $0 {start|stop|restart|try-restart|status|force-reload}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|force-reload|status|condrestart|try-restart|"
+#~ "configtest|usage}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|force-reload|status|condrestart|try-restart|"
+#~ "configtest|usage}"
+
+#~ msgid "Usage: $0 {start|stop|restart|force-reload|status|condrestart}"
+#~ msgstr "Usage: $0 {start|stop|restart|force-reload|status|condrestart}"
+
+#~ msgid "not running"
+#~ msgstr "నడుచుటలేదు"
+
+#~ msgid "Unmounting pipe file systems (retry): "
+#~ msgstr "మౌంటు చేయబడని పైప్ ఫైలు విధానం (తిరిగి ప్రయత్నించు): "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|force-reload}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|force-reload}"
+
+#~ msgid "Reloading cyrus.conf file: "
+#~ msgstr "cyrus.conf ఫైలును తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid "Starting $LLDPAD: "
+#~ msgstr "$LLDPAD ప్రారంభించుట: "
+
+#~ msgid "Starting $indexer: "
+#~ msgstr "$indexer ప్రారంభించుట: "
+
+#~ msgid "Cleaning up systemtap scripts: "
+#~ msgstr "సిస్టమ్‌టాప్ స్క్రిప్టులను శుభ్రపరస్తోంది: "
+
+#~ msgid "Failed to make cache directory ($CACHE_PATH)"
+#~ msgstr "క్యాచీ సంచయం ($CACHE_PATH) చేయుటకు విఫలమైంది"
+
+#~ msgid "Restarting $prog for $file: "
+#~ msgstr "$progను $file కొరకు పునఃప్రారంభిస్తోంది: "
+
+#~ msgid "$prog not running"
+#~ msgstr "$prog నడవటంలేదు"
+
+#~ msgid "Force-updating $prog configuration: "
+#~ msgstr "$prog ఆకృతీకరణను బలవంతంగా-నవీకరించుట: "
+
+#~ msgid "Shutting down guests on $uri URI..."
+#~ msgstr "$uri URI పైని గెస్టులను మూసివేయుట..."
+
+#~ msgid "Clearing all current rules and user defined chains:"
+#~ msgstr "ప్రస్తుతం ఉన్న అన్ని నియమాలనూ మరియూ వినియోగదారుడు నిర్వచించిన chainలను శుభ్రపరుస్తోంది:"
+
+#~ msgid "Stopping YP passwd service: "
+#~ msgstr "YP అనుమతిపద సేవను ప్రారంభిస్తోంది: "
+
+#~ msgid "Orbited is not running."
+#~ msgstr "ఆర్బిటెడ్ నడుచుటలేదు."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+
+#~ msgid "Adding udev persistent rules"
+#~ msgstr "udev పర్సిస్టెంట్ నిభందనలు కలుపుతోంది"
+
+#~ msgid "Shutting down $name: "
+#~ msgstr "$name మూసివేయుచున్నది: "
+
+#~ msgid "database initialization"
+#~ msgstr "డాటాబేస్ సిద్దీకరణ"
+
+#~ msgid "Usage: $0 {start|stop|restart|force-reload|gueststatus|shutdown}"
+#~ msgstr "Usage: $0 {start|stop|restart|force-reload|gueststatus|shutdown}"
+
+#~ msgid "CRITICAL "
+#~ msgstr "క్లిష్టం "
+
+#~ msgid "Starting NFS quotas: "
+#~ msgstr "NFS కోటాలను ప్రారంభిస్తోంది: "
+
+#~ msgid "Reloading ${NAME} service: "
+#~ msgstr "${NAME} సేవను తిరిగిలోడ్ చేస్తోంది: "
+
+#~ msgid "*** An error occurred during the file system check."
+#~ msgstr "*** ఫైలు విధానాన్ని వెతికేటప్పుడు ఒక దోషం సంభవించింది."
+
+#~ msgid "Unmounting NCP filesystems: "
+#~ msgstr "NCP ఫైళ్లవిధానాన్ని మరల్చలేదు: "
+
+#~ msgid "Changing target policies to DROP: "
+#~ msgstr "లక్ష్య విధానాన్ని DROPకి మార్చుతోంది: "
+
+#~ msgid ""
+#~ "Usage: $ical {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+#~ msgstr ""
+#~ "Usage: $ical {start|stop|status|reload|restart|condrestart|force-reload|"
+#~ "try-restart}"
+
+#~ msgid "Reloading ${prog_base}:"
+#~ msgstr "${prog_base}ను తిరిగి లోడుచేస్తోంది:"
+
+#~ msgid "Generating dropbear DSS host key: "
+#~ msgstr "dropbear DSS అతిధేయ కీను ఉద్భవింపచేస్తుంది: "
+
+#~ msgid "Re-reading $prog configuration: "
+#~ msgstr "$prog ఆకృతీకణను తిరిగి చదువుతోంది: "
+
+#~ msgid "Dependency loop detected on $s"
+#~ msgstr "$s నందు ఆధార(డిపెన్డెన్సీ) ఆవృతం గుర్తించబడింది"
+
+#~ msgid "%s is password protected"
+#~ msgstr "%s అనునది సంకేతపదముతో రక్షించబడుచున్నది"
+
+#~ msgid "INSECURE OWNER FOR $key"
+#~ msgstr "INSECURE OWNER FOR $key"
+
+#~ msgid "FireHOL config ${FIREHOL_CONFIG} not found:"
+#~ msgstr "FireHOL config ${FIREHOL_CONFIG} కనబడలేదు:"
+
+#~ msgid "Current elevator settings:"
+#~ msgstr "ప్రస్తుత ఎలివేటర్ అమరికలు:"
+
+#~ msgid "Loading Firmware"
+#~ msgstr "Firmwareను లోడుచేస్తోంది"
+
+#~ msgid "Timeout on stopping $server"
+#~ msgstr "$server ఆపుటలో సమయం మించినది"
+
+#~ msgid "Starting liquidwar game server: "
+#~ msgstr "liquidwar ఆట సేవిక ను ప్రారంభిస్తోంది: "
+
+#~ msgid ""
+#~ "$prog error exporting databases, check ${CONFIGDIRECTORY}/rpm/db_export."
+#~ "log"
+#~ msgstr ""
+#~ "డాటాబేస్‌లు యెగుమతి చేయుటలో $prog దోషం, ${CONFIGDIRECTORY}/rpm/db_export.log పరిశీలించు"
+
+#~ msgid "Shutting down auto nice daemon:"
+#~ msgstr "auto nice daemonను మూస్తోంది: "
+
+#~ msgid "Stopping all running guests"
+#~ msgstr "నడుస్తున్న అన్ని అతధేయాలను ఆపివేస్తుంది"
+
+#~ msgid "Generating dropbear RSA host key: "
+#~ msgstr "dropbear RSA అతిధేయ కీను ఉద్భవింపచేస్తుంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|try-"
+#~ "restart}"
+
+#~ msgid "Reloading $prog"
+#~ msgstr "$progను తిరిగి లోడు చేస్తోంది"
+
+#~ msgid "Usage: $prog {start|stop|reload|restart|condrestart|status|help}"
+#~ msgstr "Usage: $prog {start|stop|reload|restart|condrestart|status|help}"
+
+#~ msgid "Stopping $desc ($prog): "
+#~ msgstr "$desc ($prog)ను ఆపుతోంది: "
+
+#~ msgid "Sending all processes the KILL signal..."
+#~ msgstr "KILL signal... అన్ని విధానాలనూ పంపుతోంది"
+
+#~ msgid "Rescanning IB Subnet:"
+#~ msgstr "IB సబ్‌నెట్‌ను తిరిగిస్కానుచేస్తోంది: "
+
+#~ msgid "Saving current rules to $ARPTABLES_CONFIG: "
+#~ msgstr "ప్రస్తుత నియమాలను $ARPTABLES_CONFIGకి భద్రపరువు: "
+
+#~ msgid "Starting Avahi DNS daemon... "
+#~ msgstr "Avahi DNS daemon...ను ప్రారంభిస్తోంది "
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status}"
+#~ msgstr "వాడుక: $0 {start|stop|restart|condrestart|status}"
+
+#~ msgid "Starting Wesnoth game server: "
+#~ msgstr "Wesnoth గేమ్ సర్వరును ప్రాంభిస్తోంది: "
+
+#~ msgid "Starting Bandwidthd network traffic monitor: "
+#~ msgstr "బ్యాండ్‌విడ్తు నెట్వర్కు ట్రాఫిక్ మానిటర్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting YP passwd service: "
+#~ msgstr "YP అనుమతిపద సేవను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping $indexer: "
+#~ msgstr "$indexer ఆపుట: "
+
+#~ msgid "CIM server is not running, but pid file exists"
+#~ msgstr "CIM సేవిక నడుచుటలేదు, pid ఫైల్ వుంది"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|status}"
+#~ msgstr "వాడుక: $prog {start|stop|restart|condrestart|status|help}"
+
+#~ msgid "program or service status is unknown"
+#~ msgstr "ప్రోగ్రామ్ లేదా సేవ స్థితి తెలియనిది"
+
+#~ msgid "Please specify a $type name"
+#~ msgstr "దయచేసి $type పేరును తెలుపుము"
+
+#~ msgid "Error. Default principal database does not exist."
+#~ msgstr "దోషం. సిద్ధ నియమాల సమాచానిధి లేదు."
+
+#~ msgid "$prog: Synchronizing with time server: "
+#~ msgstr "$prog: టైం సర్వరుతో Synchroniz చేస్తోంది: "
+
+#~ msgid "Stray lockfile present; removing it."
+#~ msgstr "స్ట్రే లాక్‌ఫైలు ప్రస్తుతంవుంది; దానిని తొలగిస్తోంది."
+
+#~ msgid "$file is not owned by \"$user\""
+#~ msgstr "$file is not owned by \"$user\""
+
+#~ msgid "Starting $prog for $site: "
+#~ msgstr "$progను $siteకోసం ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting $type $name: "
+#~ msgstr "$type $nameను ప్రారంభిస్తోంది: "
+
+#~ msgid "Reloading ${NAME}"
+#~ msgstr "${NAME}ను తిరిగి లోడు చేస్తోంది"
+
+#~ msgid "Starting Video Disk Recorder ($prog): "
+#~ msgstr "Video Disk Recorder ($prog)ను ప్రారంభిస్తోంది: "
+
+#~ msgid "$prog stopping "
+#~ msgstr "$prog ఆపివేస్తోంది "
+
+#~ msgid "Starting $display_name: "
+#~ msgstr "$display_name ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping puppetmaster: "
+#~ msgstr "puppetmasterను ఆపుతోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|condrestart|force-reload}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|reload|condrestart|force-reload}"
+
+#~ msgid "Starting Perlbal: "
+#~ msgstr "Perlbalను ప్రారంభిస్తోంది: "
+
+#~ msgid "DSA key generation"
+#~ msgstr "DSA కీ నిష్పాదన"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+#~ "condrestart|condstop}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+#~ "condrestart|condstop}"
+
+#~ msgid "Starting xen blktapctrl daemon: "
+#~ msgstr "xen blktapctrl డెమోన్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting nsd:"
+#~ msgstr "nsd ను ప్రారంభిస్తున్నది:"
+
+#~ msgid "Starting spectrum transport: "
+#~ msgstr "స్పెక్ట్రమ్ బదలీకరణను ప్రారంభించుచున్నది: "
+
+#~ msgid "$prog stop"
+#~ msgstr "$prog నిలుపుదల"
+
+#~ msgid "Stopping YP server services: "
+#~ msgstr "YP సర్వరు సేవలను ఆపుతోంది: "
+
+#~ msgid "Server key already installed"
+#~ msgstr "సేవిక కీ యిప్పటికే సంస్థాపించబడింది"
+
+#~ msgid "Enabling Bluetooth devices:"
+#~ msgstr "Bluetooth పరికరాలను చేతనపరుస్తోంది:"
+
+#~ msgid "On the next boot fsck will be skipped."
+#~ msgstr "తరువాతి boot fsck దాటివేయబడుతుంది."
+
+#~ msgid "\tscript(s)\t: specify systemtap scripts"
+#~ msgstr "\tscript(s)\t: సిస్టమ్‌టాప్ స్క్రిప్టులను తెలుపుము"
+
+#~ msgid "Enabling local swap partitions: "
+#~ msgstr "స్థానిక స్వాప్ విభజనలు ఏర్పరుస్తోంది: "
+
+#~ msgid "Starting xenner daemons"
+#~ msgstr "xenner డెమోన్స్‍‌ను ప్రారంభిస్తోంది"
+
+#~ msgid "Saving mixer settings"
+#~ msgstr "mixer అమర్పులను అమర్చుతోంది"
+
+#~ msgid "Starting rfcomm: "
+#~ msgstr "rfcomm ప్రారంభిస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|reload}"
+#~ msgstr "Usage: $0 {start|stop|reload}"
+
+#~ msgid "Warning: $prog may not have exited, start/restart may fail"
+#~ msgstr ""
+#~ "హెచ్చరిక: $prog నిష్క్రమించి వుండకపోవచ్చును, ప్రారంభం/పునఃప్రారంభం విఫలమై వుండవచ్చును"
+
+#~ msgid "clement stop"
+#~ msgstr "clement ఆపు"
+
+#~ msgid "Generating SSH2 DSA host key: "
+#~ msgstr "SSH2 DSA ఆతిధేయ కీని నిష్పాదిస్తోంది: "
+
+#~ msgid "Stopping $display_name: "
+#~ msgstr "$display_name ప్రారంభిస్తోంది: "
+
+#~ msgid "Periodic fetch-crl is disabled."
+#~ msgstr "క్రమానుగత fetch-crl అచేతనమైంది."
+
+#~ msgid "Checking network-attached filesystems"
+#~ msgstr "నెట్వర్కు-అనుసంధాన ఫైళ్లవిధానాన్ని పరిశీలిస్తోంది"
+
+#~ msgid "Shutting down $prog with output module $module: "
+#~ msgstr "$prog ను అవుట్పుట్ మాడ్యూల్ $module తో మూసివేయుచున్నది: "
+
+#~ msgid "Starting Xpilot game server: "
+#~ msgstr "Xpilot game సర్వరును ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting argus: "
+#~ msgstr "argusను ప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down ${prog}: "
+#~ msgstr "${prog}ను మూసివేయి: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+#~ msgstr ""
+#~ "ఉపయోగం: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+
+#~ msgid "Usage: killproc {program} [signal]"
+#~ msgstr "వాడుక: killproc {program} [signal]"
+
+#~ msgid "Setting hostname ${HOSTNAME}: "
+#~ msgstr "ఆతిధేయనామాన్ని అమర్చుతోంది ${HOSTNAME}: "
+
+#~ msgid "Stopping FCoE initiator service: "
+#~ msgstr "FCoE సిద్దీకరణ సేవను ఆపివేయుచున్నది: "
+
+#~ msgid "Usage: $0 {start|stop|reload|restart|status}"
+#~ msgstr "Usage: $0 {start|stop|reload|restart|status}"
+
+#~ msgid "Starting $prog with output module $module: "
+#~ msgstr "$prog ను అవుట్పుట్ మాడ్యూల్ $module తో ప్రారంభించుము: "
+
+#~ msgid "ERROR: [ipv6_log] Missing 'message' (arg 1)"
+#~ msgstr "దోషం: [ipv6_log] తప్పిపోయిన 'message' (arg 1)"
+
+#~ msgid "freshclam daemon NOT up and running (please check this)"
+#~ msgstr "freshclam డెమోన్ అప్ అవలేదు మరియు నడుచుచున్నది (దయచేసి దీనిని పరిశీలించండి)"
+
+#~ msgid "$prog dead but subsys locked"
+#~ msgstr "$prog అంతమైంది అయితే subsys లాక్‌చేయబడివుంది"
+
+#~ msgid "Running guests on $uri URI: "
+#~ msgstr "$uri URI పై గెస్టులను నడుపుచున్నది: "
+
+#~ msgid "Saving random seed: "
+#~ msgstr "random seedను భద్రపరుస్తోంది: "
+
+#~ msgid "Loading ISDN modules"
+#~ msgstr "ISDN గుణకాలను లోడుచేస్తోంది"
+
+#~ msgid "Usage: $0 {start|stop|restart|status|condrestart} [VO]"
+#~ msgstr "Usage: $0 {start|stop|restart|status|condrestart} [VO]"
+
+#~ msgid "killing ctdbd "
+#~ msgstr "ctdbd చంపుతోంది "
+
+#~ msgid "Mounting local filesystems: "
+#~ msgstr "స్థానిక ఫైలు విధానాలను మరల్చుతోంది: "
+
+#~ msgid "key generation"
+#~ msgstr "కీ ఉద్భవింపు"
+
+#~ msgid "Usage: $0 {start|stop|status"
+#~ msgstr "Usage: $0 {start|stop|status"
+
+#~ msgid "Usage: $0 {start|stop|force-reload|restart|try-restart|status}"
+#~ msgstr "వాడుక: $0 {start|stop|force-reload|restart|try-restart|status}"
+
+#~ msgid ""
+#~ "Usage: $prog {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload}"
+#~ msgstr ""
+#~ "Usage: $prog {start|stop|status|restart|condrestart|try-restart|reload|"
+#~ "force-reload}"
+
+#~ msgid "Usage: $prog {start|stop|restart|status|compile|cleanup} [option]"
+#~ msgstr "వాడుక: $prog {start|stop|restart|status|compile|cleanup} [option]"
+
+#~ msgid ""
+#~ "Usage: $0 {start|forcestart|stop|status|restart|forcerestart|reload|"
+#~ "condrestart}"
+#~ msgstr ""
+#~ "Usage: $0 {start|forcestart|stop|status|restart|forcerestart|reload|"
+#~ "condrestart}"
+
+#~ msgid "Starting sm-client: "
+#~ msgstr "sm-clientను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting $NAME: "
+#~ msgstr "$NAME ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Pre-0.26 monotone database must be migrated by hand: "
+#~ msgstr "Pre-0.26 మోనోటోన్ డాటాబేస్ తప్పక చేతిద్వారా వలస పంపాలి: "
+
+#~ msgid "${IPTABLES}: Loading additional modules: "
+#~ msgstr "${IPTABLES}: అదనపు మాడ్యూల్స్‍‌ను లోడ్ చేస్తోంది: "
+
+#~ msgid "Usage: $progname {start|stop|restart|condrestart|status}"
+#~ msgstr "వాడుక: $progname {start|stop|restart|condrestart|status|help}"
+
+#~ msgid "Mounting CIFS filesystems: "
+#~ msgstr "CIFS ఫైళ్లవిధానాన్ని మౌంటు చేస్తోంది: "
+
+#~ msgid "Generating exim certificate: "
+#~ msgstr "exim దృవీకరణపత్రమును ఉద్భవింపజేస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "వాడుక: $0 {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Starting rusers services: "
+#~ msgstr "rusers సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "FireHOL: Processing file ${FIREHOL_CONFIG}:"
+#~ msgstr "FireHOL: ఫైల్ ${FIREHOL_CONFIG} ప్రోసెస్‌ చేయుచున్నది:"
+
+#~ msgid "Compiling systemtap scripts: "
+#~ msgstr "systemtap స్క్రిప్టులను కంపైల్‌చేస్తోంది: "
+
+#~ msgid "Starting NFS daemon: "
+#~ msgstr "NFS daemonను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting telescope daemon: "
+#~ msgstr "టెలీస్కోప్ డెమోన్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down vmpsd: "
+#~ msgstr "vmpsd మూసివేయుచున్నది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+#~ "reload}"
+#~ msgstr ""
+#~ "ఉపయోగం: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+#~ "reload}"
+
+#~ msgid "Disabling nightly apt update: "
+#~ msgstr "nightly apt నవీకరణను disabling చేస్తోంది : "
+
+#~ msgid "Starting NFS services: "
+#~ msgstr "NFS సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+#~ "rebuild|running|update}"
+
+#~ msgid "Stopping Xpilot game server: "
+#~ msgstr "Xpilot గేమ్ సర్వరును ఆపుతోంది: "
+
+#~ msgid "already active"
+#~ msgstr "ఇప్పటికే క్రియాశీలంగా వుంది"
+
+#~ msgid "Starting HAL daemon: "
+#~ msgstr "HAL daemonను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping unbound: "
+#~ msgstr "అన్‌బౌండును ఆపివేస్తోంది: "
+
+#~ msgid "No scripts exist."
+#~ msgstr "ఎటువంటి స్క్రిప్టులు లేవు."
+
+#~ msgid "/proc entries were fixed"
+#~ msgstr "/proc ప్రవేశాలు ఫిక్సయ్యాయి"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+
+#~ msgid "Usage: $0 {start}"
+#~ msgstr "వాడుక: $0 {start}"
+
+#~ msgid "Unmounting file systems"
+#~ msgstr "Unmounting ఫైలు విధానాలు"
+
+#~ msgid "Periodic fetch-crl is enabled."
+#~ msgstr "క్రమానుగత fetch-crl చేతనమైంది."
+
+#~ msgid "(not starting, no services registered)"
+#~ msgstr "(ప్రారంభించుటలేదు, ఏ సేవలు నమోదైలేవు)"
+
+#~ msgid "Shutting down $PROG: "
+#~ msgstr "$PROGని మూసివేస్తోంది: "
+
+#~ msgid "Netlabel is stopped."
+#~ msgstr "Netlabel మద్దతిచ్చింది."
+
+#~ msgid "${SERVICE}: unrecognized service"
+#~ msgstr "${SERVICE}: గుర్తించబడని సేవ"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|reload|force-reload|restart|try-restart|"
+#~ "probe}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|reload|force-reload|restart|try-restart|"
+#~ "probe}"
+
+#~ msgid "sfcb is not running, but lock file exists"
+#~ msgstr "sfcb నడుచుట లేదు, అయితే లాక్ ఫైల్ వుంది"
+
+#~ msgid "Stopping $type $name: "
+#~ msgstr "$రకం $పేరును ఆపుతోంది: "
+
+#~ msgid ""
+#~ "See $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist for more information."
+#~ msgstr "అధిక సమాచారానికి $SYSDOCDIR/postgresql-$PGVERSION/README.rpmని చూడండి."
+
+#~ msgid "Starting $SERVICE: "
+#~ msgstr "$SERVICEను ప్రారంభిస్తోంది: "
+
+#~ msgid "Mounting zfs partitions: "
+#~ msgstr "zfs విభజనలను మరల్చుతోంది: "
+
+#~ msgid "INSECURE MODE FOR $key"
+#~ msgstr "$కీ కోసం INSECURE MODE FOR"
+
+#~ msgid "Loading new virus-database: "
+#~ msgstr "కొత్త వైరస్-సమాచారనిధిని లోడు చేస్తోంది: "
+
+#~ msgid "Stopping Crossfire game server: "
+#~ msgstr "Crossfire game సర్వరును ఆపుతోంది: "
+
+#~ msgid "Shutting down process accounting: "
+#~ msgstr "విధాన ఖాతాని మూస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|reload}"
+#~ msgstr "వాడుక: $0 {start|stop|status|restart|reload}"
+
+#~ msgid "Reloading $prog: "
+#~ msgstr "$progని తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid "Starting hard disk temperature monitor daemon ($prog): "
+#~ msgstr "హార్డుడిస్కు temperature మోనిటర్ డెమోన్ను ($prog) ప్రారంభిస్తోంది: "
+
+#~ msgid "Please stand by while rebooting the system..."
+#~ msgstr "కంప్యూటరును పునఃప్రారమ్భిస్తున్నప్పుడు దయచేసి వేచి ఉండండి..."
+
+#~ msgid "Shutting down Avahi DNS daemon: "
+#~ msgstr "Avahi DNS daemonను మూస్తోంది: "
+
+#~ msgid "Shutting down DAAP server: "
+#~ msgstr "DAAP సేవికను మూసివేస్తోంది: "
+
+#~ msgid "Waiting for reader attach/detach events..."
+#~ msgstr "reader attach/detach అంశాలకోసం వేచిఉంటోంది..."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|reload|restart|condrestart|force-reload|try-"
+#~ "restart}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|status|reload|restart|condrestart|force-reload|try-"
+#~ "restart}"
+
+#~ msgid "Mounting NCP filesystems: "
+#~ msgstr "NCP ఫైలు విధానాలను ప్రారంభిస్తోంది: "
+
+#~ msgid "Shutting down amavisd-snmp-subagent: "
+#~ msgstr "amavisd-snmp-subagent మూసివేస్తోంది: "
+
+#~ msgid "Stopping $server: "
+#~ msgstr "$server ఆపివేయుచున్నది: "
+
+#~ msgid "Starting up CIM server: "
+#~ msgstr "CIM సర్వరును ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting CallWeaver: "
+#~ msgstr "CallWeaverను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping rstat services: "
+#~ msgstr "rstat సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|status|reload|restart|condrestart}"
+#~ msgstr "వాడుక: $0 {start|stop|status|reload|restart|condrestart}"
+
+#~ msgid "NTP server not specified in $ntpstep or $ntpconf"
+#~ msgstr "NTP సేవిక $ntpstep లేదా $ntpconf లో తెలుపబడిలేదు"
+
+#~ msgid "Restarting $prog:"
+#~ msgstr "$progను పునఃప్రారంభిస్తోంది:"
+
+#~ msgid "Stopping liquidwar game server: "
+#~ msgstr "liquidwar గేమ్ సర్వరును ఆపుతోంది: "
+
+#~ msgid "Reloading nsca: "
+#~ msgstr "nscaను తిరిగిలోడు చేస్తోంది: "
+
+#~ msgid "Stopping ipmi_poweroff driver: "
+#~ msgstr "ipmi_poweroff డ్రైవరును ఆపుతోంది: "
+
+#~ msgid "qemu binary format handlers are not registered."
+#~ msgstr "qemu binary format handlerలు నమోదు చేయబడలేదు."
+
+#~ msgid "Generating SSH1 RSA host key: "
+#~ msgstr "SSH1 RSA ఆతిధేయ కీని నిష్పాదిస్తోంది: "
+
+#~ msgid "Reloading CRLs: "
+#~ msgstr "CRLs తిరిగిలోడు చేయుచున్నది: "
+
+#~ msgid "${IPTABLES}: Firewall modules are not loaded."
+#~ msgstr "${IPTABLES}: ఫైర్‌వాల్ మాడ్యూల్స్‍ నింపబడలేదు."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|try-restart|force-reload}"
+#~ msgstr "వాడుక: $0 {start|stop|status|restart|try-restart|force-reload}"
+
+#~ msgid "stale lock files may be present in $directory"
+#~ msgstr "stale lock విఫలమైంది $directoryలో ఉండటం వల్ల కావచ్చు"
+
+#~ msgid "${IP6TABLES}: Loading additional modules: "
+#~ msgstr "${IP6TABLES}: అదనపు మాడ్యూల్స్‍‌ను నింపుతోంది: "
+
+#~ msgid "Turning off swap: "
+#~ msgstr "Turning off swap: "
+
+#~ msgid "named: already running"
+#~ msgstr "named: ఇప్పటికే‌నడుస్తోంది"
+
+#~ msgid "Usage: $0 {start|stop|restart|condrestart|status|reload}"
+#~ msgstr "Usage: $0 {start|stop|restart|condrestart|status|reload}"
+
+#~ msgid "ERROR: [ipv6_log] Loglevel isn't valid '$level' (arg 2)"
+#~ msgstr "దోషమ్: [ipv6_log] Loglevel సరైన '$level' (arg 2) కాదు"
+
+#~ msgid "Restarting $indexer: "
+#~ msgstr "$indexer పునఃప్రారంభించుచున్నది: "
+
+#~ msgid "          start-watchdog|stop-watchdog|status-watchdog"
+#~ msgstr "          start-watchdog|stop-watchdog|status-watchdog"
+
+#~ msgid "Shutting down ${prog_base}:"
+#~ msgstr "${prog_base}ను మూస్తోంది:"
+
+#~ msgid "Stopping INNWatch service: "
+#~ msgstr "INNWatch సేవలను ఆపుతోంది: "
+
+#~ msgid "Stopping asterisk: "
+#~ msgstr "asterisk ఆపుతోంది: "
+
+#~ msgid "initiators still connected"
+#~ msgstr "సిద్దీకరణలు యింకా అనుసంధానించబడివున్నవి"
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status|dump}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+#~ "status|dump}"
+
+#~ msgid "Usage: $0 {start|stop|status}"
+#~ msgstr "ఉపయోగం: $0 {start|stop|status}"
+
+#~ msgid "Starting YP server services: "
+#~ msgstr "YP సర్వరు సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "Usage: $0 {start|stop|status|condrestart|reload|restart}"
+#~ msgstr "వాడుక: $0 {start|stop|status|condrestart|reload|restart}"
+
+#~ msgid "$prog already running."
+#~ msgstr "$prog యిప్పటికే నడుచుచున్నది."
+
+#~ msgid "Generating chrony command key: "
+#~ msgstr "chrony ఆదేశ కీను ఉద్భవింప జేయుచున్నది: "
+
+#~ msgid "Restarting $ical: "
+#~ msgstr "$ical పునఃప్రారంభించుచున్నది: "
+
+#~ msgid "Checking local filesystem quotas: "
+#~ msgstr "స్థానిక ఫైలు విధాన శోధనను వెతుకుతోంది: "
+
+#~ msgid "Starting NFS statd: "
+#~ msgstr "NFS statdను ప్రారంభిస్తోంది: "
+
+#~ msgid "Starting $master_prog: "
+#~ msgstr "$master_prog ను ప్రారంభిస్తోంది: "
+
+#~ msgid "libvirt-guests is configured not to start any guests on boot"
+#~ msgstr ""
+#~ "libvirt-guests అనునది boot నందు యే గెస్టులను ప్రారంభించకుండా వుండుటకు ఆకృతీకరించబడింది"
+
+#~ msgid "innd shutdown"
+#~ msgstr "innd shutdown"
+
+#~ msgid "Starting rstat services: "
+#~ msgstr "rstat సేవలను ప్రారంభిస్తోంది: "
+
+#~ msgid "denyhosts cron service is enabled."
+#~ msgstr "denyhosts cron సేవ సిద్దపరచబడినది."
+
+#~ msgid "Reloading ${NAME}: "
+#~ msgstr "${NAME}ని తిరిగి లోడుచేస్తోంది: "
+
+#~ msgid "Reloading exim:"
+#~ msgstr "eximని తిరిగి లోడుచేస్తోంది:"
+
+#~ msgid "Package sendmail-cf is required to update configuration."
+#~ msgstr "సంకలనము sendmail-cf ఆకృతీకరణను నవీకరించవలసి వుంది."
+
+#~ msgid "Shutting down restorecond: "
+#~ msgstr "restorecondని మూస్తోంది: "
+
+#~ msgid "program is dead and /var/lock lock file exists"
+#~ msgstr "ప్రోగ్రామ్ ముగిసింది మరియు /var/lock లాక్ దస్త్రము ఉంది"
+
+#~ msgid "Usage: $prog {start|stop|restart|condrestart|reload|status}"
+#~ msgstr "వాడుక: $prog {start|stop|restart|condrestart|reload|status}"
+
+#~ msgid "($pid) is running..."
+#~ msgstr "($pid) నడుస్తోంది..."
+
+#~ msgid "Reloading $prog daemon configuration: "
+#~ msgstr "$prog daemon ఆకృతీకరణను తిరిగి లోడు చేస్తోంది: "
+
+#~ msgid "Reloading ${prog} conig file: "
+#~ msgstr "${prog} ఆకృతీకరణ దస్త్రమును తిరిగిలోడుచేస్తోంది: "
+
+#~ msgid "Key file for $dst not found, skipping"
+#~ msgstr "$dst కోసం కీ ఫైలు కనుగొనబడలేదు, దాటవేస్తోంది"
+
+#~ msgid "Starting $progname: "
+#~ msgstr "$progname ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Reloading securenets and ypserv.conf file:"
+#~ msgstr "securenets మరియు ypserv.conf ఫైలును తిరిగిలోడు చేస్తోంది:"
+
+#~ msgid "Moodle cron job is disabled."
+#~ msgstr "మూడిల్ క్రాన్ ఉద్యోగం అచేతనమైంది."
+
+#~ msgid "already running."
+#~ msgstr "ఇప్పటికే నడుచుచున్నది."
+
+#~ msgid "start"
+#~ msgstr "ప్రారంభం"
+
+#~ msgid "Updating RPMS in group $group: "
+#~ msgstr "RPMSను సమూహం $groupలో నవీకరిస్తోంది: "
+
+#~ msgid "not reloading ${httpd} due to configuration syntax error"
+#~ msgstr "ఆకృతీకరణ సిన్టాక్స్ దోషం కారణంగా ${httpd} తిరిగిలోడు కావుటలేదు"
+
+#~ msgid "Shutting down ${desc} (${prog}): "
+#~ msgstr "${desc} (${prog}) మూసి వేస్తోంది: "
+
+#~ msgid "Enabling periodic fetch-crl: "
+#~ msgstr "క్రమానుగత fetch-crl చేతనపరచుచున్నది: "
+
+#~ msgid "reload unimplemented"
+#~ msgstr "తిరిగిలోడుచేయుట అభివృద్దిపరచబడలేదు"
+
+#~ msgid "Adding dhclient NTP servers to chrony: "
+#~ msgstr "dhclient NTP సేవికలు క్రొనికు జతచేయుచున్నది: "
+
+#~ msgid "Stopping infrared remote control daemon ($prog): "
+#~ msgstr "infrared remote control daemon ($prog)ను ప్రారంభిస్తోంది: "
+
+#~ msgid "Unconfigured: $prog, /etc/gkrellmd.conf not found"
+#~ msgstr "ఆకృతీకరించని: $prog, /etc/gkrellmd.conf కనబడలేదు"
+
+#~ msgid "Starting Crossfire game server: "
+#~ msgstr "Crossfire game సర్వరును ప్రారంభిస్తోంది: "
+
+#~ msgid "$0: error: insufficient privileges"
+#~ msgstr "$0: error: సరిపోని అనుమతులు"
+
+#~ msgid "Enabling /etc/fstab swaps: "
+#~ msgstr "Enabling /etc/fstab swaps: "
+
+#~ msgid "*** Disabling security enforcement for system recovery."
+#~ msgstr "*** Disabling security enforcement for system recovery."
+
+#~ msgid "Stopping $progname: "
+#~ msgstr "$prognameని ఆపుతోంది: "
+
+#~ msgid "is stopped"
+#~ msgstr "ఆపబడింది"
+
+#~ msgid "Shutdown action requested but SHUTDOWN_TIMEOUT was not set"
+#~ msgstr "మూసివేత చర్య అభ్యర్ధించబడింది అయితే SHUTDOWN_TIMEOUT అమర్చబడలేదు"
+
+#~ msgid "$prog not supported"
+#~ msgstr "$prog కు తోడ్పాటులేదు"
+
+#~ msgid "Unloading ISDN modules"
+#~ msgstr "ISDN గుణకాలను అన్ లోడు చేస్తోంది"
+
+#~ msgid "Stopping $dagent: "
+#~ msgstr "$dagent ఆపివేయుచున్నది: "
+
+#~ msgid "Wine binary format handlers are not registered."
+#~ msgstr "Wine binary format handlerలు నమోదు కాలేదు."
+
+#~ msgid ""
+#~ "ERROR: [ipv6_log] Syslog is chosen, but binary 'logger' doesn't exist or "
+#~ "isn't executable"
+#~ msgstr ""
+#~ "దోషం: [ipv6_log] Syslog ఎన్నుకోబడింది, కానీ binary 'logger' లేదు లేదా executable కానిది"
+
+#~ msgid "Usage: $service {start|stop|restart|list|status|clean}"
+#~ msgstr "వాడుక: $service {start|stop|restart|list|status|clean}"
+
+#~ msgid "Starting up-imapproxy daemon: "
+#~ msgstr "up-imapproxy డెమోన్‌ను ప్రారంభిస్తోంది: "
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+#~ msgstr ""
+#~ "వాడుక: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#~ msgid "Stopping $name: "
+#~ msgstr "$name ను ఆపుతోంది: "
+
+#~ msgid "Applying ${ELEVATOR} elevator: "
+#~ msgstr "${ELEVATOR} ఎలివేటర్ ఆపాదిస్తోంది: "
+
+#~ msgid "Starting amavisd-snmp-subagent: "
+#~ msgstr "amavisd-snmp-subagent ప్రారంభిస్తోంది: "
+
+#~ msgid "CIM server is not running"
+#~ msgstr "CIM సర్వరు నడవటంలేదు"
+
+#~ msgid "Restarting $server: "
+#~ msgstr "$server పునఃప్రారంభించుచున్నది: "
+
+#~ msgid "Stopping puppet: "
+#~ msgstr "puppetను ఆపుతోంది: "
+
+#~ msgid "nN"
+#~ msgstr "nN"
+
+#~ msgid "          start-powercontrol|stop-powercontrol|status-powercontrol"
+#~ msgstr "          start-powercontrol|stop-powercontrol|status-powercontrol"
+
+#~ msgid "Starting fail2ban: "
+#~ msgstr "fail2banను ప్రారంభిస్తోంది: "
+
+#~ msgid "You need to upgrade the data format before using PostgreSQL."
+#~ msgstr "PostgreSQLని వినియోగించటానికి ముందు మీరు సమాచార ఆకృతిని నవీకరించవలసి ఉంది."
+
+#~ msgid "Starting Audio Entropy daemon... "
+#~ msgstr "Audio Entropy daemon ను ప్రారంభిస్తోంది... "
+
+#~ msgid "Remounting root filesystem in read-write mode: "
+#~ msgstr "రూటు ఫైలు విధానాన్ని చదవటం-రాయటం రీతిలో Remounting చేస్తోంది : "
+
+#~ msgid "$prog start"
+#~ msgstr "$prog ప్రారంభమైంది"
+
+#~ msgid "Unmounting $mountpoint:"
+#~ msgstr "$mountpointను అన్‌మౌంటుచేస్తోంది:"
+
+#~ msgid "Nightly yum update is enabled."
+#~ msgstr "Nightly yum నవీకరణ చేతనంగా ఉంది."
+
+#~ msgid "Syncing hardware clock to system time"
+#~ msgstr "కంప్యూటరు సమయానికి Syncing హార్డువేరు గడియారం"
+
+#~ msgid "Starting $spooler: "
+#~ msgstr "$spooler ప్రారంభించుచున్నది: "
+
+#~ msgid "Stopping $monitor: "
+#~ msgstr "$monitor ఆపివేయుచున్నది: "
+
+#~ msgid "Configuration file or keys are invalid"
+#~ msgstr "ఆఇతీకరణ ఫైలు లేదా కీలు చెల్లనివి"
+
+#~ msgid "NOTICE   "
+#~ msgstr "గమనిక   "
+
+#~ msgid "Reverting to saved sysctl settings: "
+#~ msgstr "దాచిన sysctl అమరికలను వెలికితీస్తోంది: "
+
+#~ msgid "Cleaning $type $name: "
+#~ msgstr "$type $name తుడిచివేయుచున్నది: "
+
+#~ msgid "Usage: $0 {start|stop|restart|reload|status}"
+#~ msgstr "వాడుక: $0 {start|stop|restart|reload|status}"
+
+#~ msgid "Turning on allow_ypbind SELinux boolean"
+#~ msgstr "Turning on allow_ypbind SELinux boolean"
+
+#~ msgid "Starting acpi daemon: "
+#~ msgstr "acpi daemonను ప్రారంభిస్తోంది: "
+
+#~ msgid "Stopping vbi proxy daemon: "
+#~ msgstr "vbi proxy డెమోన్ను ఆపుతోంది: "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+
+#~ msgid "${IP6TABLES}: Setting chains to policy $policy: "
+#~ msgstr "${IP6TABLES}: చైన్స్‍‌ను విధానం $policy కు అమర్చుతోంది: "
+
+#~ msgid "Automatic reboot in progress."
+#~ msgstr "స్వయంచాలక రీబూట్ నడుస్తోంది."
+
+#~ msgid "Turning off allow_ypbind SELinux boolean"
+#~ msgstr "allow_ypbind SELinux బూలియన్‌ను ఆఫ్ చేయుము"
+
+#~ msgid "Reloading smokeping: "
+#~ msgstr "స్మోక్‌పింగును తిరిగిలోడు చేయుచున్నది: "
+
+#~ msgid "httpd shutdown"
+#~ msgstr "httpd మూసివేత"
+
+#~ msgid "Starting ${NAME}: "
+#~ msgstr "${NAME} ప్రారంభించుచున్నది: "
+
+#~ msgid "${IP6TABLES}: Firewall modules are not loaded."
+#~ msgstr "${IP6TABLES}: ఫైర్‌వాల్ మాడ్యూల్స్‍ నింపబడలేదు."
+
+#~ msgid "Stopping ${ifprog}: "
+#~ msgstr "${ifprog} ఆపుతోంది: "
+
+#~ msgid "Enabling nightly apt update: "
+#~ msgstr "nightly apt నవీకరణను సాధ్యం చేస్తోంది: "
+
+#~ msgid "Shutting down ctdbd service: "
+#~ msgstr "ctdbd సేవను మూసివేయుచున్నది: "
+
+#~ msgid "conf addition"
+#~ msgstr "ఆకృతీకరణ చేర్పు"
+
+#~ msgid "Reloading rules configuration..."
+#~ msgstr "నియమాల ఆకృతీకరణను తిరిగిలోడు చేయుచున్నది..."
+
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status|quickstart|quickstop}"
+#~ msgstr ""
+#~ "Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+#~ "status|quickstart|quickstop}"
+
+#~ msgid "Registering binary handler for qemu applications"
+#~ msgstr "qemu అనువర్తనాలకోసం binary handlerను నమోదుచేస్తోంది "
+
+#~ msgid "Stopping nsd: "
+#~ msgstr "nsd ఆపివేయుచున్నది: "
+
+#~ msgid "/proc filesystem unavailable"
+#~ msgstr "/proc ఫైలు విధానం అందుబాటులో లేదు"
+
+#~ msgid "Starting NFS mountd: "
+#~ msgstr "NFS mountdను ప్రారంభిస్తోంది: "
+
+#~ msgid "Reloading rhnsd"
+#~ msgstr "rhnsd తిరిగిలోడుచేయుచున్నది"
+
+#~ msgid "Enabling denyhosts cron service: "
+#~ msgstr "denyhosts cron సేవలను చేతనపరుస్తోంది: "
+
+#~ msgid "Starting $PROG:"
+#~ msgstr "$PROG ప్రారంభించుతోంది:"
+
+#~ msgid "Starting monotone server: "
+#~ msgstr "మోనోటోన్ సేవికను ప్రారంభించుచున్నది: "
+
+#~ msgid "Usage: $0 {start|stop|restart|try-restart|status}"
+#~ msgstr "Usage: $0 {start|stop|restart|try-restart|status}"
+
+#~ msgid "$prog flush"
+#~ msgstr "$prog flush"
+
+#~ msgid "Moodle cron job is enabled."
+#~ msgstr "Moodle cron ఉద్యోగం చేతనం కాలేదు."
+
+#~ msgid "Starting yum-updatesd: "
+#~ msgstr "yum-updatesdని ప్రారంభిస్తోంది: "
+
+#~ msgid "${IP6TABLES}: Applying firewall rules: "
+#~ msgstr "${IP6TABLES}: ఫైర్‌వాల్ నియమాలను ఆపాదిస్తోంది: "
+
+#~ msgid "Stopping $prog: "
+#~ msgstr "$progని ఆపుతోంది: "
+
+#~ msgid "Shutting down Audio Entropy daemon: "
+#~ msgstr "Audio Entropy daemonను మూస్తోంది: "
