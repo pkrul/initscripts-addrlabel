@@ -73,3 +73,15 @@ for file in $FILES; do
        handle_ip_file $file
    fi
 done
+
+# IPv6 address selection rules
+FILES="/etc/sysconfig/network-scripts/addrlabel6-$1"
+if [ -n "$2" -a "$2" != "$1" ]; then
+    FILES="$FILES /etc/sysconfig/network-scripts/addrlabel6-$2"
+fi
+
+for file in $FILES; do
+   if [ -f "$file" ]; then
+       handle_ip_file $file
+   fi
+done
